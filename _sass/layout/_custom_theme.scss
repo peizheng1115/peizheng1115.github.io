@@ -1,0 +1,328 @@
+/* ==========================================================================
+   CUSTOM LIGHT BLUE SCIENTIFIC THEME & BIOLOGICAL BACKGROUND
+   ========================================================================== */
+
+/* Typography & Distinct Font Hierarchy */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  color: #334155 !important;
+  line-height: 1.68;
+  /* Light blue tinted whole-cell background */
+  background: linear-gradient(135deg, rgba(240, 248, 255, 0.92) 0%, rgba(224, 242, 254, 0.94) 100%),
+              url('../images/cell-background.jpg') center center / cover no-repeat fixed !important;
+  background-attachment: fixed !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title,
+.masthead__menu-item,
+.site-title-text {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  color: #0c4a6e !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+}
+
+h1, .page__title {
+  color: #075985 !important;
+  font-weight: 800 !important;
+}
+
+h2 {
+  color: #0369a1 !important;
+  border-bottom: 2px solid #e0f2fe;
+  padding-bottom: 0.3em;
+}
+
+/* Light Blue Frosted Top Menu / Masthead */
+.masthead {
+  background: rgba(240, 249, 255, 0.95) !important;
+  backdrop-filter: blur(14px) !important;
+  -webkit-backdrop-filter: blur(14px) !important;
+  border-bottom: 1px solid #bae6fd !important;
+  box-shadow: 0 4px 20px rgba(2, 132, 199, 0.08) !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 100;
+}
+
+.masthead__inner-wrap {
+  padding: 0.5em 1em !important;
+}
+
+.site-title-logo-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  text-decoration: none !important;
+}
+
+.site-header-logo {
+  width: 34px !important;
+  height: 34px !important;
+  border-radius: 50% !important;
+  box-shadow: 0 2px 10px rgba(2, 132, 199, 0.35) !important;
+  vertical-align: middle !important;
+  transition: transform 0.25s ease !important;
+  &:hover {
+    transform: scale(1.1) rotate(6deg) !important;
+  }
+}
+
+.site-title-text {
+  font-weight: 800 !important;
+  font-size: 1.15rem !important;
+  color: #0c4a6e !important;
+}
+
+.masthead__menu-item a {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 0.92rem !important;
+  color: #1e293b !important;
+  padding: 6px 14px !important;
+  border-radius: 20px !important;
+  transition: all 0.2s ease !important;
+  &:hover {
+    color: #0284c7 !important;
+    background: rgba(186, 230, 253, 0.45) !important;
+  }
+}
+
+.masthead__menu-item.selected a {
+  background: #0284c7 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 10px rgba(2, 132, 199, 0.3) !important;
+}
+
+/* Page Containers: Card Effect */
+.page__content, .archive {
+  background: rgba(255, 255, 255, 0.94) !important;
+  border-radius: 16px !important;
+  padding: 2.2rem 2.6rem !important;
+  box-shadow: 0 10px 30px rgba(12, 74, 110, 0.05) !important;
+  border: 1px solid #e0f2fe !important;
+}
+
+/* Sidebar Profile Styling */
+.sidebar {
+  .author__avatar img {
+    border: 3.5px solid #7dd3fc !important;
+    box-shadow: 0 6px 20px rgba(2, 132, 199, 0.2) !important;
+    border-radius: 50% !important;
+  }
+  .author__name {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 1.25rem !important;
+    font-weight: 800 !important;
+    color: #0c4a6e !important;
+  }
+  .author__bio {
+    font-size: 0.9rem !important;
+    color: #475569 !important;
+    line-height: 1.5 !important;
+  }
+}
+
+/* Notices & Alerts in Light Blue */
+.notice--info {
+  background-color: #f0f9ff !important;
+  border-left: 4px solid #0284c7 !important;
+  border-radius: 8px !important;
+  color: #0c4a6e !important;
+}
+
+/* Links */
+a {
+  color: #0284c7;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  &:hover {
+    color: #0369a1;
+    text-decoration: underline;
+  }
+}
+
+/* Buttons */
+.btn--primary {
+  background-color: #0284c7 !important;
+  border-radius: 20px !important;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3) !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-weight: 600 !important;
+  &:hover {
+    background-color: #0369a1 !important;
+    transform: translateY(-2px);
+  }
+}
+
+/* ==========================================================================
+   HERO BANNER & CONCISE HOMEPAGE COMPONENTS
+   ========================================================================== */
+
+.hero-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(224, 242, 254, 0.85) 100%);
+  border: 1px solid #bae6fd;
+  border-radius: 18px;
+  padding: 2.5rem 2rem;
+  margin-bottom: 2.2rem;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(2, 132, 199, 0.08);
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  background: #e0f2fe;
+  color: #0369a1;
+  border: 1px solid #bae6fd;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.hero-name {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #0c4a6e;
+  margin: 0 0 0.3rem 0;
+  line-height: 1.15;
+}
+
+.hero-affil {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #0284c7;
+  margin-bottom: 1rem;
+}
+
+.hero-pitch {
+  font-size: 1.05rem;
+  color: #334155;
+  max-width: 650px;
+  margin: 0 auto 1.6rem;
+  line-height: 1.65;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn-hero-main {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #0284c7;
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 0.92rem;
+  padding: 10px 22px;
+  border-radius: 25px;
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.35);
+  transition: all 0.25s ease;
+  text-decoration: none !important;
+  &:hover {
+    background: #0369a1;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(2, 132, 199, 0.45);
+  }
+}
+
+.btn-hero-sub {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  color: #0369a1 !important;
+  font-weight: 700;
+  font-size: 0.92rem;
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: 1px solid #7dd3fc;
+  transition: all 0.25s ease;
+  text-decoration: none !important;
+  &:hover {
+    background: #e0f2fe;
+    transform: translateY(-2px);
+  }
+}
+
+/* Topic Grid (Concise visual cards) */
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin: 1.8rem 0;
+}
+
+.card-topic {
+  background: #ffffff;
+  border: 1px solid #e0f2fe;
+  border-radius: 14px;
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none !important;
+  box-shadow: 0 3px 12px rgba(12, 74, 110, 0.04);
+  transition: all 0.25s ease;
+  &:hover {
+    transform: translateY(-4px);
+    border-color: #38bdf8;
+    box-shadow: 0 8px 24px rgba(2, 132, 199, 0.16);
+  }
+}
+
+.card-topic-icon {
+  font-size: 1.8rem;
+  color: #0284c7;
+  margin-bottom: 0.6rem;
+}
+
+.card-topic-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0c4a6e;
+  margin-bottom: 0.35rem;
+}
+
+.card-topic-desc {
+  font-size: 0.88rem;
+  color: #64748b;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Contact Pills */
+.contact-pills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.pill-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  color: #0369a1 !important;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  &:hover {
+    background: #0284c7;
+    color: #ffffff !important;
+    border-color: #0284c7;
+  }
+}

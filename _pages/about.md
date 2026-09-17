@@ -1,59 +1,71 @@
 ---
 permalink: /
-title: "About Me"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Welcome to my personal academic homepage! 
+<div class="hero-card">
+  <span class="hero-badge"><i class="fas fa-flask"></i> Bioengineering & Omics</span>
+  <h1 class="hero-name">Peizheng Shi</h1>
+  <div class="hero-affil"><i class="fas fa-university"></i> University of Pisa &bull; Pisa, Italy</div>
+  <p class="hero-pitch">
+    Investigating <strong>Organ-on-a-Chip</strong> microphysiological systems, <strong>single-cell and spatial transcriptomics</strong>, and computational algorithms in Python & R for translational cancer therapeutics and drug discovery.
+  </p>
+  <div class="hero-actions">
+    <a href="/knowledge-hub/" class="btn-hero-main"><i class="fas fa-dna"></i> Knowledge Hub</a>
+    <a href="/publications/" class="btn-hero-sub"><i class="fas fa-book"></i> Publications</a>
+    <a href="/cv/" class="btn-hero-sub"><i class="fas fa-user-graduate"></i> Curriculum Vitae</a>
+  </div>
+</div>
 
-I am **Peizheng Shi**, a researcher affiliated with the **University of Pisa** (*Università di Pisa*) in Pisa, Italy. My research interests center around the intersection of **microfluidic bioengineering**, **computational biology**, and **translational medicine**.
+## Research & Knowledge Hub
 
-Specifically, my work and interests focus on developing physiological in vitro models such as **Organ-on-a-Chip (OOC)** systems, integrating multi-omics technologies (single-cell RNA-seq and spatial transcriptomics), and utilizing computational algorithms in Python and R to accelerate drug screening and cancer therapy discovery.
+<div class="topic-grid">
+  <a href="/knowledge-hub/#1-organ-on-a-chip-ooc--microphysiological-systems" class="card-topic">
+    <div class="card-topic-icon"><i class="fas fa-microchip"></i></div>
+    <div class="card-topic-title">Organ-on-a-Chip</div>
+    <p class="card-topic-desc">Microfluidic tissue barriers, shear stress dynamics, TEER sensing, and biomimetic models.</p>
+  </a>
 
----
+  <a href="/knowledge-hub/#4-genomics-single-cell-rna-seq--spatial-transcriptomics" class="card-topic">
+    <div class="card-topic-icon"><i class="fas fa-project-diagram"></i></div>
+    <div class="card-topic-title">Single-Cell & Spatial Omics</div>
+    <p class="card-topic-desc">scRNA-seq, 10x Visium, Xenium, cell typing, trajectory inference, and spatial niches.</p>
+  </a>
 
-## Research Focus Areas
+  <a href="/knowledge-hub/#2-python-for-biology--bioinformatics" class="card-topic">
+    <div class="card-topic-icon"><i class="fab fa-python"></i></div>
+    <div class="card-topic-title">Python in Biology</div>
+    <p class="card-topic-desc">Scanpy, Squidpy, BioPython, PyMOL scripting, and machine learning workflows.</p>
+  </a>
 
-* **Organ-on-a-Chip (OOC) & Microfluidics**: Engineering biomimetic microfluidic platforms to recapitulate physiological tissue barriers (blood-brain barrier, gut, lung, and tumor microenvironments) under dynamic perfusion and mechanical cues.
-* **Single-Cell & Spatial Transcriptomics**: Dissecting cellular heterogeneity, spatial cellular niches, and ligand-receptor signaling networks using sequencing- and imaging-based technologies.
-* **Cancer Biology & Tumor Microenvironment**: Investigating tumor-stroma-immune crosstalk, metabolic adaptation, and mechanisms of resistance to targeted therapy and immunotherapy.
-* **High-Throughput Drug Screening & Pharmacology**: Applying phenotypic and target-based screening in 3D microphysiological systems to assess compound efficacy, toxicity, and dose-response pharmacology ($IC_{50}$).
-* **Bioinformatics & Computational Workflows**: Developing reproducible data analysis pipelines utilizing Python (`Scanpy`, `Squidpy`, `BioPython`) and R/Bioconductor (`Seurat`, `DESeq2`, `clusterProfiler`).
+  <a href="/knowledge-hub/#3-r-in-biology--bioconductor" class="card-topic">
+    <div class="card-topic-icon"><i class="fab fa-r-project"></i></div>
+    <div class="card-topic-title">R in Bioinformatics</div>
+    <p class="card-topic-desc">Bioconductor, Seurat (v5), DESeq2 differential expression, and pathway enrichment.</p>
+  </a>
 
----
+  <a href="/knowledge-hub/#5-cancer-biology--oncology-informatics" class="card-topic">
+    <div class="card-topic-icon"><i class="fas fa-shield-virus"></i></div>
+    <div class="card-topic-title">Cancer & Drug Screening</div>
+    <p class="card-topic-desc">Tumor microenvironment, high-throughput assays, IC50 fitting, and target identification.</p>
+  </a>
 
-## Knowledge Sharing & Research Hub
+  <a href="/resources/#1-scientific-figure-drawing--illustration" class="card-topic">
+    <div class="card-topic-icon"><i class="fas fa-palette"></i></div>
+    <div class="card-topic-title">Scientific Tools & Writing</div>
+    <p class="card-topic-desc">BioRender, Inkscape, PyMOL, academic phrasebanks, and publication figure design.</p>
+  </a>
+</div>
 
-In addition to sharing my academic portfolio, this website is structured as an open **Knowledge Hub** summarizing essential concepts, analytical pipelines, curated databases, and scientific tools across 10 key domains:
+## Connect & Contact
 
-| # | Topic | Key Focus & Resources |
-|---|---|---|
-| **1** | [Organ-on-a-Chip (OOC)](/knowledge-hub/#1-organ-on-a-chip-ooc--microphysiological-systems) | Microfluidic architecture, barrier models, shear stress, TEER monitoring, EUROoCS |
-| **2** | [Python in Biology](/knowledge-hub/#2-python-for-biology--bioinformatics) | `Scanpy`, `Squidpy`, `BioPython`, PyMOL scripting, machine learning workflows |
-| **3** | [Publications & Literature](/publications/) | Direct PubMed query, Europe PMC, preprints, and Google Scholar profile |
-| **4** | [Figure Drawing & Illustration](/resources/#1-scientific-figure-drawing--illustration) | BioRender, Inkscape, Illustrator, PyMOL/ChimeraX, ColorBrewer & Viridis palettes |
-| **5** | [Cancer Information & Oncology](/knowledge-hub/#5-cancer-biology--oncology-informatics) | Hallmarks of cancer, tumor microenvironment (TME), TCGA, cBioPortal, DepMap |
-| **6** | [Academic English & Writing](/resources/#2-academic-english--scientific-writing) | Manchester Academic Phrasebank, grammar tools, paper structure, LaTeX & Zotero |
-| **7** | [R in Biology & Bioinformatics](/knowledge-hub/#3-r-in-biology--bioconductor) | Bioconductor ecosystem, `Seurat`, `DESeq2`, `ComplexHeatmap`, GSEA |
-| **8** | [Genomics & Spatial Transcriptomics](/knowledge-hub/#4-genomics-single-cell-rna-seq--spatial-transcriptomics) | scRNA-seq (10x Chromium), spatial methods (Visium, Xenium, Stereo-seq, MERFISH) |
-| **9** | [Drug Screening & Assays](/knowledge-hub/#6-drug-screening-assays--pharmacology) | High-throughput screening (HTS), phenotypic assays, $IC_{50}$ dose-response curves, ChEMBL |
-| **10** | [Translational & Clinical Research](/knowledge-hub/#7-translational--clinical-research) | T0–T4 continuum, clinical trial phases (I–IV), ClinicalTrials.gov, FDA/EMA pathways |
-
-Explore detailed summaries, technical notes, and links in the **[Knowledge Hub](/knowledge-hub/)** and **[Resources & Tools](/resources/)**.
-
----
-
-## Recent News & Updates
-* **September 2026**: Launched the renewed academic website and Knowledge Hub at the University of Pisa!
-* **Ongoing**: Curating research notes on microfluidic barrier models, spatial biology, and computational drug screening.
-
----
-
-## Contact
-* **Affiliation**: University of Pisa, Pisa, Italy
-* **Email**: [peizheng1115@163.com](mailto:peizheng1115@163.com)
-* **GitHub**: [@peizheng1115](https://github.com/peizheng1115)
-* **PubMed Profile**: [Search on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Peizheng+Shi)
+<div class="contact-pills">
+  <a href="mailto:peizheng1115@163.com" class="pill-item"><i class="fas fa-envelope"></i> peizheng1115@163.com</a>
+  <a href="https://github.com/peizheng1115" target="_blank" rel="noopener noreferrer" class="pill-item"><i class="fab fa-github"></i> @peizheng1115</a>
+  <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Peizheng+Shi" target="_blank" rel="noopener noreferrer" class="pill-item"><i class="fas fa-book-medical"></i> PubMed Profile</a>
+  <span class="pill-item"><i class="fas fa-map-marker-alt"></i> Pisa, Italy</span>
+</div>
