@@ -5,9 +5,16 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="notice--info" style="margin-bottom: 2em;">
+  <p><strong>Literature & Profile Links:</strong></p>
+  <ul>
+    <li><i class="fas fa-book-medical"></i> <strong>PubMed:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Peizheng+Shi" target="_blank" rel="noopener noreferrer">Search Peizheng Shi on PubMed</a></li>
+    <li><i class="fas fa-globe"></i> <strong>Europe PMC:</strong> <a href="https://europepmc.org/search?query=Peizheng%20Shi" target="_blank" rel="noopener noreferrer">Search Peizheng Shi on Europe PMC</a></li>
+    {% if site.author.googlescholar %}
+    <li><i class="ai ai-google-scholar"></i> <strong>Google Scholar:</strong> <a href="{{site.author.googlescholar}}" target="_blank" rel="noopener noreferrer">Google Scholar Profile</a></li>
+    {% endif %}
+  </ul>
+</div>
 
 {% include base_path %}
 
@@ -31,6 +38,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
