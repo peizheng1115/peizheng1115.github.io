@@ -22,6 +22,8 @@ Welcome to my academic knowledge hub. This space serves as a living synthesis of
 
 ## 1. Organ-on-a-Chip (OOC) & Microphysiological Systems
 
+> 🔬 **Interactive Visual Platform**: Launch the full [**🫁 Organ-on-a-Chip Interactive Explorer**](/organ-on-chip/) featuring real-time 2-channel chip biomechanics simulation, high-resolution scientific figures, real microchip photos, and model comparisons.
+
 Organ-on-a-Chip (OOC) technologies merge microfluidics, biomaterials, and cell biology to emulate the structural, mechanical, and biochemical microenvironments of living human tissues in vitro.
 
 ### Core Concepts & Architectures

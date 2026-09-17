@@ -16,9 +16,10 @@ redirect_from:
       Investigating <strong>Organ-on-a-Chip</strong> microphysiological systems, <strong>single-cell and spatial transcriptomics</strong>, and computational algorithms in Python & R for translational cancer therapeutics and drug discovery.
     </p>
     <div class="hero-actions">
-      <a href="/knowledge-hub/" class="btn-hero-main"><i class="fas fa-dna"></i> Knowledge Hub</a>
+      <a href="/organ-on-chip/" class="btn-hero-main" style="background: linear-gradient(135deg, #06b6d4, #3b82f6); color: white;"><i class="fas fa-microchip"></i> 🫁 Organ-on-a-Chip Explorer</a>
+      <a href="/knowledge-hub/" class="btn-hero-sub"><i class="fas fa-dna"></i> Knowledge Hub</a>
       <a href="/publications/" class="btn-hero-sub"><i class="fas fa-book"></i> Publications</a>
-      <a href="/cv/" class="btn-hero-sub"><i class="fas fa-user-graduate"></i> Curriculum Vitae</a>
+      <a href="/cv/" class="btn-hero-sub"><i class="fas fa-user-graduate"></i> CV</a>
     </div>
   </div>
   <div class="hero-right">
@@ -28,13 +29,13 @@ redirect_from:
   </div>
 </div>
 
-## Research & Knowledge Hub
+## Featured Research & Knowledge Hub
 
 <div class="topic-grid">
-  <a href="/knowledge-hub/#1-organ-on-a-chip-ooc--microphysiological-systems" class="card-topic">
-    <div class="card-topic-icon"><i class="fas fa-microchip"></i></div>
-    <div class="card-topic-title">Organ-on-a-Chip</div>
-    <p class="card-topic-desc">Microfluidic tissue barriers, shear stress dynamics, TEER sensing, and biomimetic models.</p>
+  <a href="/organ-on-chip/" class="card-topic" style="border: 2px solid #06b6d4; background: rgba(6, 182, 212, 0.05);">
+    <div class="card-topic-icon" style="color: #06b6d4;"><i class="fas fa-microchip"></i></div>
+    <div class="card-topic-title" style="color: #06b6d4;">✨ Organ-on-a-Chip (Interactive)</div>
+    <p class="card-topic-desc">Interactive 2-channel simulator, Lung, Gut, Brain (BBB), Tumor TME, real hardware photos & preclinical impact.</p>
   </a>
 
   <a href="/knowledge-hub/#4-genomics-single-cell-rna-seq--spatial-transcriptomics" class="card-topic">

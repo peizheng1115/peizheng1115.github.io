@@ -1,0 +1,944 @@
+---
+permalink: /organ-on-chip/
+title: "Organ-on-a-Chip (OoC) | Visual Interactive Explorer"
+layout: default
+author_profile: false
+redirect_from:
+  - /ooc/
+  - /organonchip/
+---
+
+<style>
+/* Scoped Organ-on-a-Chip Styles for AcademicPages */
+:root {
+  --ooc-cyan: #06b6d4;
+  --ooc-teal: #14b8a6;
+  --ooc-blue: #3b82f6;
+  --ooc-rose: #f43f5e;
+  --ooc-emerald: #10b981;
+  --ooc-bg-card: #141e33;
+  --ooc-border: rgba(148, 163, 184, 0.2);
+}
+
+.ooc-wrap {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #f1f5f9;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ooc-hero {
+  background: linear-gradient(145deg, #0b1329, #152244);
+  border: 1px solid var(--ooc-border);
+  border-radius: 20px;
+  padding: 36px;
+  margin-bottom: 36px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.ooc-hero-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.ooc-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(6, 182, 212, 0.15);
+  border: 1px solid rgba(6, 182, 212, 0.4);
+  color: var(--ooc-cyan);
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.ooc-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+
+.ooc-gradient {
+  background: linear-gradient(90deg, #06b6d4, #3b82f6, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ooc-lead {
+  font-size: 1.05rem;
+  color: #cbd5e1;
+  margin-bottom: 24px;
+}
+
+.ooc-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  background: rgba(10, 16, 31, 0.8);
+  border: 1px solid var(--ooc-border);
+  border-radius: 14px;
+  padding: 16px;
+  text-align: center;
+}
+
+.ooc-stat-num {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--ooc-cyan);
+}
+
+.ooc-stat-lbl {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+}
+
+.ooc-section {
+  margin-bottom: 48px;
+}
+
+.ooc-sec-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 8px;
+  border-bottom: 2px solid var(--ooc-cyan);
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ooc-sec-sub {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  margin-bottom: 24px;
+}
+
+/* Simulator Canvas */
+.ooc-sim-box {
+  background: #090e1a;
+  border: 1px solid var(--ooc-cyan);
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.2);
+  margin-bottom: 32px;
+}
+
+.ooc-sim-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.ooc-btn-sim {
+  background: #1e293b;
+  color: #ffffff;
+  border: 1px solid var(--ooc-cyan);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.ooc-btn-sim.active {
+  background: var(--ooc-cyan);
+  color: #050811;
+}
+
+#ooc-sim-canvas {
+  width: 100%;
+  height: 340px;
+  background: #050914;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Visual Cards Grid */
+.ooc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.ooc-card {
+  background: var(--ooc-bg-card);
+  border: 1px solid var(--ooc-border);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.2s, border-color 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.ooc-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--ooc-cyan);
+}
+
+.ooc-card-img-wrap {
+  height: 220px;
+  background: #000;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ooc-card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.ooc-card-img-wrap:hover img {
+  transform: scale(1.05);
+}
+
+.ooc-card-body {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.ooc-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.ooc-card-src {
+  font-size: 0.75rem;
+  color: var(--ooc-teal);
+  font-family: monospace;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.ooc-caption {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  font-style: italic;
+  margin-bottom: 14px;
+  border-left: 2px solid var(--ooc-cyan);
+  padding-left: 8px;
+}
+
+/* Organ Tabs */
+.ooc-tabs-bar {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.ooc-tab-btn {
+  background: #141e33;
+  color: #94a3b8;
+  border: 1px solid var(--ooc-border);
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s;
+}
+
+.ooc-tab-btn.active {
+  background: linear-gradient(135deg, var(--ooc-cyan), var(--ooc-blue));
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.ooc-organ-panel {
+  background: #101828;
+  border: 1px solid var(--ooc-border);
+  border-radius: 18px;
+  padding: 28px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 28px;
+}
+
+/* Matrix Table */
+.ooc-table-wrap {
+  overflow-x: auto;
+  background: #0f172a;
+  border-radius: 14px;
+  border: 1px solid var(--ooc-border);
+  padding: 16px;
+}
+
+.ooc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.ooc-table th, .ooc-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--ooc-border);
+  text-align: left;
+}
+
+.ooc-table th {
+  background: #1e293b;
+  color: #ffffff;
+}
+
+.ooc-table td.highlight {
+  background: rgba(6, 182, 212, 0.08);
+  color: var(--ooc-cyan);
+  font-weight: 600;
+}
+
+/* Lightbox Modal */
+.ooc-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 8, 15, 0.92);
+  z-index: 99999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.ooc-modal.active {
+  display: flex;
+}
+
+.ooc-modal-box {
+  background: #141e33;
+  border: 1px solid var(--ooc-border);
+  border-radius: 16px;
+  max-width: 960px;
+  width: 100%;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ooc-modal-head {
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--ooc-border);
+}
+
+.ooc-modal-img-area {
+  flex-grow: 1;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 55vh;
+  overflow: hidden;
+}
+
+.ooc-modal-img-area img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.ooc-modal-foot {
+  padding: 16px 20px;
+  background: #0f172a;
+  border-top: 1px solid var(--ooc-border);
+  font-size: 0.88rem;
+}
+
+@media (max-width: 900px) {
+  .ooc-hero-grid, .ooc-organ-panel {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="ooc-wrap">
+
+  <!-- Hero Header -->
+  <div class="ooc-hero">
+    <div class="ooc-hero-grid">
+      <div>
+        <div class="ooc-badge">🧬 Microphysiological Systems (OoC)</div>
+        <h1 class="ooc-title">Living Human Biology on <span class="ooc-gradient">Microfluidic Chips</span></h1>
+        <p class="ooc-lead">
+          Visual interactive explorer uniting 3D human tissue co-culture, continuous laminar perfusion, and organ biomechanics to transform translational medicine and eliminate animal testing.
+        </p>
+        <div class="ooc-stats-grid">
+          <div>
+            <div class="ooc-stat-num">1000×</div>
+            <div class="ooc-stat-lbl">Less Drug Volume</div>
+          </div>
+          <div>
+            <div class="ooc-stat-num">0%</div>
+            <div class="ooc-stat-lbl">Animal Harm</div>
+          </div>
+          <div>
+            <div class="ooc-stat-num">100%</div>
+            <div class="ooc-stat-lbl">Human Cells</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="border-radius: 14px; overflow: hidden; border: 1px solid var(--ooc-border); background: #000; cursor: pointer;" onclick="openOocModal('/assets/organ-on-chip/images/emulate-organ-chips.jpg', 'NASA AVATAR Organ-Chips on Artemis II', 'Commercial Emulate Organ-Chips selected for NASA Artemis II space mission.', 'NASA / Emulate')">
+        <img src="/assets/organ-on-chip/images/emulate-organ-chips.jpg" alt="NASA Artemis II Organ Chips" style="width: 100%; height: 240px; object-fit: cover; display: block;" />
+        <div style="padding: 10px; font-size: 0.8rem; background: #0b1329; color: var(--ooc-cyan); text-align: center;">
+          🚀 NASA Artemis II AVATAR Payload (Click to Zoom)
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 1: Interactive 2-Channel Simulator -->
+  <div class="ooc-section">
+    <h2 class="ooc-sec-title"><span>⚡</span> 1. Interactive 2-Channel Chip Simulator</h2>
+    <p class="ooc-sec-sub">Simulating vacuum breathing stretch, laminar perfusion, porous membrane, and epithelial-endothelial co-culture in real time.</p>
+
+    <div class="ooc-sim-box">
+      <div class="ooc-sim-header">
+        <strong style="color: #ffffff; font-size: 1.1rem;">Cross-Section Biomechanical Simulation</strong>
+        <div style="display: flex; gap: 8px;">
+          <button id="ooc-btn-stretch" class="ooc-btn-sim active">🫁 Vacuum Stretch: ON</button>
+          <button id="ooc-btn-flow" class="ooc-btn-sim active">💧 Fluid Flow: ON</button>
+        </div>
+      </div>
+      <canvas id="ooc-sim-canvas"></canvas>
+      <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 14px; font-size: 0.8rem; color: #94a3b8;">
+        <span><span style="color: #14b8a6;">■</span> Vacuum Side Chambers</span>
+        <span><span style="color: #3b82f6;">■</span> Upper Channel (Air / Epithelium)</span>
+        <span><span style="color: #f43f5e;">■</span> Lower Channel (Blood / Endothelium)</span>
+        <span><span style="color: #94a3b8;">■</span> Porous Membrane</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 2: Comparative Models -->
+  <div class="ooc-section">
+    <h2 class="ooc-sec-title"><span>📊</span> 2. Model Systems: 2D Dish vs Animal vs Organ-on-a-Chip</h2>
+    <p class="ooc-sec-sub">Why dynamic microphysiological systems bridge the gap where 2D cell cultures and animal models fail.</p>
+
+    <div class="ooc-grid" style="margin-bottom: 24px;">
+      <div class="ooc-card">
+        <div class="ooc-card-img-wrap" onclick="openOocModal('/assets/organ-on-chip/figures/culture-methods.jpg', 'Cell Culture Methods', 'Four ways of growing cells: 2D dish, 3D static organoids, stirred bioreactors, and Organ-on-a-Chip.', '[1] Ying-Jin et al., 2025')">
+          <img src="/assets/organ-on-chip/figures/culture-methods.jpg" alt="Culture methods" />
+        </div>
+        <div class="ooc-card-body">
+          <h3 class="ooc-card-title">Cell Culture Methods</h3>
+          <span class="ooc-card-src">[1] Bioprinting 2025</span>
+          <p class="ooc-caption">Only the microfluidic chip provides controlled laminar flow and mechanical forces.</p>
+        </div>
+      </div>
+
+      <div class="ooc-card">
+        <div class="ooc-card-img-wrap" onclick="openOocModal('/assets/organ-on-chip/figures/model-systems.jpg', 'Model Systems Hierarchy', 'Hierarchy of biological systems from 2D culture to whole model organisms.', '[4] Guide to OoC')">
+          <img src="/assets/organ-on-chip/figures/model-systems.jpg" alt="Model systems" />
+        </div>
+        <div class="ooc-card-body">
+          <h3 class="ooc-card-title">Model Systems Hierarchy</h3>
+          <span class="ooc-card-src">[4] Guide to OoC Technology</span>
+          <p class="ooc-caption">More physiological than a dish, more human than an animal model.</p>
+        </div>
+      </div>
+
+      <div class="ooc-card">
+        <div class="ooc-card-img-wrap" onclick="openOocModal('/assets/organ-on-chip/figures/ooc-advantages.jpg', 'Organ-on-Chip Advantages', 'Controlled physical microenvironment and human cell specificity.', '[6] Driver & Mishra 2023')">
+          <img src="/assets/organ-on-chip/figures/ooc-advantages.jpg" alt="OoC Advantages" />
+        </div>
+        <div class="ooc-card-body">
+          <h3 class="ooc-card-title">Microfluidic Advantages</h3>
+          <span class="ooc-card-src">[6] BioChip Journal 2023</span>
+          <p class="ooc-caption">Eliminates cross-species translation failures in drug discovery.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="ooc-table-wrap">
+      <table class="ooc-table">
+        <thead>
+          <tr>
+            <th>Parameter</th>
+            <th>2D Culture Dish</th>
+            <th>Animal Model</th>
+            <th class="highlight">✨ Organ-on-a-Chip (MPS)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Tissue Architecture</strong></td>
+            <td>Flat monolayer, static</td>
+            <td>Whole living animal</td>
+            <td class="highlight">3D tissue compartments in microchannels</td>
+          </tr>
+          <tr>
+            <td><strong>Human Relevance</strong></td>
+            <td>Low (de-differentiated)</td>
+            <td>Limited (other species)</td>
+            <td class="highlight">High (primary human cells & hiPSC)</td>
+          </tr>
+          <tr>
+            <td><strong>Perfusion & Forces</strong></td>
+            <td>None</td>
+            <td>Present (systemic)</td>
+            <td class="highlight">Controlled (shear stress, cyclic stretch)</td>
+          </tr>
+          <tr>
+            <td><strong>Live Read-Out</strong></td>
+            <td>Easy but non-physiological</td>
+            <td>Sacrifice / End-point</td>
+            <td class="highlight">Live confocal microscopy + TEER/MEA sensors</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Section 3: The Organ Gallery -->
+  <div class="ooc-section">
+    <h2 class="ooc-sec-title"><span>🫁</span> 3. The Organ Gallery</h2>
+    <p class="ooc-sec-sub">Explore specific human organ models with real device photos, scientific schematics, co-culture matrices, and clinical uses.</p>
+
+    <div class="ooc-tabs-bar" id="ooc-organ-tabs">
+      <button class="ooc-tab-btn active" data-org="lung">🫁 Lung Chip</button>
+      <button class="ooc-tab-btn" data-org="gut">🫄 Gut Chip</button>
+      <button class="ooc-tab-btn" data-org="brain">🧠 Brain / BBB</button>
+      <button class="ooc-tab-btn" data-org="tumor">🦠 Tumor TME</button>
+      <button class="ooc-tab-btn" data-org="heart">🫀 Heart Chip</button>
+      <button class="ooc-tab-btn" data-org="kidney">🫘 Kidney Chip</button>
+      <button class="ooc-tab-btn" data-org="multiorgan">🧪 Body-on-a-Chip</button>
+    </div>
+
+    <div class="ooc-organ-panel" id="ooc-organ-display">
+      <!-- Dynamic via JS -->
+    </div>
+  </div>
+
+  <!-- Section 4: Devices Around the Chip -->
+  <div class="ooc-section">
+    <h2 class="ooc-sec-title"><span>🔬</span> 4. Devices Around the Chip</h2>
+    <p class="ooc-sec-sub">The microfluidic pumps, automated platforms, inverted microscopes, and real-time electronic sensors keeping chips alive.</p>
+
+    <div class="ooc-grid">
+      <div class="ooc-card">
+        <div class="ooc-card-img-wrap" onclick="openOocModal('/assets/organ-on-chip/images/syringe-pump.png', 'Cetoni Syringe Pump', 'Precision pulse-free microfluidic perfusion down to nL/min.', 'Cetoni GmbH (CC BY 4.0)')">
+          <img src="/assets/organ-on-chip/images/syringe-pump.png" alt="Syringe pump" />
+        </div>
+        <div class="ooc-card-body">
+          <h3 class="ooc-card-title">Microfluidic Syringe Pumps</h3>
+          <span class="ooc-card-src">Cetoni GmbH (CC BY 4.0)</span>
+          <p class="ooc-caption">Provides pulsation-free medium perfusion and physiological shear stress.</p>
+        </div>
+      </div>
+
+      <div class="ooc-card">
+        <div class="ooc-card-img-wrap" onclick="openOocModal('/assets/organ-on-chip/images/mimetas-platform.jpg', 'MIMETAS Platform', 'Automated OrganoPlate reader and continuous rocker platform.', 'MIMETAS B.V.')">
+          <img src="/assets/organ-on-chip/images/mimetas-platform.jpg" alt="Mimetas Platform" />
+        </div>
+        <div class="ooc-card-body">
+          <h3 class="ooc-card-title">Automated MPS Platforms</h3>
+          <span class="ooc-card-src">MIMETAS B.V.</span>
+          <p class="ooc-caption">Controls flow rates, temperature (37°C), and CO2 over weeks of automated culture.</p>
+        </div>
+      </div>
+
+      <div class="ooc-card">
+        <div class="ooc-card-img-wrap" onclick="openOocModal('/assets/organ-on-chip/images/mea-stretch-device.jpg', 'MEA Stretch & Sensor Device', 'Microelectrode arrays recording cardiac/neuronal signals during cyclic stretching.', 'Kwayyy (CC BY 4.0)')">
+          <img src="/assets/organ-on-chip/images/mea-stretch-device.jpg" alt="MEA device" />
+        </div>
+        <div class="ooc-card-body">
+          <h3 class="ooc-card-title">TEER & MEA Sensors</h3>
+          <span class="ooc-card-src">Kwayyy (CC BY 4.0)</span>
+          <p class="ooc-caption">Captures real-time barrier tightness (TEER) and electrophysiological spikes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 5: Applications & Preclinical Impact -->
+  <div class="ooc-section">
+    <h2 class="ooc-sec-title"><span>💊</span> 5. Preclinical Roadmap & Applications</h2>
+    <p class="ooc-sec-sub">How microphysiological systems enter the drug discovery pipeline under the FDA Modernization Act 2.0.</p>
+
+    <div class="ooc-grid">
+      <div class="ooc-card">
+        <div class="ooc-card-img-wrap" onclick="openOocModal('/assets/organ-on-chip/figures/preclinical-roadmap.jpg', 'Preclinical Roadmap', 'Replacing animal models with human microphysiological chips in drug screening.', '[1] Bioprinting 2025')">
+          <img src="/assets/organ-on-chip/figures/preclinical-roadmap.jpg" alt="Roadmap" />
+        </div>
+        <div class="ooc-card-body">
+          <h3 class="ooc-card-title">Drug Development Pipeline</h3>
+          <span class="ooc-card-src">[1] Bioprinting 2025</span>
+          <p class="ooc-caption">Target validation, ADMET profiling, and human toxicity screening before Phase 1.</p>
+        </div>
+      </div>
+
+      <div class="ooc-card">
+        <div class="ooc-card-img-wrap" onclick="openOocModal('/assets/organ-on-chip/figures/pk-pd-modelling.jpg', 'PK/PD Body-on-Chip', 'Absorption, distribution, metabolism, and excretion followed in a closed loop.', '[6] BioChip Journal 2023')">
+          <img src="/assets/organ-on-chip/figures/pk-pd-modelling.jpg" alt="PK/PD" />
+        </div>
+        <div class="ooc-card-body">
+          <h3 class="ooc-card-title">Multi-Organ PK/PD</h3>
+          <span class="ooc-card-src">[6] BioChip Journal 2023</span>
+          <p class="ooc-caption">Tracks drug metabolites passing between interconnected human organ modules.</p>
+        </div>
+      </div>
+
+      <div class="ooc-card">
+        <div class="ooc-card-img-wrap" onclick="openOocModal('/assets/organ-on-chip/images/hipsc-plate.jpg', 'hiPSC Culture Plate', 'Human induced pluripotent stem cells for patient-specific disease models.', 'NCATS (Public Domain)')">
+          <img src="/assets/organ-on-chip/images/hipsc-plate.jpg" alt="hiPSC plate" />
+        </div>
+        <div class="ooc-card-body">
+          <h3 class="ooc-card-title">Personalized Medicine</h3>
+          <span class="ooc-card-src">NCATS (Public Domain)</span>
+          <p class="ooc-caption">Patient-derived hiPSCs enable personalized cancer therapy and rare disease screening.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Lightbox Modal -->
+<div id="ooc-modal" class="ooc-modal" onclick="if(event.target===this) closeOocModal()">
+  <div class="ooc-modal-box">
+    <div class="ooc-modal-head">
+      <strong id="ooc-modal-title" style="color: #ffffff; font-size: 1.1rem;">Figure Inspector</strong>
+      <button onclick="closeOocModal()" style="background: none; border: none; color: #f43f5e; font-size: 1.4rem; cursor: pointer;">✕</button>
+    </div>
+    <div class="ooc-modal-img-area">
+      <img id="ooc-modal-img" src="" alt="Figure" />
+    </div>
+    <div class="ooc-modal-foot">
+      <p id="ooc-modal-caption" style="color: #cbd5e1; margin-bottom: 6px;"></p>
+      <div id="ooc-modal-source" style="color: var(--ooc-cyan); font-family: monospace; font-size: 0.8rem;"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* Organ Data for AcademicPages Page */
+const oocOrgans = {
+  lung: {
+    name: "Lung-on-a-Chip",
+    tagline: "Alveolar-Capillary Air-Blood Barrier with Breathing Biomechanics",
+    hero: "/assets/organ-on-chip/images/emulate-lung-chip.jpg",
+    heroCaption: "Commercial Emulate Lung-Chip with living human alveolar biology seeded on the porous membrane.",
+    figs: [
+      { src: "/assets/organ-on-chip/figures/lung-chip-design.jpg", title: "Lung Schematic", cap: "Airway alveolar chamber above, vascular endothelial channel below.", cit: "[1] Bioprinting 2025" },
+      { src: "/assets/organ-on-chip/figures/lung-chip-2010.jpg", title: "Huh et al. 2010 Landmark", cap: "The historic Science 2010 lung chip with vacuum breathing stretch.", cit: "[4] Science 2010" },
+      { src: "/assets/organ-on-chip/images/lung-airway-chip.png", title: "Human Airway Chip", cap: "Differentiated bronchial epithelium with beating cilia.", cit: "NCATS" }
+    ],
+    arch: "Two-channel PDMS device separated by a 10 μm porous membrane with side vacuum actuation chambers.",
+    cells: "Primary alveolar epithelium (air-liquid interface) + pulmonary microvascular endothelium.",
+    forces: "Cyclic vacuum stretch (0.2 Hz, 10% strain) simulating physiological breathing; air-liquid interface.",
+    apps: ["COVID-19 & influenza viral infection screening", "Pulmonary edema modeling & Interleukin-2 toxicity", "COPD, asthma, and airborne nanoparticle toxicity"]
+  },
+  gut: {
+    name: "Gut-on-a-Chip",
+    tagline: "Intestinal Villi Differentiation, Peristalsis & Microbiome Co-Culture",
+    hero: "/assets/organ-on-chip/images/gut-chip.png",
+    heroCaption: "NCATS Human Gut Tissue Chip showing 3D villus-like undulations.",
+    figs: [
+      { src: "/assets/organ-on-chip/figures/gut-chip-design.jpg", title: "Gut Design", cap: "Rhythmic vacuum suction induces 3D villi morphogenesis and mucus secretion.", cit: "[1] Bioprinting 2025" }
+    ],
+    arch: "Dual microfluidic channels with porous membrane subjected to cyclic peristalsis-like suction.",
+    cells: "Human Caco-2 / enteroids co-cultured with living gut microbiome (Lactobacillus) and capillary endothelium.",
+    forces: "Cyclic mechanical deformation (0.15 Hz, 8-10% strain) + continuous luminal-vascular fluid shear.",
+    apps: ["Stable living gut microbiome co-culture for weeks", "Inflammatory Bowel Disease (IBD) & Crohn's barrier leakage", "Oral drug absorption & first-pass metabolism"]
+  },
+  brain: {
+    name: "Blood-Brain Barrier (BBB) Chip",
+    tagline: "Tight Endothelial Junctions & Astrocyte Endfeet Interaction",
+    hero: "/assets/organ-on-chip/images/brain-chip.jpg",
+    heroCaption: "NCATS Brain Microvascular Chip modeled with human neuro-vascular unit cells.",
+    figs: [
+      { src: "/assets/organ-on-chip/figures/bbb-chip-design.jpg", title: "BBB Schematic", cap: "Endothelial cells in contact through pores with astrocyte endfeet.", cit: "[1] Bioprinting 2025" },
+      { src: "/assets/organ-on-chip/images/bbb-chip.jpg", title: "Vessel Barrier", cap: "Endothelial vessel wall and tumor invasion. Vanderbilt (CC BY 2.0).", cit: "Vanderbilt Univ" }
+    ],
+    arch: "Vascular channel interfacing with brain parenchymal chamber through a sub-micron porous membrane.",
+    cells: "Brain microvascular endothelial cells (BMECs), primary astrocytes, pericytes, and neurons.",
+    forces: "Continuous fluid shear stress (>4 dyn/cm²) upregulating Claudin-5, Occludin, and ZO-1 tight junctions.",
+    apps: ["High TEER barrier resistance (>1500 Ω·cm²)", "Nanoparticle & antibody transcytosis drug delivery", "Alzheimer's amyloid-beta clearance & neuro-inflammation"]
+  },
+  tumor: {
+    name: "Tumor Microenvironment (TME) Chip",
+    tagline: "3D Tumor Spheroids, Hypoxia, Angiogenesis & Metastasis",
+    hero: "/assets/organ-on-chip/images/colon-tumor-chip.png",
+    heroCaption: "Human colon tumor spheroid cultured inside a perfused 3D matrix channel.",
+    figs: [
+      { src: "/assets/organ-on-chip/figures/tumor-microenvironment.jpg", title: "TME on Chip", cap: "Reconstitution of hypoxia gradients, ECM stiffness, CAFs, and immune cells.", cit: "[5] Cell Comm 2024" },
+      { src: "/assets/organ-on-chip/images/tumor-vessel-crossing.jpg", title: "Metastasis Cascade", cap: "Tumor cells crossing vascular barrier during intravasation.", cit: "CC BY 4.0" }
+    ],
+    arch: "Multi-lane microchannels embedding 3D tumor spheroids in collagen alongside perfused vessels.",
+    cells: "Patient-derived tumor spheroids, cancer-associated fibroblasts (CAFs), endothelial cells, and T-cells.",
+    forces: "Interstitial fluid flow, interstitial pressure, and hypoxia gradients (O2 < 1% in tumor core).",
+    apps: ["Metastasis cascade: detachment, intravasation, extravasation", "CAR-T & NK cell immunotherapy infiltration", "Chemotherapy drug resistance profiling"]
+  },
+  heart: {
+    name: "Heart / Cardiac-on-a-Chip",
+    tagline: "Synchronized Electromechanical Contraction & Cardiotoxicity",
+    hero: "/assets/organ-on-chip/images/heart-chip.jpg",
+    heroCaption: "NCATS Human Cardiac Tissue Chip with contracting cardiomyocytes on micro-grooves.",
+    figs: [
+      { src: "/assets/organ-on-chip/images/mea-stretch-device.jpg", title: "MEA Sensor Rig", cap: "Microelectrode array for action potential recording.", cit: "Kwayyy (CC BY 4.0)" }
+    ],
+    arch: "Micro-grooved elastomer substrates integrated with transparent microelectrode arrays (MEA).",
+    cells: "hiPSC-derived cardiomyocytes co-cultured with cardiac fibroblasts and vascular endothelium.",
+    forces: "Synchronized electrical/mechanical contractions (1 Hz), cyclic mechanical tension.",
+    apps: ["Drug-induced arrhythmia & QT prolongation (hERG blockage)", "Myocardial infarction & ischemia-reperfusion", "Real-time optical cantilever deflection force readout"]
+  },
+  kidney: {
+    name: "Kidney-on-a-Chip",
+    tagline: "Glomerular Filtration, Proximal Tubule Transport & Nephrotoxicity",
+    hero: "/assets/organ-on-chip/figures/kidney-chip-design.jpg",
+    heroCaption: "Kidney proximal tubule microchip with apical perfusion driving epithelial polarization.",
+    figs: [
+      { src: "/assets/organ-on-chip/figures/kidney-chip-design.jpg", title: "Kidney Tubule", cap: "Apical fluid shear stress forming brush border microvilli.", cit: "[1] Bioprinting 2025" }
+    ],
+    arch: "Porous membrane separating urinary fluid lumen channel from interstitial capillary channel.",
+    cells: "Human renal proximal tubule epithelial cells (RPTECs) and renal microvascular endothelial cells.",
+    forces: "Apical fluid shear stress (0.2–1.0 dyn/cm²) driving transporter polarization.",
+    apps: ["Cisplatin and gentamicin nephrotoxicity screening", "Transporter-mediated drug efflux (P-gp, Megalin)", "Diabetic nephropathy & renal clearance kinetics"]
+  },
+  multiorgan: {
+    name: "Multi-Organ & Body-on-a-Chip",
+    tagline: "Interconnected Human Organs in a Shared Micro-Circulation",
+    hero: "/assets/organ-on-chip/images/multi-organ-chip.jpg",
+    heroCaption: "Integrated multi-organ tissue chip connecting 4 organ modules in circulation (NCATS).",
+    figs: [
+      { src: "/assets/organ-on-chip/figures/body-on-chip-process.jpg", title: "Body-on-Chip", cap: "Interconnected single organ chips vs. monolithic multi-organ chip.", cit: "[1] Bioprinting 2025" },
+      { src: "/assets/organ-on-chip/figures/multi-organ-pkpd.jpg", title: "Multi-Organ PK/PD", cap: "PBPK modeling across gut, liver, and target tissues.", cit: "[2] Nature Biotech 2014" }
+    ],
+    arch: "Microfluidic network connecting 2 to 10 distinct organ chambers with recirculating blood surrogate.",
+    cells: "Gut + Liver + Kidney + Heart + Tumor modules co-cultured concurrently.",
+    forces: "Physiologically scaled recirculating micro-perfusion and organ volume ratios.",
+    apps: ["Systemic toxic metabolite cascade detection", "First-pass absorption -> hepatic metabolism -> renal clearance", "Whole-body human pharmacokinetic modeling"]
+  }
+};
+
+function renderOocOrgan(key) {
+  const o = oocOrgans[key];
+  const el = document.getElementById('ooc-organ-display');
+  if (!o || !el) return;
+
+  el.innerHTML = `
+    <div>
+      <div style="font-size: 0.85rem; color: var(--ooc-cyan); font-weight: 700; margin-bottom: 6px;">SPECIFICATION PROFILE</div>
+      <h3 style="font-size: 1.8rem; font-weight: 800; color: #ffffff; margin-bottom: 4px;">${o.name}</h3>
+      <p style="font-size: 0.95rem; color: #cbd5e1; margin-bottom: 18px;">${o.tagline}</p>
+
+      <div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.88rem;">
+        <div style="background: rgba(255,255,255,0.04); padding: 12px; border-radius: 10px; border: 1px solid var(--ooc-border);">
+          <strong style="color: var(--ooc-teal);">📐 Architecture:</strong> ${o.arch}
+        </div>
+        <div style="background: rgba(255,255,255,0.04); padding: 12px; border-radius: 10px; border: 1px solid var(--ooc-border);">
+          <strong style="color: var(--ooc-teal);">🧬 Cells:</strong> ${o.cells}
+        </div>
+        <div style="background: rgba(255,255,255,0.04); padding: 12px; border-radius: 10px; border: 1px solid var(--ooc-border);">
+          <strong style="color: var(--ooc-teal);">⚡ Forces:</strong> ${o.forces}
+        </div>
+        <div style="background: rgba(255,255,255,0.04); padding: 12px; border-radius: 10px; border: 1px solid var(--ooc-border);">
+          <strong style="color: var(--ooc-teal);">🎯 Applications:</strong>
+          <ul style="margin: 6px 0 0 16px; padding: 0;">
+            ${o.apps.map(a => `<li>${a}</li>`).join('')}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--ooc-border); background: #000; cursor: pointer; margin-bottom: 12px;" onclick="openOocModal('${o.hero}', '${o.name} Device', '${o.heroCaption.replace(/'/g, "\\'")}', 'Laboratory Photo')">
+        <img src="${o.hero}" alt="${o.name}" style="width: 100%; height: 220px; object-fit: cover; display: block;" />
+        <div style="padding: 8px 12px; font-size: 0.78rem; background: #0b1329; color: #cbd5e1;">${o.heroCaption}</div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px;">
+        ${o.figs.map(f => `
+          <div style="border-radius: 8px; overflow: hidden; border: 1px solid var(--ooc-border); cursor: pointer; background: #000; height: 80px;" onclick="openOocModal('${f.src}', '${f.title}', '${f.cap.replace(/'/g, "\\'")}', '${f.cit}')">
+            <img src="${f.src}" alt="${f.title}" style="width: 100%; height: 100%; object-fit: cover;" />
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+// Organ tab click handling
+document.addEventListener('DOMContentLoaded', () => {
+  const tabs = document.querySelectorAll('#ooc-organ-tabs .ooc-tab-btn');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      renderOocOrgan(tab.getAttribute('data-org'));
+    });
+  });
+  renderOocOrgan('lung');
+  initOocSim();
+});
+
+/* Modal Handling */
+function openOocModal(src, title, cap, srcLabel) {
+  const m = document.getElementById('ooc-modal');
+  if (!m) return;
+  document.getElementById('ooc-modal-img').src = src;
+  document.getElementById('ooc-modal-title').textContent = title || 'Figure Inspector';
+  document.getElementById('ooc-modal-caption').textContent = cap || '';
+  document.getElementById('ooc-modal-source').textContent = srcLabel ? `Source: ${srcLabel}` : '';
+  m.classList.add('active');
+}
+
+function closeOocModal() {
+  const m = document.getElementById('ooc-modal');
+  if (m) m.classList.remove('active');
+}
+
+/* Simulation Canvas */
+function initOocSim() {
+  const canvas = document.getElementById('ooc-sim-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+
+  let isStretch = true;
+  let isFlow = true;
+  let phase = 0;
+  let flowOffset = 0;
+
+  document.getElementById('ooc-btn-stretch').addEventListener('click', function() {
+    isStretch = !isStretch;
+    this.classList.toggle('active', isStretch);
+    this.textContent = isStretch ? '🫁 Vacuum Stretch: ON' : '⏸️ Vacuum Stretch: PAUSED';
+  });
+
+  document.getElementById('ooc-btn-flow').addEventListener('click', function() {
+    isFlow = !isFlow;
+    this.classList.toggle('active', isFlow);
+    this.textContent = isFlow ? '💧 Fluid Flow: ON' : '⏸️ Fluid Flow: PAUSED';
+  });
+
+  function resize() {
+    canvas.width = canvas.parentElement.clientWidth * window.devicePixelRatio;
+    canvas.height = 340 * window.devicePixelRatio;
+    ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  function loop() {
+    const w = canvas.width / window.devicePixelRatio;
+    const h = 340;
+    ctx.clearRect(0, 0, w, h);
+
+    if (isStretch) phase += 0.035;
+    if (isFlow) flowOffset += 2;
+
+    const stretch = Math.sin(phase) * 12;
+    const marginX = 40;
+    const chipW = w - marginX * 2;
+    const chipH = 220;
+    const chipY = 60;
+
+    // Chip Body
+    ctx.fillStyle = '#0f172a';
+    ctx.strokeStyle = '#334155';
+    ctx.lineWidth = 2;
+    ctx.strokeRect(marginX, chipY, chipW, chipH);
+    ctx.fillRect(marginX, chipY, chipW, chipH);
+
+    // Vacuums
+    const vacW = 30 + (Math.sin(phase) > 0 ? Math.sin(phase) * 10 : 0);
+    ctx.fillStyle = 'rgba(20, 184, 166, 0.25)';
+    ctx.strokeStyle = '#14b8a6';
+    ctx.fillRect(marginX + 10, chipY + 40, vacW, 140);
+    ctx.strokeRect(marginX + 10, chipY + 40, vacW, 140);
+
+    const rVacX = marginX + chipW - 10 - vacW;
+    ctx.fillRect(rVacX, chipY + 40, vacW, 140);
+    ctx.strokeRect(rVacX, chipY + 40, vacW, 140);
+
+    // Channels
+    const chanX = marginX + 65;
+    const chanW = chipW - 130;
+    const midY = chipY + chipH / 2 + stretch;
+
+    // Upper
+    ctx.fillStyle = 'rgba(59, 130, 246, 0.15)';
+    ctx.fillRect(chanX, chipY + 20, chanW, midY - (chipY + 20));
+
+    // Lower
+    ctx.fillStyle = 'rgba(244, 63, 94, 0.15)';
+    ctx.fillRect(chanX, midY, chanW, (chipY + chipH - 20) - midY);
+
+    // Flow particles
+    if (isFlow) {
+      ctx.fillStyle = 'rgba(59, 130, 246, 0.8)';
+      for (let i = 0; i < 15; i++) {
+        ctx.beginPath();
+        ctx.arc((chanX + (i * 40 + flowOffset * 1.5) % chanW), chipY + 30 + (i * 15) % (midY - (chipY + 30) - 10), 2.5, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.fillStyle = 'rgba(244, 63, 94, 0.8)';
+      for (let i = 0; i < 18; i++) {
+        ctx.beginPath();
+        ctx.arc((chanX + (i * 35 + flowOffset * 2) % chanW), midY + 12 + (i * 18) % ((chipY + chipH - 20) - midY - 15), 2.5, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    // Membrane
+    ctx.strokeStyle = '#94a3b8';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.moveTo(chanX, midY);
+    ctx.lineTo(chanX + chanW, midY);
+    ctx.stroke();
+
+    // Cells
+    ctx.fillStyle = '#06b6d4';
+    for (let x = chanX + 10; x < chanX + chanW - 10; x += 16) {
+      ctx.beginPath();
+      ctx.arc(x, midY - 5, 4, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    ctx.fillStyle = '#f43f5e';
+    for (let x = chanX + 16; x < chanX + chanW - 10; x += 16) {
+      ctx.beginPath();
+      ctx.arc(x, midY + 5, 3.5, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    // Text
+    ctx.font = 'bold 11px sans-serif';
+    ctx.fillStyle = '#60a5fa';
+    ctx.fillText('Upper Channel: Air / Epithelium', chanX + 10, chipY + 35);
+    ctx.fillStyle = '#fb7185';
+    ctx.fillText('Lower Channel: Blood / Endothelium', chanX + 10, chipY + chipH - 30);
+
+    requestAnimationFrame(loop);
+  }
+  requestAnimationFrame(loop);
+}
+</script>
