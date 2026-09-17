@@ -7,17 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-<div class="hero-card">
-  <span class="hero-badge"><i class="fas fa-flask"></i> Bioengineering & Omics</span>
-  <h1 class="hero-name">Peizheng Shi</h1>
-  <div class="hero-affil"><i class="fas fa-university"></i> University of Pisa &bull; Pisa, Italy</div>
-  <p class="hero-pitch">
-    Investigating <strong>Organ-on-a-Chip</strong> microphysiological systems, <strong>single-cell and spatial transcriptomics</strong>, and computational algorithms in Python & R for translational cancer therapeutics and drug discovery.
-  </p>
-  <div class="hero-actions">
-    <a href="/knowledge-hub/" class="btn-hero-main"><i class="fas fa-dna"></i> Knowledge Hub</a>
-    <a href="/publications/" class="btn-hero-sub"><i class="fas fa-book"></i> Publications</a>
-    <a href="/cv/" class="btn-hero-sub"><i class="fas fa-user-graduate"></i> Curriculum Vitae</a>
+<div class="hero-container">
+  <div class="hero-left">
+    <span class="hero-badge"><i class="fas fa-flask"></i> Bioengineering & Omics</span>
+    <h1 class="hero-name">Peizheng Shi</h1>
+    <div class="hero-affil"><i class="fas fa-university"></i> University of Pisa &bull; Pisa, Italy</div>
+    <p class="hero-pitch">
+      Investigating <strong>Organ-on-a-Chip</strong> microphysiological systems, <strong>single-cell and spatial transcriptomics</strong>, and computational algorithms in Python & R for translational cancer therapeutics and drug discovery.
+    </p>
+    <div class="hero-actions">
+      <a href="/knowledge-hub/" class="btn-hero-main"><i class="fas fa-dna"></i> Knowledge Hub</a>
+      <a href="/publications/" class="btn-hero-sub"><i class="fas fa-book"></i> Publications</a>
+      <a href="/cv/" class="btn-hero-sub"><i class="fas fa-user-graduate"></i> Curriculum Vitae</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-cell-glow">
+      <img src="{{ base_path }}/images/cell-background.jpg" alt="Biological Eukaryotic Cell Model" class="hero-cell-img"/>
+    </div>
   </div>
 </div>
 
