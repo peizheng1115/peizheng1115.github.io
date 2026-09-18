@@ -8,20 +8,93 @@ toc_icon: "book"
 toc_sticky: true
 ---
 
-<div style="background: linear-gradient(135deg, rgba(56, 189, 248, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 16px; padding: 20px; margin-bottom: 24px;">
-    <h3 style="margin-top: 0; color: #0284c7;">🚀 Interaktiver A2 Memory & Vokabel-Trainer</h3>
-    <p style="margin-bottom: 14px; font-size: 0.95rem;">Nutzen Sie den interaktiven Web-Trainer mit Echtzeit-Suche, Audio-Aussprache (🔊), Wortart-Filtern und digitalem Karteikarten-Modus:</p>
+<style>
+  /* Light Blue Theme Override for German A2 Page */
+  body, .page__content {
+    background-color: #f4f9fd !important;
+    color: #1e293b !important;
+  }
+  
+  .page {
+    background: #f4f9fd !important;
+  }
+  
+  .page__inner-wrap {
+    background: #ffffff !important;
+    border-radius: 20px !important;
+    padding: 28px !important;
+    box-shadow: 0 4px 24px rgba(186, 230, 253, 0.35) !important;
+    border: 1px solid #dbeafe !important;
+  }
+
+  table {
+    background: #ffffff !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    border: 1px solid #bfdbfe !important;
+    box-shadow: 0 2px 10px rgba(191, 219, 254, 0.2) !important;
+    width: 100% !important;
+    margin-bottom: 24px !important;
+  }
+
+  th {
+    background: #e0f2fe !important;
+    color: #0369a1 !important;
+    font-weight: 700 !important;
+    border-bottom: 2px solid #93c5fd !important;
+    padding: 12px 14px !important;
+  }
+
+  td {
+    padding: 10px 14px !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    color: #334155 !important;
+  }
+
+  tr:nth-child(even) td {
+    background: #f8fbfe !important;
+  }
+
+  tr:hover td {
+    background: #e0f2fe !important;
+  }
+
+  blockquote {
+    background: #f0f9ff !important;
+    border-left: 4px solid #0284c7 !important;
+    color: #0369a1 !important;
+    padding: 14px 18px !important;
+    border-radius: 8px !important;
+    margin: 16px 0 !important;
+  }
+
+  h2 {
+    color: #0369a1 !important;
+    border-bottom: 2px solid #bae6fd !important;
+    padding-bottom: 8px !important;
+    margin-top: 36px !important;
+  }
+
+  h3 {
+    color: #0284c7 !important;
+    margin-top: 24px !important;
+  }
+</style>
+
+<div style="background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%); border: 1.5px solid #7dd3fc; border-radius: 16px; padding: 22px; margin-bottom: 26px; box-shadow: 0 4px 16px rgba(186, 230, 253, 0.4);">
+    <h3 style="margin-top: 0; color: #0369a1; font-size: 1.25rem;">🚀 Interaktiver A2 Memory & Vokabel-Trainer (Hellblau)</h3>
+    <p style="margin-bottom: 16px; color: #334155; font-size: 0.96rem;">Nutzen Sie den interaktiven Web-Trainer mit Echtzeit-Suche, nativer Audio-Aussprache (🔊), Wortart-Filtern und digitalem Karteikarten-Modus:</p>
     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-        <a href="/german-a2/app.html" target="_blank" style="background: #0284c7; color: #ffffff; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">✨ Web-App im Vollbild öffnen ↗</a>
-        <a href="/files/Goethe_Zertifikat_A2_Memory_List.md" download style="background: #334155; color: #f8fafc; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">📥 Markdown-Datei (.md)</a>
-        <a href="/files/Goethe_Zertifikat_A2_Interactive_Memory_App.html" download style="background: #334155; color: #f8fafc; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">📥 HTML-Offline-App (.html)</a>
+        <a href="/german-a2/app.html" target="_blank" style="background: #0284c7; color: #ffffff; padding: 10px 18px; border-radius: 10px; text-decoration: none; font-weight: 700; font-size: 0.92rem; box-shadow: 0 2px 8px rgba(2, 132, 199, 0.3);">✨ Web-App im Vollbild öffnen ↗</a>
+        <a href="/files/Goethe_Zertifikat_A2_Memory_List.md" download style="background: #ffffff; color: #0369a1; border: 1.5px solid #7dd3fc; padding: 10px 18px; border-radius: 10px; text-decoration: none; font-weight: 700; font-size: 0.92rem;">📥 Markdown (.md)</a>
+        <a href="/files/Goethe_Zertifikat_A2_Interactive_Memory_App.html" download style="background: #ffffff; color: #0369a1; border: 1.5px solid #7dd3fc; padding: 10px 18px; border-radius: 10px; text-decoration: none; font-weight: 700; font-size: 0.92rem;">📥 HTML-Offline-App</a>
     </div>
 </div>
 
-<details style="background: rgba(15, 23, 42, 0.03); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 12px 16px; margin-bottom: 28px;">
-    <summary style="font-weight: 700; cursor: pointer; color: #0369a1;">📱 Interaktiven Trainer direkt hier auf der Seite einblenden</summary>
-    <div style="margin-top: 14px;">
-        <iframe src="/german-a2/app.html" style="width: 100%; height: 750px; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12);" frameborder="0"></iframe>
+<details open style="background: #f0f9ff; border: 1.5px solid #bae6fd; border-radius: 16px; padding: 14px 18px; margin-bottom: 32px; box-shadow: 0 4px 16px rgba(186, 230, 253, 0.3);">
+    <summary style="font-weight: 800; cursor: pointer; color: #0369a1; font-size: 1.05rem;">📱 Interaktiven Trainer direkt hier auf der Seite nutzen</summary>
+    <div style="margin-top: 16px;">
+        <iframe src="/german-a2/app.html" style="width: 100%; height: 750px; border: 1.5px solid #7dd3fc; border-radius: 14px; box-shadow: 0 6px 20px rgba(186, 230, 253, 0.4);" frameborder="0"></iframe>
     </div>
 </details>
 
