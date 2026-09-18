@@ -1,23 +1,33 @@
-# The following is the order of the links in the header of the website.
-
+# main links
 main:
-  - title: "About"
+  - title: "Home"
     url: /
-
-  - title: "🫁 Organ-on-a-Chip"
-    url: /organ-on-chip/
-
-  - title: "Knowledge Hub"
-    url: /knowledge-hub/
-
+  - title: "About"
+    url: /about/
   - title: "Publications"
     url: /publications/
-
-  - title: "Resources & Tools"
-    url: /resources/
-
   - title: "Deutsch"
     url: /deutsch/
-
+  - title: "Resources"
+    url: /resources/
   - title: "CV"
     url: /cv/
+
+deutsch:
+  - title: "🇩🇪 Deutsch Portal"
+    url: /deutsch/
+  - title: "📚 Grammatik-Hub (40 Kapitel)"
+    url: /deutsch/grammatik/
+    children:
+      - title: "🟢 Stufe A1 (10 Kapitel)"
+        url: /deutsch/grammatik/a1/
+      - title: "🔵 Stufe A2 (10 Kapitel)"
+        url: /deutsch/grammatik/a2/
+      - title: "🟡 Stufe B1 (10 Kapitel)"
+        url: /deutsch/grammatik/b1/
+      - title: "🟣 Stufe B2 (10 Kapitel)"
+        url: /deutsch/grammatik/b2/
+  - title: "🗣️ Sprechtraining (10 Themen)"
+    url: /deutsch/sprechen/
+  - title: "🧠 Wortschatz & Vokabeln (A2)"
+    url: /german-a2/

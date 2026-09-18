@@ -1,275 +1,372 @@
-# 📘 Stufe A2: Grundstufe II – Satzverbindungen & Kasuskomplex
+# Stufe A2: Grundstufe II – Kasuskomplex, Relationen & Satzverbindungen
+**Status:** `CEFR A2 Grundstufe II` | **Kapitelanzahl:** 10
 
-> **Niveau**: `CEFR A2 Grundstufe II` | *Referenz: Das Leben A2, Complete German, 501 German Verbs*
+Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (Wohin vs. Wo), Positions- & Aktionsverbpaare, Reflexive Verben (Akk vs. Dat), vollständige Adjektivdeklination (Typ 1, 2, 3), Komparativ & Superlativ, Nebensätze mit Konjunktionen (weil, dass, wenn, ob, als), Präteritum von Hilfs- & Modalverben und indirekte Fragesätze.
 
-Vertiefung und Erweiterung: Dativ und Dativ-Verben, Wechselpräpositionen (Wohin vs. Wo), Reflexivverben, Komparativ/Superlativ, Präteritum von Hilfs- und Modalverben, Nebensätze mit 'weil, dass, wenn, ob' und Adjektivdeklination Typ 1.
+---
+## Inhaltsverzeichnis
+1. [Kapitel 1: Der Dativ (Wem-Fall) & Wortstellung bei doppelten Objekten](#a2-ch01-dativ)
+2. [Kapitel 2: Die wichtigsten Dativ-Verben & Feste Dativ-Präpositionen](#a2-ch02-dativ-verbs-prep)
+3. [Kapitel 3: Wechselpräpositionen (Wohin Akk vs. Wo Dat) & Positionsverben](#a2-ch03-two-way-prepositions)
+4. [Kapitel 4: Reflexive & Reziproke Verben (Akkusativ vs. Dativ)](#a2-ch04-reflexive)
+5. [Kapitel 5: Die vollständige Adjektivdeklination (Typ 1, Typ 2, Typ 3)](#a2-ch05-adjective-declension)
+6. [Kapitel 6: Komparativ & Superlativ (Steigerung & attributive Endungen)](#a2-ch06-comparative-superlative)
+7. [Kapitel 7: Nebensätze I: Kausal (weil/da), Objekt (dass), Konditional (wenn/falls) & ob](#a2-ch07-subordinate-clauses)
+8. [Kapitel 8: Temporale Nebensätze: Die genaue Unterscheidung von 'wenn' und 'als'](#a2-ch08-temporalsatz)
+9. [Kapitel 9: Das Präteritum (Die schriftliche Vergangenheitsform)](#a2-ch09-praeteritum)
+10. [Kapitel 10: Indirekte Fragesätze & Höfliche Bitten mit Konjunktiv II](#a2-ch10-indirect-questions)
 
 ---
 
-## Inhaltsübersicht
+## Kapitel 1: Der Dativ (Wem-Fall) & Wortstellung bei doppelten Objekten
+<a id="a2-ch01-dativ"></a>
 
-- [1. Der Dativ (Wem-Fall) & Dativ-Verben / Präpositionen](#a2-dativ)
-- [2. Wechselpräpositionen: Wohin (Akkusativ) vs. Wo (Dativ)](#a2-two-way-prepositions)
-- [3. Reflexive Verben im Akkusativ & Dativ](#a2-reflexive-verbs)
-- [4. Nebensätze mit Konjunktionen (weil, dass, wenn, ob) & Verbletzt-Regel](#a2-subordinate-clauses)
-- [5. Komparativ & Superlativ (Adjektivsteigerung)](#a2-comparatives)
-- [6. Präteritum von sein, haben und Modalverben](#a2-praeteritum-aux)
+### 💡 Grammatische Regeln & Erklärungen
+- **1. Artikelformen im Dativ:**
+-   - *Maskulin:* **dem / einem / keinem / meinem**
+-   - *Feminin:* **der / einer / keiner / meiner**
+-   - *Neutrum:* **dem / einem / keinem / meinem**
+-   - *Plural:* **den / — / keinen / meinen + -(e)n am Nomen** (*den Kindern, den Experimenten, den Professoren*; Ausnahme: Nomen auf -s erhalten kein -n: *den Autos*).
+- **2. Personalpronomen im Dativ:**
+-   - *mir (ich), dir (du), ihm (er/es), ihr (sie sg.), uns (wir), euch (ihr), ihnen (sie pl.), Ihnen (Höflichkeit)*.
+- **3. Gesetz der doppelten Objekte (Dativ- und Akkusativobjekt im selben Satz):**
+-   - **Regel A (Beide sind Nomen):** Dativ-Nomen steht VOR Akkusativ-Nomen (*Ich gebe [dem Professor: Dat] [das Protokoll: Akk]*).
+-   - **Regel B (Eines ist Pronomen, eines Nomen):** Das Pronomen steht IMMER vor dem Nomen, egal welcher Fall (*Ich gebe [es: Akk-Pron] [dem Professor: Dat-Nomen]*; *Ich gebe [ihm: Dat-Pron] [das Protokoll: Akk-Nomen]*).
+-   - **Regel C (Beide sind Pronomen):** Akkusativ-Pronomen steht VOR Dativ-Pronomen (*Ich gebe [es: Akk] [ihm: Dat]*).
 
----
+#### 📊 Objekt-Reihenfolge Matrix im Deutschen Hauptsatz
 
-<a id='a2-dativ'></a>
+| Objekt-Kombination | Regel-Formel | Beispielsatz | Bedeutung |
+| --- | --- | --- | --- |
+| Nomen + Nomen | Dativ-Nomen VOR Akkusativ-Nomen | Der Dozent erklärt dem Studenten die Methode. | dem Studenten (Dat) vor die Methode (Akk) |
+| Pronomen + Nomen | Pronomen VOR Nomen | Der Dozent erklärt sie dem Studenten. | sie (Akk-Pron) vor dem Studenten (Dat-Nomen) |
+| Pronomen + Pronomen | Akkusativ-Pronomen VOR Dativ-Pronomen | Der Dozent erklärt sie ihm. | sie (Akk) vor ihm (Dat) |
 
-## 1. Der Dativ (Wem-Fall) & Dativ-Verben / Präpositionen
-
-*Der Dativ bezeichnet das indirekte Objekt bzw. den Empfänger einer Handlung. Nach bestimmten Verben und Präpositionen steht zwingend der Dativ.*
-
-
-### 📖 Grammatik-Regeln & Prinzipien
-
-- **Artikeländerung:** Maskulin -> *dem / einem*, Neutrum -> *dem / einem*, Feminin -> *der / einer*, Plural -> *den / keinen + -(e)n am Nomen* (*den Kindern*).
-
-- **Dativ-Verben:** *helfen, danken, antworten, gratulieren, gehören, gefallen, schmecken, passen, stehen, schaden, nützen, vertrauen, fehlen, wehtun, zuhören*.
-
-- **Dativ-Präpositionen (AusBeiMitNachSeitVonZu):** *aus, bei, mit, nach, seit, von, zu, gegenüber, außer* verlangen ausnahmslos Dativ!
-
-
-
-### 📊 Vollständige Deklinationstabelle: Nominativ, Akkusativ, Dativ
-
-| Kasus / Frage | Maskulin (m) | Feminin (f) | Neutrum (n) | Plural (pl) |
-| :--- | :--- | :--- | :--- | :--- |
-| Nominativ (Wer/Was?) | der / ein Forscher | die / eine Pumpe | das / ein Labor | die / keine Proben |
-| Akkusativ (Wen/Was?) | den / einen Forscher | die / eine Pumpe | das / ein Labor | die / keine Proben |
-| Dativ (Wem?) | dem / einem Forscher | der / einer Pumpe | dem / einem Labor | den / keinen Proben (+n) |
-| Personalpronomen Dativ | ihm | ihr | ihm | ihnen / Ihnen / mir / dir / uns / euch |
-
-
-### 📊 Dativ-Präpositionen im Detail
-
-| Präposition | Bedeutung | Beispiel |
-| :--- | :--- | :--- |
-| aus | Herkunft, Material, Heraustreten | Das Fluid strömt aus dem Reservoir (n). |
-| bei | Aufenthalt bei Person/Firma, Gleichzeitigkeit | Er arbeitet bei einem renommierten Forschungsinstitut. |
-| mit | Gemeinschaft, Werkzeug/Mittel | Wir mikroskopieren die Zellen mit dem Objektiv. |
-| nach | Richtung (Länder/Städte), Zeitlich danach | Nach der Zentrifugation untersuchen wir das Sediment. |
-| seit | Beginn in der Vergangenheit, dauert an | Ich forsche seit einem Jahr an diesem Modell. |
-| von | Urheber, Ausgangspunkt | Ich habe die Publikation von meinem Betreuer erhalten. |
-| zu | Zielrichtung (Person/Ort) | Wir gehen zum (zu + dem) Seminarraum. |
-
-
-### 📝 Anwendungsbeispiele
-
-- **DE:** `Ich danke dem Professor (m, Dat) für seine wertvolle Unterstützung.`  
-  *EN:* I thank the professor for his valuable support.
-
-- **DE:** `Die neue Software gefällt den Wissenschaftlern (pl, Dat) sehr gut.`  
-  *EN:* The scientists like the new software very much.
-
-
+### 📖 Beispielsätze & Übersetzung
+- **DE:** Die Laborleiterin überreicht dem Gastwissenschaftler (Dat-Nomen) die Auszeichnung (Akk-Nomen).
+  *EN:* The lab director presents the award to the guest scientist.
+- **DE:** Sie überreicht sie (Akk-Pron) ihm (Dat-Pron) feierlich.
+  *EN:* She presents it to him ceremoniously.
 
 ---
 
-<a id='a2-two-way-prepositions'></a>
+## Kapitel 2: Die wichtigsten Dativ-Verben & Feste Dativ-Präpositionen
+<a id="a2-ch02-dativ-verbs-prep"></a>
 
-## 2. Wechselpräpositionen: Wohin (Akkusativ) vs. Wo (Dativ)
+### 💡 Grammatische Regeln & Erklärungen
+- **1. Die wichtigsten Verben mit Dativergänzung:**
+-   - *helfen (+ Dat):* Können Sie mir helfen?
+-   - *danken (+ Dat):* Wir danken Ihnen für die Kooperation.
+-   - *antworten (+ Dat):* Der Betreuer antwortet dem Doktoranden.
+-   - *gratulieren (+ Dat):* Wir gratulieren dir zur bestandenen Prüfung.
+-   - *gehören (+ Dat):* Das Mikroskop gehört unserem Institut.
+-   - *gefallen (+ Dat):* Das neue Laborkonzept gefällt den Forschern.
+-   - *schmecken (+ Dat):* Der Kaffee schmeckt mir gut.
+-   - *passen (+ Dat):* Der Termin passt mir ausgezeichnet.
+-   - *fehlen (+ Dat):* Den Zellen fehlt wichtiger Sauerstoff.
+-   - *schaden (+ Dat):* Hoher Druck schadet der Membran.
+-   - *vertrauen (+ Dat):* Wir vertrauen den Messergebnissen.
+-   - *zuhören (+ Dat):* Die Studenten hören der Vorlesung aufmerksam zu.
+- **2. Dativ-Präpositionen (Merksatz: Aus-Bei-Mit-Nach-Seit-Von-Zu + gegenüber & außer):**
+-   - **aus:** Herkunft (*aus Deutschland*), Material (*aus Silikon*), Heraustreten (*aus dem Kanal*).
+-   - **bei:** Aufenthalt/Firma (*bei der Universität*), Gleichzeitigkeit (*beim Experiment*).
+-   - **mit:** Werkzeug/Mittel (*mit der Pipette*), Begleitung (*mit dem Team*).
+-   - **nach:** Zeitlich danach (*nach der Zentrifugation*), Ortsrichtung Länder/Städte (*nach Berlin*).
+-   - **seit:** Beginn in Vergangenheit, dauert an (*seit zwei Jahren* -> Verlangt Präsens!).
+-   - **von:** Ausgangspunkt (*vom Labor*), Urheber (*von Professor Bauer*).
+-   - **zu:** Zielperson/Ort (*zum Seminar*), Anlass (*zur Feier*).
+-   - **gegenüber:** Lage gegenüber (*dem Institutsgebäude gegenüber*).
 
-*Die 9 Wechselpräpositionen (an, auf, hinter, in, neben, über, unter, vor, zwischen) steuern zwei Fälle: Akkusativ bei Richtungsänderung / Bewegung (Wohin?) und Dativ bei fixer Position / Ort (Wo?).*
+#### 📊 Übersicht der reinen Dativ-Präpositionen
 
+| Präposition | Kasus | Hauptfunktion | Beispiel |
+| --- | --- | --- | --- |
+| aus | Dativ | Herkunft / Material | Die mikrofluidischen Chips bestehen aus PDMS. |
+| bei | Dativ | Ort / Bedingung | Bei steigender Temperatur erhöht sich die Diffusionsrate. |
+| mit | Dativ | Instrument / Begleitung | Wir steuern die Pumpe mit einem Mikrocontroller. |
+| nach | Dativ | Zeitfolge / Richtung | Nach der Inkubation messen wir das Fluoreszenzsignal. |
+| seit | Dativ | Dauer seit Beginn | Seit einem Monat führen wir die Versuchsreihe durch. |
+| von | Dativ | Urheber / Ausgangsort | Die Publikation stammt von unserer Arbeitsgruppe. |
+| zu | Dativ | Richtung / Zweck | Wir gehen zur wöchentlichen Arbeitsgruppenbesprechung. |
 
-### 📖 Grammatik-Regeln & Prinzipien
-
-- **Wohin? (Akkusativ / Dynamisch):** *stellen, legen, setzen, hängen (transitiv), stecken, gießen* -> Bewegung auf ein Ziel hin.
-
-- **Wo? (Dativ / Statisch):** *stehen, liegen, sitzen, hängen (intransitiv), stecken* -> Verbleib an einem festen Ort.
-
-- **Verschmelzungen:** *in + dem = im, in + das = ins, an + dem = am, an + das = ans, auf + das = aufs, zu + dem = zum, zu + der = zur*.
-
-
-
-### 📊 Positions- und Aktionsverbpaare im Vergleich
-
-| Aktionsverb (Wohin? -> Akkusativ) | Positionsverb (Wo? -> Dativ) | Beispiel Akkusativ (Aktion) | Beispiel Dativ (Position) |
-| :--- | :--- | :--- | :--- |
-| stellen (regelm.) | stehen (stark: stand, gestanden) | Ich stelle das Reagenzglas in das Rack (Akk). | Das Reagenzglas steht im Rack (Dat). |
-| legen (regelm.) | liegen (stark: lag, gelegen) | Er legt den Chip auf den Objekttisch (Akk). | Der Chip liegt auf dem Objekttisch (Dat). |
-| setzen (regelm.) | sitzen (stark: saß, gesessen) | Sie setzt sich an das Mikroskop (Akk). | Sie sitzt am Mikroskop (Dat). |
-| hängen (regelm.) | hängen (stark: hing, gehangen) | Wir hängen den Schutzplan an die Wand (Akk). | Der Plan hängt an der Wand (Dat). |
-
-
-### 📝 Anwendungsbeispiele
-
-- **DE:** `Wir füllen das Nährmedium in die obere Kammer (f, Akk).`  
-  *EN:* We fill the culture medium into the upper chamber.
-
-- **DE:** `Die Zellen wachsen in der oberen Kammer (f, Dat) unter kontinuierlicher Perfusion.`  
-  *EN:* The cells grow in the upper chamber under continuous perfusion.
-
-
+### 📖 Beispielsätze & Übersetzung
+- **DE:** Ich forsche seit einem Jahr (Dat) bei einem renommierten Institut (Dat).
+  *EN:* I have been researching for a year at a renowned institute.
+- **DE:** Der plötzliche Temperaturabfall schadet den lebenden Zellen (Dat).
+  *EN:* The sudden temperature drop harms the living cells.
 
 ---
 
-<a id='a2-reflexive-verbs'></a>
+## Kapitel 3: Wechselpräpositionen (Wohin Akk vs. Wo Dat) & Positionsverben
+<a id="a2-ch03-two-way-prepositions"></a>
 
-## 3. Reflexive Verben im Akkusativ & Dativ
+### 💡 Grammatische Regeln & Erklärungen
+- **1. Die goldene Regel der 9 Wechselpräpositionen:**
+-   - **Wohin? (Richtung / Dynamik / Aktion):** -> **AKKUSATIV** (*Ich stelle die Flasche auf den Tisch*).
+-   - **Wo? (Ort / Statik / Zustand):** -> **DATIV** (*Die Flasche steht auf dem Tisch*).
+- **2. Die 4 klassischen Verbpaare (Transitiv vs. Intransitiv):**
+-   - *stellen (regelm., wohin? -> Akk)* vs. *stehen (stark: stand/gestanden, wo? -> Dat)*.
+-   - *legen (regelm., wohin? -> Akk)* vs. *liegen (stark: lag/gelegen, wo? -> Dat)*.
+-   - *setzen (regelm., wohin? -> Akk)* vs. *sitzen (stark: saß/gesessen, wo? -> Dat)*.
+-   - *hängen (regelm., wohin? -> Akk)* vs. *hängen (stark: hing/gehangen, wo? -> Dat)*.
+-   - *stecken (wohin? -> Akk)* vs. *stecken (wo? -> Dat)*.
+- **3. Temporale Verwendung der Wechselpräpositionen (Immer Dativ!):**
+-   - *an:* Tage, Tageszeiten (*am Montag, am Morgen, am Wochenende*).
+-   - *in:* Monate, Jahreszeiten, Jahre, Zeitspannen (*im Mai, im Sommer, in zwei Wochen*).
+-   - *vor / nach:* Vorher / Nachher (*vor dem Versuch, nach der Konferenz*).
 
-*Reflexive Verben beziehen sich auf das Subjekt zurück. Das Reflexivpronomen richtet sich nach der Person und unterscheidet sich in der 1. und 2. Person Singular zwischen Akkusativ und Dativ.*
+#### 📊 Positions- und Aktionsverbpaare im systematischen Vergleich
 
+| Aktionsverb (Wohin? -> Akkusativ) | Positionsverb (Wo? -> Dativ) | Beispielsatz Akkusativ | Beispielsatz Dativ |
+| --- | --- | --- | --- |
+| stellen (regelm.) | stehen (stand, gestanden) | Ich stelle das Becherglas auf die Heizplatte (Akk). | Das Becherglas steht auf der Heizplatte (Dat). |
+| legen (regelm.) | liegen (lag, gelegen) | Er legt die Probe unter das Mikroskop (Akk). | Die Probe liegt unter dem Mikroskop (Dat). |
+| setzen (regelm.) | sitzen (saß, gesessen) | Sie setzt sich an den Schreibtisch (Akk). | Sie sitzt am (an dem) Schreibtisch (Dat). |
+| hängen (regelm.) | hängen (hing, gehangen) | Wir hängen das Poster an die Stellwand (Akk). | Das Poster hängt an der Stellwand (Dat). |
 
-### 📖 Grammatik-Regeln & Prinzipien
+### 📖 Beispielsätze & Übersetzung
+- **DE:** Wir füllen das Nährmedium in die obere Kammer (f, Akk: Wohin?).
+  *EN:* We fill the nutrient medium into the upper chamber.
+- **DE:** Die Endothelzellen wachsen in der oberen Kammer (f, Dat: Wo?).
+  *EN:* The endothelial cells grow in the upper chamber.
 
-- **Reflexiv im Akkusativ:** Normalfall, wenn kein weiteres Akkusativobjekt im Satz steht (*Ich wasche mich, Ich freue mich auf die Tagung*).
+---
 
-- **Reflexiv im Dativ:** Wenn ein konkretes Akkusativobjekt genannt wird (*Ich wasche mir die Hände [Akk]*).
+## Kapitel 4: Reflexive & Reziproke Verben (Akkusativ vs. Dativ)
+<a id="a2-ch04-reflexive"></a>
 
-- **Echte Reflexivverben:** Existieren nur mit Reflexivpronomen (*sich konzentrieren auf, sich erkundigen nach, sich schämen, sich wundern*).
+### 💡 Grammatische Regeln & Erklärungen
+- **1. Echte vs. Unechte Reflexivverben:**
+-   - *Echte Reflexivverben:* Können nur mit Reflexivpronomen existieren (*sich konzentrieren auf, sich erkundigen nach, sich weigern, sich schämen, sich ereignen*).
+-   - *Unechte Reflexivverben:* Können reflexiv oder transitiv auf andere Objekte angewendet werden (*Ich wasche mich* vs. *Ich wasche das Auto*).
+- **2. Reflexivpronomen im Akkusativ vs. Dativ:**
+-   - Nur in der 1. und 2. Person Singular (*ich, du*) unterscheiden sich Akkusativ (*mich, dich*) und Dativ (*mir, dir*). Alle anderen Personen verwenden *sich, uns, euch, sich*.
+-   - *Wann Dativ?* Wenn im Satz bereits ein separates Akkusativobjekt vorhanden ist (*Ich ziehe mich (Akk) an* vs. *Ich ziehe mir (Dat) den Kittel (Akk) an*).
+- **3. Reziproke Verben (Wechselseitige Handlung):**
+-   - Subjekt steht im Plural; die Handlung ist gegenseitig (*sich treffen, sich einigen, sich austauschen, sich widersprechen*).
 
+#### 📊 Reflexivpronomen Übersicht Akkusativ vs. Dativ
 
-
-### 📊 Reflexivpronomen im Akkusativ und Dativ
-
-| Pronomen / Person | Akkusativ (mich/dich) | Dativ (mir/dir) | Musterbeispiel |
-| :--- | :--- | :--- | :--- |
+| Person | Reflexiv Akkusativ | Reflexiv Dativ | Musterbeispiel |
+| --- | --- | --- | --- |
 | ich | mich | mir | Ich konzentriere mich (Akk) / Ich merke mir die Formel (Dat). |
 | du | dich | dir | Du freust dich (Akk) / Du wäschst dir die Hände (Dat). |
-| er / sie / es | sich | sich | Er interessiert sich für Zellbiologie. |
-| wir | uns | uns | Wir treffen uns um 14 Uhr im Besprechungsraum. |
-| ihr | euch | euch | Ihr bereitet euch auf das Examen vor. |
-| sie / Sie | sich | sich | Sie haben sich schnell eingearbeitet. |
+| er/sie/es | sich | sich | Er interessiert sich für Biomedizin. |
+| wir | uns | uns | Wir einigen uns auf ein einheitliches Protokoll. |
+| ihr | euch | euch | Ihr bereitet euch auf die Präsentation vor. |
+| sie / Sie | sich | sich | Sie haben sich schnell in das Thema eingearbeitet. |
 
-
-### 📝 Anwendungsbeispiele
-
-- **DE:** `Ich interessiere mich sehr für Organ-on-a-Chip-Technologien.`  
-  *EN:* I am very interested in Organ-on-a-Chip technologies.
-
-- **DE:** `Wir müssen uns vor Beginn des Experiments die Schutzhandschuhe anziehen.`  
-  *EN:* We must put on protective gloves before starting the experiment.
-
-
+### 📖 Beispielsätze & Übersetzung
+- **DE:** Vor dem Betreten des Labors ziehen wir uns die Schutzbrille (Akk) an (Reflexiv im Dativ: uns).
+  *EN:* Before entering the lab we put on the safety goggles.
+- **DE:** Die Forscher tauschen sich (reziprok) regelmäßig über ihre Versuchsergebnisse aus.
+  *EN:* The researchers exchange views regularly about their experimental results.
 
 ---
 
-<a id='a2-subordinate-clauses'></a>
+## Kapitel 5: Die vollständige Adjektivdeklination (Typ 1, Typ 2, Typ 3)
+<a id="a2-ch05-adjective-declension"></a>
 
-## 4. Nebensätze mit Konjunktionen (weil, dass, wenn, ob) & Verbletzt-Regel
+### 💡 Grammatische Regeln & Erklärungen
+- **Grundprinzip:** Ein Adjektiv vor einem Nomen (attributiv) MUSS dekliniert werden. Es zeigt Genus, Numerus und Kasus an.
+- **Typ 1: Schwache Deklination (nach bestimmtem Artikel: der, die, das, dieser, jener, jeder, welcher):**
+-   - *Regel:* Nur zwei mögliche Endungen: **-e** oder **-en**!
+-   - **-e:** Nur in 5 Positionen: Nominativ Singular aller drei Geschlechter (*der neue Chip, die neue Pumpe, das neue Labor*) und Akkusativ Feminin & Neutrum (*die neue Pumpe, das neue Labor*).
+-   - **-en:** In allen anderen Fällen (Akkusativ Maskulin, kompletter Dativ, kompletter Genitiv und kompletter Plural!).
+- **Typ 2: Gemischte Deklination (nach unbestimmtem Artikel: ein, kein, mein, dein, sein...):**
+-   - *Regel:* Adjektiv übernimmt dort die Signalendung des bestimmten Artikels, wo das Artikelwort keine eindeutige Endung hat (Nom. Mask: *ein neu-er Chip*; Nom/Akk Neutrum: *ein neu-es Labor*).
+-   - In allen Dativ-, Genitiv-, Akkusativ-Maskulin- und Pluralformen lautet die Endung **-en**.
+- **Typ 3: Starke Deklination (Nullartikel / ohne Artikelwort):**
+-   - *Regel:* Das Adjektiv muss die vollen Signalendungen des bestimmten Artikels tragen (*neu-er Sensor, neu-e Pumpe, neu-es Medium, neu-e Methoden*; Ausnahme: Genitiv Maskulin/Neutrum endet auf **-en**, weil das Nomen bereits das -s trägt: *kalt-en Wassers*).
 
-*Nebensätze sind untergeordnete Teilsätze. Die fundamentale Regel: Das finite Verb wird ans absolute Ende des Nebensatzes verbannt!*
+#### 📊 Master-Matrix der Adjektivendungen (Alle 3 Typen im Vergleich)
 
+| Kasus & Genus | Typ 1 (nach 'der/die/das') | Typ 2 (nach 'ein/mein/kein') | Typ 3 (Nullartikel / Ohne) |
+| --- | --- | --- | --- |
+| Nom. Maskulin | der neu-e Chip | ein neu-er Chip | neu-er Chip |
+| Akk. Maskulin | den neu-en Chip | einen neu-en Chip | neu-en Chip |
+| Dat. Maskulin | dem neu-en Chip | einem neu-en Chip | neu-em Chip |
+| Nom. Feminin | die neu-e Pumpe | eine neu-e Pumpe | neu-e Pumpe |
+| Akk. Feminin | die neu-e Pumpe | eine neu-e Pumpe | neu-e Pumpe |
+| Dat. Feminin | der neu-en Pumpe | einer neu-en Pumpe | neu-er Pumpe |
+| Nom/Akk Neutrum | das neu-e Labor | ein neu-es Labor | neu-es Labor |
+| Dat. Neutrum | dem neu-en Labor | einem neu-en Labor | neu-em Labor |
+| Nom/Akk Plural | die neu-en Daten | keine neu-en Daten | neu-e Daten |
+| Dat. Plural | den neu-en Daten | keinen neu-en Daten | neu-en Daten |
 
-### 📖 Grammatik-Regeln & Prinzipien
-
-- **Kausalsatz (*weil, da*):** Begründung (*Ich lerne Deutsch, weil ich in München forsche*).
-
-- **Objektsatz (*dass*):** Inhaltliche Ergänzung nach Verben des Sagens, Wissens, Fühlens (*Er weiß, dass die Pumpe läuft*).
-
-- **Konditionalsatz (*wenn, falls*):** Bedingung (*Wenn der Druck steigt, müssen wir das Ventil öffnen*).
-
-- **Indirekte Frage (*ob*):** Indirekte Entscheidungsfrage (*Ich frage mich, ob die Membran intakt ist*).
-
-- **Nebensatz an Position 1:** Steht der Nebensatz vor dem Hauptsatz, folgt im Hauptsatz sofort das Verb (Verb-Verb-Kollision: *Wenn wir die Daten haben, beginnen wir mit der Auswertung*).
-
-
-
-### 📊 Nebensatz-Struktur und Verbposition
-
-| Satztyp | Einleitung (Konjunktion) | Mittelfeld | Satzende (Konjugiertes Verb) |
-| :--- | :--- | :--- | :--- |
-| Hauptsatz + weil | ..., weil | die Scherbelastung die Differenzierung | stimuliert. |
-| Hauptsatz + dass | ..., dass | die Barrierefunktion intakt | bleibt. |
-| Wenn am Anfang | Wenn die Zellen konfluent | sind, | starten wir die Perfusion. |
-| Hauptsatz + ob | ..., ob | das TEER-Signal stabil | ist. |
-
-
-### 📝 Anwendungsbeispiele
-
-- **DE:** `Das Experiment war erfolgreich, weil alle Parameter exakt kalibriert waren.`  
-  *EN:* The experiment was successful because all parameters were calibrated exactly.
-
-- **DE:** `Ich hoffe, dass unser Paper bald akzeptiert wird.`  
-  *EN:* I hope that our paper will be accepted soon.
-
-
+### 📖 Beispielsätze & Übersetzung
+- **DE:** Wir nutzen ein hochauflösendes Mikroskop (Typ 2, n, Akk) für die präzise Zellanalyse (Typ 1, f, Akk).
+  *EN:* We use a high-resolution microscope for precise cell analysis.
+- **DE:** Frisches steriles Nährmedium (Typ 3, n, Nom) ist für das Zellwachstum unerlässlich.
+  *EN:* Fresh sterile nutrient medium is essential for cell growth.
 
 ---
 
-<a id='a2-comparatives'></a>
+## Kapitel 6: Komparativ & Superlativ (Steigerung & attributive Endungen)
+<a id="a2-ch06-comparative-superlative"></a>
 
-## 5. Komparativ & Superlativ (Adjektivsteigerung)
+### 💡 Grammatische Regeln & Erklärungen
+- **1. Die drei Steigerungsstufen:**
+-   - *Positiv (Grundstufe):* Gleichheit mit **so / genauso + Adjektiv + wie** (*Das Modell ist genauso präzise wie die Referenz*).
+-   - *Komparativ (Vergleichsstufe):* Ungleichheit mit **Adjektiv + -er + als** (*Dieses System ist stabiler als das vorherige*).
+-   - *Superlativ (Höchststufe):* Prädikativ mit **am + Adjektiv + -(e)sten** (*Dieses Design ist am effektivsten*); Attributiv mit bestimmtem Artikel und Adjektivendung (*das effektivste Design*).
+- **2. Umlautregeln & Phonetische Besonderheiten:**
+-   - Einsilbige Adjektive mit *a, o, u* erhalten meist einen Umlaut (*alt/älter, warm/wärmer, groß/größer, kurz/kürzer, jung/jünger*).
+-   - Adjektive auf *-d, -t, -s, -ß, -z, -x, -los* erhalten im Superlativ ein **-e-** (*breit -> am breitesten, heiß -> am heißesten*).
+-   - Adjektive auf *-el / -er* verlieren im Komparativ das Stamm-e (*dunkel -> dunkler; teuer -> teurer*).
+- **3. Deklinierte Komparative & Superlative vor Nomen:**
+-   - Erst steigern, dann nach normaler Adjektivdeklination beugen: *ein besser-er (Komparativ) + -er (Typ 2 Maskulin) = ein besserer Sensor*; *die schnell-st-e Pumpe*.
 
-*Die Steigerung drückt Vergleiche zwischen zwei oder mehr Elementen aus.*
+#### 📊 Unregelmäßige und hochfrequente Steigerungsformen
 
-
-### 📖 Grammatik-Regeln & Prinzipien
-
-- **Positiv (Grundform):** Vergleich auf Gleichheit mit *so + Adjektiv + wie* (*Der Sensor ist so empfindlich wie das Referenzgerät*).
-
-- **Komparativ (-er):** Vergleich auf Ungleichheit mit *Adjektiv-er + als* (*Dieses System ist effizienter als das alte*).
-
-- **Superlativ (am -sten / der -ste):** Höchste Stufe (*Dieses Modell ist am zuverlässigsten*).
-
-- **Umlautbildung:** Einsilbige Adjektive mit *a, o, u* erhalten meist einen Umlaut (*alt -> älter -> am ältesten, groß -> größer -> am größten, kurz -> kürzer -> am kürzesten*).
-
-
-
-### 📊 Regelmäßige und unregelmäßige Steigerungsformen
-
-| Positiv | Komparativ | Superlativ (Prädikativ) | Superlativ (Attributiv) | Besonderheit |
-| :--- | :--- | :--- | :--- | :--- |
-| genau | genauer als | am genauesten | die genaueste Messung | Regelmäßig |
-| hoch | höher als | am höchsten | der höchste Druck | c entfällt im Komparativ |
-| gut | besser als | am besten | die beste Ausbeute | Völlig unregelmäßig |
+| Positiv | Komparativ | Superlativ (Prädikativ) | Superlativ (Attributiv mit Nomen) | Bedeutung / Typ |
+| --- | --- | --- | --- | --- |
+| gut | besser als | am besten | das beste Ergebnis | Völlig unregelmäßig |
 | viel | mehr als | am meisten | die meisten Publikationen | Völlig unregelmäßig |
-| gern | lieber als | am liebsten | das liebste Thema | Völlig unregelmäßig |
-| nah | näher als | am nächsten | der nächste Schritt | h -> ch im Superlativ |
+| gern | lieber als | am liebsten | das liebste Forschungsfeld | Völlig unregelmäßig |
+| hoch | höher als | am höchsten | der höchste Druck | c entfällt im Komparativ |
+| nah | näher als | am nächsten | der nächste Messpunkt | h -> ch im Superlativ |
+| groß | größer als | am größten | der größte Vorteil | Umlaut, Superlativ nur -ten |
 
-
-### 📝 Anwendungsbeispiele
-
-- **DE:** `Die mikrofluidische Zellkultur liefert physiologisch relevantere Daten als herkömmliche 2D-Kulturen.`  
-  *EN:* Microfluidic cell culture delivers physiologically more relevant data than conventional 2D cultures.
-
-- **DE:** `Bei dieser Temperatur zeigen die Endothelzellen die höchste Überlebensrate.`  
-  *EN:* At this temperature the endothelial cells show the highest survival rate.
-
-
+### 📖 Beispielsätze & Übersetzung
+- **DE:** Organ-on-a-Chip-Modelle bieten eine deutlich höhere (attributiver Komparativ) physiologische Relevanz als statische Zellkulturen.
+  *EN:* Organ-on-a-Chip models offer a significantly higher physiological relevance than static cell cultures.
+- **DE:** Die höchste Überlebensrate (attributiver Superlativ) wurde bei 37°C gemessen.
+  *EN:* The highest survival rate was measured at 37°C.
 
 ---
 
-<a id='a2-praeteritum-aux'></a>
+## Kapitel 7: Nebensätze I: Kausal (weil/da), Objekt (dass), Konditional (wenn/falls) & ob
+<a id="a2-ch07-subordinate-clauses"></a>
 
-## 6. Präteritum von sein, haben und Modalverben
+### 💡 Grammatische Regeln & Erklärungen
+- **1. Die fundamentale Nebensatz-Regel (Verbletztstellung):**
+-   - Das konjugierte Verb wandert ans **absolute Ende** des Nebensatzes.
+-   - Nebensätze werden im Deutschen IMMER durch ein Komma vom Hauptsatz getrennt.
+- **2. Die wichtigsten Subjunktionen im A2-Bereich:**
+-   - **weil / da (Kausal):** Begründung (*Wir wiederholen den Versuch, weil die Flussrate schwankte*). *da* steht bevorzugt am Satzanfang für bekannte Gründe (*Da das Labor renoviert wird, arbeiten wir im Nachbargebäude*).
+-   - **dass (Objekt-/Inhaltssatz):** Ergänzung nach Verben des Wissens, Meinens, Sagens (*Ich weiß, dass die Daten verlässlich sind*).
+-   - **wenn / falls (Konditional):** Bedingung (*Wenn der Druck steigt, schlägt der Alarm an*).
+-   - **ob (Indirekte Ja/Nein-Frage):** Ungewissheit (*Wir prüfen, ob die Membran dicht ist*).
+- **3. Satzstellung bei vorangestelltem Nebensatz (Verb-Verb-Regel):**
+-   - Beginnt der Satz mit dem Nebensatz (Nebensatz = Position 1 des Gesamtsatzes), beginnt der folgende Hauptsatz SOFORT mit dem finiten Verb (*Wenn die Messung beendet ist [Verb 1], starten [Verb 2] wir die Auswertung*).
 
-*Während Vollverben im Alltag meist im Perfekt stehen, werden *sein, haben* und alle Modalverben auch in der gesprochenen Sprache fast ausschließlich im Präteritum verwendet.*
+#### 📊 Nebensatz-Typen und Konjunktionen im Überblick
 
+| Konjunktion | Typ | Funktion | Satzbeispiel (Hauptsatz + Nebensatz) |
+| --- | --- | --- | --- |
+| weil | Kausal | Ursache / Grund | Das Experiment glückte, weil alle Parameter exakt kalibriert waren. |
+| da | Kausal | Bekannter Grund (oft vorne) | Da die Reagenzien neu sind, erwarten wir hohe Reinheit. |
+| dass | Subjekt/Objekt | Sachverhalt / Aussage | Der Gutachter bestätigte, dass die Methodik innovativ ist. |
+| wenn | Konditional | Bedingung / Voraussetzung | Wenn die Zellen konfluent sind, beginnen wir mit der Perfusion. |
+| ob | Interrogativ | Indirekte Entscheidungsfrage | Niemand weiß genau, ob der Versuch heute gelingt. |
 
-### 📖 Grammatik-Regeln & Prinzipien
+### 📖 Beispielsätze & Übersetzung
+- **DE:** Weil die Scherbelastung die Differenzierung fördert, perfundieren wir das Endothel kontinuierlich.
+  *EN:* Because shear stress promotes differentiation, we perfuse the endothelium continuously.
+- **DE:** Ich bin mir sicher, dass wir bis Freitag alle Messreihen abschließen werden.
+  *EN:* I am certain that we will conclude all measurement series by Friday.
 
-- **sein:** *ich war, du warst, er war, wir waren, ihr wart, sie waren*.
+---
 
-- **haben:** *ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten*.
+## Kapitel 8: Temporale Nebensätze: Die genaue Unterscheidung von 'wenn' und 'als'
+<a id="a2-ch08-temporalsatz"></a>
 
-- **Modalverben:** Verlieren im Präteritum alle Umlaute! Endungen: *-te, -test, -te, -ten, -tet, -ten* (*konnte, musste, durfte, sollte, wollte, mochte*).
+### 💡 Grammatische Regeln & Erklärungen
+- **1. Die Gretchenfrage: 'wenn' oder 'als'?**
+-   - **als:** Wird NUR verwendet bei einem **einmaligen Ereignis in der Vergangenheit** (*Als ich 2024 nach Deutschland kam...*; *Als der Sensor ausfiel, stoppten wir die Pumpe*).
+-   - **wenn:** Wird verwendet bei:
+-     1. Handlungen in Gegenwart und Zukunft (*Wenn ich Zeit habe, lese ich Fachartikel*).
+-     2. **Wiederholten Ereignissen in der Vergangenheit** (Signalwörter: *immer wenn, jedes Mal wenn*: *Immer wenn die Temperatur anstieg, öffnete sich das Ventil*).
+- **2. Weitere temporale Konjunktionen:**
+-   - **während:** Gleichzeitigkeit (*Während die Zellen inkubieren, werten wir die Daten aus*).
+-   - **bevor / ehe:** Vorzeitigkeit des Hauptsatzes (*Bevor wir beginnen, sterilisieren wir die Werkzeuge*).
+-   - **nachdem:** Nachzeitigkeit (erfordert Zeitenfolge: Plusquamperfekt bei Präteritum-Hauptsatz).
 
+#### 📊 Entscheidungsbaum: 'als' vs. 'wenn'
 
+| Zeitstufe | Häufigkeit | Konjunktion | Beispielsatz |
+| --- | --- | --- | --- |
+| Vergangenheit | Einmalig in der Vergangenheit | als | Als wir das erste Experiment durchführten, gab es Probleme. |
+| Vergangenheit | Wiederholt in der Vergangenheit | (immer) wenn | Immer wenn der Druck abfiel, überprüften wir die Dichtungen. |
+| Gegenwart | Einmalig oder wiederholt | wenn | Wenn ich im Labor bin, trage ich immer Schutzkleidung. |
+| Zukunft | Einmalig oder wiederholt | wenn | Wenn die Ergebnisse vorliegen, schreiben wir das Paper. |
 
-### 📊 Präteritum der Modalverben im Vergleich zum Präsens
+### 📖 Beispielsätze & Übersetzung
+- **DE:** Als ich mein Studium in München begann (einmalig, Vergangenheit), lernte ich Deutsch.
+  *EN:* When I began my studies in Munich, I learned German.
+- **DE:** Jedes Mal wenn wir die Nährlösung wechselten (wiederholt, Vergangenheit), stieg die Zellaktivität.
+  *EN:* Every time we changed the nutrient solution, cell activity increased.
 
-| Person | können (konnte) | müssen (musste) | dürfen (durfte) | wollen (wollte) | sollen (sollte) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| ich / er,sie,es | konnte | musste | durfte | wollte | sollte |
-| du | konntest | musstest | durftest | wolltest | solltest |
-| wir / sie,Sie | konnten | mussten | durften | wollten | sollten |
-| ihr | konntet | musstet | durftet | wolltet | solltet |
+---
 
+## Kapitel 9: Das Präteritum (Die schriftliche Vergangenheitsform)
+<a id="a2-ch09-praeteritum"></a>
 
-### 📝 Anwendungsbeispiele
+### 💡 Grammatische Regeln & Erklärungen
+- **1. Verwendung des Präteritums:** Hauptsächlich in schriftlichen Berichten, wissenschaftlichen Artikeln, Protokollen, Zeitungsberichten und literarischen Erzählungen. Im Alltag werden *sein, haben* und Modalverben auch mündlich im Präteritum gebraucht.
+- **2. Regelmäßige (schwache) Verben:**
+-   - Verbstamm + **-te, -test, -te, -ten, -tet, -ten** (*lernen -> ich lernte, du lerntest, er lernte, wir lernten, ihr lerntet, sie lernten*).
+-   - Bei Stamm auf -d/-t: **-ete, -etest, -ete, -eten, -etet, -eten** (*arbeiten -> arbeitete*).
+- **3. Unregelmäßige (starke) Verben:**
+-   - Stammvokal ändert sich (Ablaut!). 1. und 3. Person Singular haben KEINE Endung!
+-   - Endungen: **—, -st, —, -en, -t, -en** (*gehen -> ging, gingst, ging, gingen, gingt, gingen; sprechen -> sprach; sehen -> sah; finden -> fand*).
+- **4. Gemischte Verben (Ablaut + -te Endung):**
+-   - *denken -> dachte, bringen -> brachte, kennen -> kannte, wissen -> wusste*.
+- **5. Modalverben im Präteritum (Verlieren alle Umlaute!):**
+-   - *konnte, musste, durfte, sollte, wollte, mochte*.
 
-- **DE:** `Gestern war der Reinraum wegen Wartungsarbeiten geschlossen.`  
-  *EN:* Yesterday the cleanroom was closed due to maintenance.
+#### 📊 Wichtige Präteritum-Stammformen im Überblick
 
-- **DE:** `Wir mussten das Experiment wiederholen, weil die Pumpe ausfiel.`  
-  *EN:* We had to repeat the experiment because the pump failed.
+| Infinitiv | 3. Person Präsens | 3. Person Präteritum | Partizip II (Perfekt) | Bedeutung |
+| --- | --- | --- | --- | --- |
+| sein | ist | war | ist gewesen | to be |
+| haben | hat | hatte | hat gehabt | to have |
+| werden | wird | wurde | ist geworden | to become |
+| können | kann | konnte | hat gekonnt | can / to be able |
+| müssen | muss | musste | hat gemusst | must / to have to |
+| geben | gibt | gab | hat gegeben | to give / there was |
+| gehen | geht | ging | ist gegangen | to go |
+| finden | findet | fand | hat gefunden | to find |
+| schreiben | schreibt | schrieb | hat geschrieben | to write |
+| schließen | schließt | schloss | hat geschlossen | to close / conclude |
 
+### 📖 Beispielsätze & Übersetzung
+- **DE:** Die Forscher beobachteten (schwach) eine signifikante Zunahme der Barrieredichte und schrieben (stark) einen Zwischenbericht.
+  *EN:* The researchers observed a significant increase in barrier density and wrote an interim report.
+- **DE:** Das Labor war (Hilfsverb) gestern bis spät in die Nacht geöffnet, weil wir die Messreihe abschließen mussten (Modalverb).
+  *EN:* The lab was open until late at night yesterday because we had to conclude the measurement series.
 
+---
+
+## Kapitel 10: Indirekte Fragesätze & Höfliche Bitten mit Konjunktiv II
+<a id="a2-ch10-indirect-questions"></a>
+
+### 💡 Grammatische Regeln & Erklärungen
+- **1. Indirekte W-Fragen:**
+-   - Direkt: *Wann beginnt die Konferenz?*
+-   - Indirekt: *Können Sie mir sagen, **wann die Konferenz beginnt**?* (Fragewort wird zur Subjunktion -> Verb am Satzende!).
+- **2. Indirekte Ja/Nein-Fragen:**
+-   - Direkt: *Funktioniert das Spektrometer?*
+-   - Indirekt: *Ich möchte wissen, **ob das Spektrometer funktioniert**.* (Einleitung mit *ob* -> Verb am Satzende!).
+- **3. Höfliche Bitten im universitären und professionellen Alltag:**
+-   - *Könnten Sie bitte... + Infinitiv* (*Könnten Sie mir bitte die Rohdaten zusenden?*).
+-   - *Würden Sie bitte... + Infinitiv* (*Würden Sie bitte die Kammer desinfizieren?*).
+-   - *Ich hätte gerne...* (*Ich hätte gerne Auskunft über das Promotionsprogramm*).
+
+#### 📊 Transformation Direkte Frage -> Indirekte Frage
+
+| Direkte Frage (Hauptsatz) | Einleitungsformel | Indirekte Frage (Nebensatz mit Verbletzt) |
+| --- | --- | --- |
+| Wo ist das Chemikalienlager? | Wissen Sie, | ... wo das Chemikalienlager ist? |
+| Wie viel Nährmedium brauchen wir? | Können Sie mir sagen, | ... wie viel Nährmedium wir brauchen? |
+| Ist der Autoklav noch frei? | Darf ich fragen, | ... ob der Autoklav noch frei ist? |
+| Wann liefert die Firma den Chip? | Ich möchte gern wissen, | ... wann die Firma den Chip liefert. |
+
+### 📖 Beispielsätze & Übersetzung
+- **DE:** Könnten Sie mir bitte mitteilen, wo ich die Sicherheitsdatenblätter für diese Reagenzien finde?
+  *EN:* Could you please inform me where I can find the material safety data sheets for these reagents?
+- **DE:** Wir würden gerne erfahren, ob eine Kooperation mit Ihrer Arbeitsgruppe möglich wäre.
+  *EN:* We would like to find out whether a collaboration with your research group would be possible.
 
 ---

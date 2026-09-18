@@ -1,301 +1,804 @@
 ---
+layout: single
+title: "Stufe B2: Mittelstufe II – Gehobene Wissenschafts- & Fachsprache"
 permalink: /deutsch/grammatik/b2/
-title: "Stufe B2: Mittelstufe II – Gehobene Wissenschafts- & Fachsprache | Grammatik-Referenz"
-author_profile: true
+sidebar:
+  nav: "deutsch"
+toc: false
 ---
 
 <style>
-.de-lvl-page {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  color: #0f172a;
-  line-height: 1.6;
+/* Light Blue Modern Aesthetic for German Grammar System */
+.grammar-container {
+    max-width: 1080px;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #0f172a;
 }
-.de-hero-lvl {
-  background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%);
-  border: 1px solid #bae6fd;
-  border-radius: 14px;
-  padding: 24px;
-  margin-bottom: 24px;
+
+/* Hero Section */
+.hero-box {
+    background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 50%, #ffffff 100%);
+    border: 1px solid #bae6fd;
+    border-radius: 16px;
+    padding: 32px 28px;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 20px -2px rgba(2, 132, 199, 0.08);
 }
-.de-mod-box {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 14px;
-  padding: 24px;
-  margin-bottom: 28px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+.hero-badge {
+    display: inline-block;
+    background-color: #0284c7;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.82rem;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
 }
-.de-mod-title {
-  color: #0369a1;
-  font-size: 1.3rem;
-  font-weight: 800;
-  margin-top: 0;
-  margin-bottom: 8px;
-  border-bottom: 2px solid #e0f2fe;
-  padding-bottom: 8px;
+.hero-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0369a1;
+    margin: 0 0 12px 0;
+    line-height: 1.25;
 }
-.de-rule-card {
-  background: #f8fafc;
-  border-left: 4px solid #0f172a;
-  padding: 14px 18px;
-  border-radius: 6px;
-  margin: 14px 0;
+.hero-summary {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #334155;
+    margin: 0 0 20px 0;
 }
-.de-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 14px 0 18px 0;
-  background: #ffffff;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
 }
-.de-table th {
-  background: #e0f2fe;
-  color: #0369a1;
-  font-weight: 700;
-  padding: 10px 14px;
-  text-align: left;
-  font-size: 0.9rem;
+.action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #ffffff;
+    color: #0284c7;
+    border: 1px solid #7dd3fc;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.92rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
 }
-.de-table td {
-  padding: 9px 14px;
-  border-bottom: 1px solid #f1f5f9;
-  font-size: 0.88rem;
-  color: #334155;
+.action-btn:hover {
+    background: #0284c7;
+    color: #ffffff;
+    border-color: #0284c7;
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
 }
-.de-nav-sub {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
+
+/* Quick TOC Navigation Bar */
+.toc-bar {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 36px;
 }
-.de-nav-link {
-  background: #ffffff;
-  border: 1.5px solid #bae6fd;
-  color: #0369a1;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-decoration: none !important;
+.toc-bar-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-bottom: 10px;
 }
-.de-nav-link:hover, .de-nav-link.active {
-  background: #0f172a;
-  color: #ffffff !important;
-  border-color: #0f172a;
+.toc-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.toc-pill {
+    background: #ffffff;
+    color: #0369a1;
+    border: 1px solid #bae6fd;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.15s ease;
+}
+.toc-pill:hover {
+    background: #0284c7;
+    color: #ffffff;
+    border-color: #0284c7;
+}
+
+/* Chapter Cards */
+.chapter-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-left: 6px solid #0284c7;
+    border-radius: 14px;
+    margin-bottom: 36px;
+    padding: 28px;
+    box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.05);
+    scroll-margin-top: 80px;
+}
+.chapter-card-header {
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f1f5f9;
+}
+.ch-badge-num {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #0284c7;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 4px;
+}
+.ch-heading {
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0;
+    line-height: 1.35;
+}
+
+/* Formula Chips */
+.formula-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.formula-chip {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    padding: 6px 14px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.formula-badge {
+    background: #16a34a;
+    color: #ffffff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.formula-chip code {
+    color: #166534;
+    font-weight: 700;
+    font-size: 0.92rem;
+    background: transparent;
+    padding: 0;
+}
+
+/* Rule Boxes */
+.rule-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+}
+.rule-box-header {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #0369a1;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.rule-list {
+    margin: 0;
+    padding-left: 20px;
+}
+.rule-item {
+    font-size: 0.96rem;
+    line-height: 1.6;
+    color: #334155;
+    margin-bottom: 8px;
+}
+.rule-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Tables */
+.grammar-table-wrapper {
+    margin-bottom: 24px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.table-title {
+    background: #f1f5f9;
+    padding: 10px 16px;
+    font-weight: 700;
+    font-size: 0.94rem;
+    color: #1e293b;
+    border-bottom: 1px solid #e2e8f0;
+}
+.table-responsive {
+    overflow-x: auto;
+}
+.grammar-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+    text-align: left;
+    margin: 0;
+}
+.grammar-table th {
+    background: #f8fafc;
+    color: #0369a1;
+    font-weight: 700;
+    padding: 10px 14px;
+    border-bottom: 2px solid #e2e8f0;
+    border-right: 1px solid #f1f5f9;
+}
+.grammar-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #f1f5f9;
+    border-right: 1px solid #f8fafc;
+    color: #334155;
+    line-height: 1.5;
+}
+.grammar-table tr:hover td {
+    background-color: #f0f9ff;
+}
+
+/* Examples Grid */
+.examples-section {
+    margin-top: 24px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 16px 20px;
+}
+.examples-header {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #047857;
+    margin-bottom: 14px;
+}
+.examples-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 12px;
+}
+.example-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-left: 3px solid #10b981;
+    border-radius: 8px;
+    padding: 10px 14px;
+}
+.ex-de {
+    font-size: 0.94rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 4px;
+    line-height: 1.45;
+}
+.ex-en {
+    font-size: 0.88rem;
+    color: #64748b;
+    line-height: 1.4;
+}
+.ex-flag {
+    font-size: 0.9rem;
+    margin-right: 4px;
+}
+
+/* Card Footer */
+.chapter-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    padding-top: 14px;
+    border-top: 1px dashed #e2e8f0;
+    font-size: 0.88rem;
+}
+.back-to-top, .hub-link {
+    color: #0284c7;
+    text-decoration: none;
+    font-weight: 600;
+}
+.back-to-top:hover, .hub-link:hover {
+    text-decoration: underline;
+}
+
+/* Level Bottom Nav */
+.level-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f0f9ff;
+    border: 1px solid #bae6fd;
+    border-radius: 12px;
+    padding: 18px 24px;
+    margin-top: 40px;
+}
+.nav-btn {
+    display: inline-block;
+    background: #0284c7;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.nav-btn:hover {
+    background: #0369a1;
+    color: #ffffff;
+}
+.nav-btn.disabled {
+    background: #cbd5e1;
+    color: #64748b;
+    pointer-events: none;
 }
 </style>
 
-<div class="de-lvl-page">
-  <div class="de-hero-lvl">
-    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
-      <div>
-        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
-          <h1 style="color: #0369a1; margin: 0; font-size: 1.8rem; font-weight: 800;">Stufe B2: Mittelstufe II – Gehobene Wissenschafts- & Fachsprache</h1>
-          <span style="background: #0f172a; color: white; padding: 4px 10px; border-radius: 9999px; font-weight: 700; font-size: 0.82rem;">CEFR B2 Fortgeschritten</span>
+<div class="grammar-container">
+    <div id="toc-top" class="hero-box">
+        <span class="hero-badge">CEFR B2 Fortgeschritten</span>
+        <h1 class="hero-title">Stufe B2: Mittelstufe II – Gehobene Wissenschafts- & Fachsprache</h1>
+        <p class="hero-summary">Die Meisterschaft des akademischen und publizistischen Ausdrucks: 30+ Nomen-Verb-Verbindungen (Funktionsverbgefüge / FVG), Passiv-Ersatzformen (sein+zu, sich lassen, -bar/-lich), erweiterte Partizipialattribute & Gerundivum, zweiteilige Konnektoren (Doppelkonjunktionen), epistemische / subjektive Modalverben (Gewissheit, Gerüchte, Distanzierung), systematischer Nominalstil vs. Verbalstil, Konjunktiv I (Indirekte Rede), Modalpartikeln und wissenschaftliche Textkohärenz.</p>
+        <div class="hero-actions">
+            <a href="/deutsch/grammatik/" class="action-btn">📚 Grammatik-Hub</a>
+            <a href="/files/Deutsch_Grammatik_B2.md" class="action-btn" download>📥 Download Markdown</a>
+            <a href="/deutsch/" class="action-btn">🇩🇪 Deutsch Portal</a>
         </div>
-        <p style="margin: 0; color: #334155; font-size: 0.95rem;">Höchste syntaktische und stilistische Kompetenz: Nomen-Verb-Verbindungen (Funktionsverbgefüge), Passiv-Ersatzformen, Partizipialattribute, zweiteilige Konnektoren, subjektive Modalverben, Nominalstil vs. Verbalstil und Konjunktiv I (Indirekte Rede).</p>
-      </div>
-      <a href="/deutsch/grammatik/" style="background: #ffffff; border: 1.5px solid #0284c7; color: #0284c7; padding: 6px 14px; border-radius: 20px; font-weight: 700; text-decoration: none;">← Alle Stufen</a>
     </div>
-  </div>
 
-  <div class="de-nav-sub">
-    <span style="font-weight: 700; color: #64748b; align-self: center; font-size: 0.85rem;">Stufen:</span>
-    <a href="/deutsch/grammatik/a1/" class="de-nav-link ">A1 Grundlagen</a>
-    <a href="/deutsch/grammatik/a2/" class="de-nav-link ">A2 Erweitert</a>
-    <a href="/deutsch/grammatik/b1/" class="de-nav-link ">B1 Mittelstufe</a>
-    <a href="/deutsch/grammatik/b2/" class="de-nav-link active">B2 Wissenschaft</a>
-  </div>
+    <nav class="toc-bar" aria-label="Kapitel-Navigation">
+        <div class="toc-bar-title">⚡ Schnellnavigation durch alle 10 Kapitel (B2):</div>
+        <div class="toc-grid">
+            <a href="#b2-ch01-fvg" class="toc-pill">Kapitel 1</a><a href="#b2-ch02-passiv-alternatives" class="toc-pill">Kapitel 2</a><a href="#b2-ch03-participles" class="toc-pill">Kapitel 3</a><a href="#b2-ch04-connectors" class="toc-pill">Kapitel 4</a><a href="#b2-ch05-subjective-modals" class="toc-pill">Kapitel 5</a><a href="#b2-ch06-nominalstil" class="toc-pill">Kapitel 6</a><a href="#b2-ch07-konjunktiv1" class="toc-pill">Kapitel 7</a><a href="#b2-ch08-modalpartikeln" class="toc-pill">Kapitel 8</a><a href="#b2-ch09-noun-preposition" class="toc-pill">Kapitel 9</a><a href="#b2-ch10-text-coherence" class="toc-pill">Kapitel 10</a>
+        </div>
+    </nav>
 
-  <!-- Module: 1. Nomen-Verb-Verbindungen (Funktionsverbgefüge - FVG) -->
-  <div class='de-mod-box' id='b2-fvg'>
-    <h2 class='de-mod-title'>1. Nomen-Verb-Verbindungen (Funktionsverbgefüge - FVG)</h2>
-    <p style='color: #475569; font-size: 0.95rem; margin-bottom: 12px;'><em>Funktionsverbgefüge kombinieren ein Substantiv mit einem semantisch verblassten Verb (Funktionsverb). Sie prägen die deutsche Wissenschafts-, Behörden- und Fachsprache und ermöglichen präzise Aktionsarten (inchoativ, kausativ, durativ).</em></p>
-    <div class='de-rule-card'>
-      <strong style='color: #0369a1; font-size: 0.95rem;'>📖 Kernregeln & Erklärungen:</strong>
-      <ul style='margin: 8px 0 0 0; padding-left: 20px; color: #1e293b; font-size: 0.92rem; line-height: 1.7;'>
-        <li>**Aktiv vs. Passiv-Perspektive:** *zur Verfügung stellen* (aktivisch = bereitstellen) vs. *zur Verfügung stehen* (passivisch = verfügbar sein).</li>
-        <li>**Inchoativ (Beginn einer Handlung):** *in Kraft treten* (wirksam werden), *in Gang setzen* (starten).</li>
-        <li>**Kausativ (Verursachung):** *zur Anwendung bringen* (anwenden), *unter Beweis stellen* (beweisen).</li>
-      </ul></div>
-    <h4 style='color: #0369a1; margin: 18px 0 8px 0;'>📊 Die 15 wichtigsten wissenschaftlichen Nomen-Verb-Verbindungen</h4>
-    <table class='de-table'>
-      <thead><tr><th>Funktionsverbgefüge</th><th>Präposition & Kasus</th><th>Einfaches Verb / Synonym</th><th>Beispielsatz im wissenschaftlichen Kontext</th></tr></thead>
-      <tbody>
-        <tr><td>zur Verfügung stehen / stellen</td><td>Dativ</td><td>verfügbar sein / bereitstellen</td><td>Die Versuchsergebnisse stehen allen Kooperationspartnern zur Verfügung.</td></tr>
-        <tr><td>eine Entscheidung treffen</td><td>—</td><td>sich entscheiden</td><td>Das Gutachtergremium muss zeitnah eine Entscheidung treffen.</td></tr>
-        <tr><td>in Betracht / Erwägung ziehen</td><td>—</td><td>berücksichtigen / überlegen</td><td>Wir müssen alternative mikrofluidische Architekturen in Betracht ziehen.</td></tr>
-        <tr><td>Kritik üben an</td><td>Dativ</td><td>kritisieren</td><td>Die Reviewer übten konstruktive Kritik an der Kontrollgruppe.</td></tr>
-        <tr><td>unter Beweis stellen</td><td>—</td><td>beweisen</td><td>Das neue Sensorsystem hat seine Langzeitstabilität unter Beweis gestellt.</td></tr>
-        <tr><td>zur Folge haben</td><td>—</td><td>verursachen / bewirken</td><td>Eine Störung des osmotischen Drucks hat die Zellyse zur Folge.</td></tr>
-        <tr><td>in Frage kommen</td><td>—</td><td>möglich / relevant sein</td><td>Für diese toxikologische Studie kommen primäre Hepatozyten in Frage.</td></tr>
-        <tr><td>Bezug nehmen auf</td><td>Akkusativ</td><td>sich beziehen auf</td><td>In der Diskussion nehmen wir Bezug auf frühere Veröffentlichungen.</td></tr>
-        <tr><td>in Anspruch nehmen</td><td>—</td><td>beanspruchen / nutzen</td><td>Die rechenintensive Simulation nimmt mehrere Tage in Anspruch.</td></tr>
-        <tr><td>einen Beitrag leisten zu</td><td>Dativ</td><td>beitragen zu</td><td>Diese Arbeit leistet einen wesentlichen Beitrag zur Krankheitsmodellierung.</td></tr>
-        <tr><td>zum Abschluss bringen</td><td>—</td><td>abschließen</td><td>Wir beabsichtigen, das Projekt im kommenden Quartal zum Abschluss zu bringen.</td></tr>
-        <tr><td>im Vordergrund stehen</td><td>—</td><td>am wichtigsten sein</td><td>Die Reproduzierbarkeit der Messungen steht im Vordergrund.</td></tr>
-        <tr><td>Einfluss ausüben auf</td><td>Akkusativ</td><td>beeinflussen</td><td>Scherkräfte üben einen signifikanten Einfluss auf die Genexpression aus.</td></tr>
-        <tr><td>in Gang setzen</td><td>—</td><td>starten / initiieren</td><td>Der Wachstumsfaktor setzt eine Signalkaskade in Gang.</td></tr>
-        <tr><td>in Kraft treten</td><td>—</td><td>wirksam werden</td><td>Die neuen Sicherheitsrichtlinien für Gentechnik treten ab Mai in Kraft.</td></tr>
-      </tbody></table>
-    <div style='background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 14px 18px; margin-top: 16px;'>
-      <strong style='color: #166534; font-size: 0.92rem;'>📝 Praxis- und Fachbeispiele:</strong>
-      <div style='font-size: 0.9rem; margin-top: 6px;'><span style='font-weight: 700; color: #0f172a;'>• Wir müssen die potenziellen Fehlerquellen bei der Auswertung in Betracht ziehen.</span><br><span style='color: #4b5563; font-size: 0.85rem;'>  <em>EN: We must take potential sources of error into account during evaluation.</em></span></div>
-      <div style='font-size: 0.9rem; margin-top: 6px;'><span style='font-weight: 700; color: #0f172a;'>• Die neu entwickelte Methode kommt für Hochdurchsatz-Screenings in Frage.</span><br><span style='color: #4b5563; font-size: 0.85rem;'>  <em>EN: The newly developed method is eligible for high-throughput screenings.</em></span></div>
+    <div class="chapters-wrapper">
+        
+        <article id="b2-ch01-fvg" class="chapter-card">
+            <div class="chapter-card-header">
+                <div class="ch-badge-num">Kapitel 01</div>
+                <h2 class="ch-heading">Kapitel 1: Nomen-Verb-Verbindungen (Funktionsverbgefüge / FVG)</h2>
+            </div>
+            <div class="chapter-card-body">
+                
+                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Was ist ein Funktionsverbgefüge (FVG)?**</li><li class="rule-item">  - Eine feste Verbindung aus einem Nomen (oft mit Präposition) und einem Funktionsverb (*ein Urteil fällen = urteilen; zur Verfügung stellen = bereitstellen*).</li><li class="rule-item">  - Das Nomen trägt die eigentliche semantische Bedeutung; das Verb verblasst und dient primär als grammatikalischer Träger von Person, Tempus und Modus.</li><li class="rule-item">**2. Warum FVG in der Wissenschaft?**</li><li class="rule-item">  - Ermöglicht präzise **Aktionsarten** (Beginn, Dauer, Verursachung), die ein einfaches Verb nicht abbilden kann.</li><li class="rule-item">  - Erlaubt elegante Aktiv-/Passiv-Differenzierungen (*zur Verfügung stellen [aktiv]* vs. *zur Verfügung stehen [passiv/Zustand]*).</li><li class="rule-item">  - Verleiht Fachtexten einen hochgradig sachlichen, prägnanten und professionellen Ton.</li></ul></div>
+                
+            <div class="grammar-table-wrapper">
+                <div class="table-title">📊 Die 30 wichtigsten wissenschaftlichen und professionellen FVG-Ausdrücke</div>
+                <div class="table-responsive">
+                    <table class="grammar-table">
+                        <thead><tr><th>Funktionsverbgefüge</th><th>Präp. &amp; Kasus</th><th>Einfaches Verb / Synonym</th><th>Aktionsart / Modus</th><th>Wissenschaftlicher Beispielsatz</th></tr></thead>
+                        <tbody><tr><td>zur Verfügung stehen</td><td>Dativ</td><td>verfügbar sein</td><td>Passivisch / Zustand</td><td>Die Rohdaten stehen der Forschungsgemeinschaft zur Verfügung.</td></tr><tr><td>zur Verfügung stellen</td><td>Dativ</td><td>bereitstellen</td><td>Aktiv / Kausativ</td><td>Das Institut stellt uns die Rechenkapazitäten zur Verfügung.</td></tr><tr><td>in Betracht / Erwägung ziehen</td><td>—</td><td>berücksichtigen</td><td>Kausativ (überlegen)</td><td>Wir müssen alternative Zelllinien in Betracht ziehen.</td></tr><tr><td>in Kraft treten</td><td>—</td><td>wirksam werden</td><td>Inchoativ (Beginn)</td><td>Die neue Laborordnung tritt ab 1. Oktober in Kraft.</td></tr><tr><td>zur Anwendung kommen / bringen</td><td>—</td><td>angewendet werden / anwenden</td><td>Passiv / Aktiv</td><td>Diese Methode kommt bei toxikologischen Tests zur Anwendung.</td></tr><tr><td>eine Entscheidung treffen</td><td>—</td><td>sich entscheiden</td><td>Kausativ</td><td>Das Review-Board muss über den Förderantrag eine Entscheidung treffen.</td></tr><tr><td>Kritik üben an</td><td>Dativ</td><td>kritisieren</td><td>Aktiv</td><td>Die Fachgutachter übten konstruktive Kritik an der Kontrollgruppe.</td></tr><tr><td>unter Beweis stellen</td><td>—</td><td>beweisen</td><td>Kausativ</td><td>Der Sensor hat seine Zuverlässigkeit unter Beweis gestellt.</td></tr><tr><td>zur Folge haben</td><td>—</td><td>verursachen / bewirken</td><td>Kausal</td><td>Ein osmotischer Schock hat das Platzen der Zellen zur Folge.</td></tr><tr><td>in Frage kommen</td><td>—</td><td>möglich / relevant sein</td><td>Möglichkeit</td><td>Für dieses Modell kommen primäre Hepatozyten in Frage.</td></tr><tr><td>Bezug nehmen auf</td><td>Akkusativ</td><td>sich beziehen auf</td><td>Verweisend</td><td>In der Diskussion nehmen wir Bezug auf frühere Veröffentlichungen.</td></tr><tr><td>in Anspruch nehmen</td><td>—</td><td>beanspruchen / nutzen</td><td>Durativ</td><td>Die FEM-Simulation nimmt erhebliche Rechenzeit in Anspruch.</td></tr><tr><td>einen Beitrag leisten zu</td><td>Dativ</td><td>beitragen zu</td><td>Kausativ</td><td>Organ-on-a-Chip leistet einen wesentlichen Beitrag zur 3R-Strategie.</td></tr><tr><td>zum Abschluss bringen</td><td>—</td><td>abschließen</td><td>Kausativ (Beenden)</td><td>Wir bringen das Teilprojekt im vierten Quartal zum Abschluss.</td></tr><tr><td>im Vordergrund stehen</td><td>—</td><td>am wichtigsten sein</td><td>Fokussierend</td><td>Die biologische Relevanz der Messdaten steht im Vordergrund.</td></tr><tr><td>Einfluss ausüben auf</td><td>Akkusativ</td><td>beeinflussen</td><td>Kausal</td><td>Scherkräfte üben einen starken Einfluss auf die Zellmorphologie aus.</td></tr><tr><td>in Gang setzen</td><td>—</td><td>starten / initiieren</td><td>Inchoativ (Start)</td><td>Der Wachstumsfaktor setzt eine komplexe Signalkaskade in Gang.</td></tr><tr><td>in Kauf nehmen</td><td>—</td><td>akzeptieren (Nachteil)</td><td>Konzessiv</td><td>Wir müssen einen leichten Signalverlust in Kauf nehmen.</td></tr><tr><td>Stellung nehmen zu</td><td>Dativ</td><td>seine Meinung äußern</td><td>Diskursiv</td><td>Die Autoren nehmen zu den Einwänden der Gutachter Stellung.</td></tr><tr><td>im Widerspruch stehen zu</td><td>Dativ</td><td>widersprechen</td><td>Kontrastiv</td><td>Dieser Befund steht im Widerspruch zu publizierten Daten.</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+            
+                
+        <div class="examples-section">
+            <div class="examples-header">📖 Beispielsätze & Anwendungskontext</div>
+            <div class="examples-grid">
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Das Forschungsteam zog mehrere biokompatible Hydrogele in Betracht (berücksichtigte), um die Zelladhäsion zu optimieren.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The research team took several biocompatible hydrogels into account in order to optimize cell adhesion.</div>
+            </div>
+            
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Die neu entwickelte Methode stellte ihre Überlegenheit gegenüber konventionellen Assays eindrucksvoll unter Beweis (bewies).</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The newly developed method impressively proved its superiority over conventional assays.</div>
+            </div>
+            </div>
+        </div>
+        
+            </div>
+            <div class="chapter-card-footer">
+                <a href="#toc-top" class="back-to-top">↑ Nach oben</a>
+                <a href="/deutsch/grammatik/" class="hub-link">← Zurück zur Grammatik-Übersicht</a>
+            </div>
+        </article>
+        
+        <article id="b2-ch02-passiv-alternatives" class="chapter-card">
+            <div class="chapter-card-header">
+                <div class="ch-badge-num">Kapitel 02</div>
+                <h2 class="ch-heading">Kapitel 2: Passiv-Ersatzformen &amp; Modale Passivumschreibungen</h2>
+            </div>
+            <div class="chapter-card-body">
+                
+                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Warum Passiv-Ersatzformen?** Häufungen des Vorgangspassivs mit *werden* wirken monoton. Ersatzformen bringen Abwechslung und drücken gleichzeitig modale Nuancen (Können / Müssen) aus.</li><li class="rule-item">**2. Die wichtigsten Konstruktionen im Überblick:**</li><li class="rule-item">  - **sein + zu + Infinitiv:**</li><li class="rule-item">    - *Bedeutung A (Pflicht/Notwendigkeit = muss/soll getan werden):* *Das Protokoll ist strikt einzuhalten = Das Protokoll muss eingehalten werden.*</li><li class="rule-item">    - *Bedeutung B (Möglichkeit = kann getan werden):* *Der Fehler ist leicht zu beheben = Der Fehler kann leicht behoben werden.*</li><li class="rule-item">  - **sich lassen + Infinitiv (Immer Möglichkeit = kann getan werden):**</li><li class="rule-item">    - *Die Hypothese lässt sich experimentell verifizieren = Die Hypothese kann verifiziert werden.*</li><li class="rule-item">  - **Adjektive auf -bar / -lich / -abel / -ibel (Möglichkeit = kann getan werden):**</li><li class="rule-item">    - *reproduzierbar (kann reproduziert werden), messbar (kann gemessen werden), erklärlich (kann erklärt werden), filtrierbar, praktikabel*.</li><li class="rule-item">  - **es gilt + zu + Infinitiv (Drängende Notwendigkeit = man muss):**</li><li class="rule-item">    - *Es gilt, die Fehlerquellen systematisch zu eliminieren.*</li><li class="rule-item">  - **bleiben / stehen + zu + Infinitiv:**</li><li class="rule-item">    - *Es bleibt abzuwarten, wie das Gewebe reagiert (= Man muss abwarten).*</li><li class="rule-item">  - **gehören + Partizip II (Umgangssprachlich für müssen):**</li><li class="rule-item">    - *Das gehört gründlich überprüft (= Das muss überprüft werden).*</li><li class="rule-item">  - **man + Aktiv-Verb:** *Man beobachtet eine Zunahme = Eine Zunahme wird beobachtet.*</li></ul></div>
+                
+            <div class="grammar-table-wrapper">
+                <div class="table-title">📊 Passiv-Ersatzformen Transformations-Matrix</div>
+                <div class="table-responsive">
+                    <table class="grammar-table">
+                        <thead><tr><th>Passiv-Ersatzform</th><th>Modale Grundbedeutung</th><th>Vorgangspassiv-Äquivalent</th><th>Fachsprachliches Beispiel</th></tr></thead>
+                        <tbody><tr><td>sein + zu + Infinitiv</td><td>müssen / sollen</td><td>muss getan werden</td><td>Die Proben sind bei -80°C zu lagern.</td></tr><tr><td>sein + zu + Infinitiv</td><td>können</td><td>kann getan werden</td><td>Die Ergebnisse sind leicht zu reproduzieren.</td></tr><tr><td>sich lassen + Infinitiv</td><td>können (Möglichkeit)</td><td>kann getan werden</td><td>Das Transmembranpotential lässt sich in Echtzeit messen.</td></tr><tr><td>Adjektiv auf -bar</td><td>können</td><td>kann getan werden</td><td>Die Zellviabilität ist optisch quantifizierbar.</td></tr><tr><td>es gilt + zu + Infinitiv</td><td>müssen / höchste Priorität</td><td>muss getan werden</td><td>Im nächsten Schritt gilt es, die Flussstabilität zu sichern.</td></tr><tr><td>Zustandspassiv (sein + P.II)</td><td>Zustand nach Abschluss</td><td>ist getan worden</td><td>Die Flusskammer ist vollständig entlüftet.</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+            
+                
+        <div class="examples-section">
+            <div class="examples-header">📖 Beispielsätze & Anwendungskontext</div>
+            <div class="examples-grid">
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Die ermittelten Scherspannungswerte lassen sich durch eine feinere Kanalgeometrie weiter präzisieren (= können präzisiert werden).</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The determined shear stress values can be further refined through a finer channel geometry.</div>
+            </div>
+            
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Alle Sicherheitsvorschriften sind ausnahmslos zu befolgen (= müssen befolgt werden).</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> All safety regulations are to be followed without exception.</div>
+            </div>
+            </div>
+        </div>
+        
+            </div>
+            <div class="chapter-card-footer">
+                <a href="#toc-top" class="back-to-top">↑ Nach oben</a>
+                <a href="/deutsch/grammatik/" class="hub-link">← Zurück zur Grammatik-Übersicht</a>
+            </div>
+        </article>
+        
+        <article id="b2-ch03-participles" class="chapter-card">
+            <div class="chapter-card-header">
+                <div class="ch-badge-num">Kapitel 03</div>
+                <h2 class="ch-heading">Kapitel 3: Erweiterte Partizipialattribute (Partizip I, II &amp; Gerundivum)</h2>
+            </div>
+            <div class="chapter-card-body">
+                
+                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Partizip I als Adjektiv (Partizip Präsens: Verbstamm + -end):**</li><li class="rule-item">  - *Semantik:* Aktivisch und **gleichzeitig** zum Hauptsatzgeschehen (*das strömende Fluid = das Fluid, das strömt*).</li><li class="rule-item">  - Wird wie ein reguläres Adjektiv nach Kasus, Genus und Numerus dekliniert (*des strömend-en Fluids, mit strömend-em Fluid*).</li><li class="rule-item">**2. Partizip II als Adjektiv (Partizip Perfekt: ge-...-t / ge-...-en):**</li><li class="rule-item">  - *Semantik bei transitiven Verben:* Passivisch und **vorzeitig/abgeschlossen** (*die publizierten Daten = Daten, die publiziert wurden*).</li><li class="rule-item">  - *Semantik bei intransitiven Verben mit sein:* Aktivisch und abgeschlossen (*die eingetroffenen Gutachter = Gutachter, die eingetroffen sind*).</li><li class="rule-item">**3. Das Gerundivum (zu + Partizip I als Adjektiv):**</li><li class="rule-item">  - *Bildung:* **zu + Verbstamm + -end + Adjektivendung** (*die zu lösende Aufgabe*).</li><li class="rule-item">  - *Semantik:* Drückt eine **passivische Notwendigkeit (müssen)** oder **Möglichkeit (können)** aus (*die zu berücksichtigenden Parameter = Parameter, die berücksichtigt werden müssen*).</li><li class="rule-item">**4. Erweiterte Partizipialattribute (Schachtelsatz / Linksverzweigung):**</li><li class="rule-item">  - *Struktur:* [Artikel] ... [Adverbiale Bestimmungen + Partizip] ... [Nomen].</li><li class="rule-item">  - *Beispiel:* Die [von der Forschungsgruppe im vergangenen Jahr unter Reinraumbedingungen **synthetisierten**] Nanopartikel zeigen hohe Stabilität.</li></ul></div>
+                
+            <div class="grammar-table-wrapper">
+                <div class="table-title">📊 Partizipialkonstruktionen und ihre Rückverwandlung in Relativsätze</div>
+                <div class="table-responsive">
+                    <table class="grammar-table">
+                        <thead><tr><th>Partizip-Typ</th><th>Erweitertes Partizipialattribut</th><th>Auflösung in vollständigen Relativsatz</th><th>Semantischer Gehalt</th></tr></thead>
+                        <tbody><tr><td>Partizip I (aktiv, gleichzeitig)</td><td>das kontinuierlich durch den Mikrokanal fließende Medium</td><td>das Medium, das kontinuierlich durch den Mikrokanal fließt</td><td>Prozess läuft parallel zur Haupthandlung</td></tr><tr><td>Partizip II (passiv, vorzeitig)</td><td>die im Vorfeld sorgfältig kalibrierten Drucksensoren</td><td>die Drucksensoren, die im Vorfeld sorgfältig kalibriert wurden</td><td>Vorgang ist vor der Haupthandlung abgeschlossen</td></tr><tr><td>Gerundivum (zu + Partizip I)</td><td>die bei der nächsten Sitzung zu diskutierenden Resultate</td><td>die Resultate, die bei der nächsten Sitzung diskutiert werden müssen</td><td>Passivische Notwendigkeit / Pflicht (müssen)</td></tr><tr><td>Partizip II (intransitiv, sein)</td><td>die im Inkubator schnell gewachsenen Zellen</td><td>die Zellen, die im Inkubator schnell gewachsen sind</td><td>Abgeschlossene Zustandsänderung (aktiv)</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+            
+                
+        <div class="examples-section">
+            <div class="examples-header">📖 Beispielsätze & Anwendungskontext</div>
+            <div class="examples-grid">
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Die in der Fachzeitschrift &#x27;Nature Biomedical Engineering&#x27; publizierten Ergebnisse stießen auf weltweite Beachtung.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The results published in the journal &#x27;Nature Biomedical Engineering&#x27; met with worldwide attention.</div>
+            </div>
+            
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Die bei der Auswertung einzuhaltenden statistischen Schwellenwerte (Gerundivum) sind im Protokoll definiert.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The statistical threshold values to be complied with during evaluation are defined in the protocol.</div>
+            </div>
+            </div>
+        </div>
+        
+            </div>
+            <div class="chapter-card-footer">
+                <a href="#toc-top" class="back-to-top">↑ Nach oben</a>
+                <a href="/deutsch/grammatik/" class="hub-link">← Zurück zur Grammatik-Übersicht</a>
+            </div>
+        </article>
+        
+        <article id="b2-ch04-connectors" class="chapter-card">
+            <div class="chapter-card-header">
+                <div class="ch-badge-num">Kapitel 04</div>
+                <h2 class="ch-heading">Kapitel 4: Zweiteilige Konnektoren (Doppelkonjunktionen)</h2>
+            </div>
+            <div class="chapter-card-body">
+                
+                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Kopulativ (Aufzählend / Verbindend):**</li><li class="rule-item">  - **sowohl ... als auch (Gleichwertig positiv = und):** *Das Modell ist sowohl kostengünstig als auch präzise.* (KEIN Komma!).</li><li class="rule-item">  - **nicht nur ... sondern auch (Steigernd positiv):** *Wir analysierten nicht nur die Zellmorphologie, sondern auch die Genexpression.* (Komma vor *sondern*!).</li><li class="rule-item">**2. Negativ (Aufzählend verneinend):**</li><li class="rule-item">  - **weder ... noch (Doppelte Verneinung = weder A noch B):** *Das System zeigte weder Rauschen noch Signalverlust.* (KEIN Komma!).</li><li class="rule-item">**3. Disjunktiv (Alternative):**</li><li class="rule-item">  - **entweder ... oder (Ausschließendes Oder):** *Wir müssen entweder den Druck senken oder die Membran verstärken.*</li><li class="rule-item">**4. Konzessiv / Adversativ (Einschränkung / Gegensatz):**</li><li class="rule-item">  - **zwar ... aber / jedoch (Einräumung):** *Die Methode ist zwar rechenintensiv, aber hochgradig verlässlich.* (Komma vor *aber*!).</li><li class="rule-item">  - **einerseits ... andererseits:** *Einerseits sinken die Kosten, andererseits steigt der Entwicklungsaufwand.*</li><li class="rule-item">**5. Proportional (Vergleich von Steigerungen):**</li><li class="rule-item">  - **je + Komparativ (Nebensatz -&gt; Verbletzt) ... desto / umso + Komparativ (Hauptsatz -&gt; finite Verb direkt danach!):**</li><li class="rule-item">  - *Formel:* Je [Komparativ] ... [Verb am Ende], desto [Komparativ] [finites Verb] [Subjekt]...</li><li class="rule-item">  - *Beispiel:* **Je höher** der angelegte Scherstress **ist**, **desto stärker richten** sich die Endothelzellen in Flussrichtung **aus**.</li></ul></div>
+                
+            <div class="grammar-table-wrapper">
+                <div class="table-title">📊 Zweiteilige Konnektoren Übersicht: Syntax, Komma &amp; Funktion</div>
+                <div class="table-responsive">
+                    <table class="grammar-table">
+                        <thead><tr><th>Konnektor-Paar</th><th>Logische Beziehung</th><th>Kommaregel</th><th>Musterbeispiel mit korrekter Wortstellung</th></tr></thead>
+                        <tbody><tr><td>sowohl ... als auch</td><td>Reihend positiv (A + B)</td><td>Kein Komma</td><td>Die Biochips sind sowohl biokompatibel als auch optisch hochtransparent.</td></tr><tr><td>nicht nur ... sondern auch</td><td>Steigernd positiv</td><td>Komma vor sondern</td><td>Die Therapie hemmt nicht nur die Entzündung, sondern regt auch die Gewebeneubildung an.</td></tr><tr><td>weder ... noch</td><td>Reihend negativ (weder A noch B)</td><td>Kein Komma</td><td>Das Experiment zeigte weder Abweichungen noch toxische Begleiterscheinungen.</td></tr><tr><td>entweder ... oder</td><td>Alternative (A oder B)</td><td>Meist kein Komma</td><td>Wir kultivieren entweder primäre Endothelzellen oder iPSC-differenzierte Linien.</td></tr><tr><td>zwar ... aber</td><td>Konzessiv einschränkend</td><td>Komma vor aber</td><td>Die Anschaffung ist zwar kostspielig, aber die Amortisation erfolgt binnen eines Jahres.</td></tr><tr><td>je ... desto / umso</td><td>Proportionale Steigerung</td><td>Komma nach je-Satz</td><td>Je dichter die Zellschicht wird, umso höher steigt der elektrische Widerstand (TEER).</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+            
+                
+        <div class="examples-section">
+            <div class="examples-header">📖 Beispielsätze & Anwendungskontext</div>
+            <div class="examples-grid">
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Je früher toxische Effekte in mikrofluidischen Modellen erkannt werden, desto geringer sind die Entwicklungskosten neuer Medikamente.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The earlier toxic effects are detected in microfluidic models, the lower are the development costs of new drugs.</div>
+            </div>
+            
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Die Ergebnisse sind sowohl für akademische Arbeitsgruppen als auch für die pharmazeutische Industrie von herausragender Bedeutung.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The results are of outstanding significance both for academic research groups and for the pharmaceutical industry.</div>
+            </div>
+            </div>
+        </div>
+        
+            </div>
+            <div class="chapter-card-footer">
+                <a href="#toc-top" class="back-to-top">↑ Nach oben</a>
+                <a href="/deutsch/grammatik/" class="hub-link">← Zurück zur Grammatik-Übersicht</a>
+            </div>
+        </article>
+        
+        <article id="b2-ch05-subjective-modals" class="chapter-card">
+            <div class="chapter-card-header">
+                <div class="ch-badge-num">Kapitel 05</div>
+                <h2 class="ch-heading">Kapitel 5: Subjektive Bedeutung der Modalverben (Epistemische Modalität)</h2>
+            </div>
+            <div class="chapter-card-body">
+                
+                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Was bedeutet &#x27;subjektiver Gebrauch&#x27;?**</li><li class="rule-item">  - Das Modalverb drückt keine objektive Pflicht oder Fähigkeit des Subjekts aus, sondern die **subjektive Einschätzung / Gewissheit des Sprechers** über einen Sachverhalt.</li><li class="rule-item">**2. Die Grade der Gewissheit bei Vermutungen:**</li><li class="rule-item">  - **müssen (95–100% Sicherheit):** Logischer Zwangsschluss (*Bei diesen Werten muss ein Membranbruch vorliegen = Es ist zweifellos so*).</li><li class="rule-item">  - **müsste / dürfte (75–80% Wahrscheinlichkeit):** Hohe Wahrscheinlichkeit, begründete Vermutung (*Die Probe dürfte bis morgen früh inkubiert sein = Es ist sehr wahrscheinlich*).</li><li class="rule-item">  - **kann / könnte (40–50% Möglichkeit):** Ungewissheit, vorsichtige Hypothese (*Eine Verstopfung könnte den Druckabfall erklären = Es ist möglich*).</li><li class="rule-item">**3. Distanzierung von Aussagen (Hörensagen &amp; Behauptung):**</li><li class="rule-item">  - **sollen (Gerücht / Aussage Dritter):** Der Sprecher gibt eine fremde Information wieder, ohne dafür zu bürgen (*Der neue Wirkstoff soll hochwirksam sein = Man behauptet / Die Studie besagt, dass er hochwirksam ist*).</li><li class="rule-item">  - **wollen (Behauptung des Subjekts über sich selbst):** Das Subjekt behauptet etwas über sich, was von anderen bezweifelt wird (*Er will die Formel als Erster entdeckt haben = Er behauptet es von sich, aber es ist umstritten*).</li><li class="rule-item">**4. Subjektive Modalverben in der Vergangenheit:**</li><li class="rule-item">  - *Bildungsformel:* **Modalverb im Präsens + Partizip II + haben / sein am Satzende**.</li><li class="rule-item">  - *Beispiel:* *Der Forscher **muss** die Probe **überhitzt haben** (= Ich bin mir sicher, dass er sie überhitzt hat).*</li><li class="rule-item">  - *Beispiel:* *Er **soll** gestern in Berlin **angekommen sein** (= Man sagt, dass er gestern angekommen ist).*</li></ul></div>
+                
+            <div class="grammar-table-wrapper">
+                <div class="table-title">📊 Subjektive Modalverben Matrix nach Sprechereinstellung &amp; Gewissheit</div>
+                <div class="table-responsive">
+                    <table class="grammar-table">
+                        <thead><tr><th>Modalverb</th><th>Gewissheitsgrad / Funktion</th><th>Paraphrase (Gleichbedeutend mit)</th><th>Wissenschaftlicher Beispielsatz</th></tr></thead>
+                        <tbody><tr><td>müssen</td><td>Fast 100% sicher (Zwangsschluss)</td><td>Zweifellos / Sicherlich</td><td>Das plötzliche Signalrauschen muss von einer Luftblase herrühren.</td></tr><tr><td>dürfte</td><td>Ca. 75% wahrscheinlich</td><td>Vermutlich / Höchstwahrscheinlich</td><td>Die Konzentration dürfte für eine vollständige Rezeptorblockade ausreichen.</td></tr><tr><td>könnte</td><td>Ca. 40–50% möglich</td><td>Möglicherweise / Eventuell</td><td>Ein osmotischer Gradient könnte die наблюдаete Zellschrumpfung bewirken.</td></tr><tr><td>sollen</td><td>Fremde Behauptung (Distanz)</td><td>Laut Bericht / Es heißt, dass</td><td>Das Konkurrenzlabor soll ähnliche Durchflussraten publiziert haben.</td></tr><tr><td>wollen</td><td>Subjektive Eigenbehauptung</td><td>Das Subjekt behauptet von sich</td><td>Der Autor will den Effekt bereits vor drei Jahren nachgewiesen haben.</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+            
+                
+        <div class="examples-section">
+            <div class="examples-header">📖 Beispielsätze & Anwendungskontext</div>
+            <div class="examples-grid">
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Die Zellen müssen während des Transports kontaminiert worden sein (Vergangenheitsvermutung: 100% sicher).</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The cells must have been contaminated during transport.</div>
+            </div>
+            
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Die neue mikrofluidische Geometrie soll laut Hersteller den Scherstress um 40% reduzieren (Fremdaussage: sollen).</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The new microfluidic geometry is said by the manufacturer to reduce shear stress by 40%.</div>
+            </div>
+            </div>
+        </div>
+        
+            </div>
+            <div class="chapter-card-footer">
+                <a href="#toc-top" class="back-to-top">↑ Nach oben</a>
+                <a href="/deutsch/grammatik/" class="hub-link">← Zurück zur Grammatik-Übersicht</a>
+            </div>
+        </article>
+        
+        <article id="b2-ch06-nominalstil" class="chapter-card">
+            <div class="chapter-card-header">
+                <div class="ch-badge-num">Kapitel 06</div>
+                <h2 class="ch-heading">Kapitel 6: Wissenschaftlicher Nominalstil vs. Verbalstil (Systematische Transformation)</h2>
+            </div>
+            <div class="chapter-card-body">
+                
+                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Verbalstil vs. Nominalstil:**</li><li class="rule-item">  - *Verbalstil (leicht verständlich, dialogisch):* Verwendet Nebensätze mit finiten Verben (*Weil die Temperatur anstieg, veränderten sich die Zellen*).</li><li class="rule-item">  - *Nominalstil (akademisch, hoch verdichtet):* Verwendet Substantivierungen und Präpositionalphrasen (*Infolge des Temperaturanstiegs erfolgte eine Zellveränderung*).</li><li class="rule-item">**2. Das Transformations-Schema:**</li><li class="rule-item">  - Verb wird zum Nomen (*expandieren -&gt; die Expansion, messen -&gt; die Messung*).</li><li class="rule-item">  - Subjekt des Nebensatzes wird zum **Genitivattribut** (*die Zellen teilen sich -&gt; die Teilung der Zellen*).</li><li class="rule-item">  - Adverbien werden zu **attributiven Adjektiven** (*schnell wachsen -&gt; schnelles Wachstum*).</li><li class="rule-item">  - Konjunktion wird zur entsprechenden **Präposition** (*weil -&gt; aufgrund/infolge; obwohl -&gt; trotz; wenn -&gt; bei; nachdem -&gt; nach*).</li></ul></div>
+                
+            <div class="grammar-table-wrapper">
+                <div class="table-title">📊 Systematische Transformations-Tabelle: Verbalstil -&gt; Nominalstil</div>
+                <div class="table-responsive">
+                    <table class="grammar-table">
+                        <thead><tr><th>Nebensatz-Typ (Verbalstil)</th><th>Subjunktion</th><th>Präposition (Nominalstil)</th><th>Verbaler Beispielsatz</th><th>Nominaler Beispielsatz (Fachsprache)</th></tr></thead>
+                        <tbody><tr><td>Kausal (Grund)</td><td>weil / da</td><td>aufgrund / infolge (+ Gen)</td><td>Weil die Flussrate zunimmt, ...</td><td>Infolge der Zunahme der Flussrate ...</td></tr><tr><td>Konzessiv (Gegengrund)</td><td>obwohl / obgleich</td><td>trotz / ungeachtet (+ Gen)</td><td>Obwohl der Druck schwankte, ...</td><td>Trotz der Druckschwankungen ...</td></tr><tr><td>Konditional (Bedingung)</td><td>wenn / falls</td><td>bei (+ Dat) / im Falle (+ Gen)</td><td>Wenn der Sensor ausfällt, ...</td><td>Bei Ausfall des Sensors ...</td></tr><tr><td>Temporal (Vorzeitigkeit)</td><td>nachdem</td><td>nach (+ Dat)</td><td>Nachdem wir zentrifugiert hatten, ...</td><td>Nach der Zentrifugation ...</td></tr><tr><td>Temporal (Gleichzeitigkeit)</td><td>während / solange</td><td>während (+ Gen)</td><td>Während die Zellen inkubieren, ...</td><td>Während der Zellinkubation ...</td></tr><tr><td>Final (Zweck)</td><td>damit / um zu</td><td>zur / zwecks (+ Gen)</td><td>Um Kontaminationen zu vermeiden, ...</td><td>Zur Vermeidung von Kontaminationen ...</td></tr><tr><td>Modal (Mittel)</td><td>indem / dadurch dass</td><td>durch (+ Akk) / mittels (+ Gen)</td><td>Indem man den Kanal verengt, ...</td><td>Durch eine Verengung des Kanals ...</td></tr><tr><td>Konsekutiv (Folge)</td><td>sodass</td><td>mit der Folge (+ Gen)</td><td>..., sodass das Protein denaturierte.</td><td>..., mit der Folge einer Proteindenaturierung.</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+            
+                
+        <div class="examples-section">
+            <div class="examples-header">📖 Beispielsätze & Anwendungskontext</div>
+            <div class="examples-grid">
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Verbalstil: Weil das Hydrogel abgebaut wird, können die Endothelzellen tiefer in die Matrix einwandern.
+Nominalstil: Infolge des Hydrogelabbaus erfolgt eine tiefere Einwanderung der Endothelzellen in die Matrix.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> Verbal: Because the hydrogel degrades, endothelial cells can migrate deeper into the matrix.
+Nominal: As a result of hydrogel degradation, deeper endothelial cell migration into the matrix occurs.</div>
+            </div>
+            
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Zur Vermeidung von Artefakten (Final im Nominalstil) ist vor der Messung eine Nullpunktkalibrierung durchzuführen.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> In order to avoid artifacts, a zero-point calibration is to be performed before the measurement.</div>
+            </div>
+            </div>
+        </div>
+        
+            </div>
+            <div class="chapter-card-footer">
+                <a href="#toc-top" class="back-to-top">↑ Nach oben</a>
+                <a href="/deutsch/grammatik/" class="hub-link">← Zurück zur Grammatik-Übersicht</a>
+            </div>
+        </article>
+        
+        <article id="b2-ch07-konjunktiv1" class="chapter-card">
+            <div class="chapter-card-header">
+                <div class="ch-badge-num">Kapitel 07</div>
+                <h2 class="ch-heading">Kapitel 7: Der Konjunktiv I &amp; Die Indirekte Rede in Wissenschaft und Medien</h2>
+            </div>
+            <div class="chapter-card-body">
+                
+                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Funktion des Konjunktiv I:**</li><li class="rule-item">  - Dient in der gehobenen Schriftsprache, im Wissenschaftsjournalismus und in Nachrichten zur **neutralen Wiedergabe von Fremdaussagen** (Indirekte Rede), ohne dass der Sprecher sich die Aussage zu eigen macht.</li><li class="rule-item">**2. Bildung des Konjunktiv I (Präsensstamm + Endungen):**</li><li class="rule-item">  - Endungen: **-e, -est, -e, -en, -et, -en** (*ich habe, du habest, er habe, wir haben, ihr habet, sie haben*).</li><li class="rule-item">  - *Das Hilfsverb sein (Ausnahme):* **sei, seiest/seist, sei, seien, seiet, seien** (*Er sei der beste Forscher*).</li><li class="rule-item">**3. Die fundamentale Ersatzregel:**</li><li class="rule-item">  - Ist die Konjunktiv I Form identisch mit dem Indikativ (was bei *ich, wir, sie pl.* fast immer der Fall ist: *wir haben = wir haben*), MUSS auf den **Konjunktiv II** ausgewichen werden (*wir hätten*).</li><li class="rule-item">  - Ist auch der Konjunktiv II missverständlich oder veraltet, verwendet man die **würde-Form** (*sie würden forschen*).</li><li class="rule-item">**4. Zeitenfolge in der indirekten Rede:**</li><li class="rule-item">  - *Gegenwart / Zukünftiges:* Konjunktiv I Präsens (*Er sagt, er forsche an Biochips*).</li><li class="rule-item">  - *Vergangenheit (egal ob Perfekt, Präteritum oder Plusquamperfekt):* **sei / habe + Partizip II** (*Er sagte, er habe die Daten gestern publiziert*).</li><li class="rule-item">  - *Zukunft:* **werde + Infinitiv** (*Er erklärte, er werde die Versuchsreihe morgen abschließen*).</li></ul></div>
+                
+            <div class="grammar-table-wrapper">
+                <div class="table-title">📊 Konjunktiv I Stammformen und die Konjunktiv II Ersatzregel</div>
+                <div class="table-responsive">
+                    <table class="grammar-table">
+                        <thead><tr><th>Person</th><th>Indikativ Präsens</th><th>Konjunktiv I (Regulär)</th><th>Identisch mit Indikativ?</th><th>Konjunktiv II Ersatzform</th></tr></thead>
+                        <tbody><tr><td>ich</td><td>habe</td><td>habe</td><td>Ja (Identisch)</td><td>hätte</td></tr><tr><td>du</td><td>hast</td><td>habest</td><td>Nein (Eindeutig K.I)</td><td>— (habest)</td></tr><tr><td>er/sie/es</td><td>hat</td><td>habe</td><td>Nein (Eindeutig K.I)</td><td>— (habe)</td></tr><tr><td>wir</td><td>haben</td><td>haben</td><td>Ja (Identisch)</td><td>hätten</td></tr><tr><td>ihr</td><td>habt</td><td>habet</td><td>Nein (Eindeutig K.I)</td><td>— (habet)</td></tr><tr><td>sie / Sie</td><td>haben</td><td>haben</td><td>Ja (Identisch)</td><td>hätten</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+            
+                
+        <div class="examples-section">
+            <div class="examples-header">📖 Beispielsätze & Anwendungskontext</div>
+            <div class="examples-grid">
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Der Hauptautor berichtete, die gemessene Barriereintegrität sei (Konjunktiv I) signifikant höher gewesen als in 2D-Kontrollen.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The lead author reported that the measured barrier integrity had been significantly higher than in 2D controls.</div>
+            </div>
+            
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Die Gutachter erklärten, sie hätten (K.II Ersatz für K.I &#x27;haben&#x27;) keine methodischen Mängel feststellen können.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The reviewers stated that they had not been able to detect any methodological flaws.</div>
+            </div>
+            </div>
+        </div>
+        
+            </div>
+            <div class="chapter-card-footer">
+                <a href="#toc-top" class="back-to-top">↑ Nach oben</a>
+                <a href="/deutsch/grammatik/" class="hub-link">← Zurück zur Grammatik-Übersicht</a>
+            </div>
+        </article>
+        
+        <article id="b2-ch08-modalpartikeln" class="chapter-card">
+            <div class="chapter-card-header">
+                <div class="ch-badge-num">Kapitel 08</div>
+                <h2 class="ch-heading">Kapitel 8: Modalpartikeln &amp; Nuancen der mündlichen Fachkommunikation</h2>
+            </div>
+            <div class="chapter-card-body">
+                
+                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Was sind Modalpartikeln?**</li><li class="rule-item">  - Unveränderliche Wörter, die keine eigene Satzgliedfunktion haben, aber die Einstellung, Erwartung oder emotionale Färbung des Sprechers ausdrücken.</li><li class="rule-item">**2. Die wichtigsten Partikeln im akademischen Diskurs:**</li><li class="rule-item">  - **ja:** Drückt aus, dass der Sachverhalt beiden Gesprächspartnern bereits bekannt ist (*Das wissen Sie ja bereits = wie Ihnen bekannt ist*).</li><li class="rule-item">  - **doch:** Widerspruch, nachdrückliche Erinnerung oder Aufforderung (*Überprüfen Sie doch nochmals die Flussrate!*; *Das ist doch logisch!*).</li><li class="rule-item">  - **denn:** Macht Fragen freundlicher oder drückt echtes Erstaunen aus (*Wie funktioniert denn dieser neue Chip?*).</li><li class="rule-item">  - **eben / halt:** Akzeptanz einer unumstößlichen Tatsache (*Zellen sind eben empfindlich = Das ist eine Tatsache, die man nicht ändern kann*).</li><li class="rule-item">  - **eigentlich:** Höfliche Einschränkung oder Themenwechsel (*Eigentlich wollten wir heute messen, aber der Laser ist defekt*).</li><li class="rule-item">  - **wohl:** Vermutung (*Das wird wohl stimmen = vermutlich*).</li></ul></div>
+                
+            <div class="grammar-table-wrapper">
+                <div class="table-title">📊 Bedeutung und Wirkung deutscher Modalpartikeln</div>
+                <div class="table-responsive">
+                    <table class="grammar-table">
+                        <thead><tr><th>Partikel</th><th>Sprechereinstellung / Funktion</th><th>Musterbeispiel im Fachgespräch</th><th>Englische sinngemäße Entsprechung</th></tr></thead>
+                        <tbody><tr><td>ja</td><td>Gemeinsames Vorwissen (bekanntlich)</td><td>Die PDMS-Membran ist ja gasdurchlässig.</td><td>as you know / obviously</td></tr><tr><td>doch</td><td>Appell / Widerspruch / Erinnerung</td><td>Schauen Sie doch mal in das Laborjournal!</td><td>why don&#x27;t you / after all</td></tr><tr><td>denn</td><td>Interesse / Erstaunen in Fragen</td><td>Welche Zelllinie verwenden Sie denn hier?</td><td>actually / by the way</td></tr><tr><td>eben / halt</td><td>Unveränderliche Gegebenheit</td><td>Biologische Systeme zeigen halt Schwankungen.</td><td>simply / just the way it is</td></tr><tr><td>eigentlich</td><td>Einschränkung / Relativierung</td><td>Das Protokoll ist eigentlich sehr unkompliziert.</td><td>actually / strictly speaking</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+            
+                
+        <div class="examples-section">
+            <div class="examples-header">📖 Beispielsätze & Anwendungskontext</div>
+            <div class="examples-grid">
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Sie kennen ja (Vorwissen) die Richtlinien für die Entsorgung von biohazardösen Abfällen.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> You know the guidelines for the disposal of biohazardous waste, of course.</div>
+            </div>
+            
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Kommen Sie doch (freundlicher Appell) morgen um 10 Uhr in mein Büro zur Vorbesprechung.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> Why don&#x27;t you come to my office tomorrow at 10 AM for a preliminary discussion.</div>
+            </div>
+            </div>
+        </div>
+        
+            </div>
+            <div class="chapter-card-footer">
+                <a href="#toc-top" class="back-to-top">↑ Nach oben</a>
+                <a href="/deutsch/grammatik/" class="hub-link">← Zurück zur Grammatik-Übersicht</a>
+            </div>
+        </article>
+        
+        <article id="b2-ch09-noun-preposition" class="chapter-card">
+            <div class="chapter-card-header">
+                <div class="ch-badge-num">Kapitel 09</div>
+                <h2 class="ch-heading">Kapitel 9: Feste Nomen-Präposition-Verbindungen in der Wissenschaftssprache</h2>
+            </div>
+            <div class="chapter-card-body">
+                
+                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Warum Nomen-Präposition-Verbindungen?**</li><li class="rule-item">  - Bilden das Rückgrat des wissenschaftlichen Nominalstils (*Die Reaktion der Zellen auf den Wirkstoff; Das Interesse der Industrie an dieser Technologie*).</li><li class="rule-item">**2. Systematische Gruppen nach Präpositionen:**</li><li class="rule-item">  - **an (+ Dativ):** *das Interesse an, der Bedarf an, der Zweifel an, die Kritik an, die Teilnahme an, der Mangel an, die Forschung an*.</li><li class="rule-item">  - **auf (+ Akkusativ):** *die Reaktion auf, die Antwort auf, der Hinweis auf, die Auswirkung auf, der Einfluss auf, der Verzicht auf, die Hoffnung auf*.</li><li class="rule-item">  - **für (+ Akkusativ):** *das Verständnis für, die Verantwortung für, die Voraussetzung für, das Kriterium für, der Nachweis für*.</li><li class="rule-item">  - **zu (+ Dativ):** *der Beitrag zu, die Beziehung zu, der Übergang zu, die Bereitschaft zu, im Vergleich zu*.</li><li class="rule-item">  - **von (+ Dativ):** *die Abhängigkeit von, der Unterschied von/zu, die Trennung von*.</li><li class="rule-item">  - **nach (+ Dativ):** *die Frage nach, die Suche nach, der Wunsch nach*.</li></ul></div>
+                
+            <div class="grammar-table-wrapper">
+                <div class="table-title">📊 Katalog fester Nomen-Präposition-Verbindungen</div>
+                <div class="table-responsive">
+                    <table class="grammar-table">
+                        <thead><tr><th>Nomen + feste Präposition</th><th>Kasus</th><th>Verwandtes Verb</th><th>Wissenschaftlicher Beispielsatz</th></tr></thead>
+                        <tbody><tr><td>das Interesse an</td><td>Dativ</td><td>sich interessieren für (Akk)</td><td>Das weltweite Interesse an mikrofluidischen Modellen wächst stetig.</td></tr><tr><td>die Auswirkung auf</td><td>Akkusativ</td><td>sich auswirken auf (Akk)</td><td>Die Scherspannung hat eine direkte Auswirkung auf das Endothel.</td></tr><tr><td>der Zweifel an</td><td>Dativ</td><td>zweifeln an (Dat)</td><td>Es bestehen keine Zweifel an der Validität der experimentellen Daten.</td></tr><tr><td>die Voraussetzung für</td><td>Akkusativ</td><td>voraussetzen (Akk)</td><td>Sterilität ist die Grundvoraussetzung für erfolgreiche Langzeitkulturen.</td></tr><tr><td>der Beitrag zu</td><td>Dativ</td><td>beitragen zu (Dat)</td><td>Diese Dissertation leistet einen wertvollen Beitrag zur Wirkstoffforschung.</td></tr><tr><td>die Abhängigkeit von</td><td>Dativ</td><td>abhängen von (Dat)</td><td>Wir untersuchten die Abhängigkeit der Zellviabilität von der Flussrate.</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+            
+                
+        <div class="examples-section">
+            <div class="examples-header">📖 Beispielsätze & Anwendungskontext</div>
+            <div class="examples-grid">
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Die Suche nach alternativen Testmethoden (nach + Dat) führte zur Entwicklung mikrofluidischer Organchips.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The search for alternative testing methods led to the development of microfluidic organ chips.</div>
+            </div>
+            
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Die Reaktion der Krebszellen auf die Chemotherapie (auf + Akk) wurde photometrisch quantifiziert.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The response of the cancer cells to the chemotherapy was quantified photometrically.</div>
+            </div>
+            </div>
+        </div>
+        
+            </div>
+            <div class="chapter-card-footer">
+                <a href="#toc-top" class="back-to-top">↑ Nach oben</a>
+                <a href="/deutsch/grammatik/" class="hub-link">← Zurück zur Grammatik-Übersicht</a>
+            </div>
+        </article>
+        
+        <article id="b2-ch10-text-coherence" class="chapter-card">
+            <div class="chapter-card-header">
+                <div class="ch-badge-num">Kapitel 10</div>
+                <h2 class="ch-heading">Kapitel 10: Textkohärenz, Satzverknüpfung &amp; Konnektoren im akademischen Diskurs</h2>
+            </div>
+            <div class="chapter-card-body">
+                
+                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Die 4 syntaktischen Konnektoren-Klassen im Deutschen:**</li><li class="rule-item">  - **Klasse 1: Nebenordnende Konjunktionen (Position 0):**</li><li class="rule-item">    - *und, aber, oder, denn, sondern* -&gt; Verändern die normale Satzstellung NICHT (*Ich messe [Pos 1] die Probe [Pos 2], **denn** die Pumpe **läuft** [Pos 2] stabil*).</li><li class="rule-item">  - **Klasse 2: Konjunktionaladverbien (Position 1 im Vorfeld -&gt; Inversion):**</li><li class="rule-item">    - *deshalb, folglich, demnach, infolgedessen, trotzdem, dennoch, stattdessen, darüber hinaus, schließlich, allerdings* -&gt; Das finite Verb folgt direkt an Position 2 (*Folglich **müssen** wir die Parameter anpassen*).</li><li class="rule-item">  - **Klasse 3: Adverbien im Mittelfeld (Position 3 / Schaltsatz):**</li><li class="rule-item">    - *nämlich, jedoch, allerdings, indessen* (*Wir müssen **jedoch** die Kontrollgruppe beachten*).</li><li class="rule-item">  - **Klasse 4: Unterordnende Subjunktionen (Verbletztstellung):**</li><li class="rule-item">    - *weil, da, obwohl, sodass, während, indem, damit* -&gt; Finites Verb am Ende des Nebensatzes.</li></ul></div>
+                
+            <div class="grammar-table-wrapper">
+                <div class="table-title">📊 Logische Konnektoren-Matrix für wissenschaftliche Argumentation</div>
+                <div class="table-responsive">
+                    <table class="grammar-table">
+                        <thead><tr><th>Logische Funktion</th><th>Position 0 (Konjunktion)</th><th>Position 1 (Adverb + Inversion)</th><th>Nebensatz (Subjunktion)</th></tr></thead>
+                        <tbody><tr><td>Kausal (Begründung)</td><td>denn</td><td>deshalb / daher / aus diesem Grund</td><td>weil / da</td></tr><tr><td>Konzessiv (Widerspruch)</td><td>aber</td><td>trotzdem / dennoch / gleichwohl</td><td>obwohl / obgleich</td></tr><tr><td>Konsekutiv (Folge/Schluss)</td><td>—</td><td>folglich / infolgedessen / demnach</td><td>sodass</td></tr><tr><td>Additiv (Erweiterung)</td><td>und</td><td>darüber hinaus / ferner / zudem</td><td>sowie</td></tr><tr><td>Adversativ (Gegensatz)</td><td>sondern (nach Negation)</td><td>dagegen / hingegen / im Gegensatz dazu</td><td>während</td></tr><tr><td>Modal (Mittel/Methode)</td><td>—</td><td>dadurch / auf diese Weise / mittels</td><td>indem / dadurch dass</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+            
+                
+        <div class="examples-section">
+            <div class="examples-header">📖 Beispielsätze & Anwendungskontext</div>
+            <div class="examples-grid">
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Die Membran zeigte minimale Leckagen; infolgedessen (Pos 1 + Inversion) mussten wir die Dichtungsringe austauschen.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> The membrane showed minimal leakage; consequently we had to replace the sealing rings.</div>
+            </div>
+            
+            <div class="example-card">
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Organ-on-a-Chip-Modelle reduzieren Tierversuche; darüber hinaus ermöglichen sie präzisere mechanistische Einblicke.</div>
+                <div class="ex-en"><span class="ex-flag">🇬🇧</span> Organ-on-a-Chip models reduce animal testing; furthermore they enable more precise mechanistic insights.</div>
+            </div>
+            </div>
+        </div>
+        
+            </div>
+            <div class="chapter-card-footer">
+                <a href="#toc-top" class="back-to-top">↑ Nach oben</a>
+                <a href="/deutsch/grammatik/" class="hub-link">← Zurück zur Grammatik-Übersicht</a>
+            </div>
+        </article>
+        
     </div>
-  </div>
 
-  <!-- Module: 2. Passiv-Ersatzformen & Modale Passiv-Konstruktionen -->
-  <div class='de-mod-box' id='b2-passiv-alternatives'>
-    <h2 class='de-mod-title'>2. Passiv-Ersatzformen & Modale Passiv-Konstruktionen</h2>
-    <p style='color: #475569; font-size: 0.95rem; margin-bottom: 12px;'><em>Um monotone Häufungen des Vorgangspassivs zu vermeiden, nutzt die Fachsprache stilistisch elegante Alternativstrukturen mit passivischer Bedeutung.</em></p>
-    <div class='de-rule-card'>
-      <strong style='color: #0369a1; font-size: 0.95rem;'>📖 Kernregeln & Erklärungen:</strong>
-      <ul style='margin: 8px 0 0 0; padding-left: 20px; color: #1e293b; font-size: 0.92rem; line-height: 1.7;'>
-        <li>**1. sein + zu + Infinitiv:** Drückt Notwendigkeit (müssen) oder Möglichkeit (können) aus (*Die Daten sind zu sichern = müssen gesichert werden*).</li>
-        <li>**2. sich lassen + Infinitiv:** Drückt immer eine Möglichkeit (können) aus (*Das Phänomen lässt sich erklären = kann erklärt werden*).</li>
-        <li>**3. Adjektive auf -bar / -lich / -abel:** (*reproduzierbar = kann reproduziert werden; messbar = kann gemessen werden*).</li>
-        <li>**4. es gilt + zu + Infinitiv:** Drückt eine vordringliche Notwendigkeit aus (*Es gilt, Fehler zu vermeiden = Man muss Fehler vermeiden*).</li>
-        <li>**5. gehören + Partizip II:** Umgangssprachlich/formlos für müssen (*Das Protokoll gehört archiviert = muss archiviert werden*).</li>
-      </ul></div>
-    <h4 style='color: #0369a1; margin: 18px 0 8px 0;'>📊 Passiv-Ersatzformen im direkten Vergleich zum Vorgangspassiv</h4>
-    <table class='de-table'>
-      <thead><tr><th>Konstruktion</th><th>Modale Bedeutung</th><th>Passiv-Äquivalent</th><th>Wissenschaftlicher Beispielsatz</th></tr></thead>
-      <tbody>
-        <tr><td>sein + zu + Infinitiv</td><td>müssen / können</td><td>muss / kann getan werden</td><td>Die Kalibrierkurve ist vor jedem Durchlauf neu zu erstellen.</td></tr>
-        <tr><td>sich lassen + Infinitiv</td><td>können</td><td>kann getan werden</td><td>Die Permeabilität der Barriere lässt sich online bestimmen.</td></tr>
-        <tr><td>Adjektiv auf -bar</td><td>können</td><td>kann getan werden</td><td>Die experimentellen Befunde sind jederzeit reproduzierbar.</td></tr>
-        <tr><td>es gilt + zu + Infinitiv</td><td>müssen / notwendig sein</td><td>muss getan werden</td><td>Im nächsten Schritt gilt es, die Flussstabilität zu optimieren.</td></tr>
-        <tr><td>Zustandspassiv (sein + P.II)</td><td>Zustand nach Abschluss</td><td>ist getan worden</td><td>Die Probenkammer ist bereits sterilisiert.</td></tr>
-      </tbody></table>
-    <div style='background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 14px 18px; margin-top: 16px;'>
-      <strong style='color: #166534; font-size: 0.92rem;'>📝 Praxis- und Fachbeispiele:</strong>
-      <div style='font-size: 0.9rem; margin-top: 6px;'><span style='font-weight: 700; color: #0f172a;'>• Die Zellmorphologie lässt sich unter dem Phasenkontrastmikroskop einwandfrei beobachten.</span><br><span style='color: #4b5563; font-size: 0.85rem;'>  <em>EN: The cell morphology can be observed flawlessly under the phase-contrast microscope.</em></span></div>
-      <div style='font-size: 0.9rem; margin-top: 6px;'><span style='font-weight: 700; color: #0f172a;'>• Alle toxischen Abfälle sind gemäß den Laborrichtlinien gesondert zu entsorgen.</span><br><span style='color: #4b5563; font-size: 0.85rem;'>  <em>EN: All toxic wastes are to be disposed of separately according to lab guidelines.</em></span></div>
+    <div class="level-nav-bar">
+        <a href="/deutsch/grammatik/b1/" class="nav-btn">← Stufe B1</a>
+        <a href="/deutsch/grammatik/" class="nav-btn" style="background: #ffffff; color: #0284c7; border: 1px solid #0284c7;">📖 Zurück zum 40-Kapitel-Hub</a>
+        <span class="nav-btn disabled">Stufe B2 (Meister) →</span>
     </div>
-  </div>
-
-  <!-- Module: 3. Partizip I & II als Adjektive / Erweiterte Partizipialattribute -->
-  <div class='de-mod-box' id='b2-participles'>
-    <h2 class='de-mod-title'>3. Partizip I & II als Adjektive / Erweiterte Partizipialattribute</h2>
-    <p style='color: #475569; font-size: 0.95rem; margin-bottom: 12px;'><em>Partizipien können wie Adjektive vor Nomen dekliniert und durch adverbiale Angaben zu hochgradig komprimierten Attributen erweitert werden.</em></p>
-    <div class='de-rule-card'>
-      <strong style='color: #0369a1; font-size: 0.95rem;'>📖 Kernregeln & Erklärungen:</strong>
-      <ul style='margin: 8px 0 0 0; padding-left: 20px; color: #1e293b; font-size: 0.92rem; line-height: 1.7;'>
-        <li>**Partizip I (Partizip Präsens: Infinitiv + -d):** Aktivisch und gleichzeitig (*das fließende Fluid = das Fluid, das fließt*).</li>
-        <li>**Partizip II (Partizip Perfekt: ge-...-t / ge-...-en):** Passivisch und vorzeitig/abgeschlossen (*die zentrifugierte Lösung = die Lösung, die zentrifugiert wurde*).</li>
-        <li>**Gerundivum (zu + Partizip I):** Passivische Notwendigkeit (*die noch zu validierenden Daten = Daten, die noch validiert werden müssen*).</li>
-        <li>**Schachtelstruktur bei erweiterten Attributen:** Artikel ... [Adverbiale Angaben + Partizip] ... Nomen (*Die [im Laboratorium unter extremen Bedingungen hergestellten] Nanopartikel*).</li>
-      </ul></div>
-    <h4 style='color: #0369a1; margin: 18px 0 8px 0;'>📊 Partizipialkonstruktionen und ihre Auflösung in Relativsätze</h4>
-    <table class='de-table'>
-      <thead><tr><th>Partizip-Typ</th><th>Erweitertes Partizipialattribut</th><th>Auflösung als Relativsatz</th><th>Semantischer Gehalt</th></tr></thead>
-      <tbody>
-        <tr><td>Partizip I</td><td>das kontinuierlich durch den Kanal strömende Medium</td><td>das Medium, das kontinuierlich durch den Kanal strömt</td><td>Aktiv, Prozess läuft gleichzeitig</td></tr>
-        <tr><td>Partizip II</td><td>die im Vorfeld sorgfältig kalibrierten Durchflusssensoren</td><td>die Sensoren, die im Vorfeld sorgfältig kalibriert wurden</td><td>Passiv, Vorgang ist abgeschlossen</td></tr>
-        <tr><td>Gerundivum (zu + P.I)</td><td>die bei der nächsten Sitzung zu besprechenden Resultate</td><td>die Resultate, die bei der nächsten Sitzung besprochen werden müssen</td><td>Passivische Verpflichtung (müssen)</td></tr>
-      </tbody></table>
-    <div style='background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 14px 18px; margin-top: 16px;'>
-      <strong style='color: #166534; font-size: 0.92rem;'>📝 Praxis- und Fachbeispiele:</strong>
-      <div style='font-size: 0.9rem; margin-top: 6px;'><span style='font-weight: 700; color: #0f172a;'>• Die von unserer Forschungsgruppe publizierten Ergebnisse stießen auf breite internationale Resonanz.</span><br><span style='color: #4b5563; font-size: 0.85rem;'>  <em>EN: The results published by our research group met with broad international resonance.</em></span></div>
-      <div style='font-size: 0.9rem; margin-top: 6px;'><span style='font-weight: 700; color: #0f172a;'>• Wir untersuchten die schnell proliferierenden Stammzellen im dynamischen 3D-Hydrogel.</span><br><span style='color: #4b5563; font-size: 0.85rem;'>  <em>EN: We investigated the rapidly proliferating stem cells in the dynamic 3D hydrogel.</em></span></div>
-    </div>
-  </div>
-
-  <!-- Module: 4. Zweiteilige Konnektoren (Doppelkonjunktionen) -->
-  <div class='de-mod-box' id='b2-two-part-connectors'>
-    <h2 class='de-mod-title'>4. Zweiteilige Konnektoren (Doppelkonjunktionen)</h2>
-    <p style='color: #475569; font-size: 0.95rem; margin-bottom: 12px;'><em>Zweiteilige Konnektoren strukturieren mehrteilige Aussagen und verleihen Texten rhetorische Eleganz und logische Schärfe.</em></p>
-    <div class='de-rule-card'>
-      <strong style='color: #0369a1; font-size: 0.95rem;'>📖 Kernregeln & Erklärungen:</strong>
-      <ul style='margin: 8px 0 0 0; padding-left: 20px; color: #1e293b; font-size: 0.92rem; line-height: 1.7;'>
-        <li>**sowohl ... als auch (Kopulativ positiv):** Verbindet gleichwertige positive Elemente (*Das System ist sowohl kostengünstig als auch präzise*).</li>
-        <li>**nicht nur ... sondern auch (Steigernd kopulativ):** Hebt das zweite Element hervor (*Wir analysierten nicht nur die Viabilität, sondern auch die Genexpression*).</li>
-        <li>**weder ... noch (Kopulativ negativ):** Verneint beide Elemente vollständig (*Die Methode ist weder toxisch noch zeitaufwendig*).</li>
-        <li>**entweder ... oder (Disjunktiv):** Drückt eine ausschließende Alternative aus (*Wir müssen entweder die Pumpe austauschen oder den Druck senken*).</li>
-        <li>**zwar ... aber / jedoch (Konzessiv einschränkend):** Einräumung mit Gegenargument (*Die Anschaffung ist zwar teuer, aber die Effizienz ist enorm*).</li>
-        <li>**je ... desto / umso (Proportional):** *je* leitet einen Nebensatz mit Komparativ ein; *desto/umso* leitet den Hauptsatz mit Komparativ vor dem finiten Verb ein.</li>
-      </ul></div>
-    <h4 style='color: #0369a1; margin: 18px 0 8px 0;'>📊 Übersicht der zweiteiligen Konnektoren</h4>
-    <table class='de-table'>
-      <thead><tr><th>Konnektor</th><th>Logische Funktion</th><th>Kommasetzung</th><th>Musterbeispiel</th></tr></thead>
-      <tbody>
-        <tr><td>sowohl ... als auch</td><td>Reihend (und)</td><td>Kein Komma</td><td>Die Biochips sind sowohl biokompatibel als auch optisch transparent.</td></tr>
-        <tr><td>nicht nur ... sondern auch</td><td>Steigernd</td><td>Komma vor sondern</td><td>Der Wirkstoff hemmt nicht nur die Entzündung, sondern fördert auch die Regeneration.</td></tr>
-        <tr><td>weder ... noch</td><td>Doppelte Verneinung</td><td>Kein Komma</td><td>Das Experiment zeigte weder Artefakte noch systematische Messfehler.</td></tr>
-        <tr><td>entweder ... oder</td><td>Alternative</td><td>Meist kein Komma</td><td>Wir kultivieren entweder primäre Endothelzellen oder iPSC-differenzierte Zelllinien.</td></tr>
-        <tr><td>zwar ... aber</td><td>Einschränkung</td><td>Komma vor aber</td><td>Die Modellierung ist zwar mathematisch komplex, aber biologisch hochrelevant.</td></tr>
-        <tr><td>je ... desto / umso</td><td>Proportionalität</td><td>Komma nach je-Satz</td><td>Je dichter der Zellrasen ist, desto höher fällt der gemessene TEER-Wert aus.</td></tr>
-      </tbody></table>
-    <div style='background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 14px 18px; margin-top: 16px;'>
-      <strong style='color: #166534; font-size: 0.92rem;'>📝 Praxis- und Fachbeispiele:</strong>
-      <div style='font-size: 0.9rem; margin-top: 6px;'><span style='font-weight: 700; color: #0f172a;'>• Je höher der angelegte Scherstress ist, umso stärker richten sich die Endothelzellen in Flussrichtung aus.</span><br><span style='color: #4b5563; font-size: 0.85rem;'>  <em>EN: The higher the applied shear stress, the more strongly the endothelial cells align in the direction of flow.</em></span></div>
-      <div style='font-size: 0.9rem; margin-top: 6px;'><span style='font-weight: 700; color: #0f172a;'>• Die Ergebnisse sind sowohl für die Grundlagenforschung als auch für die industrielle Wirkstoffprüfung von großem Nutzen.</span><br><span style='color: #4b5563; font-size: 0.85rem;'>  <em>EN: The results are of great benefit both for basic research and for industrial drug screening.</em></span></div>
-    </div>
-  </div>
-
-  <!-- Module: 5. Subjektive Bedeutung der Modalverben (Vermutung & Distanzierung) -->
-  <div class='de-mod-box' id='b2-subjective-modals'>
-    <h2 class='de-mod-title'>5. Subjektive Bedeutung der Modalverben (Vermutung & Distanzierung)</h2>
-    <p style='color: #475569; font-size: 0.95rem; margin-bottom: 12px;'><em>Modalverben können nicht nur objektive Bedingungen (Können, Müssen) ausdrücken, sondern auch den Grad der subjektiven Gewissheit des Sprechers oder die Distanzierung von fremden Behauptungen.</em></p>
-    <div class='de-rule-card'>
-      <strong style='color: #0369a1; font-size: 0.95rem;'>📖 Kernregeln & Erklärungen:</strong>
-      <ul style='margin: 8px 0 0 0; padding-left: 20px; color: #1e293b; font-size: 0.92rem; line-height: 1.7;'>
-        <li>**müssen (95–100% Gewissheit):** Logischer Schluss (*Das Ergebnis muss stimmen = Es ist fast sicher, dass es stimmt*).</li>
-        <li>**dürfte (75–80% Wahrscheinlichkeit):** Hohe Wahrscheinlichkeit (*Die Probe dürfte kontaminiert sein = Es ist sehr wahrscheinlich so*).</li>
-        <li>**kann / könnte (40–50% Möglichkeit):** Ungewissheit (*Es könnte sich um einen Messfehler handeln = Es ist möglich*).</li>
-        <li>**sollen (Fremde Behauptung / Gerücht):** *Er soll die Entdeckung gemacht haben = Man behauptet, dass er sie gemacht hat*.</li>
-        <li>**wollen (Eigene unbewiesene Behauptung des Subjekts):** *Er will die Daten bereits gestern übermittelt haben = Er behauptet, dass er es getan hat (wird angezweifelt)*.</li>
-        <li>**Vergangenheitsform:** *Modalverb im Präsens + Partizip II + haben/sein* (*Er muss den Zug verpasst haben*).</li>
-      </ul></div>
-    <h4 style='color: #0369a1; margin: 18px 0 8px 0;'>📊 Subjektive Modalverben nach Gewissheitsgrad</h4>
-    <table class='de-table'>
-      <thead><tr><th>Modalverb</th><th>Sprechereinstellung / Grad</th><th>Paraphrase (Synonym)</th><th>Beispielsatz</th></tr></thead>
-      <tbody>
-        <tr><td>müssen</td><td>Fast 100% sicher</td><td>Zweifellos / Sicherlich</td><td>Bei diesen Signalwerten muss ein Membranbruch vorliegen.</td></tr>
-        <tr><td>dürfte</td><td>Ca. 75% wahrscheinlich</td><td>Vermutlich / Wahrscheinlich</td><td>Die Konzentration dürfte für den Zelltod verantwortlich sein.</td></tr>
-        <tr><td>könnte</td><td>Ca. 50% möglich</td><td>Möglicherweise / Eventuell</td><td>Eine Verstopfung der Mikrokanäle könnte den Druckanstieg erklären.</td></tr>
-        <tr><td>sollen</td><td>Fremde Aussage (Distanzierung)</td><td>Laut Bericht / Man sagt</td><td>Der Wirkstoff soll die Barriereintegrität signifikant verbessern.</td></tr>
-        <tr><td>wollen</td><td>Subjektive Eigenbehauptung</td><td>Er behauptet von sich</td><td>Der Autor will als Erster diese Zellreaktion beobachtet haben.</td></tr>
-      </tbody></table>
-    <div style='background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 14px 18px; margin-top: 16px;'>
-      <strong style='color: #166534; font-size: 0.92rem;'>📝 Praxis- und Fachbeispiele:</strong>
-      <div style='font-size: 0.9rem; margin-top: 6px;'><span style='font-weight: 700; color: #0f172a;'>• Der plötzliche Signalabfall muss auf eine Blase im Mikrokanal zurückzuführen sein.</span><br><span style='color: #4b5563; font-size: 0.85rem;'>  <em>EN: The sudden signal drop must be attributable to a bubble in the microchannel.</em></span></div>
-      <div style='font-size: 0.9rem; margin-top: 6px;'><span style='font-weight: 700; color: #0f172a;'>• Die Forschergruppe will eine zehnfach höhere Sensitivität erreicht haben.</span><br><span style='color: #4b5563; font-size: 0.85rem;'>  <em>EN: The research group claims to have achieved a ten-fold higher sensitivity.</em></span></div>
-    </div>
-  </div>
-
-  <!-- Module: 6. Nominalisierung vs. Verbalstil (Wissenschaftlicher Nominalstil) -->
-  <div class='de-mod-box' id='b2-nominalstil'>
-    <h2 class='de-mod-title'>6. Nominalisierung vs. Verbalstil (Wissenschaftlicher Nominalstil)</h2>
-    <p style='color: #475569; font-size: 0.95rem; margin-bottom: 12px;'><em>Der Nominalstil verdichtet komplexe Informationen durch Substantivierungen und Präpositionalgefüge. Er ist das prägende Merkmal deutscher Fach- und Forschungsberichte.</em></p>
-    <div class='de-rule-card'>
-      <strong style='color: #0369a1; font-size: 0.95rem;'>📖 Kernregeln & Erklärungen:</strong>
-      <ul style='margin: 8px 0 0 0; padding-left: 20px; color: #1e293b; font-size: 0.92rem; line-height: 1.7;'>
-        <li>**Kausale Nebensätze (*weil/da*):** -> *wegen, aufgrund, infolge + Genitiv* (*Weil sich der pH-Wert ändert -> Aufgrund der pH-Wert-Änderung*).</li>
-        <li>**Konzessive Nebensätze (*obwohl*):** -> *trotz, ungeachtet + Genitiv* (*Obwohl die Temperatur stieg -> Trotz des Temperaturanstiegs*).</li>
-        <li>**Konditionale Nebensätze (*wenn/falls*):** -> *bei + Dativ, im Falle + Genitiv* (*Wenn die Zellen absterben -> Beim Absterben der Zellen*).</li>
-        <li>**Temporale Nebensätze (*während, seit, nachdem, bevor*):** -> *während + Gen, seit + Dat, nach + Dat, vor + Dat* (*Nachdem die Lösung zentrifugiert wurde -> Nach der Zentrifugation der Lösung*).</li>
-        <li>**Finale Nebensätze (*um zu / damit*):** -> *zu, zwecks + Genitiv* (*Damit das Gewebe perfundiert wird -> Zur Perfusion des Gewebes*).</li>
-      </ul></div>
-    <h4 style='color: #0369a1; margin: 18px 0 8px 0;'>📊 Systematische Transformation: Verbalstil zu Nominalstil</h4>
-    <table class='de-table'>
-      <thead><tr><th>Nebensatz-Typ (Verbalstil)</th><th>Präpositionalgefüge (Nominalstil)</th><th>Transformation (Beispiel)</th><th>Stilistische Wirkung</th></tr></thead>
-      <tbody>
-        <tr><td>Kausal (*weil*)</td><td>aufgrund / infolge (+ Gen)</td><td>Weil der Fluss zunahm -> Infolge der Flusszunahme</td><td>Prägnanter, komprimiert</td></tr>
-        <tr><td>Temporal (*nachdem*)</td><td>nach (+ Dat)</td><td>Nachdem wir kalibriert hatten -> Nach der Kalibrierung</td><td>Fokus auf den Prozess</td></tr>
-        <tr><td>Konditional (*wenn*)</td><td>bei (+ Dat) / im Falle (+ Gen)</td><td>Wenn der Sensor ausfällt -> Bei Ausfall des Sensors</td><td>Sachlich, abstrakt</td></tr>
-        <tr><td>Final (*um... zu*)</td><td>zur / zwecks (+ Gen)</td><td>Um Daten zu gewinnen -> Zur Datengewinnung</td><td>Formell, ökonomisch</td></tr>
-        <tr><td>Konsekutiv (*sodass*)</td><td>mit der Folge (+ Gen)</td><td>sodass der Druck stieg -> mit der Folge eines Druckanstiegs</td><td>Akademisch präzise</td></tr>
-      </tbody></table>
-    <div style='background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 14px 18px; margin-top: 16px;'>
-      <strong style='color: #166534; font-size: 0.92rem;'>📝 Praxis- und Fachbeispiele:</strong>
-      <div style='font-size: 0.9rem; margin-top: 6px;'><span style='font-weight: 700; color: #0f172a;'>• Verbalstil: Weil das Hydrogel abgebaut wird, wandern die Endothelzellen ein.<br>Nominalstil: Infolge des Hydrogelabbaus erfolgt die Einwanderung der Endothelzellen.</span><br><span style='color: #4b5563; font-size: 0.85rem;'>  <em>EN: Verbal: Because the hydrogel degrades, endothelial cells migrate in.
-Nominal: As a result of hydrogel degradation, endothelial cell migration occurs.</em></span></div>
-      <div style='font-size: 0.9rem; margin-top: 6px;'><span style='font-weight: 700; color: #0f172a;'>• Zur Vermeidung von Scherspannungsschäden muss die Flussrate schrittweise gesteigert werden.</span><br><span style='color: #4b5563; font-size: 0.85rem;'>  <em>EN: In order to avoid shear stress damage, the flow rate must be increased incrementally.</em></span></div>
-    </div>
-  </div>
-
 </div>
