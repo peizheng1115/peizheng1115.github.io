@@ -1,0 +1,207 @@
+{
+  "ooc-drug-development": {
+    "slug": "ooc-drug-development",
+    "file": "Figure 5- Organ-on-a-chip (OOC) and drug development (54597824942).jpg",
+    "local": "ooc-drug-development.jpg",
+    "license": "Public domain",
+    "author": "U.S. GAO",
+    "page": "https://commons.wikimedia.org/wiki/File:Figure_5-_Organ-on-a-chip_%28OOC%29_and_drug_development_%2854597824942%29.jpg",
+    "raw_artist": true,
+    "bytes": 152238
+  },
+  "bbb-chip": {
+    "slug": "bbb-chip",
+    "file": "Blood-brain barrier on a chip.jpg",
+    "local": "bbb-chip.jpg",
+    "license": "CC BY 2.0",
+    "author": "Vanderbilt University",
+    "page": "https://commons.wikimedia.org/wiki/File:Blood-brain_barrier_on_a_chip.jpg",
+    "raw_artist": true,
+    "bytes": 499810
+  },
+  "gut-chip": {
+    "slug": "gut-chip",
+    "file": "Human Gut Tissue Chip (46750334684).png",
+    "local": "gut-chip.png",
+    "license": "Public domain",
+    "author": "National Center for Advancing Translational Sciences from Bethesda, MD",
+    "page": "https://commons.wikimedia.org/wiki/File:Human_Gut_Tissue_Chip_%2846750334684%29.png",
+    "raw_artist": true,
+    "bytes": 890338
+  },
+  "heart-chip": {
+    "slug": "heart-chip",
+    "file": "Human Cardiac Tissue Chip (47473708501).jpg",
+    "local": "heart-chip.jpg",
+    "license": "Public domain",
+    "author": "National Center for Advancing Translational Sciences from Bethesda, MD",
+    "page": "https://commons.wikimedia.org/wiki/File:Human_Cardiac_Tissue_Chip_%2847473708501%29.jpg",
+    "raw_artist": true,
+    "bytes": 303215
+  },
+  "organoid": {
+    "slug": "organoid",
+    "file": "Organoid (NIH BioArt 399 - 633173).png",
+    "local": "organoid.png",
+    "license": "Public domain",
+    "author": "Courtesy of NIAID Ryan Kissinger",
+    "page": "https://commons.wikimedia.org/wiki/File:Organoid_%28NIH_BioArt_399_-_633173%29.png",
+    "raw_artist": true,
+    "bytes": 569710
+  },
+  "hipsc-plate": {
+    "slug": "hipsc-plate",
+    "file": "A cell culture plate with induced pluripotent stem cells (46291373491).jpg",
+    "local": "hipsc-plate.jpg",
+    "license": "Public domain",
+    "author": "National Center for Advancing Translational Sciences from Bethesda, MD",
+    "page": "https://commons.wikimedia.org/wiki/File:A_cell_culture_plate_with_induced_pluripotent_stem_cells_%2846291373491%29.jpg",
+    "raw_artist": true,
+    "bytes": 268635
+  },
+  "tumor-spheroids": {
+    "slug": "tumor-spheroids",
+    "file": "Morphology of HNSCC-derived tumor spheroids. Morphology of HNSCC cell lines cultured as 3D tumor spheroids in ULA 96-well plates.png",
+    "local": "tumor-spheroids.png",
+    "license": "CC BY 4.0",
+    "author": "Melissaridou, S., Wiechec, E., Magan, M. et al.",
+    "page": "https://commons.wikimedia.org/wiki/File:Morphology_of_HNSCC-derived_tumor_spheroids._Morphology_of_HNSCC_cell_lines_cultured_as_3D_tumor_spheroids_in_ULA_96-well_plates.png",
+    "raw_artist": true,
+    "bytes": 243426
+  },
+  "emulate-organ-chips": {
+    "slug": "emulate-organ-chips",
+    "file": "EMULATE AVATAR OrganChip (EMULATE CHIPS SELECT-1-EDITED).jpg",
+    "local": "emulate-organ-chips.jpg",
+    "license": "Public domain",
+    "author": "NASA Headquarters / Emulate",
+    "page": "https://commons.wikimedia.org/wiki/File:EMULATE_AVATAR_OrganChip_%28EMULATE_CHIPS_SELECT-1-EDITED%29.jpg",
+    "bytes": 268660
+  },
+  "chip-platform-avatar": {
+    "slug": "chip-platform-avatar",
+    "file": "Artemis II (AVATAR Hardware ArtemisII SpaceTango).jpg",
+    "local": "chip-platform-avatar.jpg",
+    "license": "Public domain",
+    "author": "NASA Headquarters / Space Tango",
+    "page": "https://commons.wikimedia.org/wiki/File:Artemis_II_%28AVATAR_Hardware_ArtemisII_SpaceTango%29.jpg",
+    "bytes": 410571
+  },
+  "brain-chip": {
+    "slug": "brain-chip",
+    "file": "Brain Chip (46771920474).jpg",
+    "local": "brain-chip.jpg",
+    "license": "Public domain",
+    "author": "National Center for Advancing Translational Sciences from Bethesda, MD",
+    "page": "https://commons.wikimedia.org/wiki/File:Brain_Chip_%2846771920474%29.jpg",
+    "bytes": 106261
+  },
+  "multi-organ-chip": {
+    "slug": "multi-organ-chip",
+    "file": "Integrated Multi Chip (36896123285).jpg",
+    "local": "multi-organ-chip.jpg",
+    "license": "Public domain",
+    "author": "National Center for Advancing Translational Sciences from Bethesda, MD",
+    "page": "https://commons.wikimedia.org/wiki/File:Integrated_Multi_Chip_%2836896123285%29.jpg",
+    "bytes": 427572
+  },
+  "lung-airway-chip": {
+    "slug": "lung-airway-chip",
+    "file": "Human Lung Airway Chip (46558399795).png",
+    "local": "lung-airway-chip.png",
+    "license": "Public domain",
+    "author": "National Center for Advancing Translational Sciences from Bethesda, MD",
+    "page": "https://commons.wikimedia.org/wiki/File:Human_Lung_Airway_Chip_%2846558399795%29.png",
+    "bytes": 367579
+  },
+  "colon-tumor-chip": {
+    "slug": "colon-tumor-chip",
+    "file": "Human colon tumor.png",
+    "local": "colon-tumor-chip.png",
+    "license": "Public domain",
+    "author": "National Center for Advancing Translational Sciences from Bethesda, MD",
+    "page": "https://commons.wikimedia.org/wiki/File:Human_colon_tumor.png",
+    "bytes": 469540
+  },
+  "tumor-vessel-crossing": {
+    "slug": "tumor-vessel-crossing",
+    "file": "How do tumors cross the blood vessel barrier?.jpg",
+    "local": "tumor-vessel-crossing.jpg",
+    "license": "CC BY 4.0",
+    "author": "Kinga Kamińska, Justyna Gogola",
+    "page": "https://commons.wikimedia.org/wiki/File:How_do_tumors_cross_the_blood_vessel_barrier%3F.jpg",
+    "bytes": 177540
+  },
+  "syringe-pump": {
+    "slug": "syringe-pump",
+    "file": "Syringe Pump neMESYS.png",
+    "local": "syringe-pump.png",
+    "license": "CC BY 4.0",
+    "author": "Cetoni GmbH",
+    "page": "https://commons.wikimedia.org/wiki/File:Syringe_Pump_neMESYS.png",
+    "bytes": 641536
+  },
+  "inverted-microscope": {
+    "slug": "inverted-microscope",
+    "file": "Microscope (inverted).jpg",
+    "local": "inverted-microscope.jpg",
+    "license": "Public domain",
+    "author": "Unknown photographer",
+    "page": "https://commons.wikimedia.org/wiki/File:Microscope_%28inverted%29.jpg",
+    "bytes": 407833
+  },
+  "mea-stretch-device": {
+    "slug": "mea-stretch-device",
+    "file": "MicroElectrode Array Stretching Simulating und Recording Equipment.jpg",
+    "local": "mea-stretch-device.jpg",
+    "license": "CC BY 4.0",
+    "author": "Kwayyy",
+    "page": "https://commons.wikimedia.org/wiki/File:MicroElectrode_Array_Stretching_Simulating_und_Recording_Equipment.jpg",
+    "bytes": 319393
+  },
+  "emulate-lung-chip": {
+    "slug": "emulate-lung-chip",
+    "file": "https://emulatebio.com/wp-content/uploads/2024/08/Chip-with-Biology-Lung.webp",
+    "local": "emulate-lung-chip.jpg",
+    "license": "© Emulate, Inc. (educational use)",
+    "author": "Emulate, Inc. -- Lung-Chip (Organ-Chip)",
+    "page": "https://emulatebio.com/lung-chip/",
+    "bytes": 91110
+  },
+  "cnbio-physiomimix-core": {
+    "slug": "cnbio-physiomimix-core",
+    "file": "https://cn-bio.com/wp-content/uploads/2025/10/cnb1513_physiomimix-core_mark_mock_hero_v2.png",
+    "local": "cnbio-physiomimix-core.jpg",
+    "license": "© CN Bio Innovations Ltd (educational use)",
+    "author": "CN Bio Innovations Ltd -- PhysioMimix Core microphysiological system",
+    "page": "https://cn-bio.com/physiomimix-core/",
+    "bytes": 50669
+  },
+  "cnbio-physiomimix-setup": {
+    "slug": "cnbio-physiomimix-setup",
+    "file": "https://cdn-ileofbj.nitrocdn.com/nyzjmZqqIZPXoJnVJzqkLdmUVEtmYrLe/assets/images/optimized/rev-7603ca0/cn-bio.com/wp-content/uploads/2023/09/physiomimix-set-up-858x.jpg",
+    "local": "cnbio-physiomimix-setup.jpg",
+    "license": "© CN Bio Innovations Ltd (educational use)",
+    "author": "CN Bio Innovations Ltd -- PhysioMimix system in the lab",
+    "page": "https://cn-bio.com/physiomimix-core/",
+    "bytes": 67919
+  },
+  "mimetas-organoplate": {
+    "slug": "mimetas-organoplate",
+    "file": "https://cdn.prod.website-files.com/686cdf2fde07239e3a108754/68f26334edf8ce0396608333_OrganoPlate_Zoom-Group.avif",
+    "local": "mimetas-organoplate.jpg",
+    "license": "© MIMETAS B.V. (educational use)",
+    "author": "MIMETAS B.V. -- OrganoPlate (3-lane plate format)",
+    "page": "https://www.mimetas.com/organoplate",
+    "bytes": 37832
+  },
+  "mimetas-platform": {
+    "slug": "mimetas-platform",
+    "file": "https://cdn.prod.website-files.com/686cdf2fde07239e3a108754/68f29e1e0cb072c57413c495_OrganoPlate_Platform.avif",
+    "local": "mimetas-platform.jpg",
+    "license": "© MIMETAS B.V. (educational use)",
+    "author": "MIMETAS B.V. -- OrganoPlate platform",
+    "page": "https://www.mimetas.com/organoplate",
+    "bytes": 101813
+  }
+}

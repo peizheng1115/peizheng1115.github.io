@@ -1,0 +1,434 @@
+[
+  {
+    "slug": "laminar-flow",
+    "file": "laminar-flow.jpg",
+    "paper": "1-s2.0-S2405886625000107-main.pdf",
+    "figure": "Fig. 1",
+    "page": 2,
+    "caption": "Fig. 1. Laminar flow on a microfluidic chip. The mixing of the two fluids occurs • Customised device gradually by diffusion. 2",
+    "region": [
+      73,
+      620,
+      253,
+      720
+    ],
+    "px": [
+      719,
+      401
+    ]
+  },
+  {
+    "slug": "channel-types",
+    "file": "channel-types.jpg",
+    "paper": "1-s2.0-S2405886625000107-main.pdf",
+    "figure": "Fig. 2",
+    "page": 3,
+    "caption": "Fig. 2. Representations of single, dual, triple, and multi-microchannel microfluidic chips. 3",
+    "region": [
+      39,
+      619,
+      556,
+      730
+    ],
+    "px": [
+      2068,
+      446
+    ]
+  },
+  {
+    "slug": "preclinical-roadmap",
+    "file": "preclinical-roadmap.jpg",
+    "paper": "1-s2.0-S2405886625000107-main.pdf",
+    "figure": "Fig. 3",
+    "page": 4,
+    "caption": "Fig. 3. Roadmap for the preclinical and clinical translation of novel drugs.",
+    "region": [
+      39,
+      52,
+      556,
+      203
+    ],
+    "px": [
+      2068,
+      602
+    ]
+  },
+  {
+    "slug": "culture-methods",
+    "file": "culture-methods.jpg",
+    "paper": "1-s2.0-S2405886625000107-main.pdf",
+    "figure": "Fig. 4",
+    "page": 4,
+    "caption": "Fig. 4. Representation of the different cell culture methods. a) 2D cell culture with a monolayer of cells. b) Static 3D cell culture with organoids. c) Bioreactor DASbox with cell culture/organoids. d) Organ-on-chip connected to a dynamic flow simulating a more physiological cell microenvironment. 4.1. Microfluidic chip structure repeatedly remolded once the glass transition temperature is reached, resistance to small molecule permeation, and greater ri­ In the microfluidic chip manufacturing process, there is a preference gidity compared to elastomers. Additionally, they are lightweight, to look for materials that can provide a robust and reliable structure for biocompatible, and easy to manufacture. However, their limitations",
+    "region": [
+      39,
+      235,
+      556,
+      329
+    ],
+    "px": [
+      2067,
+      377
+    ]
+  },
+  {
+    "slug": "lung-chip-design",
+    "file": "lung-chip-design.jpg",
+    "paper": "1-s2.0-S2405886625000107-main.pdf",
+    "figure": "Fig. 5",
+    "page": 7,
+    "caption": "Fig. 5. Simplified basic lung structure for the construction of the Lung-on-a-chip.",
+    "region": [
+      39,
+      52,
+      556,
+      163
+    ],
+    "px": [
+      2068,
+      445
+    ]
+  },
+  {
+    "slug": "kidney-chip-design",
+    "file": "kidney-chip-design.jpg",
+    "paper": "1-s2.0-S2405886625000107-main.pdf",
+    "figure": "Fig. 7",
+    "page": 8,
+    "caption": "Fig. 7. Simplified representation of the Kidney-on-a-chip. The unification of all nephron components (glomerulus and proximal, distal, and collecting tubules) mimics the physiology of the kidney. 8",
+    "region": [
+      120,
+      562,
+      475,
+      720
+    ],
+    "px": [
+      1421,
+      636
+    ]
+  },
+  {
+    "slug": "gut-chip-design",
+    "file": "gut-chip-design.jpg",
+    "paper": "1-s2.0-S2405886625000107-main.pdf",
+    "figure": "Fig. 8",
+    "page": 9,
+    "caption": "Fig. 8. Gut-on-a-chip design. Simulation of the physiological microenvironment and intestinal motility supports cell differentiation and better intestal representation. microvascular endothelial cells (HIMECs) to represent the vascular the application of dexamethasone to TNF-α-damaged skin as well as a component. reduction in the expression of IL-1β, IL-6, and IL-8 [107]. Microorganisms play a crucial role in metabolism and the develop­ The skin-on-a-chip has demonstrated high potential for a range of ment of certain diseases. To simulate the human microbiome, bacterial studies including (i) diffusion studies of different drugs across the skin,",
+    "region": [
+      39,
+      52,
+      556,
+      158
+    ],
+    "px": [
+      2068,
+      425
+    ]
+  },
+  {
+    "slug": "bbb-chip-design",
+    "file": "bbb-chip-design.jpg",
+    "paper": "1-s2.0-S2405886625000107-main.pdf",
+    "figure": "Fig. 11",
+    "page": 11,
+    "caption": "Fig. 11. Design of a BBB-on-a-chip. A compact monolayer of endothelial cells was formed around the membrane and in contact with the astrocyte “endfeet”, connecting the two compartments. generates mechanical stimuli that are continuously sensed by the such as PDMS or hydrogels, which provide structural support while also vasculature, driving its growth and remodeling. As blood moves over the allowing for cell culture. endothelial surface, its viscosity creates shear forces in the direction of In skeletal muscle OoC models, myoblasts or induced pluripotent flow. At the same time, the pressure inside the blood vessel produces a stem cells (iPSCs) are used as the starting cell population. These cells are",
+    "region": [
+      81,
+      52,
+      515,
+      169
+    ],
+    "px": [
+      1738,
+      468
+    ]
+  },
+  {
+    "slug": "body-on-chip-process",
+    "file": "body-on-chip-process.jpg",
+    "paper": "1-s2.0-S2405886625000107-main.pdf",
+    "figure": "Fig. 12",
+    "page": 12,
+    "caption": "Fig. 12. Development process of a Body-on-a-chip. Key: a) The connection of multiple OoCs; b) The combination of different organs in a single chip.",
+    "region": [
+      39,
+      52,
+      556,
+      276
+    ],
+    "px": [
+      2067,
+      896
+    ]
+  },
+  {
+    "slug": "body-on-chip",
+    "file": "body-on-chip.jpg",
+    "paper": "1-s2.0-S2405886625000107-main.pdf",
+    "figure": "Fig. 13",
+    "page": 12,
+    "caption": "Fig. 13. Schematic representation of a Body-on-a-chip. 12",
+    "region": [
+      116,
+      606,
+      210,
+      730
+    ],
+    "px": [
+      379,
+      496
+    ]
+  },
+  {
+    "slug": "fabrication-methods",
+    "file": "fabrication-methods.jpg",
+    "paper": "Bhatia_Ingber_NatBiot_2014.pdf",
+    "figure": "Fig. 1",
+    "page": 2,
+    "caption": "Figure 1 Fabrication methods for microfluidic chips. (a) Replica molding10 creates stamps with cose, lactate, oxygen, pH)19. shapes complementary to patterns etched in silicon chips by photolithography. A thin uniform film of a photosensitive material (photoresist) is spin-coated on a silicon chip, which is then overlaid with a Control of fluid flow in chips has proved photomask (e.g., a transparent glass plate patterned with opaque chrome layers) bearing a microscale enormously useful. For example, because pattern generated with computer-assisted design software. The photomask protects some regions of the viscous forces dominate over inertial ones photoresist and exposes others during exposure to high-intensity ultraviolet (UV) light. The UV-exposed at small length scales, the flow is laminar if material dissolves in a developer solution, leaving the microscale pattern etched into the photoresist. the diameter of the ‘microfluidic’ channel is Elastomeric stamps with a surface topography complementary to the etched surface are created by a",
+    "region": [
+      44,
+      60,
+      356,
+      300
+    ],
+    "px": [
+      1247,
+      963
+    ]
+  },
+  {
+    "slug": "single-channel-chips",
+    "file": "single-channel-chips.jpg",
+    "paper": "Bhatia_Ingber_NatBiot_2014.pdf",
+    "figure": "Fig. 2",
+    "page": 3,
+    "caption": "Figure 2 Examples of increasingly complex single-channel, organ-on- chip designs. (a) Cells of a single type are cultured as a monolayer on a",
+    "region": [
+      301,
+      68,
+      553,
+      333
+    ],
+    "px": [
+      1010,
+      1060
+    ]
+  },
+  {
+    "slug": "multi-organ-pkpd",
+    "file": "multi-organ-pkpd.jpg",
+    "paper": "Bhatia_Ingber_NatBiot_2014.pdf",
+    "figure": "Fig. 5",
+    "page": 7,
+    "caption": "Figure 5 A multi-organ microfluidic framework used for PK/PD modeling. (a) Schematic diagram (top)",
+    "region": [
+      255,
+      55,
+      554,
+      263
+    ],
+    "px": [
+      1196,
+      832
+    ]
+  },
+  {
+    "slug": "material-milestones",
+    "file": "material-milestones.jpg",
+    "paper": "Nahak 2022, Advances in Organ-on-a-Chip Materials and Devices.pdf",
+    "figure": "Fig. 1",
+    "page": 3,
+    "caption": "Figure 1. Key milestones of organ-on-a-chip (OoC) materials innovations during the period 1991−2021. biodegradable elastomeric polymer used for microfluidic previously developed design criteria, the group devised a scaffolds formation.29 simple set of design requirements that could be utilized to construct an OoC platform. A holistic model describes Polyurethanes are flexible, biocompatible, have the ability to absorption and metabolism to study the effect of chemicals be molded, and are resistant toward the absorption of small as an ADME tool.45 Relevant tissue study and drug discovery hydrophobic molecules; these features make it a more suitable",
+    "region": [
+      77,
+      57,
+      530,
+      206
+    ],
+    "px": [
+      1810,
+      597
+    ]
+  },
+  {
+    "slug": "material-classes",
+    "file": "material-classes.jpg",
+    "paper": "Nahak 2022, Advances in Organ-on-a-Chip Materials and Devices.pdf",
+    "figure": "Fig. 2",
+    "page": 4,
+    "caption": "Figure 2. Classification of materials used for OoC developments. drug studies that have been done previously, using a single- two parameters can be measured using an OoC tissue construct. Once all the paramters are identified, they can platform. Furthermore, the drug distribution coefficient be used in a PBPK model, which can be cross-verified with is primarily dependent on the concentration of lip- OoC devices containing various organs. Furthermore, PBPK oproteins, especially that of lipoprotein complexes. Thus, models are additionally capable of examining spatial and it becomes easy to find these parameters once we have",
+    "region": [
+      121,
+      57,
+      486,
+      249
+    ],
+    "px": [
+      1459,
+      766
+    ]
+  },
+  {
+    "slug": "lung-gut-liver",
+    "file": "lung-gut-liver.jpg",
+    "paper": "Nahak 2022, Advances in Organ-on-a-Chip Materials and Devices.pdf",
+    "figure": "Fig. 11",
+    "page": 14,
+    "caption": "Figure 11. Lung-on-a-chip, gut-on-a-chip, and BLSS integrated with a DLM/GelMA-based bioengineered liver. Panel (a) has the following components: (i) a schematic of the respiratory treelike structure, ending with alveolar sacs; (ii) an SEM image of a slice of human lung parenchyma with tiny lung alveoli and their ultrathin air−blood barrier; (iii, iv) a schematic of the production of the CE membrane used in the second- generation lung-on-a-chip (here, a thin gold mesh with an array of hexagonal pores ∼260 μm in size is used as a scaffold, upon which a drop of collagen−elastin solution is pipetted); (v−vii) the collagen−elastin gel forms a suspended thin membrane that can be stretched at the alveolar level by applying a negative pressure on the basolateral side of the membrane (components (vi) and (vii) show Type I (ATI) and type II (ATII) primary human lung alveolar epithelial cells that are co-cultured with lung endothelial cells on the thin collagen−elastin membrane); and (viii) a schematic of the force balance during the drying of the membrane. (Legend: FST, surface tension force; FG, gravity; and σo, residual stress.) [Reproduced with",
+    "region": [
+      86,
+      57,
+      521,
+      243
+    ],
+    "px": [
+      1743,
+      744
+    ]
+  },
+  {
+    "slug": "model-systems",
+    "file": "model-systems.jpg",
+    "paper": "a-guide-to-organs-on-chips-technology.pdf",
+    "figure": "Fig. 1",
+    "page": 6,
+    "caption": "Figure 1: Biological model systems used in biomedical research ranging from 2D cell culture to model organisms in terms of simplicity versus physiological relevance (adapted from2 & scienceinschool.org website)",
+    "region": [
+      149,
+      68,
+      456,
+      270
+    ],
+    "px": [
+      1226,
+      810
+    ]
+  },
+  {
+    "slug": "chip-features",
+    "file": "chip-features.jpg",
+    "paper": "a-guide-to-organs-on-chips-technology.pdf",
+    "figure": "Fig. 3",
+    "page": 11,
+    "caption": "Figure 3: Overview of OoC layouts and features. (a) Mechanically actuated OoC made of PDMS comprising two parallel channels separated by a flexible porous membrane and two distal hollow channels connected to a vacuum generator. Application of cyclic suction to the hollow channels induced rhythmic stretching of the porous membrane and attached tissue layer to introduce mechanical forces",
+    "region": [
+      67,
+      295,
+      528,
+      736
+    ],
+    "px": [
+      1847,
+      1766
+    ]
+  },
+  {
+    "slug": "lung-chip-2010",
+    "file": "lung-chip-2010.jpg",
+    "paper": "a-guide-to-organs-on-chips-technology.pdf",
+    "figure": "Fig. 4",
+    "page": 19,
+    "caption": "Figure 4: Reconstituting Organ-Level Lung Functions on a Chip (Science 2010)",
+    "region": [
+      67,
+      68,
+      528,
+      287
+    ],
+    "px": [
+      1847,
+      877
+    ]
+  },
+  {
+    "slug": "tumor-models",
+    "file": "tumor-models.jpg",
+    "paper": "s12964-024-01884-4.pdf",
+    "figure": "Fig. 1",
+    "page": 3,
+    "caption": "Fig. 1 Conventional approaches and novel experimental platforms to tumor modeling resulting in an inability to visualize tissue-to-tissue inter-",
+    "region": [
+      124,
+      86,
+      472,
+      284
+    ],
+    "px": [
+      1393,
+      794
+    ]
+  },
+  {
+    "slug": "tumor-microenvironment",
+    "file": "tumor-microenvironment.jpg",
+    "paper": "s12964-024-01884-4.pdf",
+    "figure": "Fig. 2",
+    "page": 6,
+    "caption": "Fig. 2 Suitability of TMOC for TME reproduction",
+    "region": [
+      124,
+      496,
+      472,
+      707
+    ],
+    "px": [
+      1393,
+      845
+    ]
+  },
+  {
+    "slug": "tumor-types",
+    "file": "tumor-types.jpg",
+    "paper": "s12964-024-01884-4.pdf",
+    "figure": "Fig. 7",
+    "page": 18,
+    "caption": "Fig. 7 Applications of TMOC in different cancers",
+    "region": [
+      124,
+      493,
+      472,
+      707
+    ],
+    "px": [
+      1393,
+      859
+    ]
+  },
+  {
+    "slug": "ooc-advantages",
+    "file": "ooc-advantages.jpg",
+    "paper": "s13206-022-00087-8.pdf",
+    "figure": "Fig. 1",
+    "page": 3,
+    "caption": "Fig. 1 Advantages of Organ on chip over In-vitro animals and cell",
+    "region": [
+      306,
+      55,
+      545,
+      254
+    ],
+    "px": [
+      958,
+      798
+    ]
+  },
+  {
+    "slug": "pk-pd-modelling",
+    "file": "pk-pd-modelling.jpg",
+    "paper": "s13206-022-00087-8.pdf",
+    "figure": "Fig. 2",
+    "page": 8,
+    "caption": "Fig. 2 Overview of PK/PD Modelling and it's possible streamlining using Body-On-Chip System",
+    "region": [
+      306,
+      55,
+      545,
+      304
+    ],
+    "px": [
+      957,
+      997
+    ]
+  }
+]

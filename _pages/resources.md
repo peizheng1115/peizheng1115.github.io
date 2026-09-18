@@ -69,3 +69,8 @@ Writing clear, precise, and concise academic English accelerates the peer-review
 * **[Connected Papers](https://www.connectedpapers.com/)**: Visual graph tool to discover related papers, seminal works, and prior research based on co-citation analysis.
 * **[Semantic Scholar](https://www.semanticscholar.org/)**: AI-powered academic search engine highlighting key takeaways and influential citations.
 * **[bioRxiv & medRxiv](https://www.biorxiv.org/)**: Leading preprint servers for life sciences and medical sciences.
+
+
+## Language & International Communication
+
+* **[🇩🇪 Goethe-Zertifikat A2: Offizielle Wortliste & Memory-Guide](/german-a2/)**: A comprehensive German A2 vocabulary memory system (~1,300 words) categorized by part of speech (Verbs, Nouns by gender, Adjectives, Prepositions, Conjunctions) with [Interactive Audio Web App](/german-a2/app.html) and digital flashcards.
