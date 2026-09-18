@@ -23,15 +23,15 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Maskuline Nomen (der):**
--   - *Morphologische Suffixe:* **-ling** (Lehrling, Schmetterling), **-or** (Motor, Reaktor), **-ismus** (Organismus, Mechanismus), **-ant / -ent** (Assistent, Patient, Dozent), **-ist** (Spezialist, Biologe), **-er** bei handelnden Personen/Geräten (Forscher, Computer, Bohrer).
--   - *Semantische Gruppen:* Wochentage (*der Montag*), Monate (*der Januar*), Jahreszeiten (*der Sommer*), Himmelsrichtungen (*der Norden*), Wetterereignisse (*der Regen, der Schnee, der Wind, der Nebel*), alkoholische Getränke (*der Wein, der Wodka*; Ausnahme: *das Bier*), Automarken (*der BMW, der Mercedes*).
+  - Morphologische Suffixe:* **-ling** (Lehrling, Schmetterling), **-or** (Motor, Reaktor), **-ismus** (Organismus, Mechanismus), **-ant / -ent** (Assistent, Patient, Dozent), **-ist** (Spezialist, Biologe), **-er** bei handelnden Personen/Geräten (Forscher, Computer, Bohrer).
+  - Semantische Gruppen:* Wochentage (*der Montag*), Monate (*der Januar*), Jahreszeiten (*der Sommer*), Himmelsrichtungen (*der Norden*), Wetterereignisse (*der Regen, der Schnee, der Wind, der Nebel*), alkoholische Getränke (*der Wein, der Wodka*; Ausnahme: *das Bier*), Automarken (*der BMW, der Mercedes*).
 - **2. Feminine Nomen (die):**
--   - *Morphologische Suffixe (nahezu 100% feminin):* **-ung** (Zellkultur, Forschung, Lösung, Prüfung), **-heit / -keit** (Krankheit, Möglichkeit, Flüssigkeit, Sauberkeit), **-schaft** (Wissenschaft, Eigenschaft, Gesellschaft), **-tät** (Universität, Stabilität, Permeabilität), **-tion / -sion** (Reaktion, Diffusion, Konzentration, Fusion), **-ie** (Biologie, Chemie, Mikroskopie), **-ik** (Mikrofluidik, Genetik, Physik, Musik), **-anz / -enz** (Differenz, Toleranz, Sequenz), **-ur** (Kultur, Temperatur, Natur, Struktur), **-e** (ca. 90% aller zweisilbigen Nomen auf -e: *die Lampe, die Grenze, die Phase, die Pumpe, die Zelle*; Ausnahmen: *der Name, der Käse, das Auge, das Ende*).
--   - *Semantische Gruppen:* Weibliche Personen & Berufsbezeichnungen (*die Professorin, die Ärztin*), Bäume & Blumen (*die Eiche, die Rose*; Ausnahme: *der Baum*), Schiffs- und Flugzeugnamen (*die Titanic, die Boeing 747*).
+  - Morphologische Suffixe (nahezu 100% feminin):* **-ung** (Zellkultur, Forschung, Lösung, Prüfung), **-heit / -keit** (Krankheit, Möglichkeit, Flüssigkeit, Sauberkeit), **-schaft** (Wissenschaft, Eigenschaft, Gesellschaft), **-tät** (Universität, Stabilität, Permeabilität), **-tion / -sion** (Reaktion, Diffusion, Konzentration, Fusion), **-ie** (Biologie, Chemie, Mikroskopie), **-ik** (Mikrofluidik, Genetik, Physik, Musik), **-anz / -enz** (Differenz, Toleranz, Sequenz), **-ur** (Kultur, Temperatur, Natur, Struktur), **-e** (ca. 90% aller zweisilbigen Nomen auf -e: *die Lampe, die Grenze, die Phase, die Pumpe, die Zelle*; Ausnahmen: *der Name, der Käse, das Auge, das Ende*).
+  - Semantische Gruppen:* Weibliche Personen & Berufsbezeichnungen (*die Professorin, die Ärztin*), Bäume & Blumen (*die Eiche, die Rose*; Ausnahme: *der Baum*), Schiffs- und Flugzeugnamen (*die Titanic, die Boeing 747*).
 - **3. Neutrale Nomen (das):**
--   - *Morphologische Suffixe:* **-chen / -lein** (Verkleinerungsformen: *das Teilchen, das Röhrchen, das Mädchen*), **-ment** (Experiment, Instrument, Dokument, Segment), **-um** (Zentrum, Laboratorium, Medium, Spektrum, Serum), **-tum** (Wachstum; Ausnahme: *der Reichtum, der Irrtum*), **-ma** (Klima, Thema, Schema, Prisma).
--   - *Substantivierte Infinitive & Adjektive:* **das + Verb-Infinitiv** (*das Messen, das Forschen, das Pipettieren, das Verstehen*), substantivierte Farben & Sprachen (*das Blau, das Deutsch*).
--   - *Semantische Gruppen:* Metalle & chemische Elemente (*das Gold, das Silber, das Silizium, das Platin, das Kupfer*; Ausnahmen: *der Stahl, die Bronze*), Bruchzahlen (*das Drittel, das Viertel*).
+  - Morphologische Suffixe:* **-chen / -lein** (Verkleinerungsformen: *das Teilchen, das Röhrchen, das Mädchen*), **-ment** (Experiment, Instrument, Dokument, Segment), **-um** (Zentrum, Laboratorium, Medium, Spektrum, Serum), **-tum** (Wachstum; Ausnahme: *der Reichtum, der Irrtum*), **-ma** (Klima, Thema, Schema, Prisma).
+  - Substantivierte Infinitive & Adjektive:* **das + Verb-Infinitiv** (*das Messen, das Forschen, das Pipettieren, das Verstehen*), substantivierte Farben & Sprachen (*das Blau, das Deutsch*).
+  - Semantische Gruppen:* Metalle & chemische Elemente (*das Gold, das Silber, das Silizium, das Platin, das Kupfer*; Ausnahmen: *der Stahl, die Bronze*), Bruchzahlen (*das Drittel, das Viertel*).
 - **4. Zusammengesetzte Nomen (Komposita):** Das letzte Nomen bestimmt das Geschlecht und den Plural des gesamten Wortes: *das Labor + die Tür = die Labortür*; *die Zelle + der Kern = der Zellkern*.
 
 #### 📊 Homonyme mit unterschiedlichem Genus & Bedeutung (Vorsicht Falle!)
@@ -63,8 +63,8 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 - **Klasse 4: Endung -s (ohne Umlaut):** Fremdwörter aus dem Englischen/Französischen (*das Auto -> die Autos, der Chip -> die Chips, das Labor -> die Labors / Labore, das Team -> die Teams*), Abkürzungen (*die PKWs, die LKWs*) und Nomen auf Vollvokal (*das Foto -> die Fotos, das Sofa -> die Sofas*).
 - **Klasse 5: Endungslos (nur Umlaut möglich):** Maskuline und neutrale Nomen auf *-el, -er, -en* sowie Verkleinerungsformen auf *-chen / -lein* (*der Computer -> die Computer, der Apfel -> die Äpfel, der Fehler -> die Fehler, das Röhrchen -> die Röhrchen, das Zeichen -> die Zeichen*).
 - **Sonderkategorien:**
--   - *Singulariatantum (nur im Singular):* Stoffnamen (*das Gold, das Wasser, das Blut, der Sauerstoff*), Abstrakta (*der Hunger, der Durst, die Kälte, die Geduld, das Wissen*).
--   - *Pluraliatantum (nur im Plural):* *die Eltern, die Ferien, die Kosten, die Leute, die Lebensmittel, die Personalien, die Gebrüder*.
+  - Singulariatantum (nur im Singular):* Stoffnamen (*das Gold, das Wasser, das Blut, der Sauerstoff*), Abstrakta (*der Hunger, der Durst, die Kälte, die Geduld, das Wissen*).
+  - Pluraliatantum (nur im Plural):* *die Eltern, die Ferien, die Kosten, die Leute, die Lebensmittel, die Personalien, die Gebrüder*.
 
 #### 📊 Übersichtstabelle der 5 Pluralbildungsklassen
 
@@ -89,13 +89,13 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **Artikeldeklination:**
--   - *Nominativ (Subjekt):* der / ein / kein (m); die / eine / keine (f); das / ein / kein (n); die / — / keine (pl).
--   - *Akkusativ (Objekt):* den / einen / keinen (m); die / eine / keine (f); das / ein / kein (n); die / — / keine (pl).
+  - Nominativ (Subjekt):* der / ein / kein (m); die / eine / keine (f); das / ein / kein (n); die / — / keine (pl).
+  - Akkusativ (Objekt):* den / einen / keinen (m); die / eine / keine (f); das / ein / kein (n); die / — / keine (pl).
 - **Regeln für die Negation:**
--   - **kein / keine:** Negiert Nomen mit unbestimmtem Artikel (*Ich habe ein Auto -> Ich habe kein Auto*) oder Nomen mit Nullartikel (*Ich habe Zeit -> Ich habe keine Zeit*).
--   - **nicht:** Negiert Verben (*Ich arbeite heute nicht*), Adjektive (*Das Medium ist nicht steril*), Adverbien (*Er spricht nicht schnell*), Eigennamen (*Das ist nicht Professor Weber*) und Nomen mit bestimmtem Artikel oder Possessivartikel (*Das ist nicht der richtige Sensor; Das ist nicht mein Protokoll*).
+  - kein / keine:** Negiert Nomen mit unbestimmtem Artikel (*Ich habe ein Auto -> Ich habe kein Auto*) oder Nomen mit Nullartikel (*Ich habe Zeit -> Ich habe keine Zeit*).
+  - nicht:** Negiert Verben (*Ich arbeite heute nicht*), Adjektive (*Das Medium ist nicht steril*), Adverbien (*Er spricht nicht schnell*), Eigennamen (*Das ist nicht Professor Weber*) und Nomen mit bestimmtem Artikel oder Possessivartikel (*Das ist nicht der richtige Sensor; Das ist nicht mein Protokoll*).
 - **Possessivartikel im Nominativ & Akkusativ:**
--   - *ich -> mein / meine*; *du -> dein / deine*; *er / es -> sein / seine*; *sie (Singular) -> ihr / ihre*; *wir -> unser / unsere*; *ihr -> euer / eure* (Beachte Wegfall des *e*: *eure*, nicht *euere*); *sie (Plural) / Sie (Höflichkeit) -> ihr / ihre / Ihr / Ihre*.
+  - ich -> mein / meine*; *du -> dein / deine*; *er / es -> sein / seine*; *sie (Singular) -> ihr / ihre*; *wir -> unser / unsere*; *ihr -> euer / eure* (Beachte Wegfall des *e*: *eure*, nicht *euere*); *sie (Plural) / Sie (Höflichkeit) -> ihr / ihre / Ihr / Ihre*.
 
 #### 📊 Vollständige Possessivartikel-Tabelle (Nominativ & Akkusativ)
 
@@ -123,14 +123,14 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Regelmäßige schwache Verben:** Verbstamm + Personalendungen: *-e, -st, -t, -en, -t, -en* (*lernen -> ich lerne, du lernst, er lernt, wir lernen, ihr lernt, sie lernen*).
 - **2. Phonetische Anpassungen des Verbstamms:**
--   - *Stamm auf -d oder -t:* Einschub eines *-e-* bei *du, er/sie/es, ihr* (*arbeiten -> du arbeitest, er arbeitet, ihr arbeitet; finden -> du findest, er findet*).
--   - *Stamm auf -s, -ß, -z, -x:* In der 2. Person Singular entfällt das *-s-* der Endung (*heißen -> du heißt; reisen -> du reist; sitzen -> du sitzt*).
--   - *Stamm auf -eln / -ern:* In der 1. Person Singular entfällt oft das *-e-* im Stamm (*handeln -> ich handle / handele, wir handeln; sammeln -> ich sammle*).
+  - Stamm auf -d oder -t:* Einschub eines *-e-* bei *du, er/sie/es, ihr* (*arbeiten -> du arbeitest, er arbeitet, ihr arbeitet; finden -> du findest, er findet*).
+  - Stamm auf -s, -ß, -z, -x:* In der 2. Person Singular entfällt das *-s-* der Endung (*heißen -> du heißt; reisen -> du reist; sitzen -> du sitzt*).
+  - Stamm auf -eln / -ern:* In der 1. Person Singular entfällt oft das *-e-* im Stamm (*handeln -> ich handle / handele, wir handeln; sammeln -> ich sammle*).
 - **3. Starke Verben mit Stammvokalwechsel (NUR bei du & er/sie/es):**
--   - *e -> i:* *helfen (hilfst, hilft), sprechen (sprichst, spricht), treffen (triffst, trifft), vergessen (vergisst, vergisst), sterben (stirbst, stirbt), werfen (wirfst, wirft)*.
--   - *e -> ie:* *sehen (siehst, sieht), lesen (liest, liest), empfehlen (empfiehlst, empfiehlt), stehlen (stiehlst, stiehlt)*.
--   - *a -> ä:* *fahren (fährst, fährt), schlafen (schläfst, schläft), tragen (trägst, trägt), waschen (wäschst, wäscht), lassen (lässt, lässt)*.
--   - *au -> äu:* *laufen (läufst, läuft), saufen (säufst, säuft)*.
+  - e -> i:* *helfen (hilfst, hilft), sprechen (sprichst, spricht), treffen (triffst, trifft), vergessen (vergisst, vergisst), sterben (stirbst, stirbt), werfen (wirfst, wirft)*.
+  - e -> ie:* *sehen (siehst, sieht), lesen (liest, liest), empfehlen (empfiehlst, empfiehlt), stehlen (stiehlst, stiehlt)*.
+  - a -> ä:* *fahren (fährst, fährt), schlafen (schläfst, schläft), tragen (trägst, trägt), waschen (wäschst, wäscht), lassen (lässt, lässt)*.
+  - au -> äu:* *laufen (läufst, läuft), saufen (säufst, säuft)*.
 - **4. Unregelmäßige Hilfsverben:** *sein (bin, bist, ist, sind, seid, sind)*, *haben (habe, hast, hat, haben, habt, haben)*, *werden (werde, wirst, wird, werden, werdet, werden)*, *wissen (weiß, weißt, weiß, wissen, wisst, wissen)*.
 
 #### 📊 Vollständige Konjugationsmatrix wichtiger Verbtypen im Präsens
@@ -160,18 +160,18 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 - **2. Das Vorfeld (Position 1):** Hier steht genau EIN Satzglied. Das kann das Subjekt sein (*Der Forscher testet heute die Probe*) oder eine adverbiale Bestimmung (*Heute testet der Forscher die Probe*).
 - **3. Inversion (Subjekt-Verb-Umstellung):** Steht nicht das Subjekt auf Position 1, wandert das Subjekt automatisch direkt hinter das Verb auf Position 3 (*Am Montag präsentiere ich die Daten*).
 - **4. Die Satzklammer (Rahmenkonstruktion):**
--   - *Linke Satzklammer (Position 2):* Finites Verb (Hilfsverb, Modalverb oder finiter Teil eines trennbaren Verbs).
--   - *Rechte Satzklammer (Satzende):* Infiniter Verbteil (Partizip II, Infinitiv oder trennbares Präfix).
--   - *Mittelfeld:* Alle Objekte, Adverbialangaben und Pronomen.
+  - Linke Satzklammer (Position 2):* Finites Verb (Hilfsverb, Modalverb oder finiter Teil eines trennbaren Verbs).
+  - Rechte Satzklammer (Satzende):* Infiniter Verbteil (Partizip II, Infinitiv oder trennbares Präfix).
+  - Mittelfeld:* Alle Objekte, Adverbialangaben und Pronomen.
 - **5. TEKAMOLO-Regel für Angaben im Mittelfeld:**
--   - **TE**mporal (Wann?): *heute um 9 Uhr*
--   - **KA**usal (Warum?): *wegen der Messung*
--   - **MO**dal (Wie?): *mit großer Präzision*
--   - **LO**kal (Wo/Wohin?): *im Reinraum*.
--   - *Beispiel:* Ich fahre **heute (Te) wegen des Kongresses (Ka) mit dem ICE (Mo) nach München (Lo)**.
+  - TE**mporal (Wann?): *heute um 9 Uhr*
+  - KA**usal (Warum?): *wegen der Messung*
+  - MO**dal (Wie?): *mit großer Präzision*
+  - LO**kal (Wo/Wohin?): *im Reinraum*.
+  - Beispiel:* Ich fahre **heute (Te) wegen des Kongresses (Ka) mit dem ICE (Mo) nach München (Lo)**.
 - **6. Fragesätze:**
--   - *W-Fragen (Ergänzungsfragen):* Fragewort (Pos 1) + Finites Verb (Pos 2) + Subjekt (Pos 3)... (*Wo forschen Sie zurzeit?*)
--   - *Ja/Nein-Fragen (Entscheidungsfragen):* Finites Verb ganz vorne auf **Position 1** (*Haben Sie die Proben sterilisiert?*)
+  - W-Fragen (Ergänzungsfragen):* Fragewort (Pos 1) + Finites Verb (Pos 2) + Subjekt (Pos 3)... (*Wo forschen Sie zurzeit?*)
+  - Ja/Nein-Fragen (Entscheidungsfragen):* Finites Verb ganz vorne auf **Position 1** (*Haben Sie die Proben sterilisiert?*)
 
 #### 📊 Stellungsfelder-Modell des deutschen Hauptsatzes
 
@@ -198,13 +198,13 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 - **Verben mit obligatorischem Akkusativ (Transitive Verben):** *haben, brauchen, suchen, finden, kaufen, lesen, schreiben, trinken, essen, sehen, hören, verstehen, untersuchen, kalibrieren, pipettieren, reinigen, vorbereiten*.
 - **Personalpronomen im Akkusativ:** *mich (ich), dich (du), ihn (er/der Mann), sie (sie/die Frau), es (es/das Kind), uns (wir), euch (ihr), sie (sie pl.), Sie (Höflichkeit)*.
 - **Die reinen Akkusativ-Präpositionen (Merkhilfe DOGFU + bis & entlang):**
--   - **D**urch (+ Akk): Räumliche Durchquerung (*durch den Filter*) oder Mittel/Vermittlung (*durch präzise Steuerung*).
--   - **O**hne (+ Akk): Fehlen, Ausschluss (*ohne Kontamination, ohne Handschuhe*).
--   - **G**egen (+ Akk): Richtung/Kollision (*gegen die Wand*), Bekämpfung (*gegen Bakterien*), ungefähre Zeit (*gegen 14:00 Uhr*).
--   - **F**ür (+ Akk): Zweck/Nutzen (*für das Experiment*), Empfänger (*für meinen Kollegen*), Zeitspanne (*für drei Monate*).
--   - **U**m (+ Akk): Räumlich herum (*um das Gebäude*), exakte Uhrzeit (*um 08:30 Uhr*).
--   - **Bis** (+ Akk): Zeitlicher/räumlicher Endpunkt (*bis nächsten Freitag, bis München*).
--   - **Entlang** (nachgestellt + Akk): Parallele Bewegung (*den Kanal entlang*).
+  - D**urch (+ Akk): Räumliche Durchquerung (*durch den Filter*) oder Mittel/Vermittlung (*durch präzise Steuerung*).
+  - O**hne (+ Akk): Fehlen, Ausschluss (*ohne Kontamination, ohne Handschuhe*).
+  - G**egen (+ Akk): Richtung/Kollision (*gegen die Wand*), Bekämpfung (*gegen Bakterien*), ungefähre Zeit (*gegen 14:00 Uhr*).
+  - F**ür (+ Akk): Zweck/Nutzen (*für das Experiment*), Empfänger (*für meinen Kollegen*), Zeitspanne (*für drei Monate*).
+  - U**m (+ Akk): Räumlich herum (*um das Gebäude*), exakte Uhrzeit (*um 08:30 Uhr*).
+  - Bis** (+ Akk): Zeitlicher/räumlicher Endpunkt (*bis nächsten Freitag, bis München*).
+  - Entlang** (nachgestellt + Akk): Parallele Bewegung (*den Kanal entlang*).
 
 #### 📊 Akkusativ-Präpositionen und semantische Anwendungsfelder
 
@@ -229,22 +229,22 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Trennbare Verben (Präfix ist immer STARK BETONT):**
--   - Typische Präfixe: *ab-, an-, auf-, aus-, bei-, ein-, fern-, fest-, fort-, her-, hin-, los-, mit-, nach-, vor-, weg-, weiter-, zu-, zurück-, zusammen-*.
--   - *Präsens-Hauptsatz:* Finites Verb auf Position 2, Präfix am Satzende (*Ich schalte das Spektrometer ein*).
--   - *Perfekt:* Das Ge-Element steht zwischen Präfix und Stamm (*ein-ge-schaltet, ab-ge-lesen*).
--   - *Infinitiv mit zu:* Das zu-Element steht dazwischen (*ein-zu-schalten, vor-zu-bereiten*).
+  - Typische Präfixe: *ab-, an-, auf-, aus-, bei-, ein-, fern-, fest-, fort-, her-, hin-, los-, mit-, nach-, vor-, weg-, weiter-, zu-, zurück-, zusammen-*.
+  - Präsens-Hauptsatz:* Finites Verb auf Position 2, Präfix am Satzende (*Ich schalte das Spektrometer ein*).
+  - Perfekt:* Das Ge-Element steht zwischen Präfix und Stamm (*ein-ge-schaltet, ab-ge-lesen*).
+  - Infinitiv mit zu:* Das zu-Element steht dazwischen (*ein-zu-schalten, vor-zu-bereiten*).
 - **2. Untrennbare Verben (Präfix ist immer UNBETONT):**
--   - Die 8 untrennbaren Präfixe (Merksatz: *be-emp-ent-er-ge-miss-ver-zer*):
--     - **be-** (macht Verben oft transitiv: *antworten -> beantworten, schreiben -> beschreiben*).
--     - **ent-** (Entfernung, Beginn: *entfernen, entstehen, entladen*).
--     - **er-** (Erreichen eines Ziels: *erreichen, erforschen, erkennen, erklären*).
--     - **ver-** (Fehler, Änderung, Ende: *verändern, verbessern, verbrauchen, vergessen*).
--     - **zer-** (Zerstörung in Teile: *zerstören, zerlegen, zersetzen*).
--     - **miss-** (Falsch: *missverstehen, missbrauchen*).
--   - *Perfekt:* Bildet das Partizip II NIEMALS mit 'ge-' (*hat beschrieben, hat verstanden, hat erforscht*).
+  - Die 8 untrennbaren Präfixe (Merksatz: *be-emp-ent-er-ge-miss-ver-zer*):
+  - be-** (macht Verben oft transitiv: *antworten -> beantworten, schreiben -> beschreiben*).
+  - ent-** (Entfernung, Beginn: *entfernen, entstehen, entladen*).
+  - er-** (Erreichen eines Ziels: *erreichen, erforschen, erkennen, erklären*).
+  - ver-** (Fehler, Änderung, Ende: *verändern, verbessern, verbrauchen, vergessen*).
+  - zer-** (Zerstörung in Teile: *zerstören, zerlegen, zersetzen*).
+  - miss-** (Falsch: *missverstehen, missbrauchen*).
+  - Perfekt:* Bildet das Partizip II NIEMALS mit 'ge-' (*hat beschrieben, hat verstanden, hat erforscht*).
 - **3. Duale Präfixe (Kontextabhängig trennbar oder untrennbar):**
--   - *durch-, über-, unter-, um-, wieder-*: Betont = trennbar (wörtlich/konkret); Unbetont = untrennbar (übertragen/abstrakt).
--   - *Beispiel:* *übersetzen (trennbare Betonung: setzt über)* = ans andere Ufer fahren; *übersetzen (untrennbar: übersetzt)* = Sprache dolmetschen.
+  - durch-, über-, unter-, um-, wieder-*: Betont = trennbar (wörtlich/konkret); Unbetont = untrennbar (übertragen/abstrakt).
+  - Beispiel:* *übersetzen (trennbare Betonung: setzt über)* = ans andere Ufer fahren; *übersetzen (untrennbar: übersetzt)* = Sprache dolmetschen.
 
 #### 📊 Vergleich trennbarer und untrennbarer Verbformen
 
@@ -270,16 +270,16 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **Modalverben-Konjugation Besonderheit:**
--   - 1. Person Singular (*ich*) und 3. Person Singular (*er/sie/es*) haben KEINE Personalendung und sind absolut identisch (*ich kann, er kann; ich muss, er muss*)!
--   - Stammvokalwechsel im Singular bei *können (kann), dürfen (darf), müssen (muss), wissen (weiß)*.
+  - 1. Person Singular (*ich*) und 3. Person Singular (*er/sie/es*) haben KEINE Personalendung und sind absolut identisch (*ich kann, er kann; ich muss, er muss*)!
+  - Stammvokalwechsel im Singular bei *können (kann), dürfen (darf), müssen (muss), wissen (weiß)*.
 - **Semantische Differenzierung:**
--   - **können:** Fähigkeit (Ich kann programmieren), Möglichkeit (Man kann hier parken), Erlaubnis/Gelegenheit.
--   - **müssen:** Unvermeidbare Notwendigkeit, Pflicht, Naturgesetz (Man muss atmen, um zu leben). Negiert: *nicht müssen* = keine Notwendigkeit (braucht nicht).
--   - **dürfen:** Erlaubnis, behördliche Berechtigung (Hier darf man forschen). Negiert: *nicht dürfen* = STRIKTES VERBOT (Hier darf man nicht rauchen!).
--   - **sollen:** Auftrag, moralische Pflicht, Empfehlung von Dritten (Der Arzt sagt, ich soll mich ausruhen).
--   - **wollen:** Subjektiver starker Wille, Absicht, Entschluss (Ich will promovieren).
--   - **möchten:** Höfliche Form von wollen (Ich möchte gerne einen Termin vereinbaren).
--   - **mögen (Vollverb):** Vorliebe für Dinge/Personen (*Ich mag Kaffee; Ich mag dieses Design*).
+  - können:** Fähigkeit (Ich kann programmieren), Möglichkeit (Man kann hier parken), Erlaubnis/Gelegenheit.
+  - müssen:** Unvermeidbare Notwendigkeit, Pflicht, Naturgesetz (Man muss atmen, um zu leben). Negiert: *nicht müssen* = keine Notwendigkeit (braucht nicht).
+  - dürfen:** Erlaubnis, behördliche Berechtigung (Hier darf man forschen). Negiert: *nicht dürfen* = STRIKTES VERBOT (Hier darf man nicht rauchen!).
+  - sollen:** Auftrag, moralische Pflicht, Empfehlung von Dritten (Der Arzt sagt, ich soll mich ausruhen).
+  - wollen:** Subjektiver starker Wille, Absicht, Entschluss (Ich will promovieren).
+  - möchten:** Höfliche Form von wollen (Ich möchte gerne einen Termin vereinbaren).
+  - mögen (Vollverb):** Vorliebe für Dinge/Personen (*Ich mag Kaffee; Ich mag dieses Design*).
 
 #### 📊 Vollständige Konjugationstabelle aller Modalverben im Präsens
 
@@ -305,18 +305,18 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. du-Form (Informell Singular):**
--   - *Regel:* Verbstamm der 2. Person Singular OHNE Personalendung *-st* und OHNE das Pronomen *du* (*du lernst -> Lern!*, *du arbeitest -> Arbeite!*).
--   - *Stammendung auf -d, -t, -m, -n, -ig:* Erhält zwingend ein *-e* (*Warte!, Öffne!, Entschuldige!*).
--   - *Starke Verben mit e->i/ie Wechsel:* Behalten den Vokalwechsel bei, erhalten NIEMALS ein Endungs-e (*du hilfst -> Hilf!*, *du liest -> Lies!*, *du sprichst -> Sprich!*).
--   - *Starke Verben mit a->ä Wechsel:* VERLIEREN den Umlaut im Imperativ (*du fährst -> Fahr!*, *du schläfst -> Schlaf!*).
+  - Regel:* Verbstamm der 2. Person Singular OHNE Personalendung *-st* und OHNE das Pronomen *du* (*du lernst -> Lern!*, *du arbeitest -> Arbeite!*).
+  - Stammendung auf -d, -t, -m, -n, -ig:* Erhält zwingend ein *-e* (*Warte!, Öffne!, Entschuldige!*).
+  - Starke Verben mit e->i/ie Wechsel:* Behalten den Vokalwechsel bei, erhalten NIEMALS ein Endungs-e (*du hilfst -> Hilf!*, *du liest -> Lies!*, *du sprichst -> Sprich!*).
+  - Starke Verben mit a->ä Wechsel:* VERLIEREN den Umlaut im Imperativ (*du fährst -> Fahr!*, *du schläfst -> Schlaf!*).
 - **2. ihr-Form (Informell Plural):**
--   - *Regel:* Identisch mit der regulären 2. Person Plural Präsens, aber OHNE das Pronomen *ihr* (*ihr lernt -> Lernt!*, *ihr wartet -> Wartet!*, *ihr helft -> Helft!*).
+  - Regel:* Identisch mit der regulären 2. Person Plural Präsens, aber OHNE das Pronomen *ihr* (*ihr lernt -> Lernt!*, *ihr wartet -> Wartet!*, *ihr helft -> Helft!*).
 - **3. Sie-Form (Formell Singular & Plural):**
--   - *Regel:* Infinitiv + Pronomen *Sie* in invertierter Stellung (*Lernen Sie!*, *Kommen Sie herein!*, *Warten Sie einen Moment!*).
+  - Regel:* Infinitiv + Pronomen *Sie* in invertierter Stellung (*Lernen Sie!*, *Kommen Sie herein!*, *Warten Sie einen Moment!*).
 - **4. wir-Form (Aufforderung an die Gruppe):**
--   - *Regel:* Infinitiv + *wir* (*Gehen wir!*, *Starten wir die Messung!*) oder mit *Lassen Sie uns / Lasst uns + Infinitiv*.
+  - Regel:* Infinitiv + *wir* (*Gehen wir!*, *Starten wir die Messung!*) oder mit *Lassen Sie uns / Lasst uns + Infinitiv*.
 - **5. Das unregelmäßige Verb 'sein':**
--   - *du:* **Sei** vorsichtig! | *ihr:* **Seid** ruhig! | *Sie:* **Seien Sie** pünktlich! | *wir:* **Seien wir** optimistisch!
+  - du:* **Sei** vorsichtig! | *ihr:* **Seid** ruhig! | *Sie:* **Seien Sie** pünktlich! | *wir:* **Seien wir** optimistisch!
 
 #### 📊 Systematische Imperativ-Matrix
 
@@ -342,25 +342,25 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Grundstruktur des Perfekts:**
--   - *Hilfsverb (haben / sein)* steht konjugiert auf **Position 2**.
--   - *Partizip II* steht unveränderlich am **Satzende** (rechte Satzklammer).
+  - Hilfsverb (haben / sein)* steht konjugiert auf **Position 2**.
+  - Partizip II* steht unveränderlich am **Satzende** (rechte Satzklammer).
 - **2. Kriterien zur Wahl des Hilfsverbs:**
--   - **Wann 'sein'?**
+  - Wann 'sein'?**
 -     1. Verben der Ortsveränderung (von Punkt A nach B): *gehen, fahren, fliegen, kommen, laufen, reisen, schwimmen, steigen*.
 -     2. Verben der Zustandsänderung (Übergang in neuen Zustand): *aufwachen, einschlafen, sterben, wachsen, schmelzen, gefrieren*.
 -     3. Die 6 Sonderverben: *sein (ist gewesen), werden (ist geworden), bleiben (ist geblieben), passieren (ist passiert), gelingen (ist gelungen), scheitern (ist gescheitert)*.
--   - **Wann 'haben'?**
+  - Wann 'haben'?**
 -     1. Alle transitiven Verben (Verben mit Akkusativobjekt: *Ich habe den Sensor kalibriert*).
 -     2. Alle reflexiven Verben (*Ich habe mich gefreut*).
 -     3. Alle Modalverben (*Er hat arbeiten müssen*).
 -     4. Alle intransitiven Verben ohne Orts-/Zustandswechsel (*Ich habe geschlafen, gestanden, gewartet*).
 - **3. Bildung des Partizip II (Die 4 Hauptregeln):**
--   - *Regelmäßige (schwache) Verben:* **ge- + Verbstamm + -t** (*ge-lern-t, ge-kauf-t, ge-arbeite-t*).
--   - *Unregelmäßige (starke) Verben:* **ge- + Verbstamm (oft Ablaut) + -en** (*ge-sproch-en, ge-fahr-en, ge-les-en*).
--   - *Gemischte Verben (Ablaut + -t):* *bringen -> gebracht, denken -> gedacht, wissen -> gewusst, kennen -> gekannt*.
--   - *Verben auf -ieren:* KEIN ge- Präfix! Bilden Partizip auf *-iert* (*analysieren -> analysiert, zentrifugieren -> zentrifugiert*).
--   - *Trennbare Verben:* ge- steht in der Mitte (*ein-ge-stellt, ab-ge-lesen*).
--   - *Untrennbare Verben:* KEIN ge- Präfix (*beschrieben, verstanden, erforscht*).
+  - Regelmäßige (schwache) Verben:* **ge- + Verbstamm + -t** (*ge-lern-t, ge-kauf-t, ge-arbeite-t*).
+  - Unregelmäßige (starke) Verben:* **ge- + Verbstamm (oft Ablaut) + -en** (*ge-sproch-en, ge-fahr-en, ge-les-en*).
+  - Gemischte Verben (Ablaut + -t):* *bringen -> gebracht, denken -> gedacht, wissen -> gewusst, kennen -> gekannt*.
+  - Verben auf -ieren:* KEIN ge- Präfix! Bilden Partizip auf *-iert* (*analysieren -> analysiert, zentrifugieren -> zentrifugiert*).
+  - Trennbare Verben:* ge- steht in der Mitte (*ein-ge-stellt, ab-ge-lesen*).
+  - Untrennbare Verben:* KEIN ge- Präfix (*beschrieben, verstanden, erforscht*).
 
 #### 📊 Kompakte Partizip II Referenztabelle nach Verbklassen
 

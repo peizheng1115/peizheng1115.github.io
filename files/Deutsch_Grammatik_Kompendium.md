@@ -64,15 +64,15 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 
 ### 💡 Regeln & Erklärungen
 - **1. Maskuline Nomen (der):**
--   - *Morphologische Suffixe:* **-ling** (Lehrling, Schmetterling), **-or** (Motor, Reaktor), **-ismus** (Organismus, Mechanismus), **-ant / -ent** (Assistent, Patient, Dozent), **-ist** (Spezialist, Biologe), **-er** bei handelnden Personen/Geräten (Forscher, Computer, Bohrer).
--   - *Semantische Gruppen:* Wochentage (*der Montag*), Monate (*der Januar*), Jahreszeiten (*der Sommer*), Himmelsrichtungen (*der Norden*), Wetterereignisse (*der Regen, der Schnee, der Wind, der Nebel*), alkoholische Getränke (*der Wein, der Wodka*; Ausnahme: *das Bier*), Automarken (*der BMW, der Mercedes*).
+  - Morphologische Suffixe:* **-ling** (Lehrling, Schmetterling), **-or** (Motor, Reaktor), **-ismus** (Organismus, Mechanismus), **-ant / -ent** (Assistent, Patient, Dozent), **-ist** (Spezialist, Biologe), **-er** bei handelnden Personen/Geräten (Forscher, Computer, Bohrer).
+  - Semantische Gruppen:* Wochentage (*der Montag*), Monate (*der Januar*), Jahreszeiten (*der Sommer*), Himmelsrichtungen (*der Norden*), Wetterereignisse (*der Regen, der Schnee, der Wind, der Nebel*), alkoholische Getränke (*der Wein, der Wodka*; Ausnahme: *das Bier*), Automarken (*der BMW, der Mercedes*).
 - **2. Feminine Nomen (die):**
--   - *Morphologische Suffixe (nahezu 100% feminin):* **-ung** (Zellkultur, Forschung, Lösung, Prüfung), **-heit / -keit** (Krankheit, Möglichkeit, Flüssigkeit, Sauberkeit), **-schaft** (Wissenschaft, Eigenschaft, Gesellschaft), **-tät** (Universität, Stabilität, Permeabilität), **-tion / -sion** (Reaktion, Diffusion, Konzentration, Fusion), **-ie** (Biologie, Chemie, Mikroskopie), **-ik** (Mikrofluidik, Genetik, Physik, Musik), **-anz / -enz** (Differenz, Toleranz, Sequenz), **-ur** (Kultur, Temperatur, Natur, Struktur), **-e** (ca. 90% aller zweisilbigen Nomen auf -e: *die Lampe, die Grenze, die Phase, die Pumpe, die Zelle*; Ausnahmen: *der Name, der Käse, das Auge, das Ende*).
--   - *Semantische Gruppen:* Weibliche Personen & Berufsbezeichnungen (*die Professorin, die Ärztin*), Bäume & Blumen (*die Eiche, die Rose*; Ausnahme: *der Baum*), Schiffs- und Flugzeugnamen (*die Titanic, die Boeing 747*).
+  - Morphologische Suffixe (nahezu 100% feminin):* **-ung** (Zellkultur, Forschung, Lösung, Prüfung), **-heit / -keit** (Krankheit, Möglichkeit, Flüssigkeit, Sauberkeit), **-schaft** (Wissenschaft, Eigenschaft, Gesellschaft), **-tät** (Universität, Stabilität, Permeabilität), **-tion / -sion** (Reaktion, Diffusion, Konzentration, Fusion), **-ie** (Biologie, Chemie, Mikroskopie), **-ik** (Mikrofluidik, Genetik, Physik, Musik), **-anz / -enz** (Differenz, Toleranz, Sequenz), **-ur** (Kultur, Temperatur, Natur, Struktur), **-e** (ca. 90% aller zweisilbigen Nomen auf -e: *die Lampe, die Grenze, die Phase, die Pumpe, die Zelle*; Ausnahmen: *der Name, der Käse, das Auge, das Ende*).
+  - Semantische Gruppen:* Weibliche Personen & Berufsbezeichnungen (*die Professorin, die Ärztin*), Bäume & Blumen (*die Eiche, die Rose*; Ausnahme: *der Baum*), Schiffs- und Flugzeugnamen (*die Titanic, die Boeing 747*).
 - **3. Neutrale Nomen (das):**
--   - *Morphologische Suffixe:* **-chen / -lein** (Verkleinerungsformen: *das Teilchen, das Röhrchen, das Mädchen*), **-ment** (Experiment, Instrument, Dokument, Segment), **-um** (Zentrum, Laboratorium, Medium, Spektrum, Serum), **-tum** (Wachstum; Ausnahme: *der Reichtum, der Irrtum*), **-ma** (Klima, Thema, Schema, Prisma).
--   - *Substantivierte Infinitive & Adjektive:* **das + Verb-Infinitiv** (*das Messen, das Forschen, das Pipettieren, das Verstehen*), substantivierte Farben & Sprachen (*das Blau, das Deutsch*).
--   - *Semantische Gruppen:* Metalle & chemische Elemente (*das Gold, das Silber, das Silizium, das Platin, das Kupfer*; Ausnahmen: *der Stahl, die Bronze*), Bruchzahlen (*das Drittel, das Viertel*).
+  - Morphologische Suffixe:* **-chen / -lein** (Verkleinerungsformen: *das Teilchen, das Röhrchen, das Mädchen*), **-ment** (Experiment, Instrument, Dokument, Segment), **-um** (Zentrum, Laboratorium, Medium, Spektrum, Serum), **-tum** (Wachstum; Ausnahme: *der Reichtum, der Irrtum*), **-ma** (Klima, Thema, Schema, Prisma).
+  - Substantivierte Infinitive & Adjektive:* **das + Verb-Infinitiv** (*das Messen, das Forschen, das Pipettieren, das Verstehen*), substantivierte Farben & Sprachen (*das Blau, das Deutsch*).
+  - Semantische Gruppen:* Metalle & chemische Elemente (*das Gold, das Silber, das Silizium, das Platin, das Kupfer*; Ausnahmen: *der Stahl, die Bronze*), Bruchzahlen (*das Drittel, das Viertel*).
 - **4. Zusammengesetzte Nomen (Komposita):** Das letzte Nomen bestimmt das Geschlecht und den Plural des gesamten Wortes: *das Labor + die Tür = die Labortür*; *die Zelle + der Kern = der Zellkern*.
 
 #### 📊 Homonyme mit unterschiedlichem Genus & Bedeutung (Vorsicht Falle!)
@@ -104,8 +104,8 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 - **Klasse 4: Endung -s (ohne Umlaut):** Fremdwörter aus dem Englischen/Französischen (*das Auto -> die Autos, der Chip -> die Chips, das Labor -> die Labors / Labore, das Team -> die Teams*), Abkürzungen (*die PKWs, die LKWs*) und Nomen auf Vollvokal (*das Foto -> die Fotos, das Sofa -> die Sofas*).
 - **Klasse 5: Endungslos (nur Umlaut möglich):** Maskuline und neutrale Nomen auf *-el, -er, -en* sowie Verkleinerungsformen auf *-chen / -lein* (*der Computer -> die Computer, der Apfel -> die Äpfel, der Fehler -> die Fehler, das Röhrchen -> die Röhrchen, das Zeichen -> die Zeichen*).
 - **Sonderkategorien:**
--   - *Singulariatantum (nur im Singular):* Stoffnamen (*das Gold, das Wasser, das Blut, der Sauerstoff*), Abstrakta (*der Hunger, der Durst, die Kälte, die Geduld, das Wissen*).
--   - *Pluraliatantum (nur im Plural):* *die Eltern, die Ferien, die Kosten, die Leute, die Lebensmittel, die Personalien, die Gebrüder*.
+  - Singulariatantum (nur im Singular):* Stoffnamen (*das Gold, das Wasser, das Blut, der Sauerstoff*), Abstrakta (*der Hunger, der Durst, die Kälte, die Geduld, das Wissen*).
+  - Pluraliatantum (nur im Plural):* *die Eltern, die Ferien, die Kosten, die Leute, die Lebensmittel, die Personalien, die Gebrüder*.
 
 #### 📊 Übersichtstabelle der 5 Pluralbildungsklassen
 
@@ -130,13 +130,13 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 
 ### 💡 Regeln & Erklärungen
 - **Artikeldeklination:**
--   - *Nominativ (Subjekt):* der / ein / kein (m); die / eine / keine (f); das / ein / kein (n); die / — / keine (pl).
--   - *Akkusativ (Objekt):* den / einen / keinen (m); die / eine / keine (f); das / ein / kein (n); die / — / keine (pl).
+  - Nominativ (Subjekt):* der / ein / kein (m); die / eine / keine (f); das / ein / kein (n); die / — / keine (pl).
+  - Akkusativ (Objekt):* den / einen / keinen (m); die / eine / keine (f); das / ein / kein (n); die / — / keine (pl).
 - **Regeln für die Negation:**
--   - **kein / keine:** Negiert Nomen mit unbestimmtem Artikel (*Ich habe ein Auto -> Ich habe kein Auto*) oder Nomen mit Nullartikel (*Ich habe Zeit -> Ich habe keine Zeit*).
--   - **nicht:** Negiert Verben (*Ich arbeite heute nicht*), Adjektive (*Das Medium ist nicht steril*), Adverbien (*Er spricht nicht schnell*), Eigennamen (*Das ist nicht Professor Weber*) und Nomen mit bestimmtem Artikel oder Possessivartikel (*Das ist nicht der richtige Sensor; Das ist nicht mein Protokoll*).
+  - kein / keine:** Negiert Nomen mit unbestimmtem Artikel (*Ich habe ein Auto -> Ich habe kein Auto*) oder Nomen mit Nullartikel (*Ich habe Zeit -> Ich habe keine Zeit*).
+  - nicht:** Negiert Verben (*Ich arbeite heute nicht*), Adjektive (*Das Medium ist nicht steril*), Adverbien (*Er spricht nicht schnell*), Eigennamen (*Das ist nicht Professor Weber*) und Nomen mit bestimmtem Artikel oder Possessivartikel (*Das ist nicht der richtige Sensor; Das ist nicht mein Protokoll*).
 - **Possessivartikel im Nominativ & Akkusativ:**
--   - *ich -> mein / meine*; *du -> dein / deine*; *er / es -> sein / seine*; *sie (Singular) -> ihr / ihre*; *wir -> unser / unsere*; *ihr -> euer / eure* (Beachte Wegfall des *e*: *eure*, nicht *euere*); *sie (Plural) / Sie (Höflichkeit) -> ihr / ihre / Ihr / Ihre*.
+  - ich -> mein / meine*; *du -> dein / deine*; *er / es -> sein / seine*; *sie (Singular) -> ihr / ihre*; *wir -> unser / unsere*; *ihr -> euer / eure* (Beachte Wegfall des *e*: *eure*, nicht *euere*); *sie (Plural) / Sie (Höflichkeit) -> ihr / ihre / Ihr / Ihre*.
 
 #### 📊 Vollständige Possessivartikel-Tabelle (Nominativ & Akkusativ)
 
@@ -164,14 +164,14 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 ### 💡 Regeln & Erklärungen
 - **1. Regelmäßige schwache Verben:** Verbstamm + Personalendungen: *-e, -st, -t, -en, -t, -en* (*lernen -> ich lerne, du lernst, er lernt, wir lernen, ihr lernt, sie lernen*).
 - **2. Phonetische Anpassungen des Verbstamms:**
--   - *Stamm auf -d oder -t:* Einschub eines *-e-* bei *du, er/sie/es, ihr* (*arbeiten -> du arbeitest, er arbeitet, ihr arbeitet; finden -> du findest, er findet*).
--   - *Stamm auf -s, -ß, -z, -x:* In der 2. Person Singular entfällt das *-s-* der Endung (*heißen -> du heißt; reisen -> du reist; sitzen -> du sitzt*).
--   - *Stamm auf -eln / -ern:* In der 1. Person Singular entfällt oft das *-e-* im Stamm (*handeln -> ich handle / handele, wir handeln; sammeln -> ich sammle*).
+  - Stamm auf -d oder -t:* Einschub eines *-e-* bei *du, er/sie/es, ihr* (*arbeiten -> du arbeitest, er arbeitet, ihr arbeitet; finden -> du findest, er findet*).
+  - Stamm auf -s, -ß, -z, -x:* In der 2. Person Singular entfällt das *-s-* der Endung (*heißen -> du heißt; reisen -> du reist; sitzen -> du sitzt*).
+  - Stamm auf -eln / -ern:* In der 1. Person Singular entfällt oft das *-e-* im Stamm (*handeln -> ich handle / handele, wir handeln; sammeln -> ich sammle*).
 - **3. Starke Verben mit Stammvokalwechsel (NUR bei du & er/sie/es):**
--   - *e -> i:* *helfen (hilfst, hilft), sprechen (sprichst, spricht), treffen (triffst, trifft), vergessen (vergisst, vergisst), sterben (stirbst, stirbt), werfen (wirfst, wirft)*.
--   - *e -> ie:* *sehen (siehst, sieht), lesen (liest, liest), empfehlen (empfiehlst, empfiehlt), stehlen (stiehlst, stiehlt)*.
--   - *a -> ä:* *fahren (fährst, fährt), schlafen (schläfst, schläft), tragen (trägst, trägt), waschen (wäschst, wäscht), lassen (lässt, lässt)*.
--   - *au -> äu:* *laufen (läufst, läuft), saufen (säufst, säuft)*.
+  - e -> i:* *helfen (hilfst, hilft), sprechen (sprichst, spricht), treffen (triffst, trifft), vergessen (vergisst, vergisst), sterben (stirbst, stirbt), werfen (wirfst, wirft)*.
+  - e -> ie:* *sehen (siehst, sieht), lesen (liest, liest), empfehlen (empfiehlst, empfiehlt), stehlen (stiehlst, stiehlt)*.
+  - a -> ä:* *fahren (fährst, fährt), schlafen (schläfst, schläft), tragen (trägst, trägt), waschen (wäschst, wäscht), lassen (lässt, lässt)*.
+  - au -> äu:* *laufen (läufst, läuft), saufen (säufst, säuft)*.
 - **4. Unregelmäßige Hilfsverben:** *sein (bin, bist, ist, sind, seid, sind)*, *haben (habe, hast, hat, haben, habt, haben)*, *werden (werde, wirst, wird, werden, werdet, werden)*, *wissen (weiß, weißt, weiß, wissen, wisst, wissen)*.
 
 #### 📊 Vollständige Konjugationsmatrix wichtiger Verbtypen im Präsens
@@ -201,18 +201,18 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 - **2. Das Vorfeld (Position 1):** Hier steht genau EIN Satzglied. Das kann das Subjekt sein (*Der Forscher testet heute die Probe*) oder eine adverbiale Bestimmung (*Heute testet der Forscher die Probe*).
 - **3. Inversion (Subjekt-Verb-Umstellung):** Steht nicht das Subjekt auf Position 1, wandert das Subjekt automatisch direkt hinter das Verb auf Position 3 (*Am Montag präsentiere ich die Daten*).
 - **4. Die Satzklammer (Rahmenkonstruktion):**
--   - *Linke Satzklammer (Position 2):* Finites Verb (Hilfsverb, Modalverb oder finiter Teil eines trennbaren Verbs).
--   - *Rechte Satzklammer (Satzende):* Infiniter Verbteil (Partizip II, Infinitiv oder trennbares Präfix).
--   - *Mittelfeld:* Alle Objekte, Adverbialangaben und Pronomen.
+  - Linke Satzklammer (Position 2):* Finites Verb (Hilfsverb, Modalverb oder finiter Teil eines trennbaren Verbs).
+  - Rechte Satzklammer (Satzende):* Infiniter Verbteil (Partizip II, Infinitiv oder trennbares Präfix).
+  - Mittelfeld:* Alle Objekte, Adverbialangaben und Pronomen.
 - **5. TEKAMOLO-Regel für Angaben im Mittelfeld:**
--   - **TE**mporal (Wann?): *heute um 9 Uhr*
--   - **KA**usal (Warum?): *wegen der Messung*
--   - **MO**dal (Wie?): *mit großer Präzision*
--   - **LO**kal (Wo/Wohin?): *im Reinraum*.
--   - *Beispiel:* Ich fahre **heute (Te) wegen des Kongresses (Ka) mit dem ICE (Mo) nach München (Lo)**.
+  - TE**mporal (Wann?): *heute um 9 Uhr*
+  - KA**usal (Warum?): *wegen der Messung*
+  - MO**dal (Wie?): *mit großer Präzision*
+  - LO**kal (Wo/Wohin?): *im Reinraum*.
+  - Beispiel:* Ich fahre **heute (Te) wegen des Kongresses (Ka) mit dem ICE (Mo) nach München (Lo)**.
 - **6. Fragesätze:**
--   - *W-Fragen (Ergänzungsfragen):* Fragewort (Pos 1) + Finites Verb (Pos 2) + Subjekt (Pos 3)... (*Wo forschen Sie zurzeit?*)
--   - *Ja/Nein-Fragen (Entscheidungsfragen):* Finites Verb ganz vorne auf **Position 1** (*Haben Sie die Proben sterilisiert?*)
+  - W-Fragen (Ergänzungsfragen):* Fragewort (Pos 1) + Finites Verb (Pos 2) + Subjekt (Pos 3)... (*Wo forschen Sie zurzeit?*)
+  - Ja/Nein-Fragen (Entscheidungsfragen):* Finites Verb ganz vorne auf **Position 1** (*Haben Sie die Proben sterilisiert?*)
 
 #### 📊 Stellungsfelder-Modell des deutschen Hauptsatzes
 
@@ -239,13 +239,13 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 - **Verben mit obligatorischem Akkusativ (Transitive Verben):** *haben, brauchen, suchen, finden, kaufen, lesen, schreiben, trinken, essen, sehen, hören, verstehen, untersuchen, kalibrieren, pipettieren, reinigen, vorbereiten*.
 - **Personalpronomen im Akkusativ:** *mich (ich), dich (du), ihn (er/der Mann), sie (sie/die Frau), es (es/das Kind), uns (wir), euch (ihr), sie (sie pl.), Sie (Höflichkeit)*.
 - **Die reinen Akkusativ-Präpositionen (Merkhilfe DOGFU + bis & entlang):**
--   - **D**urch (+ Akk): Räumliche Durchquerung (*durch den Filter*) oder Mittel/Vermittlung (*durch präzise Steuerung*).
--   - **O**hne (+ Akk): Fehlen, Ausschluss (*ohne Kontamination, ohne Handschuhe*).
--   - **G**egen (+ Akk): Richtung/Kollision (*gegen die Wand*), Bekämpfung (*gegen Bakterien*), ungefähre Zeit (*gegen 14:00 Uhr*).
--   - **F**ür (+ Akk): Zweck/Nutzen (*für das Experiment*), Empfänger (*für meinen Kollegen*), Zeitspanne (*für drei Monate*).
--   - **U**m (+ Akk): Räumlich herum (*um das Gebäude*), exakte Uhrzeit (*um 08:30 Uhr*).
--   - **Bis** (+ Akk): Zeitlicher/räumlicher Endpunkt (*bis nächsten Freitag, bis München*).
--   - **Entlang** (nachgestellt + Akk): Parallele Bewegung (*den Kanal entlang*).
+  - D**urch (+ Akk): Räumliche Durchquerung (*durch den Filter*) oder Mittel/Vermittlung (*durch präzise Steuerung*).
+  - O**hne (+ Akk): Fehlen, Ausschluss (*ohne Kontamination, ohne Handschuhe*).
+  - G**egen (+ Akk): Richtung/Kollision (*gegen die Wand*), Bekämpfung (*gegen Bakterien*), ungefähre Zeit (*gegen 14:00 Uhr*).
+  - F**ür (+ Akk): Zweck/Nutzen (*für das Experiment*), Empfänger (*für meinen Kollegen*), Zeitspanne (*für drei Monate*).
+  - U**m (+ Akk): Räumlich herum (*um das Gebäude*), exakte Uhrzeit (*um 08:30 Uhr*).
+  - Bis** (+ Akk): Zeitlicher/räumlicher Endpunkt (*bis nächsten Freitag, bis München*).
+  - Entlang** (nachgestellt + Akk): Parallele Bewegung (*den Kanal entlang*).
 
 #### 📊 Akkusativ-Präpositionen und semantische Anwendungsfelder
 
@@ -270,22 +270,22 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 
 ### 💡 Regeln & Erklärungen
 - **1. Trennbare Verben (Präfix ist immer STARK BETONT):**
--   - Typische Präfixe: *ab-, an-, auf-, aus-, bei-, ein-, fern-, fest-, fort-, her-, hin-, los-, mit-, nach-, vor-, weg-, weiter-, zu-, zurück-, zusammen-*.
--   - *Präsens-Hauptsatz:* Finites Verb auf Position 2, Präfix am Satzende (*Ich schalte das Spektrometer ein*).
--   - *Perfekt:* Das Ge-Element steht zwischen Präfix und Stamm (*ein-ge-schaltet, ab-ge-lesen*).
--   - *Infinitiv mit zu:* Das zu-Element steht dazwischen (*ein-zu-schalten, vor-zu-bereiten*).
+  - Typische Präfixe: *ab-, an-, auf-, aus-, bei-, ein-, fern-, fest-, fort-, her-, hin-, los-, mit-, nach-, vor-, weg-, weiter-, zu-, zurück-, zusammen-*.
+  - Präsens-Hauptsatz:* Finites Verb auf Position 2, Präfix am Satzende (*Ich schalte das Spektrometer ein*).
+  - Perfekt:* Das Ge-Element steht zwischen Präfix und Stamm (*ein-ge-schaltet, ab-ge-lesen*).
+  - Infinitiv mit zu:* Das zu-Element steht dazwischen (*ein-zu-schalten, vor-zu-bereiten*).
 - **2. Untrennbare Verben (Präfix ist immer UNBETONT):**
--   - Die 8 untrennbaren Präfixe (Merksatz: *be-emp-ent-er-ge-miss-ver-zer*):
--     - **be-** (macht Verben oft transitiv: *antworten -> beantworten, schreiben -> beschreiben*).
--     - **ent-** (Entfernung, Beginn: *entfernen, entstehen, entladen*).
--     - **er-** (Erreichen eines Ziels: *erreichen, erforschen, erkennen, erklären*).
--     - **ver-** (Fehler, Änderung, Ende: *verändern, verbessern, verbrauchen, vergessen*).
--     - **zer-** (Zerstörung in Teile: *zerstören, zerlegen, zersetzen*).
--     - **miss-** (Falsch: *missverstehen, missbrauchen*).
--   - *Perfekt:* Bildet das Partizip II NIEMALS mit 'ge-' (*hat beschrieben, hat verstanden, hat erforscht*).
+  - Die 8 untrennbaren Präfixe (Merksatz: *be-emp-ent-er-ge-miss-ver-zer*):
+  - be-** (macht Verben oft transitiv: *antworten -> beantworten, schreiben -> beschreiben*).
+  - ent-** (Entfernung, Beginn: *entfernen, entstehen, entladen*).
+  - er-** (Erreichen eines Ziels: *erreichen, erforschen, erkennen, erklären*).
+  - ver-** (Fehler, Änderung, Ende: *verändern, verbessern, verbrauchen, vergessen*).
+  - zer-** (Zerstörung in Teile: *zerstören, zerlegen, zersetzen*).
+  - miss-** (Falsch: *missverstehen, missbrauchen*).
+  - Perfekt:* Bildet das Partizip II NIEMALS mit 'ge-' (*hat beschrieben, hat verstanden, hat erforscht*).
 - **3. Duale Präfixe (Kontextabhängig trennbar oder untrennbar):**
--   - *durch-, über-, unter-, um-, wieder-*: Betont = trennbar (wörtlich/konkret); Unbetont = untrennbar (übertragen/abstrakt).
--   - *Beispiel:* *übersetzen (trennbare Betonung: setzt über)* = ans andere Ufer fahren; *übersetzen (untrennbar: übersetzt)* = Sprache dolmetschen.
+  - durch-, über-, unter-, um-, wieder-*: Betont = trennbar (wörtlich/konkret); Unbetont = untrennbar (übertragen/abstrakt).
+  - Beispiel:* *übersetzen (trennbare Betonung: setzt über)* = ans andere Ufer fahren; *übersetzen (untrennbar: übersetzt)* = Sprache dolmetschen.
 
 #### 📊 Vergleich trennbarer und untrennbarer Verbformen
 
@@ -311,16 +311,16 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 
 ### 💡 Regeln & Erklärungen
 - **Modalverben-Konjugation Besonderheit:**
--   - 1. Person Singular (*ich*) und 3. Person Singular (*er/sie/es*) haben KEINE Personalendung und sind absolut identisch (*ich kann, er kann; ich muss, er muss*)!
--   - Stammvokalwechsel im Singular bei *können (kann), dürfen (darf), müssen (muss), wissen (weiß)*.
+  - 1. Person Singular (*ich*) und 3. Person Singular (*er/sie/es*) haben KEINE Personalendung und sind absolut identisch (*ich kann, er kann; ich muss, er muss*)!
+  - Stammvokalwechsel im Singular bei *können (kann), dürfen (darf), müssen (muss), wissen (weiß)*.
 - **Semantische Differenzierung:**
--   - **können:** Fähigkeit (Ich kann programmieren), Möglichkeit (Man kann hier parken), Erlaubnis/Gelegenheit.
--   - **müssen:** Unvermeidbare Notwendigkeit, Pflicht, Naturgesetz (Man muss atmen, um zu leben). Negiert: *nicht müssen* = keine Notwendigkeit (braucht nicht).
--   - **dürfen:** Erlaubnis, behördliche Berechtigung (Hier darf man forschen). Negiert: *nicht dürfen* = STRIKTES VERBOT (Hier darf man nicht rauchen!).
--   - **sollen:** Auftrag, moralische Pflicht, Empfehlung von Dritten (Der Arzt sagt, ich soll mich ausruhen).
--   - **wollen:** Subjektiver starker Wille, Absicht, Entschluss (Ich will promovieren).
--   - **möchten:** Höfliche Form von wollen (Ich möchte gerne einen Termin vereinbaren).
--   - **mögen (Vollverb):** Vorliebe für Dinge/Personen (*Ich mag Kaffee; Ich mag dieses Design*).
+  - können:** Fähigkeit (Ich kann programmieren), Möglichkeit (Man kann hier parken), Erlaubnis/Gelegenheit.
+  - müssen:** Unvermeidbare Notwendigkeit, Pflicht, Naturgesetz (Man muss atmen, um zu leben). Negiert: *nicht müssen* = keine Notwendigkeit (braucht nicht).
+  - dürfen:** Erlaubnis, behördliche Berechtigung (Hier darf man forschen). Negiert: *nicht dürfen* = STRIKTES VERBOT (Hier darf man nicht rauchen!).
+  - sollen:** Auftrag, moralische Pflicht, Empfehlung von Dritten (Der Arzt sagt, ich soll mich ausruhen).
+  - wollen:** Subjektiver starker Wille, Absicht, Entschluss (Ich will promovieren).
+  - möchten:** Höfliche Form von wollen (Ich möchte gerne einen Termin vereinbaren).
+  - mögen (Vollverb):** Vorliebe für Dinge/Personen (*Ich mag Kaffee; Ich mag dieses Design*).
 
 #### 📊 Vollständige Konjugationstabelle aller Modalverben im Präsens
 
@@ -346,18 +346,18 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 
 ### 💡 Regeln & Erklärungen
 - **1. du-Form (Informell Singular):**
--   - *Regel:* Verbstamm der 2. Person Singular OHNE Personalendung *-st* und OHNE das Pronomen *du* (*du lernst -> Lern!*, *du arbeitest -> Arbeite!*).
--   - *Stammendung auf -d, -t, -m, -n, -ig:* Erhält zwingend ein *-e* (*Warte!, Öffne!, Entschuldige!*).
--   - *Starke Verben mit e->i/ie Wechsel:* Behalten den Vokalwechsel bei, erhalten NIEMALS ein Endungs-e (*du hilfst -> Hilf!*, *du liest -> Lies!*, *du sprichst -> Sprich!*).
--   - *Starke Verben mit a->ä Wechsel:* VERLIEREN den Umlaut im Imperativ (*du fährst -> Fahr!*, *du schläfst -> Schlaf!*).
+  - Regel:* Verbstamm der 2. Person Singular OHNE Personalendung *-st* und OHNE das Pronomen *du* (*du lernst -> Lern!*, *du arbeitest -> Arbeite!*).
+  - Stammendung auf -d, -t, -m, -n, -ig:* Erhält zwingend ein *-e* (*Warte!, Öffne!, Entschuldige!*).
+  - Starke Verben mit e->i/ie Wechsel:* Behalten den Vokalwechsel bei, erhalten NIEMALS ein Endungs-e (*du hilfst -> Hilf!*, *du liest -> Lies!*, *du sprichst -> Sprich!*).
+  - Starke Verben mit a->ä Wechsel:* VERLIEREN den Umlaut im Imperativ (*du fährst -> Fahr!*, *du schläfst -> Schlaf!*).
 - **2. ihr-Form (Informell Plural):**
--   - *Regel:* Identisch mit der regulären 2. Person Plural Präsens, aber OHNE das Pronomen *ihr* (*ihr lernt -> Lernt!*, *ihr wartet -> Wartet!*, *ihr helft -> Helft!*).
+  - Regel:* Identisch mit der regulären 2. Person Plural Präsens, aber OHNE das Pronomen *ihr* (*ihr lernt -> Lernt!*, *ihr wartet -> Wartet!*, *ihr helft -> Helft!*).
 - **3. Sie-Form (Formell Singular & Plural):**
--   - *Regel:* Infinitiv + Pronomen *Sie* in invertierter Stellung (*Lernen Sie!*, *Kommen Sie herein!*, *Warten Sie einen Moment!*).
+  - Regel:* Infinitiv + Pronomen *Sie* in invertierter Stellung (*Lernen Sie!*, *Kommen Sie herein!*, *Warten Sie einen Moment!*).
 - **4. wir-Form (Aufforderung an die Gruppe):**
--   - *Regel:* Infinitiv + *wir* (*Gehen wir!*, *Starten wir die Messung!*) oder mit *Lassen Sie uns / Lasst uns + Infinitiv*.
+  - Regel:* Infinitiv + *wir* (*Gehen wir!*, *Starten wir die Messung!*) oder mit *Lassen Sie uns / Lasst uns + Infinitiv*.
 - **5. Das unregelmäßige Verb 'sein':**
--   - *du:* **Sei** vorsichtig! | *ihr:* **Seid** ruhig! | *Sie:* **Seien Sie** pünktlich! | *wir:* **Seien wir** optimistisch!
+  - du:* **Sei** vorsichtig! | *ihr:* **Seid** ruhig! | *Sie:* **Seien Sie** pünktlich! | *wir:* **Seien wir** optimistisch!
 
 #### 📊 Systematische Imperativ-Matrix
 
@@ -383,25 +383,25 @@ Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 P
 
 ### 💡 Regeln & Erklärungen
 - **1. Grundstruktur des Perfekts:**
--   - *Hilfsverb (haben / sein)* steht konjugiert auf **Position 2**.
--   - *Partizip II* steht unveränderlich am **Satzende** (rechte Satzklammer).
+  - Hilfsverb (haben / sein)* steht konjugiert auf **Position 2**.
+  - Partizip II* steht unveränderlich am **Satzende** (rechte Satzklammer).
 - **2. Kriterien zur Wahl des Hilfsverbs:**
--   - **Wann 'sein'?**
+  - Wann 'sein'?**
 -     1. Verben der Ortsveränderung (von Punkt A nach B): *gehen, fahren, fliegen, kommen, laufen, reisen, schwimmen, steigen*.
 -     2. Verben der Zustandsänderung (Übergang in neuen Zustand): *aufwachen, einschlafen, sterben, wachsen, schmelzen, gefrieren*.
 -     3. Die 6 Sonderverben: *sein (ist gewesen), werden (ist geworden), bleiben (ist geblieben), passieren (ist passiert), gelingen (ist gelungen), scheitern (ist gescheitert)*.
--   - **Wann 'haben'?**
+  - Wann 'haben'?**
 -     1. Alle transitiven Verben (Verben mit Akkusativobjekt: *Ich habe den Sensor kalibriert*).
 -     2. Alle reflexiven Verben (*Ich habe mich gefreut*).
 -     3. Alle Modalverben (*Er hat arbeiten müssen*).
 -     4. Alle intransitiven Verben ohne Orts-/Zustandswechsel (*Ich habe geschlafen, gestanden, gewartet*).
 - **3. Bildung des Partizip II (Die 4 Hauptregeln):**
--   - *Regelmäßige (schwache) Verben:* **ge- + Verbstamm + -t** (*ge-lern-t, ge-kauf-t, ge-arbeite-t*).
--   - *Unregelmäßige (starke) Verben:* **ge- + Verbstamm (oft Ablaut) + -en** (*ge-sproch-en, ge-fahr-en, ge-les-en*).
--   - *Gemischte Verben (Ablaut + -t):* *bringen -> gebracht, denken -> gedacht, wissen -> gewusst, kennen -> gekannt*.
--   - *Verben auf -ieren:* KEIN ge- Präfix! Bilden Partizip auf *-iert* (*analysieren -> analysiert, zentrifugieren -> zentrifugiert*).
--   - *Trennbare Verben:* ge- steht in der Mitte (*ein-ge-stellt, ab-ge-lesen*).
--   - *Untrennbare Verben:* KEIN ge- Präfix (*beschrieben, verstanden, erforscht*).
+  - Regelmäßige (schwache) Verben:* **ge- + Verbstamm + -t** (*ge-lern-t, ge-kauf-t, ge-arbeite-t*).
+  - Unregelmäßige (starke) Verben:* **ge- + Verbstamm (oft Ablaut) + -en** (*ge-sproch-en, ge-fahr-en, ge-les-en*).
+  - Gemischte Verben (Ablaut + -t):* *bringen -> gebracht, denken -> gedacht, wissen -> gewusst, kennen -> gekannt*.
+  - Verben auf -ieren:* KEIN ge- Präfix! Bilden Partizip auf *-iert* (*analysieren -> analysiert, zentrifugieren -> zentrifugiert*).
+  - Trennbare Verben:* ge- steht in der Mitte (*ein-ge-stellt, ab-ge-lesen*).
+  - Untrennbare Verben:* KEIN ge- Präfix (*beschrieben, verstanden, erforscht*).
 
 #### 📊 Kompakte Partizip II Referenztabelle nach Verbklassen
 
@@ -432,16 +432,16 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Regeln & Erklärungen
 - **1. Artikelformen im Dativ:**
--   - *Maskulin:* **dem / einem / keinem / meinem**
--   - *Feminin:* **der / einer / keiner / meiner**
--   - *Neutrum:* **dem / einem / keinem / meinem**
--   - *Plural:* **den / — / keinen / meinen + -(e)n am Nomen** (*den Kindern, den Experimenten, den Professoren*; Ausnahme: Nomen auf -s erhalten kein -n: *den Autos*).
+  - Maskulin:* **dem / einem / keinem / meinem**
+  - Feminin:* **der / einer / keiner / meiner**
+  - Neutrum:* **dem / einem / keinem / meinem**
+  - Plural:* **den / — / keinen / meinen + -(e)n am Nomen** (*den Kindern, den Experimenten, den Professoren*; Ausnahme: Nomen auf -s erhalten kein -n: *den Autos*).
 - **2. Personalpronomen im Dativ:**
--   - *mir (ich), dir (du), ihm (er/es), ihr (sie sg.), uns (wir), euch (ihr), ihnen (sie pl.), Ihnen (Höflichkeit)*.
+  - mir (ich), dir (du), ihm (er/es), ihr (sie sg.), uns (wir), euch (ihr), ihnen (sie pl.), Ihnen (Höflichkeit)*.
 - **3. Gesetz der doppelten Objekte (Dativ- und Akkusativobjekt im selben Satz):**
--   - **Regel A (Beide sind Nomen):** Dativ-Nomen steht VOR Akkusativ-Nomen (*Ich gebe [dem Professor: Dat] [das Protokoll: Akk]*).
--   - **Regel B (Eines ist Pronomen, eines Nomen):** Das Pronomen steht IMMER vor dem Nomen, egal welcher Fall (*Ich gebe [es: Akk-Pron] [dem Professor: Dat-Nomen]*; *Ich gebe [ihm: Dat-Pron] [das Protokoll: Akk-Nomen]*).
--   - **Regel C (Beide sind Pronomen):** Akkusativ-Pronomen steht VOR Dativ-Pronomen (*Ich gebe [es: Akk] [ihm: Dat]*).
+  - Regel A (Beide sind Nomen):** Dativ-Nomen steht VOR Akkusativ-Nomen (*Ich gebe [dem Professor: Dat] [das Protokoll: Akk]*).
+  - Regel B (Eines ist Pronomen, eines Nomen):** Das Pronomen steht IMMER vor dem Nomen, egal welcher Fall (*Ich gebe [es: Akk-Pron] [dem Professor: Dat-Nomen]*; *Ich gebe [ihm: Dat-Pron] [das Protokoll: Akk-Nomen]*).
+  - Regel C (Beide sind Pronomen):** Akkusativ-Pronomen steht VOR Dativ-Pronomen (*Ich gebe [es: Akk] [ihm: Dat]*).
 
 #### 📊 Objekt-Reihenfolge Matrix im Deutschen Hauptsatz
 
@@ -464,27 +464,27 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Regeln & Erklärungen
 - **1. Die wichtigsten Verben mit Dativergänzung:**
--   - *helfen (+ Dat):* Können Sie mir helfen?
--   - *danken (+ Dat):* Wir danken Ihnen für die Kooperation.
--   - *antworten (+ Dat):* Der Betreuer antwortet dem Doktoranden.
--   - *gratulieren (+ Dat):* Wir gratulieren dir zur bestandenen Prüfung.
--   - *gehören (+ Dat):* Das Mikroskop gehört unserem Institut.
--   - *gefallen (+ Dat):* Das neue Laborkonzept gefällt den Forschern.
--   - *schmecken (+ Dat):* Der Kaffee schmeckt mir gut.
--   - *passen (+ Dat):* Der Termin passt mir ausgezeichnet.
--   - *fehlen (+ Dat):* Den Zellen fehlt wichtiger Sauerstoff.
--   - *schaden (+ Dat):* Hoher Druck schadet der Membran.
--   - *vertrauen (+ Dat):* Wir vertrauen den Messergebnissen.
--   - *zuhören (+ Dat):* Die Studenten hören der Vorlesung aufmerksam zu.
+  - helfen (+ Dat):* Können Sie mir helfen?
+  - danken (+ Dat):* Wir danken Ihnen für die Kooperation.
+  - antworten (+ Dat):* Der Betreuer antwortet dem Doktoranden.
+  - gratulieren (+ Dat):* Wir gratulieren dir zur bestandenen Prüfung.
+  - gehören (+ Dat):* Das Mikroskop gehört unserem Institut.
+  - gefallen (+ Dat):* Das neue Laborkonzept gefällt den Forschern.
+  - schmecken (+ Dat):* Der Kaffee schmeckt mir gut.
+  - passen (+ Dat):* Der Termin passt mir ausgezeichnet.
+  - fehlen (+ Dat):* Den Zellen fehlt wichtiger Sauerstoff.
+  - schaden (+ Dat):* Hoher Druck schadet der Membran.
+  - vertrauen (+ Dat):* Wir vertrauen den Messergebnissen.
+  - zuhören (+ Dat):* Die Studenten hören der Vorlesung aufmerksam zu.
 - **2. Dativ-Präpositionen (Merksatz: Aus-Bei-Mit-Nach-Seit-Von-Zu + gegenüber & außer):**
--   - **aus:** Herkunft (*aus Deutschland*), Material (*aus Silikon*), Heraustreten (*aus dem Kanal*).
--   - **bei:** Aufenthalt/Firma (*bei der Universität*), Gleichzeitigkeit (*beim Experiment*).
--   - **mit:** Werkzeug/Mittel (*mit der Pipette*), Begleitung (*mit dem Team*).
--   - **nach:** Zeitlich danach (*nach der Zentrifugation*), Ortsrichtung Länder/Städte (*nach Berlin*).
--   - **seit:** Beginn in Vergangenheit, dauert an (*seit zwei Jahren* -> Verlangt Präsens!).
--   - **von:** Ausgangspunkt (*vom Labor*), Urheber (*von Professor Bauer*).
--   - **zu:** Zielperson/Ort (*zum Seminar*), Anlass (*zur Feier*).
--   - **gegenüber:** Lage gegenüber (*dem Institutsgebäude gegenüber*).
+  - aus:** Herkunft (*aus Deutschland*), Material (*aus Silikon*), Heraustreten (*aus dem Kanal*).
+  - bei:** Aufenthalt/Firma (*bei der Universität*), Gleichzeitigkeit (*beim Experiment*).
+  - mit:** Werkzeug/Mittel (*mit der Pipette*), Begleitung (*mit dem Team*).
+  - nach:** Zeitlich danach (*nach der Zentrifugation*), Ortsrichtung Länder/Städte (*nach Berlin*).
+  - seit:** Beginn in Vergangenheit, dauert an (*seit zwei Jahren* -> Verlangt Präsens!).
+  - von:** Ausgangspunkt (*vom Labor*), Urheber (*von Professor Bauer*).
+  - zu:** Zielperson/Ort (*zum Seminar*), Anlass (*zur Feier*).
+  - gegenüber:** Lage gegenüber (*dem Institutsgebäude gegenüber*).
 
 #### 📊 Übersicht der reinen Dativ-Präpositionen
 
@@ -511,18 +511,18 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Regeln & Erklärungen
 - **1. Die goldene Regel der 9 Wechselpräpositionen:**
--   - **Wohin? (Richtung / Dynamik / Aktion):** -> **AKKUSATIV** (*Ich stelle die Flasche auf den Tisch*).
--   - **Wo? (Ort / Statik / Zustand):** -> **DATIV** (*Die Flasche steht auf dem Tisch*).
+  - Wohin? (Richtung / Dynamik / Aktion):** -> **AKKUSATIV** (*Ich stelle die Flasche auf den Tisch*).
+  - Wo? (Ort / Statik / Zustand):** -> **DATIV** (*Die Flasche steht auf dem Tisch*).
 - **2. Die 4 klassischen Verbpaare (Transitiv vs. Intransitiv):**
--   - *stellen (regelm., wohin? -> Akk)* vs. *stehen (stark: stand/gestanden, wo? -> Dat)*.
--   - *legen (regelm., wohin? -> Akk)* vs. *liegen (stark: lag/gelegen, wo? -> Dat)*.
--   - *setzen (regelm., wohin? -> Akk)* vs. *sitzen (stark: saß/gesessen, wo? -> Dat)*.
--   - *hängen (regelm., wohin? -> Akk)* vs. *hängen (stark: hing/gehangen, wo? -> Dat)*.
--   - *stecken (wohin? -> Akk)* vs. *stecken (wo? -> Dat)*.
+  - stellen (regelm., wohin? -> Akk)* vs. *stehen (stark: stand/gestanden, wo? -> Dat)*.
+  - legen (regelm., wohin? -> Akk)* vs. *liegen (stark: lag/gelegen, wo? -> Dat)*.
+  - setzen (regelm., wohin? -> Akk)* vs. *sitzen (stark: saß/gesessen, wo? -> Dat)*.
+  - hängen (regelm., wohin? -> Akk)* vs. *hängen (stark: hing/gehangen, wo? -> Dat)*.
+  - stecken (wohin? -> Akk)* vs. *stecken (wo? -> Dat)*.
 - **3. Temporale Verwendung der Wechselpräpositionen (Immer Dativ!):**
--   - *an:* Tage, Tageszeiten (*am Montag, am Morgen, am Wochenende*).
--   - *in:* Monate, Jahreszeiten, Jahre, Zeitspannen (*im Mai, im Sommer, in zwei Wochen*).
--   - *vor / nach:* Vorher / Nachher (*vor dem Versuch, nach der Konferenz*).
+  - an:* Tage, Tageszeiten (*am Montag, am Morgen, am Wochenende*).
+  - in:* Monate, Jahreszeiten, Jahre, Zeitspannen (*im Mai, im Sommer, in zwei Wochen*).
+  - vor / nach:* Vorher / Nachher (*vor dem Versuch, nach der Konferenz*).
 
 #### 📊 Positions- und Aktionsverbpaare im systematischen Vergleich
 
@@ -546,13 +546,13 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Regeln & Erklärungen
 - **1. Echte vs. Unechte Reflexivverben:**
--   - *Echte Reflexivverben:* Können nur mit Reflexivpronomen existieren (*sich konzentrieren auf, sich erkundigen nach, sich weigern, sich schämen, sich ereignen*).
--   - *Unechte Reflexivverben:* Können reflexiv oder transitiv auf andere Objekte angewendet werden (*Ich wasche mich* vs. *Ich wasche das Auto*).
+  - Echte Reflexivverben:* Können nur mit Reflexivpronomen existieren (*sich konzentrieren auf, sich erkundigen nach, sich weigern, sich schämen, sich ereignen*).
+  - Unechte Reflexivverben:* Können reflexiv oder transitiv auf andere Objekte angewendet werden (*Ich wasche mich* vs. *Ich wasche das Auto*).
 - **2. Reflexivpronomen im Akkusativ vs. Dativ:**
--   - Nur in der 1. und 2. Person Singular (*ich, du*) unterscheiden sich Akkusativ (*mich, dich*) und Dativ (*mir, dir*). Alle anderen Personen verwenden *sich, uns, euch, sich*.
--   - *Wann Dativ?* Wenn im Satz bereits ein separates Akkusativobjekt vorhanden ist (*Ich ziehe mich (Akk) an* vs. *Ich ziehe mir (Dat) den Kittel (Akk) an*).
+  - Nur in der 1. und 2. Person Singular (*ich, du*) unterscheiden sich Akkusativ (*mich, dich*) und Dativ (*mir, dir*). Alle anderen Personen verwenden *sich, uns, euch, sich*.
+  - Wann Dativ?* Wenn im Satz bereits ein separates Akkusativobjekt vorhanden ist (*Ich ziehe mich (Akk) an* vs. *Ich ziehe mir (Dat) den Kittel (Akk) an*).
 - **3. Reziproke Verben (Wechselseitige Handlung):**
--   - Subjekt steht im Plural; die Handlung ist gegenseitig (*sich treffen, sich einigen, sich austauschen, sich widersprechen*).
+  - Subjekt steht im Plural; die Handlung ist gegenseitig (*sich treffen, sich einigen, sich austauschen, sich widersprechen*).
 
 #### 📊 Reflexivpronomen Übersicht Akkusativ vs. Dativ
 
@@ -579,14 +579,14 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 ### 💡 Regeln & Erklärungen
 - **Grundprinzip:** Ein Adjektiv vor einem Nomen (attributiv) MUSS dekliniert werden. Es zeigt Genus, Numerus und Kasus an.
 - **Typ 1: Schwache Deklination (nach bestimmtem Artikel: der, die, das, dieser, jener, jeder, welcher):**
--   - *Regel:* Nur zwei mögliche Endungen: **-e** oder **-en**!
--   - **-e:** Nur in 5 Positionen: Nominativ Singular aller drei Geschlechter (*der neue Chip, die neue Pumpe, das neue Labor*) und Akkusativ Feminin & Neutrum (*die neue Pumpe, das neue Labor*).
--   - **-en:** In allen anderen Fällen (Akkusativ Maskulin, kompletter Dativ, kompletter Genitiv und kompletter Plural!).
+  - Regel:* Nur zwei mögliche Endungen: **-e** oder **-en**!
+  - e:** Nur in 5 Positionen: Nominativ Singular aller drei Geschlechter (*der neue Chip, die neue Pumpe, das neue Labor*) und Akkusativ Feminin & Neutrum (*die neue Pumpe, das neue Labor*).
+  - en:** In allen anderen Fällen (Akkusativ Maskulin, kompletter Dativ, kompletter Genitiv und kompletter Plural!).
 - **Typ 2: Gemischte Deklination (nach unbestimmtem Artikel: ein, kein, mein, dein, sein...):**
--   - *Regel:* Adjektiv übernimmt dort die Signalendung des bestimmten Artikels, wo das Artikelwort keine eindeutige Endung hat (Nom. Mask: *ein neu-er Chip*; Nom/Akk Neutrum: *ein neu-es Labor*).
--   - In allen Dativ-, Genitiv-, Akkusativ-Maskulin- und Pluralformen lautet die Endung **-en**.
+  - Regel:* Adjektiv übernimmt dort die Signalendung des bestimmten Artikels, wo das Artikelwort keine eindeutige Endung hat (Nom. Mask: *ein neu-er Chip*; Nom/Akk Neutrum: *ein neu-es Labor*).
+  - In allen Dativ-, Genitiv-, Akkusativ-Maskulin- und Pluralformen lautet die Endung **-en**.
 - **Typ 3: Starke Deklination (Nullartikel / ohne Artikelwort):**
--   - *Regel:* Das Adjektiv muss die vollen Signalendungen des bestimmten Artikels tragen (*neu-er Sensor, neu-e Pumpe, neu-es Medium, neu-e Methoden*; Ausnahme: Genitiv Maskulin/Neutrum endet auf **-en**, weil das Nomen bereits das -s trägt: *kalt-en Wassers*).
+  - Regel:* Das Adjektiv muss die vollen Signalendungen des bestimmten Artikels tragen (*neu-er Sensor, neu-e Pumpe, neu-es Medium, neu-e Methoden*; Ausnahme: Genitiv Maskulin/Neutrum endet auf **-en**, weil das Nomen bereits das -s trägt: *kalt-en Wassers*).
 
 #### 📊 Master-Matrix der Adjektivendungen (Alle 3 Typen im Vergleich)
 
@@ -616,15 +616,15 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Regeln & Erklärungen
 - **1. Die drei Steigerungsstufen:**
--   - *Positiv (Grundstufe):* Gleichheit mit **so / genauso + Adjektiv + wie** (*Das Modell ist genauso präzise wie die Referenz*).
--   - *Komparativ (Vergleichsstufe):* Ungleichheit mit **Adjektiv + -er + als** (*Dieses System ist stabiler als das vorherige*).
--   - *Superlativ (Höchststufe):* Prädikativ mit **am + Adjektiv + -(e)sten** (*Dieses Design ist am effektivsten*); Attributiv mit bestimmtem Artikel und Adjektivendung (*das effektivste Design*).
+  - Positiv (Grundstufe):* Gleichheit mit **so / genauso + Adjektiv + wie** (*Das Modell ist genauso präzise wie die Referenz*).
+  - Komparativ (Vergleichsstufe):* Ungleichheit mit **Adjektiv + -er + als** (*Dieses System ist stabiler als das vorherige*).
+  - Superlativ (Höchststufe):* Prädikativ mit **am + Adjektiv + -(e)sten** (*Dieses Design ist am effektivsten*); Attributiv mit bestimmtem Artikel und Adjektivendung (*das effektivste Design*).
 - **2. Umlautregeln & Phonetische Besonderheiten:**
--   - Einsilbige Adjektive mit *a, o, u* erhalten meist einen Umlaut (*alt/älter, warm/wärmer, groß/größer, kurz/kürzer, jung/jünger*).
--   - Adjektive auf *-d, -t, -s, -ß, -z, -x, -los* erhalten im Superlativ ein **-e-** (*breit -> am breitesten, heiß -> am heißesten*).
--   - Adjektive auf *-el / -er* verlieren im Komparativ das Stamm-e (*dunkel -> dunkler; teuer -> teurer*).
+  - Einsilbige Adjektive mit *a, o, u* erhalten meist einen Umlaut (*alt/älter, warm/wärmer, groß/größer, kurz/kürzer, jung/jünger*).
+  - Adjektive auf *-d, -t, -s, -ß, -z, -x, -los* erhalten im Superlativ ein **-e-** (*breit -> am breitesten, heiß -> am heißesten*).
+  - Adjektive auf *-el / -er* verlieren im Komparativ das Stamm-e (*dunkel -> dunkler; teuer -> teurer*).
 - **3. Deklinierte Komparative & Superlative vor Nomen:**
--   - Erst steigern, dann nach normaler Adjektivdeklination beugen: *ein besser-er (Komparativ) + -er (Typ 2 Maskulin) = ein besserer Sensor*; *die schnell-st-e Pumpe*.
+  - Erst steigern, dann nach normaler Adjektivdeklination beugen: *ein besser-er (Komparativ) + -er (Typ 2 Maskulin) = ein besserer Sensor*; *die schnell-st-e Pumpe*.
 
 #### 📊 Unregelmäßige und hochfrequente Steigerungsformen
 
@@ -650,15 +650,15 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Regeln & Erklärungen
 - **1. Die fundamentale Nebensatz-Regel (Verbletztstellung):**
--   - Das konjugierte Verb wandert ans **absolute Ende** des Nebensatzes.
--   - Nebensätze werden im Deutschen IMMER durch ein Komma vom Hauptsatz getrennt.
+  - Das konjugierte Verb wandert ans **absolute Ende** des Nebensatzes.
+  - Nebensätze werden im Deutschen IMMER durch ein Komma vom Hauptsatz getrennt.
 - **2. Die wichtigsten Subjunktionen im A2-Bereich:**
--   - **weil / da (Kausal):** Begründung (*Wir wiederholen den Versuch, weil die Flussrate schwankte*). *da* steht bevorzugt am Satzanfang für bekannte Gründe (*Da das Labor renoviert wird, arbeiten wir im Nachbargebäude*).
--   - **dass (Objekt-/Inhaltssatz):** Ergänzung nach Verben des Wissens, Meinens, Sagens (*Ich weiß, dass die Daten verlässlich sind*).
--   - **wenn / falls (Konditional):** Bedingung (*Wenn der Druck steigt, schlägt der Alarm an*).
--   - **ob (Indirekte Ja/Nein-Frage):** Ungewissheit (*Wir prüfen, ob die Membran dicht ist*).
+  - weil / da (Kausal):** Begründung (*Wir wiederholen den Versuch, weil die Flussrate schwankte*). *da* steht bevorzugt am Satzanfang für bekannte Gründe (*Da das Labor renoviert wird, arbeiten wir im Nachbargebäude*).
+  - dass (Objekt-/Inhaltssatz):** Ergänzung nach Verben des Wissens, Meinens, Sagens (*Ich weiß, dass die Daten verlässlich sind*).
+  - wenn / falls (Konditional):** Bedingung (*Wenn der Druck steigt, schlägt der Alarm an*).
+  - ob (Indirekte Ja/Nein-Frage):** Ungewissheit (*Wir prüfen, ob die Membran dicht ist*).
 - **3. Satzstellung bei vorangestelltem Nebensatz (Verb-Verb-Regel):**
--   - Beginnt der Satz mit dem Nebensatz (Nebensatz = Position 1 des Gesamtsatzes), beginnt der folgende Hauptsatz SOFORT mit dem finiten Verb (*Wenn die Messung beendet ist [Verb 1], starten [Verb 2] wir die Auswertung*).
+  - Beginnt der Satz mit dem Nebensatz (Nebensatz = Position 1 des Gesamtsatzes), beginnt der folgende Hauptsatz SOFORT mit dem finiten Verb (*Wenn die Messung beendet ist [Verb 1], starten [Verb 2] wir die Auswertung*).
 
 #### 📊 Nebensatz-Typen und Konjunktionen im Überblick
 
@@ -683,14 +683,14 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Regeln & Erklärungen
 - **1. Die Gretchenfrage: 'wenn' oder 'als'?**
--   - **als:** Wird NUR verwendet bei einem **einmaligen Ereignis in der Vergangenheit** (*Als ich 2024 nach Deutschland kam...*; *Als der Sensor ausfiel, stoppten wir die Pumpe*).
--   - **wenn:** Wird verwendet bei:
+  - als:** Wird NUR verwendet bei einem **einmaligen Ereignis in der Vergangenheit** (*Als ich 2024 nach Deutschland kam...*; *Als der Sensor ausfiel, stoppten wir die Pumpe*).
+  - wenn:** Wird verwendet bei:
 -     1. Handlungen in Gegenwart und Zukunft (*Wenn ich Zeit habe, lese ich Fachartikel*).
 -     2. **Wiederholten Ereignissen in der Vergangenheit** (Signalwörter: *immer wenn, jedes Mal wenn*: *Immer wenn die Temperatur anstieg, öffnete sich das Ventil*).
 - **2. Weitere temporale Konjunktionen:**
--   - **während:** Gleichzeitigkeit (*Während die Zellen inkubieren, werten wir die Daten aus*).
--   - **bevor / ehe:** Vorzeitigkeit des Hauptsatzes (*Bevor wir beginnen, sterilisieren wir die Werkzeuge*).
--   - **nachdem:** Nachzeitigkeit (erfordert Zeitenfolge: Plusquamperfekt bei Präteritum-Hauptsatz).
+  - während:** Gleichzeitigkeit (*Während die Zellen inkubieren, werten wir die Daten aus*).
+  - bevor / ehe:** Vorzeitigkeit des Hauptsatzes (*Bevor wir beginnen, sterilisieren wir die Werkzeuge*).
+  - nachdem:** Nachzeitigkeit (erfordert Zeitenfolge: Plusquamperfekt bei Präteritum-Hauptsatz).
 
 #### 📊 Entscheidungsbaum: 'als' vs. 'wenn'
 
@@ -715,15 +715,15 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 ### 💡 Regeln & Erklärungen
 - **1. Verwendung des Präteritums:** Hauptsächlich in schriftlichen Berichten, wissenschaftlichen Artikeln, Protokollen, Zeitungsberichten und literarischen Erzählungen. Im Alltag werden *sein, haben* und Modalverben auch mündlich im Präteritum gebraucht.
 - **2. Regelmäßige (schwache) Verben:**
--   - Verbstamm + **-te, -test, -te, -ten, -tet, -ten** (*lernen -> ich lernte, du lerntest, er lernte, wir lernten, ihr lerntet, sie lernten*).
--   - Bei Stamm auf -d/-t: **-ete, -etest, -ete, -eten, -etet, -eten** (*arbeiten -> arbeitete*).
+  - Verbstamm + **-te, -test, -te, -ten, -tet, -ten** (*lernen -> ich lernte, du lerntest, er lernte, wir lernten, ihr lerntet, sie lernten*).
+  - Bei Stamm auf -d/-t: **-ete, -etest, -ete, -eten, -etet, -eten** (*arbeiten -> arbeitete*).
 - **3. Unregelmäßige (starke) Verben:**
--   - Stammvokal ändert sich (Ablaut!). 1. und 3. Person Singular haben KEINE Endung!
--   - Endungen: **—, -st, —, -en, -t, -en** (*gehen -> ging, gingst, ging, gingen, gingt, gingen; sprechen -> sprach; sehen -> sah; finden -> fand*).
+  - Stammvokal ändert sich (Ablaut!). 1. und 3. Person Singular haben KEINE Endung!
+  - Endungen: **—, -st, —, -en, -t, -en** (*gehen -> ging, gingst, ging, gingen, gingt, gingen; sprechen -> sprach; sehen -> sah; finden -> fand*).
 - **4. Gemischte Verben (Ablaut + -te Endung):**
--   - *denken -> dachte, bringen -> brachte, kennen -> kannte, wissen -> wusste*.
+  - denken -> dachte, bringen -> brachte, kennen -> kannte, wissen -> wusste*.
 - **5. Modalverben im Präteritum (Verlieren alle Umlaute!):**
--   - *konnte, musste, durfte, sollte, wollte, mochte*.
+  - konnte, musste, durfte, sollte, wollte, mochte*.
 
 #### 📊 Wichtige Präteritum-Stammformen im Überblick
 
@@ -753,15 +753,15 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Regeln & Erklärungen
 - **1. Indirekte W-Fragen:**
--   - Direkt: *Wann beginnt die Konferenz?*
--   - Indirekt: *Können Sie mir sagen, **wann die Konferenz beginnt**?* (Fragewort wird zur Subjunktion -> Verb am Satzende!).
+  - Direkt: *Wann beginnt die Konferenz?*
+  - Indirekt: *Können Sie mir sagen, **wann die Konferenz beginnt**?* (Fragewort wird zur Subjunktion -> Verb am Satzende!).
 - **2. Indirekte Ja/Nein-Fragen:**
--   - Direkt: *Funktioniert das Spektrometer?*
--   - Indirekt: *Ich möchte wissen, **ob das Spektrometer funktioniert**.* (Einleitung mit *ob* -> Verb am Satzende!).
+  - Direkt: *Funktioniert das Spektrometer?*
+  - Indirekt: *Ich möchte wissen, **ob das Spektrometer funktioniert**.* (Einleitung mit *ob* -> Verb am Satzende!).
 - **3. Höfliche Bitten im universitären und professionellen Alltag:**
--   - *Könnten Sie bitte... + Infinitiv* (*Könnten Sie mir bitte die Rohdaten zusenden?*).
--   - *Würden Sie bitte... + Infinitiv* (*Würden Sie bitte die Kammer desinfizieren?*).
--   - *Ich hätte gerne...* (*Ich hätte gerne Auskunft über das Promotionsprogramm*).
+  - Könnten Sie bitte... + Infinitiv* (*Könnten Sie mir bitte die Rohdaten zusenden?*).
+  - Würden Sie bitte... + Infinitiv* (*Würden Sie bitte die Kammer desinfizieren?*).
+  - Ich hätte gerne...* (*Ich hätte gerne Auskunft über das Promotionsprogramm*).
 
 #### 📊 Transformation Direkte Frage -> Indirekte Frage
 
@@ -790,24 +790,24 @@ Mittelstufen-Standard für selbstständige akademische und professionelle Sprach
 
 ### 💡 Regeln & Erklärungen
 - **1. Funktionen des Konjunktiv II:**
--   - *Höfliche Bitten & Diplomatie:* Könnten Sie mir die Daten senden? Ich würde gerne etwas fragen.
--   - *Irreale Wünsche & Träume:* Wenn ich doch bloß mehr Zeit hätte! / Hätte ich doch mehr Zeit!
--   - *Irreale Bedingungen (Konditionalsätze):* Wenn die Flussrate höher wäre, würden die Zellen stärker differenzieren.
--   - *Irreale Vergleiche mit als ob / als wenn:* Er spricht, als ob er der Projektleiter wäre.
--   - *Ratschläge & Empfehlungen:* Du solltest vor der Messung den Sensor kalibrieren.
+  - Höfliche Bitten & Diplomatie:* Könnten Sie mir die Daten senden? Ich würde gerne etwas fragen.
+  - Irreale Wünsche & Träume:* Wenn ich doch bloß mehr Zeit hätte! / Hätte ich doch mehr Zeit!
+  - Irreale Bedingungen (Konditionalsätze):* Wenn die Flussrate höher wäre, würden die Zellen stärker differenzieren.
+  - Irreale Vergleiche mit als ob / als wenn:* Er spricht, als ob er der Projektleiter wäre.
+  - Ratschläge & Empfehlungen:* Du solltest vor der Messung den Sensor kalibrieren.
 - **2. Bildung Konjunktiv II der Gegenwart:**
--   - *Allgemeine Form (fast alle Vollverben):* **würde + Infinitiv am Satzende** (*ich würde forschen, du würdest testen, wir würden publizieren*).
--   - *Echte Konjunktiv II Formen (OHNE 'würde'!):*
--     - **sein:** *wäre, wärest, wäre, wären, wärt, wären*
--     - **haben:** *hätte, hättest, hätte, hätten, hättet, hätten*
--     - **werden:** *würde, würdest, würde, würden, würdet, würden*
--     - **wissen:** *wüsste, wüsstest, wüsste, wüssten, wüsstet, wüssten*
--     - **Starke Verben (Stamm Präteritum + Umlaut + -e):** *kommen -> käme, gehen -> ginge, finden -> fände, bleiben -> bliebe, geben -> gäbe, lassen -> ließe, tun -> täte*.
+  - Allgemeine Form (fast alle Vollverben):* **würde + Infinitiv am Satzende** (*ich würde forschen, du würdest testen, wir würden publizieren*).
+  - Echte Konjunktiv II Formen (OHNE 'würde'!):*
+  - sein:** *wäre, wärest, wäre, wären, wärt, wären*
+  - haben:** *hätte, hättest, hätte, hätten, hättet, hätten*
+  - werden:** *würde, würdest, würde, würden, würdet, würden*
+  - wissen:** *wüsste, wüsstest, wüsste, wüssten, wüsstet, wüssten*
+  - Starke Verben (Stamm Präteritum + Umlaut + -e):** *kommen -> käme, gehen -> ginge, finden -> fände, bleiben -> bliebe, geben -> gäbe, lassen -> ließe, tun -> täte*.
 - **3. Modalverben im Konjunktiv II:**
--   - *können -> könnte, müssen -> müsste, dürfen -> dürfte, sollen -> sollte (kein Umlaut!), wollen -> wollte (kein Umlaut!)*.
+  - können -> könnte, müssen -> müsste, dürfen -> dürfte, sollen -> sollte (kein Umlaut!), wollen -> wollte (kein Umlaut!)*.
 - **4. Konjunktiv II der Vergangenheit (Irreale Vergangenheit):**
--   - **hätte / wäre + Partizip II** (*Wenn wir gestern schneller gewesen wären, hätten wir die Messung beendet*).
--   - *Mit Modalverb in der Vergangenheit:* **hätte + Doppelinfinitiv** (*Wir hätten die Probe kühlen müssen*).
+  - hätte / wäre + Partizip II** (*Wenn wir gestern schneller gewesen wären, hätten wir die Messung beendet*).
+  - Mit Modalverb in der Vergangenheit:* **hätte + Doppelinfinitiv** (*Wir hätten die Probe kühlen müssen*).
 
 #### 📊 Übersicht: Konjunktiv II Formen Gegenwart und Vergangenheit
 
@@ -833,20 +833,20 @@ Mittelstufen-Standard für selbstständige akademische und professionelle Sprach
 ### 💡 Regeln & Erklärungen
 - **1. Das Grundprinzip:** Im Passiv steht die Handlung (der Vorgang) im Mittelpunkt; der Handelnde ist unwichtig, unbekannt oder allgemein.
 - **2. Transformation Aktiv -> Passiv:**
--   - *Aktiv-Akkusativobjekt* wird zum *Passiv-Subjekt im Nominativ*.
--   - *Aktiv-Subjekt* wird optional zur *Präpositionalphrase:* **von + Dativ** (handelnde Person, Urheber) oder **durch + Akkusativ** (Mittel, Ursache, Instrument).
+  - Aktiv-Akkusativobjekt* wird zum *Passiv-Subjekt im Nominativ*.
+  - Aktiv-Subjekt* wird optional zur *Präpositionalphrase:* **von + Dativ** (handelnde Person, Urheber) oder **durch + Akkusativ** (Mittel, Ursache, Instrument).
 - **3. Die 6 Zeitformen des Vorgangspassivs:**
--   - *Präsens:* **wird + Partizip II** (*Die Probe wird zentrifugiert*).
--   - *Präteritum:* **wurde + Partizip II** (*Die Probe wurde zentrifugiert*).
--   - *Perfekt:* **ist + Partizip II + worden** (Beachte: *worden*, NICHT *geworden*!).
--   - *Plusquamperfekt:* **war + Partizip II + worden** (*Die Probe war zentrifugiert worden*).
--   - *Futur I:* **wird + Partizip II + werden** (*Die Probe wird zentrifugiert werden*).
--   - *Futur II:* **wird + Partizip II + worden sein** (*Die Probe wird zentrifugiert worden sein*).
+  - Präsens:* **wird + Partizip II** (*Die Probe wird zentrifugiert*).
+  - Präteritum:* **wurde + Partizip II** (*Die Probe wurde zentrifugiert*).
+  - Perfekt:* **ist + Partizip II + worden** (Beachte: *worden*, NICHT *geworden*!).
+  - Plusquamperfekt:* **war + Partizip II + worden** (*Die Probe war zentrifugiert worden*).
+  - Futur I:* **wird + Partizip II + werden** (*Die Probe wird zentrifugiert werden*).
+  - Futur II:* **wird + Partizip II + worden sein** (*Die Probe wird zentrifugiert worden sein*).
 - **4. Passiv mit Modalverben:**
--   - *Präsens:* **Modalverb (konjugiert) + ... + Partizip II + werden (Infinitiv)** (*Die Durchflussrate muss kontrolliert werden*).
--   - *Präteritum:* **Modalverb Präteritum + ... + Partizip II + werden** (*Die Durchflussrate musste kontrolliert werden*).
+  - Präsens:* **Modalverb (konjugiert) + ... + Partizip II + werden (Infinitiv)** (*Die Durchflussrate muss kontrolliert werden*).
+  - Präteritum:* **Modalverb Präteritum + ... + Partizip II + werden** (*Die Durchflussrate musste kontrolliert werden*).
 - **5. Unpersönliches Passiv (Passiv ohne Subjekt):**
--   - Intransitive Verben können ein Passiv ohne Subjekt bilden (*Im Labor wird nicht geraucht; Es wurde lange über das Ergebnis diskutiert*).
+  - Intransitive Verben können ein Passiv ohne Subjekt bilden (*Im Labor wird nicht geraucht; Es wurde lange über das Ergebnis diskutiert*).
 
 #### 📊 Die 6 Zeitformen des Vorgangspassivs im tabellarischen Vergleich
 
@@ -872,13 +872,13 @@ Mittelstufen-Standard für selbstständige akademische und professionelle Sprach
 
 ### 💡 Regeln & Erklärungen
 - **1. Vorgangspassiv vs. Zustandspassiv:**
--   - *Vorgangspassiv (werden + P.II):* Betont den dynamischen Ablauf, die Aktion oder Veränderung (*Das Labor wird um 18:00 Uhr geschlossen* = Jemand schließt die Tür).
--   - *Zustandspassiv (sein + P.II):* Betont den statischen Zustand nach Abschluss der Handlung (*Das Labor ist geschlossen* = Die Tür ist zu).
+  - Vorgangspassiv (werden + P.II):* Betont den dynamischen Ablauf, die Aktion oder Veränderung (*Das Labor wird um 18:00 Uhr geschlossen* = Jemand schließt die Tür).
+  - Zustandspassiv (sein + P.II):* Betont den statischen Zustand nach Abschluss der Handlung (*Das Labor ist geschlossen* = Die Tür ist zu).
 - **2. Bildung des Zustandspassivs in den Zeitformen:**
--   - *Präsens:* **sein (konjugiert) + Partizip II** (*Die Proben sind sterilisiert*).
--   - *Präteritum:* **war + Partizip II** (*Die Proben waren bereits sterilisiert*).
--   - *Perfekt:* **ist + Partizip II + gewesen** (*Die Proben sind sterilisiert gewesen*).
--   - *Futur I:* **wird + Partizip II + sein** (*Morgen um 8 Uhr wird alles vorbereitet sein*).
+  - Präsens:* **sein (konjugiert) + Partizip II** (*Die Proben sind sterilisiert*).
+  - Präteritum:* **war + Partizip II** (*Die Proben waren bereits sterilisiert*).
+  - Perfekt:* **ist + Partizip II + gewesen** (*Die Proben sind sterilisiert gewesen*).
+  - Futur I:* **wird + Partizip II + sein** (*Morgen um 8 Uhr wird alles vorbereitet sein*).
 
 #### 📊 Vorgangspassiv vs. Zustandspassiv im direkten Vergleich
 
@@ -901,16 +901,16 @@ Mittelstufen-Standard für selbstständige akademische und professionelle Sprach
 
 ### 💡 Regeln & Erklärungen
 - **1. Kongruenz und Kasus des Relativpronomens:**
--   - **Genus & Numerus** richten sich nach dem Bezugswort im Hauptsatz (*der Forscher -> Maskulin Singular*).
--   - **Kasus** richtet sich nach der syntaktischen Funktion im Relativsatz (*Subjekt -> Nominativ; Objekt -> Akkusativ/Dativ/Genitiv*).
+  - Genus & Numerus** richten sich nach dem Bezugswort im Hauptsatz (*der Forscher -> Maskulin Singular*).
+  - Kasus** richtet sich nach der syntaktischen Funktion im Relativsatz (*Subjekt -> Nominativ; Objekt -> Akkusativ/Dativ/Genitiv*).
 - **2. Die Formen des Relativpronomens:** Entsprechen dem bestimmten Artikel bis auf zwei Ausnahmen:
--   - *Dativ Plural:* **denen** (nicht 'den').
--   - *Genitiv:* **dessen** (Mask./Neutr.) / **deren** (Fem./Plur.).
+  - Dativ Plural:* **denen** (nicht 'den').
+  - Genitiv:* **dessen** (Mask./Neutr.) / **deren** (Fem./Plur.).
 - **3. Relativsätze mit Präpositionen:**
--   - Die Präposition steht DIREKT vor dem Relativpronomen und bestimmt dessen Kasus (*das Modell, [auf dem: Dat] wir die Versuche basieren; der Kollege, [ohne den: Akk] das Projekt nicht möglich gewesen wäre*).
+  - Die Präposition steht DIREKT vor dem Relativpronomen und bestimmt dessen Kasus (*das Modell, [auf dem: Dat] wir die Versuche basieren; der Kollege, [ohne den: Akk] das Projekt nicht möglich gewesen wäre*).
 - **4. Freie / Indefinite Relativsätze mit 'was', 'wo', 'wohin', 'woher':**
--   - Eingeleitet durch *was* nach neutralen Indefinitpronomen (*alles, nichts, vieles, einiges, das Beste*): *Das ist alles, was wir wissen*.
--   - Eingeleitet durch *was* bei Bezug auf den gesamten vorangehenden Satz (*Wir gewannen den Preis, was uns alle sehr freute*).
+  - Eingeleitet durch *was* nach neutralen Indefinitpronomen (*alles, nichts, vieles, einiges, das Beste*): *Das ist alles, was wir wissen*.
+  - Eingeleitet durch *was* bei Bezug auf den gesamten vorangehenden Satz (*Wir gewannen den Preis, was uns alle sehr freute*).
 
 #### 📊 Vollständige Deklinationstabelle der deutschen Relativpronomen
 
@@ -935,18 +935,18 @@ Mittelstufen-Standard für selbstständige akademische und professionelle Sprach
 
 ### 💡 Regeln & Erklärungen
 - **1. Formen des Genitivs:**
--   - *Maskulin & Neutrum:* **des / eines / meines / keines + Nomenendung (-s / -es)**.
--   - *Feminin & Plural:* **der / einer / meiner / keiner (OHNE Nomenendung!)**.
+  - Maskulin & Neutrum:* **des / eines / meines / keines + Nomenendung (-s / -es)**.
+  - Feminin & Plural:* **der / einer / meiner / keiner (OHNE Nomenendung!)**.
 - **2. Wann -s und wann -es bei Maskulina & Neutra?**
--   - **-es (Zwingend):** Bei einsilbigen Wörtern (*des Mannes, des Tages, des Jahres, des Glases*) und nach Zischlauten *-s, -ß, -z, -x, -sch, -tz* (*des Flusses, des Gesetzes, des Reflexes*).
--   - **-s:** Bei mehrsilbigen Wörtern auf unbetonte Endungen *-el, -er, -en, -chen, -lein, -ment, -ling, -or* (*des Computers, des Experiments, des Lehrlings*).
+  - es (Zwingend):** Bei einsilbigen Wörtern (*des Mannes, des Tages, des Jahres, des Glases*) und nach Zischlauten *-s, -ß, -z, -x, -sch, -tz* (*des Flusses, des Gesetzes, des Reflexes*).
+  - s:** Bei mehrsilbigen Wörtern auf unbetonte Endungen *-el, -er, -en, -chen, -lein, -ment, -ling, -or* (*des Computers, des Experiments, des Lehrlings*).
 - **3. Die N-Deklination (Schwache maskuline Substantive):**
--   - Diese Maskulina erhalten in ALLEN Kasus außer dem Nominativ Singular die Endung **-(e)n**!
--   - *Gruppe A (Endung auf -e):* *der Kollege (des Kollegen), der Biologe, der Kunde, der Zeuge, der Experte, der Junge, der Nachbar*.
--   - *Gruppe B (Fremdwörter mit betonter Endung):* *-ant, -ent, -ist, -at, -et, -oge, -nom, -soph, -graf* (*der Student, der Doktorand, der Assistent, der Spezialist, der Philosoph, der Fotograf*).
--   - *Sonderform mit -ns im Genitiv:* *der Name (des Namens), der Gedanke (des Gedankens), der Buchstabe (des Buchstabens), der Wille (des Willens)* sowie *das Herz (des Herzens, dem Herzen, das Herz)*.
+  - Diese Maskulina erhalten in ALLEN Kasus außer dem Nominativ Singular die Endung **-(e)n**!
+  - Gruppe A (Endung auf -e):* *der Kollege (des Kollegen), der Biologe, der Kunde, der Zeuge, der Experte, der Junge, der Nachbar*.
+  - Gruppe B (Fremdwörter mit betonter Endung):* *-ant, -ent, -ist, -at, -et, -oge, -nom, -soph, -graf* (*der Student, der Doktorand, der Assistent, der Spezialist, der Philosoph, der Fotograf*).
+  - Sonderform mit -ns im Genitiv:* *der Name (des Namens), der Gedanke (des Gedankens), der Buchstabe (des Buchstabens), der Wille (des Willens)* sowie *das Herz (des Herzens, dem Herzen, das Herz)*.
 - **4. Genitiv-Präpositionen im B1/B2-Bereich:**
--   - *während* (während des Versuchs), *wegen* (wegen des Ausfalls), *trotz* (trotz der hohen Kosten), *(an)statt* (anstatt des Standardverfahrens), *innerhalb* (innerhalb eines Tages), *außerhalb* (außerhalb der Sprechzeiten), *aufgrund* (aufgrund neuer Daten), *infolge* (infolge der Reaktion).
+  - während* (während des Versuchs), *wegen* (wegen des Ausfalls), *trotz* (trotz der hohen Kosten), *(an)statt* (anstatt des Standardverfahrens), *innerhalb* (innerhalb eines Tages), *außerhalb* (außerhalb der Sprechzeiten), *aufgrund* (aufgrund neuer Daten), *infolge* (infolge der Reaktion).
 
 #### 📊 Das vollständige 4-Fälle-Deklinationssystem der deutschen Nomen
 
@@ -971,10 +971,10 @@ Mittelstufen-Standard für selbstständige akademische und professionelle Sprach
 ### 💡 Regeln & Erklärungen
 - **1. Präpositionalobjekte:** Viele Verben sind fest an eine bestimmte Präposition gekoppelt, die ihren Kasus bestimmt.
 - **2. Pronominaladverbien (NUR bei Sachen / Konzepten):**
--   - **Aussage / Pronomen:** *da + Präposition* (Beginnt die Präposition mit Vokal -> Einschub von *-r-*: *dar-auf, dar-an, dar-über, dar-unter, dar-in, da-mit, da-für, da-von, da-zu*).
--   - **Frageform:** *wo + Präposition* (Beginnt die Präposition mit Vokal -> Einschub von *-r-*: *wor-auf, wor-an, wor-über, wor-unter, wo-mit, wo-für, wo-von, wo-zu*).
+  - Aussage / Pronomen:** *da + Präposition* (Beginnt die Präposition mit Vokal -> Einschub von *-r-*: *dar-auf, dar-an, dar-über, dar-unter, dar-in, da-mit, da-für, da-von, da-zu*).
+  - Frageform:** *wo + Präposition* (Beginnt die Präposition mit Vokal -> Einschub von *-r-*: *wor-auf, wor-an, wor-über, wor-unter, wo-mit, wo-für, wo-von, wo-zu*).
 - **3. Personenreferenz (NIEMALS da-/wo- bei Personen!):**
--   - Bei Personen wird die reguläre Präposition mit dem Personalpronomen kombiniert (*Ich warte auf meinen Professor -> Auf wen wartest du? -> Ich warte auf ihn!*).
+  - Bei Personen wird die reguläre Präposition mit dem Personalpronomen kombiniert (*Ich warte auf meinen Professor -> Auf wen wartest du? -> Ich warte auf ihn!*).
 
 #### 📊 Katalog der wichtigsten Verben mit festen Präpositionen
 
@@ -1004,16 +1004,16 @@ Mittelstufen-Standard für selbstständige akademische und professionelle Sprach
 
 ### 💡 Regeln & Erklärungen
 - **1. Der Infinitiv mit 'zu':**
--   - Steht nach bestimmten Verben (*planen, versuchen, beabsichtigen, hoffen, vergessen, vorschlagen, empfehlen, beschließen, aufhören, anfangen*).
--   - Steht nach unpersönlichen Ausdrücken mit Adjektiven (*Es ist wichtig/notwendig/möglich/schwierig, die Parameter zu überwachen*).
--   - Steht nach Nomen mit festem Bezug (*keine Zeit/Lust/Möglichkeit/Absicht haben, das Experiment zu wiederholen*).
--   - *Position:* Das 'zu' steht direkt vor dem Infinitiv am Satzende; bei trennbaren Verben wird es eingeschoben (*ein-zu-schalten, vor-zu-bereiten*).
+  - Steht nach bestimmten Verben (*planen, versuchen, beabsichtigen, hoffen, vergessen, vorschlagen, empfehlen, beschließen, aufhören, anfangen*).
+  - Steht nach unpersönlichen Ausdrücken mit Adjektiven (*Es ist wichtig/notwendig/möglich/schwierig, die Parameter zu überwachen*).
+  - Steht nach Nomen mit festem Bezug (*keine Zeit/Lust/Möglichkeit/Absicht haben, das Experiment zu wiederholen*).
+  - Position:* Das 'zu' steht direkt vor dem Infinitiv am Satzende; bei trennbaren Verben wird es eingeschoben (*ein-zu-schalten, vor-zu-bereiten*).
 - **2. Finalsätze: 'um... zu' vs. 'damit':**
--   - **um ... zu + Infinitiv:** DARF NUR verwendet werden, wenn das Subjekt im Haupt- und Nebensatz **100% IDENTISCH** ist (*Ich kalibriere den Sensor [Subjekt: Ich], um präzise Daten zu erhalten [Subjekt: Ich]*).
--   - **damit + Nebensatz (mit finitem Verb am Ende):** MUSS verwendet werden bei **VERSCHIEDENEN Subjekten** (*Ich kalibriere den Sensor [Subjekt 1: Ich], damit der Algorithmus [Subjekt 2] fehlerfrei rechnet*). Kann auch bei gleichen Subjekten stehen.
+  - um ... zu + Infinitiv:** DARF NUR verwendet werden, wenn das Subjekt im Haupt- und Nebensatz **100% IDENTISCH** ist (*Ich kalibriere den Sensor [Subjekt: Ich], um präzise Daten zu erhalten [Subjekt: Ich]*).
+  - damit + Nebensatz (mit finitem Verb am Ende):** MUSS verwendet werden bei **VERSCHIEDENEN Subjekten** (*Ich kalibriere den Sensor [Subjekt 1: Ich], damit der Algorithmus [Subjekt 2] fehlerfrei rechnet*). Kann auch bei gleichen Subjekten stehen.
 - **3. Modale Infinitivkonstruktionen:**
--   - **ohne ... zu + Infinitiv:** Negation einer Begleithandlung (*Er startete die Pumpe, ohne den Fluss zu prüfen = without checking*).
--   - **(an)statt ... zu + Infinitiv:** Unerwartete Alternative (*Wir nutzen humane Zellen, anstatt Tiermodelle einzusetzen = instead of using*).
+  - ohne ... zu + Infinitiv:** Negation einer Begleithandlung (*Er startete die Pumpe, ohne den Fluss zu prüfen = without checking*).
+  - (an)statt ... zu + Infinitiv:** Unerwartete Alternative (*Wir nutzen humane Zellen, anstatt Tiermodelle einzusetzen = instead of using*).
 
 #### 📊 Infinitivkonstruktionen und Subjekt-Bedingungen
 
@@ -1037,15 +1037,15 @@ Mittelstufen-Standard für selbstständige akademische und professionelle Sprach
 
 ### 💡 Regeln & Erklärungen
 - **1. Konzessivsätze (Gegengrund / Einräumung):**
--   - **obwohl / obgleich (Subjunktion -> Verbletzt):** *Obwohl die Flussrate schwankte, blieben die Zellen intakt.*
--   - **trotzdem / dennoch (Konjunktionaladverb -> Inversion Pos 1/2):** *Die Flussrate schwankte, trotzdem blieben die Zellen intakt.*
+  - obwohl / obgleich (Subjunktion -> Verbletzt):** *Obwohl die Flussrate schwankte, blieben die Zellen intakt.*
+  - trotzdem / dennoch (Konjunktionaladverb -> Inversion Pos 1/2):** *Die Flussrate schwankte, trotzdem blieben die Zellen intakt.*
 - **2. Temporale Zeitenfolge bei 'nachdem':**
--   - Die Handlung des *nachdem*-Satzes ist VORZEITIG zur Handlung des Hauptsatzes!
--   - *Hauptsatz im Präsens/Futur:* nachdem-Satz im **Perfekt** (*Nachdem wir die Lösung gemischt haben, starten wir die Messung*).
--   - *Hauptsatz im Präteritum/Perfekt:* nachdem-Satz im **Plusquamperfekt** (*Nachdem wir die Lösung gemischt hatten, starteten wir die Messung*).
+  - Die Handlung des *nachdem*-Satzes ist VORZEITIG zur Handlung des Hauptsatzes!
+  - Hauptsatz im Präsens/Futur:* nachdem-Satz im **Perfekt** (*Nachdem wir die Lösung gemischt haben, starten wir die Messung*).
+  - Hauptsatz im Präteritum/Perfekt:* nachdem-Satz im **Plusquamperfekt** (*Nachdem wir die Lösung gemischt hatten, starteten wir die Messung*).
 - **3. Konsekutivsätze (Folge):**
--   - **sodass (Subjunktion -> Verbletzt):** *Der Druck stieg zu stark an, sodass die Membran riss.*
--   - **so ... dass (getrennt):** *Der Druck war so hoch, dass die Membran riss.*
+  - sodass (Subjunktion -> Verbletzt):** *Der Druck stieg zu stark an, sodass die Membran riss.*
+  - so ... dass (getrennt):** *Der Druck war so hoch, dass die Membran riss.*
 
 #### 📊 Übersicht komplexer Satzverbindungen im B1-Bereich
 
@@ -1070,12 +1070,12 @@ Mittelstufen-Standard für selbstständige akademische und professionelle Sprach
 
 ### 💡 Regeln & Erklärungen
 - **1. Futur I (werden + Infinitiv am Satzende):**
--   - *Zukunftsbezug:* Feste Pläne, Prognosen (*Nächstes Jahr werden wir die klinische Phase starten*). Hinweis: Im Deutschen wird Zukunft im Alltag meist mit Präsens + Zeitangabe ausgedrückt (*Morgen fliege ich nach Berlin*).
--   - *Vermutung über die Gegenwart:* Kombiniert mit Modalpartikeln (*wohl, vermutlich, wahrscheinlich*): *Er wird wohl im Labor sein = Ich vermute, dass er im Labor ist*.
--   - *Aufforderung / Befehl:* *Du wirst jetzt sofort das Protokoll schreiben!*
+  - Zukunftsbezug:* Feste Pläne, Prognosen (*Nächstes Jahr werden wir die klinische Phase starten*). Hinweis: Im Deutschen wird Zukunft im Alltag meist mit Präsens + Zeitangabe ausgedrückt (*Morgen fliege ich nach Berlin*).
+  - Vermutung über die Gegenwart:* Kombiniert mit Modalpartikeln (*wohl, vermutlich, wahrscheinlich*): *Er wird wohl im Labor sein = Ich vermute, dass er im Labor ist*.
+  - Aufforderung / Befehl:* *Du wirst jetzt sofort das Protokoll schreiben!*
 - **2. Futur II (werden + Partizip II + haben / sein):**
--   - *Abgeschlossene Handlung in der Zukunft:* *Bis morgen Abend werde ich die Analyse abgeschlossen haben.*
--   - *Vermutung über die Vergangenheit:* *Er wird den Sensor wohl falsch kalibriert haben = Ich vermute, dass er ihn falsch kalibriert hat.*
+  - Abgeschlossene Handlung in der Zukunft:* *Bis morgen Abend werde ich die Analyse abgeschlossen haben.*
+  - Vermutung über die Vergangenheit:* *Er wird den Sensor wohl falsch kalibriert haben = Ich vermute, dass er ihn falsch kalibriert hat.*
 
 #### 📊 Futur I und Futur II Formen und Funktionen
 
@@ -1097,14 +1097,14 @@ Mittelstufen-Standard für selbstständige akademische und professionelle Sprach
 
 ### 💡 Regeln & Erklärungen
 - **1. Komposition (Zusammensetzung):**
--   - Nomen + Nomen (*die Zelle + die Kultur = die Zellkultur*).
--   - Verb + Nomen (*messen + das Gerät = das Messgerät*).
--   - Adjektiv + Nomen (*hoch + die Auflösung = die Hochauflösung*).
--   - *Fugenelemente:* Oft wird ein **-s-** (*das Forschungs-labor*), **-en-** (*die Studenten-arbeit*) oder **-er-** (*die Bilder-galerie*) eingefügt.
+  - Nomen + Nomen (*die Zelle + die Kultur = die Zellkultur*).
+  - Verb + Nomen (*messen + das Gerät = das Messgerät*).
+  - Adjektiv + Nomen (*hoch + die Auflösung = die Hochauflösung*).
+  - Fugenelemente:* Oft wird ein **-s-** (*das Forschungs-labor*), **-en-** (*die Studenten-arbeit*) oder **-er-** (*die Bilder-galerie*) eingefügt.
 - **2. Derivation (Ableitung mit Suffixen):**
--   - *Verben zu Nomen:* *-ung* (untersuchen -> die Untersuchung), *-ion* (reagieren -> die Reaktion).
--   - *Adjektive zu Nomen:* *-heit/-keit* (sauber -> die Sauberkeit, stabil -> die Stabilität).
--   - *Nomen zu Adjektiven:* *-isch* (Biologie -> biologisch), *-lich* (Tag -> täglich), *-los* (Fehler -> fehlerlos), *-voll* (Erfolg -> erfolgreich).
+  - Verben zu Nomen:* *-ung* (untersuchen -> die Untersuchung), *-ion* (reagieren -> die Reaktion).
+  - Adjektive zu Nomen:* *-heit/-keit* (sauber -> die Sauberkeit, stabil -> die Stabilität).
+  - Nomen zu Adjektiven:* *-isch* (Biologie -> biologisch), *-lich* (Tag -> täglich), *-los* (Fehler -> fehlerlos), *-voll* (Erfolg -> erfolgreich).
 
 #### 📊 Wichtige Wortbildungsmuster im wissenschaftlichen Deutsch
 
@@ -1133,12 +1133,12 @@ Die Meisterschaft des akademischen und publizistischen Ausdrucks: 30+ Nomen-Verb
 
 ### 💡 Regeln & Erklärungen
 - **1. Was ist ein Funktionsverbgefüge (FVG)?**
--   - Eine feste Verbindung aus einem Nomen (oft mit Präposition) und einem Funktionsverb (*ein Urteil fällen = urteilen; zur Verfügung stellen = bereitstellen*).
--   - Das Nomen trägt die eigentliche semantische Bedeutung; das Verb verblasst und dient primär als grammatikalischer Träger von Person, Tempus und Modus.
+  - Eine feste Verbindung aus einem Nomen (oft mit Präposition) und einem Funktionsverb (*ein Urteil fällen = urteilen; zur Verfügung stellen = bereitstellen*).
+  - Das Nomen trägt die eigentliche semantische Bedeutung; das Verb verblasst und dient primär als grammatikalischer Träger von Person, Tempus und Modus.
 - **2. Warum FVG in der Wissenschaft?**
--   - Ermöglicht präzise **Aktionsarten** (Beginn, Dauer, Verursachung), die ein einfaches Verb nicht abbilden kann.
--   - Erlaubt elegante Aktiv-/Passiv-Differenzierungen (*zur Verfügung stellen [aktiv]* vs. *zur Verfügung stehen [passiv/Zustand]*).
--   - Verleiht Fachtexten einen hochgradig sachlichen, prägnanten und professionellen Ton.
+  - Ermöglicht präzise **Aktionsarten** (Beginn, Dauer, Verursachung), die ein einfaches Verb nicht abbilden kann.
+  - Erlaubt elegante Aktiv-/Passiv-Differenzierungen (*zur Verfügung stellen [aktiv]* vs. *zur Verfügung stehen [passiv/Zustand]*).
+  - Verleiht Fachtexten einen hochgradig sachlichen, prägnanten und professionellen Ton.
 
 #### 📊 Die 30 wichtigsten wissenschaftlichen und professionellen FVG-Ausdrücke
 
@@ -1179,20 +1179,20 @@ Die Meisterschaft des akademischen und publizistischen Ausdrucks: 30+ Nomen-Verb
 ### 💡 Regeln & Erklärungen
 - **1. Warum Passiv-Ersatzformen?** Häufungen des Vorgangspassivs mit *werden* wirken monoton. Ersatzformen bringen Abwechslung und drücken gleichzeitig modale Nuancen (Können / Müssen) aus.
 - **2. Die wichtigsten Konstruktionen im Überblick:**
--   - **sein + zu + Infinitiv:**
--     - *Bedeutung A (Pflicht/Notwendigkeit = muss/soll getan werden):* *Das Protokoll ist strikt einzuhalten = Das Protokoll muss eingehalten werden.*
--     - *Bedeutung B (Möglichkeit = kann getan werden):* *Der Fehler ist leicht zu beheben = Der Fehler kann leicht behoben werden.*
--   - **sich lassen + Infinitiv (Immer Möglichkeit = kann getan werden):**
--     - *Die Hypothese lässt sich experimentell verifizieren = Die Hypothese kann verifiziert werden.*
--   - **Adjektive auf -bar / -lich / -abel / -ibel (Möglichkeit = kann getan werden):**
--     - *reproduzierbar (kann reproduziert werden), messbar (kann gemessen werden), erklärlich (kann erklärt werden), filtrierbar, praktikabel*.
--   - **es gilt + zu + Infinitiv (Drängende Notwendigkeit = man muss):**
--     - *Es gilt, die Fehlerquellen systematisch zu eliminieren.*
--   - **bleiben / stehen + zu + Infinitiv:**
--     - *Es bleibt abzuwarten, wie das Gewebe reagiert (= Man muss abwarten).*
--   - **gehören + Partizip II (Umgangssprachlich für müssen):**
--     - *Das gehört gründlich überprüft (= Das muss überprüft werden).*
--   - **man + Aktiv-Verb:** *Man beobachtet eine Zunahme = Eine Zunahme wird beobachtet.*
+  - sein + zu + Infinitiv:**
+  - Bedeutung A (Pflicht/Notwendigkeit = muss/soll getan werden):* *Das Protokoll ist strikt einzuhalten = Das Protokoll muss eingehalten werden.*
+  - Bedeutung B (Möglichkeit = kann getan werden):* *Der Fehler ist leicht zu beheben = Der Fehler kann leicht behoben werden.*
+  - sich lassen + Infinitiv (Immer Möglichkeit = kann getan werden):**
+  - Die Hypothese lässt sich experimentell verifizieren = Die Hypothese kann verifiziert werden.*
+  - Adjektive auf -bar / -lich / -abel / -ibel (Möglichkeit = kann getan werden):**
+  - reproduzierbar (kann reproduziert werden), messbar (kann gemessen werden), erklärlich (kann erklärt werden), filtrierbar, praktikabel*.
+  - es gilt + zu + Infinitiv (Drängende Notwendigkeit = man muss):**
+  - Es gilt, die Fehlerquellen systematisch zu eliminieren.*
+  - bleiben / stehen + zu + Infinitiv:**
+  - Es bleibt abzuwarten, wie das Gewebe reagiert (= Man muss abwarten).*
+  - gehören + Partizip II (Umgangssprachlich für müssen):**
+  - Das gehört gründlich überprüft (= Das muss überprüft werden).*
+  - man + Aktiv-Verb:** *Man beobachtet eine Zunahme = Eine Zunahme wird beobachtet.*
 
 #### 📊 Passiv-Ersatzformen Transformations-Matrix
 
@@ -1218,17 +1218,17 @@ Die Meisterschaft des akademischen und publizistischen Ausdrucks: 30+ Nomen-Verb
 
 ### 💡 Regeln & Erklärungen
 - **1. Partizip I als Adjektiv (Partizip Präsens: Verbstamm + -end):**
--   - *Semantik:* Aktivisch und **gleichzeitig** zum Hauptsatzgeschehen (*das strömende Fluid = das Fluid, das strömt*).
--   - Wird wie ein reguläres Adjektiv nach Kasus, Genus und Numerus dekliniert (*des strömend-en Fluids, mit strömend-em Fluid*).
+  - Semantik:* Aktivisch und **gleichzeitig** zum Hauptsatzgeschehen (*das strömende Fluid = das Fluid, das strömt*).
+  - Wird wie ein reguläres Adjektiv nach Kasus, Genus und Numerus dekliniert (*des strömend-en Fluids, mit strömend-em Fluid*).
 - **2. Partizip II als Adjektiv (Partizip Perfekt: ge-...-t / ge-...-en):**
--   - *Semantik bei transitiven Verben:* Passivisch und **vorzeitig/abgeschlossen** (*die publizierten Daten = Daten, die publiziert wurden*).
--   - *Semantik bei intransitiven Verben mit sein:* Aktivisch und abgeschlossen (*die eingetroffenen Gutachter = Gutachter, die eingetroffen sind*).
+  - Semantik bei transitiven Verben:* Passivisch und **vorzeitig/abgeschlossen** (*die publizierten Daten = Daten, die publiziert wurden*).
+  - Semantik bei intransitiven Verben mit sein:* Aktivisch und abgeschlossen (*die eingetroffenen Gutachter = Gutachter, die eingetroffen sind*).
 - **3. Das Gerundivum (zu + Partizip I als Adjektiv):**
--   - *Bildung:* **zu + Verbstamm + -end + Adjektivendung** (*die zu lösende Aufgabe*).
--   - *Semantik:* Drückt eine **passivische Notwendigkeit (müssen)** oder **Möglichkeit (können)** aus (*die zu berücksichtigenden Parameter = Parameter, die berücksichtigt werden müssen*).
+  - Bildung:* **zu + Verbstamm + -end + Adjektivendung** (*die zu lösende Aufgabe*).
+  - Semantik:* Drückt eine **passivische Notwendigkeit (müssen)** oder **Möglichkeit (können)** aus (*die zu berücksichtigenden Parameter = Parameter, die berücksichtigt werden müssen*).
 - **4. Erweiterte Partizipialattribute (Schachtelsatz / Linksverzweigung):**
--   - *Struktur:* [Artikel] ... [Adverbiale Bestimmungen + Partizip] ... [Nomen].
--   - *Beispiel:* Die [von der Forschungsgruppe im vergangenen Jahr unter Reinraumbedingungen **synthetisierten**] Nanopartikel zeigen hohe Stabilität.
+  - Struktur:* [Artikel] ... [Adverbiale Bestimmungen + Partizip] ... [Nomen].
+  - Beispiel:* Die [von der Forschungsgruppe im vergangenen Jahr unter Reinraumbedingungen **synthetisierten**] Nanopartikel zeigen hohe Stabilität.
 
 #### 📊 Partizipialkonstruktionen und ihre Rückverwandlung in Relativsätze
 
@@ -1252,19 +1252,19 @@ Die Meisterschaft des akademischen und publizistischen Ausdrucks: 30+ Nomen-Verb
 
 ### 💡 Regeln & Erklärungen
 - **1. Kopulativ (Aufzählend / Verbindend):**
--   - **sowohl ... als auch (Gleichwertig positiv = und):** *Das Modell ist sowohl kostengünstig als auch präzise.* (KEIN Komma!).
--   - **nicht nur ... sondern auch (Steigernd positiv):** *Wir analysierten nicht nur die Zellmorphologie, sondern auch die Genexpression.* (Komma vor *sondern*!).
+  - sowohl ... als auch (Gleichwertig positiv = und):** *Das Modell ist sowohl kostengünstig als auch präzise.* (KEIN Komma!).
+  - nicht nur ... sondern auch (Steigernd positiv):** *Wir analysierten nicht nur die Zellmorphologie, sondern auch die Genexpression.* (Komma vor *sondern*!).
 - **2. Negativ (Aufzählend verneinend):**
--   - **weder ... noch (Doppelte Verneinung = weder A noch B):** *Das System zeigte weder Rauschen noch Signalverlust.* (KEIN Komma!).
+  - weder ... noch (Doppelte Verneinung = weder A noch B):** *Das System zeigte weder Rauschen noch Signalverlust.* (KEIN Komma!).
 - **3. Disjunktiv (Alternative):**
--   - **entweder ... oder (Ausschließendes Oder):** *Wir müssen entweder den Druck senken oder die Membran verstärken.*
+  - entweder ... oder (Ausschließendes Oder):** *Wir müssen entweder den Druck senken oder die Membran verstärken.*
 - **4. Konzessiv / Adversativ (Einschränkung / Gegensatz):**
--   - **zwar ... aber / jedoch (Einräumung):** *Die Methode ist zwar rechenintensiv, aber hochgradig verlässlich.* (Komma vor *aber*!).
--   - **einerseits ... andererseits:** *Einerseits sinken die Kosten, andererseits steigt der Entwicklungsaufwand.*
+  - zwar ... aber / jedoch (Einräumung):** *Die Methode ist zwar rechenintensiv, aber hochgradig verlässlich.* (Komma vor *aber*!).
+  - einerseits ... andererseits:** *Einerseits sinken die Kosten, andererseits steigt der Entwicklungsaufwand.*
 - **5. Proportional (Vergleich von Steigerungen):**
--   - **je + Komparativ (Nebensatz -> Verbletzt) ... desto / umso + Komparativ (Hauptsatz -> finite Verb direkt danach!):**
--   - *Formel:* Je [Komparativ] ... [Verb am Ende], desto [Komparativ] [finites Verb] [Subjekt]...
--   - *Beispiel:* **Je höher** der angelegte Scherstress **ist**, **desto stärker richten** sich die Endothelzellen in Flussrichtung **aus**.
+  - je + Komparativ (Nebensatz -> Verbletzt) ... desto / umso + Komparativ (Hauptsatz -> finite Verb direkt danach!):**
+  - Formel:* Je [Komparativ] ... [Verb am Ende], desto [Komparativ] [finites Verb] [Subjekt]...
+  - Beispiel:* **Je höher** der angelegte Scherstress **ist**, **desto stärker richten** sich die Endothelzellen in Flussrichtung **aus**.
 
 #### 📊 Zweiteilige Konnektoren Übersicht: Syntax, Komma & Funktion
 
@@ -1290,18 +1290,18 @@ Die Meisterschaft des akademischen und publizistischen Ausdrucks: 30+ Nomen-Verb
 
 ### 💡 Regeln & Erklärungen
 - **1. Was bedeutet 'subjektiver Gebrauch'?**
--   - Das Modalverb drückt keine objektive Pflicht oder Fähigkeit des Subjekts aus, sondern die **subjektive Einschätzung / Gewissheit des Sprechers** über einen Sachverhalt.
+  - Das Modalverb drückt keine objektive Pflicht oder Fähigkeit des Subjekts aus, sondern die **subjektive Einschätzung / Gewissheit des Sprechers** über einen Sachverhalt.
 - **2. Die Grade der Gewissheit bei Vermutungen:**
--   - **müssen (95–100% Sicherheit):** Logischer Zwangsschluss (*Bei diesen Werten muss ein Membranbruch vorliegen = Es ist zweifellos so*).
--   - **müsste / dürfte (75–80% Wahrscheinlichkeit):** Hohe Wahrscheinlichkeit, begründete Vermutung (*Die Probe dürfte bis morgen früh inkubiert sein = Es ist sehr wahrscheinlich*).
--   - **kann / könnte (40–50% Möglichkeit):** Ungewissheit, vorsichtige Hypothese (*Eine Verstopfung könnte den Druckabfall erklären = Es ist möglich*).
+  - müssen (95–100% Sicherheit):** Logischer Zwangsschluss (*Bei diesen Werten muss ein Membranbruch vorliegen = Es ist zweifellos so*).
+  - müsste / dürfte (75–80% Wahrscheinlichkeit):** Hohe Wahrscheinlichkeit, begründete Vermutung (*Die Probe dürfte bis morgen früh inkubiert sein = Es ist sehr wahrscheinlich*).
+  - kann / könnte (40–50% Möglichkeit):** Ungewissheit, vorsichtige Hypothese (*Eine Verstopfung könnte den Druckabfall erklären = Es ist möglich*).
 - **3. Distanzierung von Aussagen (Hörensagen & Behauptung):**
--   - **sollen (Gerücht / Aussage Dritter):** Der Sprecher gibt eine fremde Information wieder, ohne dafür zu bürgen (*Der neue Wirkstoff soll hochwirksam sein = Man behauptet / Die Studie besagt, dass er hochwirksam ist*).
--   - **wollen (Behauptung des Subjekts über sich selbst):** Das Subjekt behauptet etwas über sich, was von anderen bezweifelt wird (*Er will die Formel als Erster entdeckt haben = Er behauptet es von sich, aber es ist umstritten*).
+  - sollen (Gerücht / Aussage Dritter):** Der Sprecher gibt eine fremde Information wieder, ohne dafür zu bürgen (*Der neue Wirkstoff soll hochwirksam sein = Man behauptet / Die Studie besagt, dass er hochwirksam ist*).
+  - wollen (Behauptung des Subjekts über sich selbst):** Das Subjekt behauptet etwas über sich, was von anderen bezweifelt wird (*Er will die Formel als Erster entdeckt haben = Er behauptet es von sich, aber es ist umstritten*).
 - **4. Subjektive Modalverben in der Vergangenheit:**
--   - *Bildungsformel:* **Modalverb im Präsens + Partizip II + haben / sein am Satzende**.
--   - *Beispiel:* *Der Forscher **muss** die Probe **überhitzt haben** (= Ich bin mir sicher, dass er sie überhitzt hat).*
--   - *Beispiel:* *Er **soll** gestern in Berlin **angekommen sein** (= Man sagt, dass er gestern angekommen ist).*
+  - Bildungsformel:* **Modalverb im Präsens + Partizip II + haben / sein am Satzende**.
+  - Beispiel:* *Der Forscher **muss** die Probe **überhitzt haben** (= Ich bin mir sicher, dass er sie überhitzt hat).*
+  - Beispiel:* *Er **soll** gestern in Berlin **angekommen sein** (= Man sagt, dass er gestern angekommen ist).*
 
 #### 📊 Subjektive Modalverben Matrix nach Sprechereinstellung & Gewissheit
 
@@ -1326,13 +1326,13 @@ Die Meisterschaft des akademischen und publizistischen Ausdrucks: 30+ Nomen-Verb
 
 ### 💡 Regeln & Erklärungen
 - **1. Verbalstil vs. Nominalstil:**
--   - *Verbalstil (leicht verständlich, dialogisch):* Verwendet Nebensätze mit finiten Verben (*Weil die Temperatur anstieg, veränderten sich die Zellen*).
--   - *Nominalstil (akademisch, hoch verdichtet):* Verwendet Substantivierungen und Präpositionalphrasen (*Infolge des Temperaturanstiegs erfolgte eine Zellveränderung*).
+  - Verbalstil (leicht verständlich, dialogisch):* Verwendet Nebensätze mit finiten Verben (*Weil die Temperatur anstieg, veränderten sich die Zellen*).
+  - Nominalstil (akademisch, hoch verdichtet):* Verwendet Substantivierungen und Präpositionalphrasen (*Infolge des Temperaturanstiegs erfolgte eine Zellveränderung*).
 - **2. Das Transformations-Schema:**
--   - Verb wird zum Nomen (*expandieren -> die Expansion, messen -> die Messung*).
--   - Subjekt des Nebensatzes wird zum **Genitivattribut** (*die Zellen teilen sich -> die Teilung der Zellen*).
--   - Adverbien werden zu **attributiven Adjektiven** (*schnell wachsen -> schnelles Wachstum*).
--   - Konjunktion wird zur entsprechenden **Präposition** (*weil -> aufgrund/infolge; obwohl -> trotz; wenn -> bei; nachdem -> nach*).
+  - Verb wird zum Nomen (*expandieren -> die Expansion, messen -> die Messung*).
+  - Subjekt des Nebensatzes wird zum **Genitivattribut** (*die Zellen teilen sich -> die Teilung der Zellen*).
+  - Adverbien werden zu **attributiven Adjektiven** (*schnell wachsen -> schnelles Wachstum*).
+  - Konjunktion wird zur entsprechenden **Präposition** (*weil -> aufgrund/infolge; obwohl -> trotz; wenn -> bei; nachdem -> nach*).
 
 #### 📊 Systematische Transformations-Tabelle: Verbalstil -> Nominalstil
 
@@ -1362,17 +1362,17 @@ Nominal: As a result of hydrogel degradation, deeper endothelial cell migration 
 
 ### 💡 Regeln & Erklärungen
 - **1. Funktion des Konjunktiv I:**
--   - Dient in der gehobenen Schriftsprache, im Wissenschaftsjournalismus und in Nachrichten zur **neutralen Wiedergabe von Fremdaussagen** (Indirekte Rede), ohne dass der Sprecher sich die Aussage zu eigen macht.
+  - Dient in der gehobenen Schriftsprache, im Wissenschaftsjournalismus und in Nachrichten zur **neutralen Wiedergabe von Fremdaussagen** (Indirekte Rede), ohne dass der Sprecher sich die Aussage zu eigen macht.
 - **2. Bildung des Konjunktiv I (Präsensstamm + Endungen):**
--   - Endungen: **-e, -est, -e, -en, -et, -en** (*ich habe, du habest, er habe, wir haben, ihr habet, sie haben*).
--   - *Das Hilfsverb sein (Ausnahme):* **sei, seiest/seist, sei, seien, seiet, seien** (*Er sei der beste Forscher*).
+  - Endungen: **-e, -est, -e, -en, -et, -en** (*ich habe, du habest, er habe, wir haben, ihr habet, sie haben*).
+  - Das Hilfsverb sein (Ausnahme):* **sei, seiest/seist, sei, seien, seiet, seien** (*Er sei der beste Forscher*).
 - **3. Die fundamentale Ersatzregel:**
--   - Ist die Konjunktiv I Form identisch mit dem Indikativ (was bei *ich, wir, sie pl.* fast immer der Fall ist: *wir haben = wir haben*), MUSS auf den **Konjunktiv II** ausgewichen werden (*wir hätten*).
--   - Ist auch der Konjunktiv II missverständlich oder veraltet, verwendet man die **würde-Form** (*sie würden forschen*).
+  - Ist die Konjunktiv I Form identisch mit dem Indikativ (was bei *ich, wir, sie pl.* fast immer der Fall ist: *wir haben = wir haben*), MUSS auf den **Konjunktiv II** ausgewichen werden (*wir hätten*).
+  - Ist auch der Konjunktiv II missverständlich oder veraltet, verwendet man die **würde-Form** (*sie würden forschen*).
 - **4. Zeitenfolge in der indirekten Rede:**
--   - *Gegenwart / Zukünftiges:* Konjunktiv I Präsens (*Er sagt, er forsche an Biochips*).
--   - *Vergangenheit (egal ob Perfekt, Präteritum oder Plusquamperfekt):* **sei / habe + Partizip II** (*Er sagte, er habe die Daten gestern publiziert*).
--   - *Zukunft:* **werde + Infinitiv** (*Er erklärte, er werde die Versuchsreihe morgen abschließen*).
+  - Gegenwart / Zukünftiges:* Konjunktiv I Präsens (*Er sagt, er forsche an Biochips*).
+  - Vergangenheit (egal ob Perfekt, Präteritum oder Plusquamperfekt):* **sei / habe + Partizip II** (*Er sagte, er habe die Daten gestern publiziert*).
+  - Zukunft:* **werde + Infinitiv** (*Er erklärte, er werde die Versuchsreihe morgen abschließen*).
 
 #### 📊 Konjunktiv I Stammformen und die Konjunktiv II Ersatzregel
 
@@ -1398,14 +1398,14 @@ Nominal: As a result of hydrogel degradation, deeper endothelial cell migration 
 
 ### 💡 Regeln & Erklärungen
 - **1. Was sind Modalpartikeln?**
--   - Unveränderliche Wörter, die keine eigene Satzgliedfunktion haben, aber die Einstellung, Erwartung oder emotionale Färbung des Sprechers ausdrücken.
+  - Unveränderliche Wörter, die keine eigene Satzgliedfunktion haben, aber die Einstellung, Erwartung oder emotionale Färbung des Sprechers ausdrücken.
 - **2. Die wichtigsten Partikeln im akademischen Diskurs:**
--   - **ja:** Drückt aus, dass der Sachverhalt beiden Gesprächspartnern bereits bekannt ist (*Das wissen Sie ja bereits = wie Ihnen bekannt ist*).
--   - **doch:** Widerspruch, nachdrückliche Erinnerung oder Aufforderung (*Überprüfen Sie doch nochmals die Flussrate!*; *Das ist doch logisch!*).
--   - **denn:** Macht Fragen freundlicher oder drückt echtes Erstaunen aus (*Wie funktioniert denn dieser neue Chip?*).
--   - **eben / halt:** Akzeptanz einer unumstößlichen Tatsache (*Zellen sind eben empfindlich = Das ist eine Tatsache, die man nicht ändern kann*).
--   - **eigentlich:** Höfliche Einschränkung oder Themenwechsel (*Eigentlich wollten wir heute messen, aber der Laser ist defekt*).
--   - **wohl:** Vermutung (*Das wird wohl stimmen = vermutlich*).
+  - ja:** Drückt aus, dass der Sachverhalt beiden Gesprächspartnern bereits bekannt ist (*Das wissen Sie ja bereits = wie Ihnen bekannt ist*).
+  - doch:** Widerspruch, nachdrückliche Erinnerung oder Aufforderung (*Überprüfen Sie doch nochmals die Flussrate!*; *Das ist doch logisch!*).
+  - denn:** Macht Fragen freundlicher oder drückt echtes Erstaunen aus (*Wie funktioniert denn dieser neue Chip?*).
+  - eben / halt:** Akzeptanz einer unumstößlichen Tatsache (*Zellen sind eben empfindlich = Das ist eine Tatsache, die man nicht ändern kann*).
+  - eigentlich:** Höfliche Einschränkung oder Themenwechsel (*Eigentlich wollten wir heute messen, aber der Laser ist defekt*).
+  - wohl:** Vermutung (*Das wird wohl stimmen = vermutlich*).
 
 #### 📊 Bedeutung und Wirkung deutscher Modalpartikeln
 
@@ -1430,14 +1430,14 @@ Nominal: As a result of hydrogel degradation, deeper endothelial cell migration 
 
 ### 💡 Regeln & Erklärungen
 - **1. Warum Nomen-Präposition-Verbindungen?**
--   - Bilden das Rückgrat des wissenschaftlichen Nominalstils (*Die Reaktion der Zellen auf den Wirkstoff; Das Interesse der Industrie an dieser Technologie*).
+  - Bilden das Rückgrat des wissenschaftlichen Nominalstils (*Die Reaktion der Zellen auf den Wirkstoff; Das Interesse der Industrie an dieser Technologie*).
 - **2. Systematische Gruppen nach Präpositionen:**
--   - **an (+ Dativ):** *das Interesse an, der Bedarf an, der Zweifel an, die Kritik an, die Teilnahme an, der Mangel an, die Forschung an*.
--   - **auf (+ Akkusativ):** *die Reaktion auf, die Antwort auf, der Hinweis auf, die Auswirkung auf, der Einfluss auf, der Verzicht auf, die Hoffnung auf*.
--   - **für (+ Akkusativ):** *das Verständnis für, die Verantwortung für, die Voraussetzung für, das Kriterium für, der Nachweis für*.
--   - **zu (+ Dativ):** *der Beitrag zu, die Beziehung zu, der Übergang zu, die Bereitschaft zu, im Vergleich zu*.
--   - **von (+ Dativ):** *die Abhängigkeit von, der Unterschied von/zu, die Trennung von*.
--   - **nach (+ Dativ):** *die Frage nach, die Suche nach, der Wunsch nach*.
+  - an (+ Dativ):** *das Interesse an, der Bedarf an, der Zweifel an, die Kritik an, die Teilnahme an, der Mangel an, die Forschung an*.
+  - auf (+ Akkusativ):** *die Reaktion auf, die Antwort auf, der Hinweis auf, die Auswirkung auf, der Einfluss auf, der Verzicht auf, die Hoffnung auf*.
+  - für (+ Akkusativ):** *das Verständnis für, die Verantwortung für, die Voraussetzung für, das Kriterium für, der Nachweis für*.
+  - zu (+ Dativ):** *der Beitrag zu, die Beziehung zu, der Übergang zu, die Bereitschaft zu, im Vergleich zu*.
+  - von (+ Dativ):** *die Abhängigkeit von, der Unterschied von/zu, die Trennung von*.
+  - nach (+ Dativ):** *die Frage nach, die Suche nach, der Wunsch nach*.
 
 #### 📊 Katalog fester Nomen-Präposition-Verbindungen
 
@@ -1463,14 +1463,14 @@ Nominal: As a result of hydrogel degradation, deeper endothelial cell migration 
 
 ### 💡 Regeln & Erklärungen
 - **1. Die 4 syntaktischen Konnektoren-Klassen im Deutschen:**
--   - **Klasse 1: Nebenordnende Konjunktionen (Position 0):**
--     - *und, aber, oder, denn, sondern* -> Verändern die normale Satzstellung NICHT (*Ich messe [Pos 1] die Probe [Pos 2], **denn** die Pumpe **läuft** [Pos 2] stabil*).
--   - **Klasse 2: Konjunktionaladverbien (Position 1 im Vorfeld -> Inversion):**
--     - *deshalb, folglich, demnach, infolgedessen, trotzdem, dennoch, stattdessen, darüber hinaus, schließlich, allerdings* -> Das finite Verb folgt direkt an Position 2 (*Folglich **müssen** wir die Parameter anpassen*).
--   - **Klasse 3: Adverbien im Mittelfeld (Position 3 / Schaltsatz):**
--     - *nämlich, jedoch, allerdings, indessen* (*Wir müssen **jedoch** die Kontrollgruppe beachten*).
--   - **Klasse 4: Unterordnende Subjunktionen (Verbletztstellung):**
--     - *weil, da, obwohl, sodass, während, indem, damit* -> Finites Verb am Ende des Nebensatzes.
+  - Klasse 1: Nebenordnende Konjunktionen (Position 0):**
+  - und, aber, oder, denn, sondern* -> Verändern die normale Satzstellung NICHT (*Ich messe [Pos 1] die Probe [Pos 2], **denn** die Pumpe **läuft** [Pos 2] stabil*).
+  - Klasse 2: Konjunktionaladverbien (Position 1 im Vorfeld -> Inversion):**
+  - deshalb, folglich, demnach, infolgedessen, trotzdem, dennoch, stattdessen, darüber hinaus, schließlich, allerdings* -> Das finite Verb folgt direkt an Position 2 (*Folglich **müssen** wir die Parameter anpassen*).
+  - Klasse 3: Adverbien im Mittelfeld (Position 3 / Schaltsatz):**
+  - nämlich, jedoch, allerdings, indessen* (*Wir müssen **jedoch** die Kontrollgruppe beachten*).
+  - Klasse 4: Unterordnende Subjunktionen (Verbletztstellung):**
+  - weil, da, obwohl, sodass, während, indem, damit* -> Finites Verb am Ende des Nebensatzes.
 
 #### 📊 Logische Konnektoren-Matrix für wissenschaftliche Argumentation
 

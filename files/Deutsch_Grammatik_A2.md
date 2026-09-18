@@ -23,16 +23,16 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Artikelformen im Dativ:**
--   - *Maskulin:* **dem / einem / keinem / meinem**
--   - *Feminin:* **der / einer / keiner / meiner**
--   - *Neutrum:* **dem / einem / keinem / meinem**
--   - *Plural:* **den / — / keinen / meinen + -(e)n am Nomen** (*den Kindern, den Experimenten, den Professoren*; Ausnahme: Nomen auf -s erhalten kein -n: *den Autos*).
+  - Maskulin:* **dem / einem / keinem / meinem**
+  - Feminin:* **der / einer / keiner / meiner**
+  - Neutrum:* **dem / einem / keinem / meinem**
+  - Plural:* **den / — / keinen / meinen + -(e)n am Nomen** (*den Kindern, den Experimenten, den Professoren*; Ausnahme: Nomen auf -s erhalten kein -n: *den Autos*).
 - **2. Personalpronomen im Dativ:**
--   - *mir (ich), dir (du), ihm (er/es), ihr (sie sg.), uns (wir), euch (ihr), ihnen (sie pl.), Ihnen (Höflichkeit)*.
+  - mir (ich), dir (du), ihm (er/es), ihr (sie sg.), uns (wir), euch (ihr), ihnen (sie pl.), Ihnen (Höflichkeit)*.
 - **3. Gesetz der doppelten Objekte (Dativ- und Akkusativobjekt im selben Satz):**
--   - **Regel A (Beide sind Nomen):** Dativ-Nomen steht VOR Akkusativ-Nomen (*Ich gebe [dem Professor: Dat] [das Protokoll: Akk]*).
--   - **Regel B (Eines ist Pronomen, eines Nomen):** Das Pronomen steht IMMER vor dem Nomen, egal welcher Fall (*Ich gebe [es: Akk-Pron] [dem Professor: Dat-Nomen]*; *Ich gebe [ihm: Dat-Pron] [das Protokoll: Akk-Nomen]*).
--   - **Regel C (Beide sind Pronomen):** Akkusativ-Pronomen steht VOR Dativ-Pronomen (*Ich gebe [es: Akk] [ihm: Dat]*).
+  - Regel A (Beide sind Nomen):** Dativ-Nomen steht VOR Akkusativ-Nomen (*Ich gebe [dem Professor: Dat] [das Protokoll: Akk]*).
+  - Regel B (Eines ist Pronomen, eines Nomen):** Das Pronomen steht IMMER vor dem Nomen, egal welcher Fall (*Ich gebe [es: Akk-Pron] [dem Professor: Dat-Nomen]*; *Ich gebe [ihm: Dat-Pron] [das Protokoll: Akk-Nomen]*).
+  - Regel C (Beide sind Pronomen):** Akkusativ-Pronomen steht VOR Dativ-Pronomen (*Ich gebe [es: Akk] [ihm: Dat]*).
 
 #### 📊 Objekt-Reihenfolge Matrix im Deutschen Hauptsatz
 
@@ -55,27 +55,27 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Die wichtigsten Verben mit Dativergänzung:**
--   - *helfen (+ Dat):* Können Sie mir helfen?
--   - *danken (+ Dat):* Wir danken Ihnen für die Kooperation.
--   - *antworten (+ Dat):* Der Betreuer antwortet dem Doktoranden.
--   - *gratulieren (+ Dat):* Wir gratulieren dir zur bestandenen Prüfung.
--   - *gehören (+ Dat):* Das Mikroskop gehört unserem Institut.
--   - *gefallen (+ Dat):* Das neue Laborkonzept gefällt den Forschern.
--   - *schmecken (+ Dat):* Der Kaffee schmeckt mir gut.
--   - *passen (+ Dat):* Der Termin passt mir ausgezeichnet.
--   - *fehlen (+ Dat):* Den Zellen fehlt wichtiger Sauerstoff.
--   - *schaden (+ Dat):* Hoher Druck schadet der Membran.
--   - *vertrauen (+ Dat):* Wir vertrauen den Messergebnissen.
--   - *zuhören (+ Dat):* Die Studenten hören der Vorlesung aufmerksam zu.
+  - helfen (+ Dat):* Können Sie mir helfen?
+  - danken (+ Dat):* Wir danken Ihnen für die Kooperation.
+  - antworten (+ Dat):* Der Betreuer antwortet dem Doktoranden.
+  - gratulieren (+ Dat):* Wir gratulieren dir zur bestandenen Prüfung.
+  - gehören (+ Dat):* Das Mikroskop gehört unserem Institut.
+  - gefallen (+ Dat):* Das neue Laborkonzept gefällt den Forschern.
+  - schmecken (+ Dat):* Der Kaffee schmeckt mir gut.
+  - passen (+ Dat):* Der Termin passt mir ausgezeichnet.
+  - fehlen (+ Dat):* Den Zellen fehlt wichtiger Sauerstoff.
+  - schaden (+ Dat):* Hoher Druck schadet der Membran.
+  - vertrauen (+ Dat):* Wir vertrauen den Messergebnissen.
+  - zuhören (+ Dat):* Die Studenten hören der Vorlesung aufmerksam zu.
 - **2. Dativ-Präpositionen (Merksatz: Aus-Bei-Mit-Nach-Seit-Von-Zu + gegenüber & außer):**
--   - **aus:** Herkunft (*aus Deutschland*), Material (*aus Silikon*), Heraustreten (*aus dem Kanal*).
--   - **bei:** Aufenthalt/Firma (*bei der Universität*), Gleichzeitigkeit (*beim Experiment*).
--   - **mit:** Werkzeug/Mittel (*mit der Pipette*), Begleitung (*mit dem Team*).
--   - **nach:** Zeitlich danach (*nach der Zentrifugation*), Ortsrichtung Länder/Städte (*nach Berlin*).
--   - **seit:** Beginn in Vergangenheit, dauert an (*seit zwei Jahren* -> Verlangt Präsens!).
--   - **von:** Ausgangspunkt (*vom Labor*), Urheber (*von Professor Bauer*).
--   - **zu:** Zielperson/Ort (*zum Seminar*), Anlass (*zur Feier*).
--   - **gegenüber:** Lage gegenüber (*dem Institutsgebäude gegenüber*).
+  - aus:** Herkunft (*aus Deutschland*), Material (*aus Silikon*), Heraustreten (*aus dem Kanal*).
+  - bei:** Aufenthalt/Firma (*bei der Universität*), Gleichzeitigkeit (*beim Experiment*).
+  - mit:** Werkzeug/Mittel (*mit der Pipette*), Begleitung (*mit dem Team*).
+  - nach:** Zeitlich danach (*nach der Zentrifugation*), Ortsrichtung Länder/Städte (*nach Berlin*).
+  - seit:** Beginn in Vergangenheit, dauert an (*seit zwei Jahren* -> Verlangt Präsens!).
+  - von:** Ausgangspunkt (*vom Labor*), Urheber (*von Professor Bauer*).
+  - zu:** Zielperson/Ort (*zum Seminar*), Anlass (*zur Feier*).
+  - gegenüber:** Lage gegenüber (*dem Institutsgebäude gegenüber*).
 
 #### 📊 Übersicht der reinen Dativ-Präpositionen
 
@@ -102,18 +102,18 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Die goldene Regel der 9 Wechselpräpositionen:**
--   - **Wohin? (Richtung / Dynamik / Aktion):** -> **AKKUSATIV** (*Ich stelle die Flasche auf den Tisch*).
--   - **Wo? (Ort / Statik / Zustand):** -> **DATIV** (*Die Flasche steht auf dem Tisch*).
+  - Wohin? (Richtung / Dynamik / Aktion):** -> **AKKUSATIV** (*Ich stelle die Flasche auf den Tisch*).
+  - Wo? (Ort / Statik / Zustand):** -> **DATIV** (*Die Flasche steht auf dem Tisch*).
 - **2. Die 4 klassischen Verbpaare (Transitiv vs. Intransitiv):**
--   - *stellen (regelm., wohin? -> Akk)* vs. *stehen (stark: stand/gestanden, wo? -> Dat)*.
--   - *legen (regelm., wohin? -> Akk)* vs. *liegen (stark: lag/gelegen, wo? -> Dat)*.
--   - *setzen (regelm., wohin? -> Akk)* vs. *sitzen (stark: saß/gesessen, wo? -> Dat)*.
--   - *hängen (regelm., wohin? -> Akk)* vs. *hängen (stark: hing/gehangen, wo? -> Dat)*.
--   - *stecken (wohin? -> Akk)* vs. *stecken (wo? -> Dat)*.
+  - stellen (regelm., wohin? -> Akk)* vs. *stehen (stark: stand/gestanden, wo? -> Dat)*.
+  - legen (regelm., wohin? -> Akk)* vs. *liegen (stark: lag/gelegen, wo? -> Dat)*.
+  - setzen (regelm., wohin? -> Akk)* vs. *sitzen (stark: saß/gesessen, wo? -> Dat)*.
+  - hängen (regelm., wohin? -> Akk)* vs. *hängen (stark: hing/gehangen, wo? -> Dat)*.
+  - stecken (wohin? -> Akk)* vs. *stecken (wo? -> Dat)*.
 - **3. Temporale Verwendung der Wechselpräpositionen (Immer Dativ!):**
--   - *an:* Tage, Tageszeiten (*am Montag, am Morgen, am Wochenende*).
--   - *in:* Monate, Jahreszeiten, Jahre, Zeitspannen (*im Mai, im Sommer, in zwei Wochen*).
--   - *vor / nach:* Vorher / Nachher (*vor dem Versuch, nach der Konferenz*).
+  - an:* Tage, Tageszeiten (*am Montag, am Morgen, am Wochenende*).
+  - in:* Monate, Jahreszeiten, Jahre, Zeitspannen (*im Mai, im Sommer, in zwei Wochen*).
+  - vor / nach:* Vorher / Nachher (*vor dem Versuch, nach der Konferenz*).
 
 #### 📊 Positions- und Aktionsverbpaare im systematischen Vergleich
 
@@ -137,13 +137,13 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Echte vs. Unechte Reflexivverben:**
--   - *Echte Reflexivverben:* Können nur mit Reflexivpronomen existieren (*sich konzentrieren auf, sich erkundigen nach, sich weigern, sich schämen, sich ereignen*).
--   - *Unechte Reflexivverben:* Können reflexiv oder transitiv auf andere Objekte angewendet werden (*Ich wasche mich* vs. *Ich wasche das Auto*).
+  - Echte Reflexivverben:* Können nur mit Reflexivpronomen existieren (*sich konzentrieren auf, sich erkundigen nach, sich weigern, sich schämen, sich ereignen*).
+  - Unechte Reflexivverben:* Können reflexiv oder transitiv auf andere Objekte angewendet werden (*Ich wasche mich* vs. *Ich wasche das Auto*).
 - **2. Reflexivpronomen im Akkusativ vs. Dativ:**
--   - Nur in der 1. und 2. Person Singular (*ich, du*) unterscheiden sich Akkusativ (*mich, dich*) und Dativ (*mir, dir*). Alle anderen Personen verwenden *sich, uns, euch, sich*.
--   - *Wann Dativ?* Wenn im Satz bereits ein separates Akkusativobjekt vorhanden ist (*Ich ziehe mich (Akk) an* vs. *Ich ziehe mir (Dat) den Kittel (Akk) an*).
+  - Nur in der 1. und 2. Person Singular (*ich, du*) unterscheiden sich Akkusativ (*mich, dich*) und Dativ (*mir, dir*). Alle anderen Personen verwenden *sich, uns, euch, sich*.
+  - Wann Dativ?* Wenn im Satz bereits ein separates Akkusativobjekt vorhanden ist (*Ich ziehe mich (Akk) an* vs. *Ich ziehe mir (Dat) den Kittel (Akk) an*).
 - **3. Reziproke Verben (Wechselseitige Handlung):**
--   - Subjekt steht im Plural; die Handlung ist gegenseitig (*sich treffen, sich einigen, sich austauschen, sich widersprechen*).
+  - Subjekt steht im Plural; die Handlung ist gegenseitig (*sich treffen, sich einigen, sich austauschen, sich widersprechen*).
 
 #### 📊 Reflexivpronomen Übersicht Akkusativ vs. Dativ
 
@@ -170,14 +170,14 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 ### 💡 Grammatische Regeln & Erklärungen
 - **Grundprinzip:** Ein Adjektiv vor einem Nomen (attributiv) MUSS dekliniert werden. Es zeigt Genus, Numerus und Kasus an.
 - **Typ 1: Schwache Deklination (nach bestimmtem Artikel: der, die, das, dieser, jener, jeder, welcher):**
--   - *Regel:* Nur zwei mögliche Endungen: **-e** oder **-en**!
--   - **-e:** Nur in 5 Positionen: Nominativ Singular aller drei Geschlechter (*der neue Chip, die neue Pumpe, das neue Labor*) und Akkusativ Feminin & Neutrum (*die neue Pumpe, das neue Labor*).
--   - **-en:** In allen anderen Fällen (Akkusativ Maskulin, kompletter Dativ, kompletter Genitiv und kompletter Plural!).
+  - Regel:* Nur zwei mögliche Endungen: **-e** oder **-en**!
+  - e:** Nur in 5 Positionen: Nominativ Singular aller drei Geschlechter (*der neue Chip, die neue Pumpe, das neue Labor*) und Akkusativ Feminin & Neutrum (*die neue Pumpe, das neue Labor*).
+  - en:** In allen anderen Fällen (Akkusativ Maskulin, kompletter Dativ, kompletter Genitiv und kompletter Plural!).
 - **Typ 2: Gemischte Deklination (nach unbestimmtem Artikel: ein, kein, mein, dein, sein...):**
--   - *Regel:* Adjektiv übernimmt dort die Signalendung des bestimmten Artikels, wo das Artikelwort keine eindeutige Endung hat (Nom. Mask: *ein neu-er Chip*; Nom/Akk Neutrum: *ein neu-es Labor*).
--   - In allen Dativ-, Genitiv-, Akkusativ-Maskulin- und Pluralformen lautet die Endung **-en**.
+  - Regel:* Adjektiv übernimmt dort die Signalendung des bestimmten Artikels, wo das Artikelwort keine eindeutige Endung hat (Nom. Mask: *ein neu-er Chip*; Nom/Akk Neutrum: *ein neu-es Labor*).
+  - In allen Dativ-, Genitiv-, Akkusativ-Maskulin- und Pluralformen lautet die Endung **-en**.
 - **Typ 3: Starke Deklination (Nullartikel / ohne Artikelwort):**
--   - *Regel:* Das Adjektiv muss die vollen Signalendungen des bestimmten Artikels tragen (*neu-er Sensor, neu-e Pumpe, neu-es Medium, neu-e Methoden*; Ausnahme: Genitiv Maskulin/Neutrum endet auf **-en**, weil das Nomen bereits das -s trägt: *kalt-en Wassers*).
+  - Regel:* Das Adjektiv muss die vollen Signalendungen des bestimmten Artikels tragen (*neu-er Sensor, neu-e Pumpe, neu-es Medium, neu-e Methoden*; Ausnahme: Genitiv Maskulin/Neutrum endet auf **-en**, weil das Nomen bereits das -s trägt: *kalt-en Wassers*).
 
 #### 📊 Master-Matrix der Adjektivendungen (Alle 3 Typen im Vergleich)
 
@@ -207,15 +207,15 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Die drei Steigerungsstufen:**
--   - *Positiv (Grundstufe):* Gleichheit mit **so / genauso + Adjektiv + wie** (*Das Modell ist genauso präzise wie die Referenz*).
--   - *Komparativ (Vergleichsstufe):* Ungleichheit mit **Adjektiv + -er + als** (*Dieses System ist stabiler als das vorherige*).
--   - *Superlativ (Höchststufe):* Prädikativ mit **am + Adjektiv + -(e)sten** (*Dieses Design ist am effektivsten*); Attributiv mit bestimmtem Artikel und Adjektivendung (*das effektivste Design*).
+  - Positiv (Grundstufe):* Gleichheit mit **so / genauso + Adjektiv + wie** (*Das Modell ist genauso präzise wie die Referenz*).
+  - Komparativ (Vergleichsstufe):* Ungleichheit mit **Adjektiv + -er + als** (*Dieses System ist stabiler als das vorherige*).
+  - Superlativ (Höchststufe):* Prädikativ mit **am + Adjektiv + -(e)sten** (*Dieses Design ist am effektivsten*); Attributiv mit bestimmtem Artikel und Adjektivendung (*das effektivste Design*).
 - **2. Umlautregeln & Phonetische Besonderheiten:**
--   - Einsilbige Adjektive mit *a, o, u* erhalten meist einen Umlaut (*alt/älter, warm/wärmer, groß/größer, kurz/kürzer, jung/jünger*).
--   - Adjektive auf *-d, -t, -s, -ß, -z, -x, -los* erhalten im Superlativ ein **-e-** (*breit -> am breitesten, heiß -> am heißesten*).
--   - Adjektive auf *-el / -er* verlieren im Komparativ das Stamm-e (*dunkel -> dunkler; teuer -> teurer*).
+  - Einsilbige Adjektive mit *a, o, u* erhalten meist einen Umlaut (*alt/älter, warm/wärmer, groß/größer, kurz/kürzer, jung/jünger*).
+  - Adjektive auf *-d, -t, -s, -ß, -z, -x, -los* erhalten im Superlativ ein **-e-** (*breit -> am breitesten, heiß -> am heißesten*).
+  - Adjektive auf *-el / -er* verlieren im Komparativ das Stamm-e (*dunkel -> dunkler; teuer -> teurer*).
 - **3. Deklinierte Komparative & Superlative vor Nomen:**
--   - Erst steigern, dann nach normaler Adjektivdeklination beugen: *ein besser-er (Komparativ) + -er (Typ 2 Maskulin) = ein besserer Sensor*; *die schnell-st-e Pumpe*.
+  - Erst steigern, dann nach normaler Adjektivdeklination beugen: *ein besser-er (Komparativ) + -er (Typ 2 Maskulin) = ein besserer Sensor*; *die schnell-st-e Pumpe*.
 
 #### 📊 Unregelmäßige und hochfrequente Steigerungsformen
 
@@ -241,15 +241,15 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Die fundamentale Nebensatz-Regel (Verbletztstellung):**
--   - Das konjugierte Verb wandert ans **absolute Ende** des Nebensatzes.
--   - Nebensätze werden im Deutschen IMMER durch ein Komma vom Hauptsatz getrennt.
+  - Das konjugierte Verb wandert ans **absolute Ende** des Nebensatzes.
+  - Nebensätze werden im Deutschen IMMER durch ein Komma vom Hauptsatz getrennt.
 - **2. Die wichtigsten Subjunktionen im A2-Bereich:**
--   - **weil / da (Kausal):** Begründung (*Wir wiederholen den Versuch, weil die Flussrate schwankte*). *da* steht bevorzugt am Satzanfang für bekannte Gründe (*Da das Labor renoviert wird, arbeiten wir im Nachbargebäude*).
--   - **dass (Objekt-/Inhaltssatz):** Ergänzung nach Verben des Wissens, Meinens, Sagens (*Ich weiß, dass die Daten verlässlich sind*).
--   - **wenn / falls (Konditional):** Bedingung (*Wenn der Druck steigt, schlägt der Alarm an*).
--   - **ob (Indirekte Ja/Nein-Frage):** Ungewissheit (*Wir prüfen, ob die Membran dicht ist*).
+  - weil / da (Kausal):** Begründung (*Wir wiederholen den Versuch, weil die Flussrate schwankte*). *da* steht bevorzugt am Satzanfang für bekannte Gründe (*Da das Labor renoviert wird, arbeiten wir im Nachbargebäude*).
+  - dass (Objekt-/Inhaltssatz):** Ergänzung nach Verben des Wissens, Meinens, Sagens (*Ich weiß, dass die Daten verlässlich sind*).
+  - wenn / falls (Konditional):** Bedingung (*Wenn der Druck steigt, schlägt der Alarm an*).
+  - ob (Indirekte Ja/Nein-Frage):** Ungewissheit (*Wir prüfen, ob die Membran dicht ist*).
 - **3. Satzstellung bei vorangestelltem Nebensatz (Verb-Verb-Regel):**
--   - Beginnt der Satz mit dem Nebensatz (Nebensatz = Position 1 des Gesamtsatzes), beginnt der folgende Hauptsatz SOFORT mit dem finiten Verb (*Wenn die Messung beendet ist [Verb 1], starten [Verb 2] wir die Auswertung*).
+  - Beginnt der Satz mit dem Nebensatz (Nebensatz = Position 1 des Gesamtsatzes), beginnt der folgende Hauptsatz SOFORT mit dem finiten Verb (*Wenn die Messung beendet ist [Verb 1], starten [Verb 2] wir die Auswertung*).
 
 #### 📊 Nebensatz-Typen und Konjunktionen im Überblick
 
@@ -274,14 +274,14 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Die Gretchenfrage: 'wenn' oder 'als'?**
--   - **als:** Wird NUR verwendet bei einem **einmaligen Ereignis in der Vergangenheit** (*Als ich 2024 nach Deutschland kam...*; *Als der Sensor ausfiel, stoppten wir die Pumpe*).
--   - **wenn:** Wird verwendet bei:
+  - als:** Wird NUR verwendet bei einem **einmaligen Ereignis in der Vergangenheit** (*Als ich 2024 nach Deutschland kam...*; *Als der Sensor ausfiel, stoppten wir die Pumpe*).
+  - wenn:** Wird verwendet bei:
 -     1. Handlungen in Gegenwart und Zukunft (*Wenn ich Zeit habe, lese ich Fachartikel*).
 -     2. **Wiederholten Ereignissen in der Vergangenheit** (Signalwörter: *immer wenn, jedes Mal wenn*: *Immer wenn die Temperatur anstieg, öffnete sich das Ventil*).
 - **2. Weitere temporale Konjunktionen:**
--   - **während:** Gleichzeitigkeit (*Während die Zellen inkubieren, werten wir die Daten aus*).
--   - **bevor / ehe:** Vorzeitigkeit des Hauptsatzes (*Bevor wir beginnen, sterilisieren wir die Werkzeuge*).
--   - **nachdem:** Nachzeitigkeit (erfordert Zeitenfolge: Plusquamperfekt bei Präteritum-Hauptsatz).
+  - während:** Gleichzeitigkeit (*Während die Zellen inkubieren, werten wir die Daten aus*).
+  - bevor / ehe:** Vorzeitigkeit des Hauptsatzes (*Bevor wir beginnen, sterilisieren wir die Werkzeuge*).
+  - nachdem:** Nachzeitigkeit (erfordert Zeitenfolge: Plusquamperfekt bei Präteritum-Hauptsatz).
 
 #### 📊 Entscheidungsbaum: 'als' vs. 'wenn'
 
@@ -306,15 +306,15 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Verwendung des Präteritums:** Hauptsächlich in schriftlichen Berichten, wissenschaftlichen Artikeln, Protokollen, Zeitungsberichten und literarischen Erzählungen. Im Alltag werden *sein, haben* und Modalverben auch mündlich im Präteritum gebraucht.
 - **2. Regelmäßige (schwache) Verben:**
--   - Verbstamm + **-te, -test, -te, -ten, -tet, -ten** (*lernen -> ich lernte, du lerntest, er lernte, wir lernten, ihr lerntet, sie lernten*).
--   - Bei Stamm auf -d/-t: **-ete, -etest, -ete, -eten, -etet, -eten** (*arbeiten -> arbeitete*).
+  - Verbstamm + **-te, -test, -te, -ten, -tet, -ten** (*lernen -> ich lernte, du lerntest, er lernte, wir lernten, ihr lerntet, sie lernten*).
+  - Bei Stamm auf -d/-t: **-ete, -etest, -ete, -eten, -etet, -eten** (*arbeiten -> arbeitete*).
 - **3. Unregelmäßige (starke) Verben:**
--   - Stammvokal ändert sich (Ablaut!). 1. und 3. Person Singular haben KEINE Endung!
--   - Endungen: **—, -st, —, -en, -t, -en** (*gehen -> ging, gingst, ging, gingen, gingt, gingen; sprechen -> sprach; sehen -> sah; finden -> fand*).
+  - Stammvokal ändert sich (Ablaut!). 1. und 3. Person Singular haben KEINE Endung!
+  - Endungen: **—, -st, —, -en, -t, -en** (*gehen -> ging, gingst, ging, gingen, gingt, gingen; sprechen -> sprach; sehen -> sah; finden -> fand*).
 - **4. Gemischte Verben (Ablaut + -te Endung):**
--   - *denken -> dachte, bringen -> brachte, kennen -> kannte, wissen -> wusste*.
+  - denken -> dachte, bringen -> brachte, kennen -> kannte, wissen -> wusste*.
 - **5. Modalverben im Präteritum (Verlieren alle Umlaute!):**
--   - *konnte, musste, durfte, sollte, wollte, mochte*.
+  - konnte, musste, durfte, sollte, wollte, mochte*.
 
 #### 📊 Wichtige Präteritum-Stammformen im Überblick
 
@@ -344,15 +344,15 @@ Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (W
 
 ### 💡 Grammatische Regeln & Erklärungen
 - **1. Indirekte W-Fragen:**
--   - Direkt: *Wann beginnt die Konferenz?*
--   - Indirekt: *Können Sie mir sagen, **wann die Konferenz beginnt**?* (Fragewort wird zur Subjunktion -> Verb am Satzende!).
+  - Direkt: *Wann beginnt die Konferenz?*
+  - Indirekt: *Können Sie mir sagen, **wann die Konferenz beginnt**?* (Fragewort wird zur Subjunktion -> Verb am Satzende!).
 - **2. Indirekte Ja/Nein-Fragen:**
--   - Direkt: *Funktioniert das Spektrometer?*
--   - Indirekt: *Ich möchte wissen, **ob das Spektrometer funktioniert**.* (Einleitung mit *ob* -> Verb am Satzende!).
+  - Direkt: *Funktioniert das Spektrometer?*
+  - Indirekt: *Ich möchte wissen, **ob das Spektrometer funktioniert**.* (Einleitung mit *ob* -> Verb am Satzende!).
 - **3. Höfliche Bitten im universitären und professionellen Alltag:**
--   - *Könnten Sie bitte... + Infinitiv* (*Könnten Sie mir bitte die Rohdaten zusenden?*).
--   - *Würden Sie bitte... + Infinitiv* (*Würden Sie bitte die Kammer desinfizieren?*).
--   - *Ich hätte gerne...* (*Ich hätte gerne Auskunft über das Promotionsprogramm*).
+  - Könnten Sie bitte... + Infinitiv* (*Könnten Sie mir bitte die Rohdaten zusenden?*).
+  - Würden Sie bitte... + Infinitiv* (*Würden Sie bitte die Kammer desinfizieren?*).
+  - Ich hätte gerne...* (*Ich hätte gerne Auskunft über das Promotionsprogramm*).
 
 #### 📊 Transformation Direkte Frage -> Indirekte Frage
 
