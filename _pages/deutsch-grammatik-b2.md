@@ -185,30 +185,71 @@ toc: false
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 10px;
-    padding: 16px 20px;
+    padding: 18px 22px;
     margin-bottom: 24px;
 }
 .rule-box-header {
     font-size: 0.95rem;
     font-weight: 700;
     color: #0369a1;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     display: flex;
     align-items: center;
     gap: 6px;
 }
 .rule-list {
     margin: 0;
-    padding-left: 20px;
+    padding-left: 0;
+    list-style: none;
+}
+.rule-header-item {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0369a1;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    list-style: none;
+}
+.rule-header-item:first-child {
+    margin-top: 0;
 }
 .rule-item {
     font-size: 0.96rem;
     line-height: 1.6;
     color: #334155;
     margin-bottom: 8px;
+    position: relative;
+    padding-left: 18px;
 }
-.rule-item:last-child {
-    margin-bottom: 0;
+.rule-item::before {
+    content: "•";
+    position: absolute;
+    left: 4px;
+    color: #0284c7;
+    font-weight: bold;
+}
+.rule-sub-item {
+    font-size: 0.94rem;
+    line-height: 1.55;
+    color: #475569;
+    margin-bottom: 6px;
+    padding-left: 32px;
+    position: relative;
+}
+.rule-sub-item::before {
+    content: "–";
+    position: absolute;
+    left: 18px;
+    color: #94a3b8;
+}
+
+.inline-code {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 /* Tables */
@@ -354,8 +395,8 @@ toc: false
 <div class="grammar-container">
     <div id="toc-top" class="hero-box">
         <span class="hero-badge">CEFR B2 Fortgeschritten</span>
-        <h1 class="hero-title">Stufe B2: Mittelstufe II – Gehobene Wissenschafts- & Fachsprache</h1>
-        <p class="hero-summary">Die Meisterschaft des akademischen und publizistischen Ausdrucks: 30+ Nomen-Verb-Verbindungen (Funktionsverbgefüge / FVG), Passiv-Ersatzformen (sein+zu, sich lassen, -bar/-lich), erweiterte Partizipialattribute & Gerundivum, zweiteilige Konnektoren (Doppelkonjunktionen), epistemische / subjektive Modalverben (Gewissheit, Gerüchte, Distanzierung), systematischer Nominalstil vs. Verbalstil, Konjunktiv I (Indirekte Rede), Modalpartikeln und wissenschaftliche Textkohärenz.</p>
+        <h1 class="hero-title">Stufe B2: Mittelstufe II – Gehobene Wissenschafts- &amp; Fachsprache</h1>
+        <p class="hero-summary">Die Meisterschaft des akademischen und publizistischen Ausdrucks: 30+ Nomen-Verb-Verbindungen (Funktionsverbgefüge / FVG), Passiv-Ersatzformen (sein+zu, sich lassen, -bar/-lich), erweiterte Partizipialattribute &amp; Gerundivum, zweiteilige Konnektoren (Doppelkonjunktionen), epistemische / subjektive Modalverben (Gewissheit, Gerüchte, Distanzierung), systematischer Nominalstil vs. Verbalstil, Konjunktiv I (Indirekte Rede), Modalpartikeln und wissenschaftliche Textkohärenz.</p>
         <div class="hero-actions">
             <a href="/deutsch/grammatik/" class="action-btn">📚 Grammatik-Hub</a>
             <a href="/files/Deutsch_Grammatik_B2.md" class="action-btn" download>📥 Download Markdown</a>
@@ -379,7 +420,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Was ist ein Funktionsverbgefüge (FVG)?**</li><li class="rule-item">  - Eine feste Verbindung aus einem Nomen (oft mit Präposition) und einem Funktionsverb (*ein Urteil fällen = urteilen; zur Verfügung stellen = bereitstellen*).</li><li class="rule-item">  - Das Nomen trägt die eigentliche semantische Bedeutung; das Verb verblasst und dient primär als grammatikalischer Träger von Person, Tempus und Modus.</li><li class="rule-item">**2. Warum FVG in der Wissenschaft?**</li><li class="rule-item">  - Ermöglicht präzise **Aktionsarten** (Beginn, Dauer, Verursachung), die ein einfaches Verb nicht abbilden kann.</li><li class="rule-item">  - Erlaubt elegante Aktiv-/Passiv-Differenzierungen (*zur Verfügung stellen [aktiv]* vs. *zur Verfügung stehen [passiv/Zustand]*).</li><li class="rule-item">  - Verleiht Fachtexten einen hochgradig sachlichen, prägnanten und professionellen Ton.</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Was ist ein Funktionsverbgefüge (FVG)?</strong></li><li class="rule-sub-item">Eine feste Verbindung aus einem Nomen (oft mit Präposition) und einem Funktionsverb (<em>ein Urteil fällen = urteilen; zur Verfügung stellen = bereitstellen</em>).</li><li class="rule-sub-item">Das Nomen trägt die eigentliche semantische Bedeutung; das Verb verblasst und dient primär als grammatikalischer Träger von Person, Tempus und Modus.</li><li class="rule-header-item"><strong>2. Warum FVG in der Wissenschaft?</strong></li><li class="rule-sub-item">Ermöglicht präzise <strong>Aktionsarten</strong> (Beginn, Dauer, Verursachung), die ein einfaches Verb nicht abbilden kann.</li><li class="rule-sub-item">Erlaubt elegante Aktiv-/Passiv-Differenzierungen (<em>zur Verfügung stellen [aktiv]</em> vs. <em>zur Verfügung stehen [passiv/Zustand]</em>).</li><li class="rule-sub-item">Verleiht Fachtexten einen hochgradig sachlichen, prägnanten und professionellen Ton.</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Die 30 wichtigsten wissenschaftlichen und professionellen FVG-Ausdrücke</div>
@@ -421,7 +469,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Warum Passiv-Ersatzformen?** Häufungen des Vorgangspassivs mit *werden* wirken monoton. Ersatzformen bringen Abwechslung und drücken gleichzeitig modale Nuancen (Können / Müssen) aus.</li><li class="rule-item">**2. Die wichtigsten Konstruktionen im Überblick:**</li><li class="rule-item">  - **sein + zu + Infinitiv:**</li><li class="rule-item">    - *Bedeutung A (Pflicht/Notwendigkeit = muss/soll getan werden):* *Das Protokoll ist strikt einzuhalten = Das Protokoll muss eingehalten werden.*</li><li class="rule-item">    - *Bedeutung B (Möglichkeit = kann getan werden):* *Der Fehler ist leicht zu beheben = Der Fehler kann leicht behoben werden.*</li><li class="rule-item">  - **sich lassen + Infinitiv (Immer Möglichkeit = kann getan werden):**</li><li class="rule-item">    - *Die Hypothese lässt sich experimentell verifizieren = Die Hypothese kann verifiziert werden.*</li><li class="rule-item">  - **Adjektive auf -bar / -lich / -abel / -ibel (Möglichkeit = kann getan werden):**</li><li class="rule-item">    - *reproduzierbar (kann reproduziert werden), messbar (kann gemessen werden), erklärlich (kann erklärt werden), filtrierbar, praktikabel*.</li><li class="rule-item">  - **es gilt + zu + Infinitiv (Drängende Notwendigkeit = man muss):**</li><li class="rule-item">    - *Es gilt, die Fehlerquellen systematisch zu eliminieren.*</li><li class="rule-item">  - **bleiben / stehen + zu + Infinitiv:**</li><li class="rule-item">    - *Es bleibt abzuwarten, wie das Gewebe reagiert (= Man muss abwarten).*</li><li class="rule-item">  - **gehören + Partizip II (Umgangssprachlich für müssen):**</li><li class="rule-item">    - *Das gehört gründlich überprüft (= Das muss überprüft werden).*</li><li class="rule-item">  - **man + Aktiv-Verb:** *Man beobachtet eine Zunahme = Eine Zunahme wird beobachtet.*</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-item"><strong>1. Warum Passiv-Ersatzformen?</strong> Häufungen des Vorgangspassivs mit <em>werden</em> wirken monoton. Ersatzformen bringen Abwechslung und drücken gleichzeitig modale Nuancen (Können / Müssen) aus.</li><li class="rule-header-item"><strong>2. Die wichtigsten Konstruktionen im Überblick:</strong></li><li class="rule-header-item"><strong>sein + zu + Infinitiv:</strong></li><li class="rule-sub-item"><em>Bedeutung A (Pflicht/Notwendigkeit = muss/soll getan werden):</em> <em>Das Protokoll ist strikt einzuhalten = Das Protokoll muss eingehalten werden.</em></li><li class="rule-sub-item"><em>Bedeutung B (Möglichkeit = kann getan werden):</em> <em>Der Fehler ist leicht zu beheben = Der Fehler kann leicht behoben werden.</em></li><li class="rule-header-item"><strong>sich lassen + Infinitiv (Immer Möglichkeit = kann getan werden):</strong></li><li class="rule-sub-item"><em>Die Hypothese lässt sich experimentell verifizieren = Die Hypothese kann verifiziert werden.</em></li><li class="rule-header-item"><strong>Adjektive auf -bar / -lich / -abel / -ibel (Möglichkeit = kann getan werden):</strong></li><li class="rule-sub-item"><em>reproduzierbar (kann reproduziert werden), messbar (kann gemessen werden), erklärlich (kann erklärt werden), filtrierbar, praktikabel</em>.</li><li class="rule-header-item"><strong>es gilt + zu + Infinitiv (Drängende Notwendigkeit = man muss):</strong></li><li class="rule-sub-item"><em>Es gilt, die Fehlerquellen systematisch zu eliminieren.</em></li><li class="rule-header-item"><strong>bleiben / stehen + zu + Infinitiv:</strong></li><li class="rule-sub-item"><em>Es bleibt abzuwarten, wie das Gewebe reagiert (= Man muss abwarten).</em></li><li class="rule-header-item"><strong>gehören + Partizip II (Umgangssprachlich für müssen):</strong></li><li class="rule-sub-item"><em>Das gehört gründlich überprüft (= Das muss überprüft werden).</em></li><li class="rule-sub-item"><strong>man + Aktiv-Verb:</strong> <em>Man beobachtet eine Zunahme = Eine Zunahme wird beobachtet.</em></li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Passiv-Ersatzformen Transformations-Matrix</div>
@@ -463,7 +518,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Partizip I als Adjektiv (Partizip Präsens: Verbstamm + -end):**</li><li class="rule-item">  - *Semantik:* Aktivisch und **gleichzeitig** zum Hauptsatzgeschehen (*das strömende Fluid = das Fluid, das strömt*).</li><li class="rule-item">  - Wird wie ein reguläres Adjektiv nach Kasus, Genus und Numerus dekliniert (*des strömend-en Fluids, mit strömend-em Fluid*).</li><li class="rule-item">**2. Partizip II als Adjektiv (Partizip Perfekt: ge-...-t / ge-...-en):**</li><li class="rule-item">  - *Semantik bei transitiven Verben:* Passivisch und **vorzeitig/abgeschlossen** (*die publizierten Daten = Daten, die publiziert wurden*).</li><li class="rule-item">  - *Semantik bei intransitiven Verben mit sein:* Aktivisch und abgeschlossen (*die eingetroffenen Gutachter = Gutachter, die eingetroffen sind*).</li><li class="rule-item">**3. Das Gerundivum (zu + Partizip I als Adjektiv):**</li><li class="rule-item">  - *Bildung:* **zu + Verbstamm + -end + Adjektivendung** (*die zu lösende Aufgabe*).</li><li class="rule-item">  - *Semantik:* Drückt eine **passivische Notwendigkeit (müssen)** oder **Möglichkeit (können)** aus (*die zu berücksichtigenden Parameter = Parameter, die berücksichtigt werden müssen*).</li><li class="rule-item">**4. Erweiterte Partizipialattribute (Schachtelsatz / Linksverzweigung):**</li><li class="rule-item">  - *Struktur:* [Artikel] ... [Adverbiale Bestimmungen + Partizip] ... [Nomen].</li><li class="rule-item">  - *Beispiel:* Die [von der Forschungsgruppe im vergangenen Jahr unter Reinraumbedingungen **synthetisierten**] Nanopartikel zeigen hohe Stabilität.</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Partizip I als Adjektiv (Partizip Präsens: Verbstamm + -end):</strong></li><li class="rule-sub-item"><em>Semantik:</em> Aktivisch und <strong>gleichzeitig</strong> zum Hauptsatzgeschehen (<em>das strömende Fluid = das Fluid, das strömt</em>).</li><li class="rule-sub-item">Wird wie ein reguläres Adjektiv nach Kasus, Genus und Numerus dekliniert (<em>des strömend-en Fluids, mit strömend-em Fluid</em>).</li><li class="rule-header-item"><strong>2. Partizip II als Adjektiv (Partizip Perfekt: ge-...-t / ge-...-en):</strong></li><li class="rule-sub-item"><em>Semantik bei transitiven Verben:</em> Passivisch und <strong>vorzeitig/abgeschlossen</strong> (<em>die publizierten Daten = Daten, die publiziert wurden</em>).</li><li class="rule-sub-item"><em>Semantik bei intransitiven Verben mit sein:</em> Aktivisch und abgeschlossen (<em>die eingetroffenen Gutachter = Gutachter, die eingetroffen sind</em>).</li><li class="rule-header-item"><strong>3. Das Gerundivum (zu + Partizip I als Adjektiv):</strong></li><li class="rule-sub-item"><em>Bildung:</em> <strong>zu + Verbstamm + -end + Adjektivendung</strong> (<em>die zu lösende Aufgabe</em>).</li><li class="rule-sub-item"><em>Semantik:</em> Drückt eine <strong>passivische Notwendigkeit (müssen)</strong> oder <strong>Möglichkeit (können)</strong> aus (<em>die zu berücksichtigenden Parameter = Parameter, die berücksichtigt werden müssen</em>).</li><li class="rule-header-item"><strong>4. Erweiterte Partizipialattribute (Schachtelsatz / Linksverzweigung):</strong></li><li class="rule-sub-item"><em>Struktur:</em> [Artikel] ... [Adverbiale Bestimmungen + Partizip] ... [Nomen].</li><li class="rule-sub-item"><em>Beispiel:</em> Die [von der Forschungsgruppe im vergangenen Jahr unter Reinraumbedingungen <strong>synthetisierten</strong>] Nanopartikel zeigen hohe Stabilität.</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Partizipialkonstruktionen und ihre Rückverwandlung in Relativsätze</div>
@@ -505,7 +567,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Kopulativ (Aufzählend / Verbindend):**</li><li class="rule-item">  - **sowohl ... als auch (Gleichwertig positiv = und):** *Das Modell ist sowohl kostengünstig als auch präzise.* (KEIN Komma!).</li><li class="rule-item">  - **nicht nur ... sondern auch (Steigernd positiv):** *Wir analysierten nicht nur die Zellmorphologie, sondern auch die Genexpression.* (Komma vor *sondern*!).</li><li class="rule-item">**2. Negativ (Aufzählend verneinend):**</li><li class="rule-item">  - **weder ... noch (Doppelte Verneinung = weder A noch B):** *Das System zeigte weder Rauschen noch Signalverlust.* (KEIN Komma!).</li><li class="rule-item">**3. Disjunktiv (Alternative):**</li><li class="rule-item">  - **entweder ... oder (Ausschließendes Oder):** *Wir müssen entweder den Druck senken oder die Membran verstärken.*</li><li class="rule-item">**4. Konzessiv / Adversativ (Einschränkung / Gegensatz):**</li><li class="rule-item">  - **zwar ... aber / jedoch (Einräumung):** *Die Methode ist zwar rechenintensiv, aber hochgradig verlässlich.* (Komma vor *aber*!).</li><li class="rule-item">  - **einerseits ... andererseits:** *Einerseits sinken die Kosten, andererseits steigt der Entwicklungsaufwand.*</li><li class="rule-item">**5. Proportional (Vergleich von Steigerungen):**</li><li class="rule-item">  - **je + Komparativ (Nebensatz -&gt; Verbletzt) ... desto / umso + Komparativ (Hauptsatz -&gt; finite Verb direkt danach!):**</li><li class="rule-item">  - *Formel:* Je [Komparativ] ... [Verb am Ende], desto [Komparativ] [finites Verb] [Subjekt]...</li><li class="rule-item">  - *Beispiel:* **Je höher** der angelegte Scherstress **ist**, **desto stärker richten** sich die Endothelzellen in Flussrichtung **aus**.</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Kopulativ (Aufzählend / Verbindend):</strong></li><li class="rule-sub-item"><strong>sowohl ... als auch (Gleichwertig positiv = und):</strong> <em>Das Modell ist sowohl kostengünstig als auch präzise.</em> (KEIN Komma!).</li><li class="rule-sub-item"><strong>nicht nur ... sondern auch (Steigernd positiv):</strong> <em>Wir analysierten nicht nur die Zellmorphologie, sondern auch die Genexpression.</em> (Komma vor <em>sondern</em>!).</li><li class="rule-header-item"><strong>2. Negativ (Aufzählend verneinend):</strong></li><li class="rule-sub-item"><strong>weder ... noch (Doppelte Verneinung = weder A noch B):</strong> <em>Das System zeigte weder Rauschen noch Signalverlust.</em> (KEIN Komma!).</li><li class="rule-header-item"><strong>3. Disjunktiv (Alternative):</strong></li><li class="rule-sub-item"><strong>entweder ... oder (Ausschließendes Oder):</strong> <em>Wir müssen entweder den Druck senken oder die Membran verstärken.</em></li><li class="rule-header-item"><strong>4. Konzessiv / Adversativ (Einschränkung / Gegensatz):</strong></li><li class="rule-sub-item"><strong>zwar ... aber / jedoch (Einräumung):</strong> <em>Die Methode ist zwar rechenintensiv, aber hochgradig verlässlich.</em> (Komma vor <em>aber</em>!).</li><li class="rule-sub-item"><strong>einerseits ... andererseits:</strong> <em>Einerseits sinken die Kosten, andererseits steigt der Entwicklungsaufwand.</em></li><li class="rule-header-item"><strong>5. Proportional (Vergleich von Steigerungen):</strong></li><li class="rule-header-item"><strong>je + Komparativ (Nebensatz → Verbletzt) ... desto / umso + Komparativ (Hauptsatz → finite Verb direkt danach!):</strong></li><li class="rule-sub-item"><em>Formel:</em> Je [Komparativ] ... [Verb am Ende], desto [Komparativ] [finites Verb] [Subjekt]...</li><li class="rule-sub-item"><em>Beispiel:</em> <strong>Je höher</strong> der angelegte Scherstress <strong>ist</strong>, <strong>desto stärker richten</strong> sich die Endothelzellen in Flussrichtung <strong>aus</strong>.</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Zweiteilige Konnektoren Übersicht: Syntax, Komma &amp; Funktion</div>
@@ -547,7 +616,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Was bedeutet &#x27;subjektiver Gebrauch&#x27;?**</li><li class="rule-item">  - Das Modalverb drückt keine objektive Pflicht oder Fähigkeit des Subjekts aus, sondern die **subjektive Einschätzung / Gewissheit des Sprechers** über einen Sachverhalt.</li><li class="rule-item">**2. Die Grade der Gewissheit bei Vermutungen:**</li><li class="rule-item">  - **müssen (95–100% Sicherheit):** Logischer Zwangsschluss (*Bei diesen Werten muss ein Membranbruch vorliegen = Es ist zweifellos so*).</li><li class="rule-item">  - **müsste / dürfte (75–80% Wahrscheinlichkeit):** Hohe Wahrscheinlichkeit, begründete Vermutung (*Die Probe dürfte bis morgen früh inkubiert sein = Es ist sehr wahrscheinlich*).</li><li class="rule-item">  - **kann / könnte (40–50% Möglichkeit):** Ungewissheit, vorsichtige Hypothese (*Eine Verstopfung könnte den Druckabfall erklären = Es ist möglich*).</li><li class="rule-item">**3. Distanzierung von Aussagen (Hörensagen &amp; Behauptung):**</li><li class="rule-item">  - **sollen (Gerücht / Aussage Dritter):** Der Sprecher gibt eine fremde Information wieder, ohne dafür zu bürgen (*Der neue Wirkstoff soll hochwirksam sein = Man behauptet / Die Studie besagt, dass er hochwirksam ist*).</li><li class="rule-item">  - **wollen (Behauptung des Subjekts über sich selbst):** Das Subjekt behauptet etwas über sich, was von anderen bezweifelt wird (*Er will die Formel als Erster entdeckt haben = Er behauptet es von sich, aber es ist umstritten*).</li><li class="rule-item">**4. Subjektive Modalverben in der Vergangenheit:**</li><li class="rule-item">  - *Bildungsformel:* **Modalverb im Präsens + Partizip II + haben / sein am Satzende**.</li><li class="rule-item">  - *Beispiel:* *Der Forscher **muss** die Probe **überhitzt haben** (= Ich bin mir sicher, dass er sie überhitzt hat).*</li><li class="rule-item">  - *Beispiel:* *Er **soll** gestern in Berlin **angekommen sein** (= Man sagt, dass er gestern angekommen ist).*</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Was bedeutet &#x27;subjektiver Gebrauch&#x27;?</strong></li><li class="rule-sub-item">Das Modalverb drückt keine objektive Pflicht oder Fähigkeit des Subjekts aus, sondern die <strong>subjektive Einschätzung / Gewissheit des Sprechers</strong> über einen Sachverhalt.</li><li class="rule-header-item"><strong>2. Die Grade der Gewissheit bei Vermutungen:</strong></li><li class="rule-sub-item"><strong>müssen (95–100% Sicherheit):</strong> Logischer Zwangsschluss (<em>Bei diesen Werten muss ein Membranbruch vorliegen = Es ist zweifellos so</em>).</li><li class="rule-sub-item"><strong>müsste / dürfte (75–80% Wahrscheinlichkeit):</strong> Hohe Wahrscheinlichkeit, begründete Vermutung (<em>Die Probe dürfte bis morgen früh inkubiert sein = Es ist sehr wahrscheinlich</em>).</li><li class="rule-sub-item"><strong>kann / könnte (40–50% Möglichkeit):</strong> Ungewissheit, vorsichtige Hypothese (<em>Eine Verstopfung könnte den Druckabfall erklären = Es ist möglich</em>).</li><li class="rule-header-item"><strong>3. Distanzierung von Aussagen (Hörensagen &amp; Behauptung):</strong></li><li class="rule-sub-item"><strong>sollen (Gerücht / Aussage Dritter):</strong> Der Sprecher gibt eine fremde Information wieder, ohne dafür zu bürgen (<em>Der neue Wirkstoff soll hochwirksam sein = Man behauptet / Die Studie besagt, dass er hochwirksam ist</em>).</li><li class="rule-sub-item"><strong>wollen (Behauptung des Subjekts über sich selbst):</strong> Das Subjekt behauptet etwas über sich, was von anderen bezweifelt wird (<em>Er will die Formel als Erster entdeckt haben = Er behauptet es von sich, aber es ist umstritten</em>).</li><li class="rule-header-item"><strong>4. Subjektive Modalverben in der Vergangenheit:</strong></li><li class="rule-sub-item"><em>Bildungsformel:</em> <strong>Modalverb im Präsens + Partizip II + haben / sein am Satzende</strong>.</li><li class="rule-sub-item"><em>Beispiel:</em> <em>Der Forscher <strong>muss</strong> die Probe <strong>überhitzt haben</strong> (= Ich bin mir sicher, dass er sie überhitzt hat).</em></li><li class="rule-sub-item"><em>Beispiel:</em> <em>Er <strong>soll</strong> gestern in Berlin <strong>angekommen sein</strong> (= Man sagt, dass er gestern angekommen ist).</em></li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Subjektive Modalverben Matrix nach Sprechereinstellung &amp; Gewissheit</div>
@@ -589,10 +665,17 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Verbalstil vs. Nominalstil:**</li><li class="rule-item">  - *Verbalstil (leicht verständlich, dialogisch):* Verwendet Nebensätze mit finiten Verben (*Weil die Temperatur anstieg, veränderten sich die Zellen*).</li><li class="rule-item">  - *Nominalstil (akademisch, hoch verdichtet):* Verwendet Substantivierungen und Präpositionalphrasen (*Infolge des Temperaturanstiegs erfolgte eine Zellveränderung*).</li><li class="rule-item">**2. Das Transformations-Schema:**</li><li class="rule-item">  - Verb wird zum Nomen (*expandieren -&gt; die Expansion, messen -&gt; die Messung*).</li><li class="rule-item">  - Subjekt des Nebensatzes wird zum **Genitivattribut** (*die Zellen teilen sich -&gt; die Teilung der Zellen*).</li><li class="rule-item">  - Adverbien werden zu **attributiven Adjektiven** (*schnell wachsen -&gt; schnelles Wachstum*).</li><li class="rule-item">  - Konjunktion wird zur entsprechenden **Präposition** (*weil -&gt; aufgrund/infolge; obwohl -&gt; trotz; wenn -&gt; bei; nachdem -&gt; nach*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Verbalstil vs. Nominalstil:</strong></li><li class="rule-sub-item"><em>Verbalstil (leicht verständlich, dialogisch):</em> Verwendet Nebensätze mit finiten Verben (<em>Weil die Temperatur anstieg, veränderten sich die Zellen</em>).</li><li class="rule-sub-item"><em>Nominalstil (akademisch, hoch verdichtet):</em> Verwendet Substantivierungen und Präpositionalphrasen (<em>Infolge des Temperaturanstiegs erfolgte eine Zellveränderung</em>).</li><li class="rule-header-item"><strong>2. Das Transformations-Schema:</strong></li><li class="rule-sub-item">Verb wird zum Nomen (<em>expandieren → die Expansion, messen → die Messung</em>).</li><li class="rule-sub-item">Subjekt des Nebensatzes wird zum <strong>Genitivattribut</strong> (<em>die Zellen teilen sich → die Teilung der Zellen</em>).</li><li class="rule-sub-item">Adverbien werden zu <strong>attributiven Adjektiven</strong> (<em>schnell wachsen → schnelles Wachstum</em>).</li><li class="rule-sub-item">Konjunktion wird zur entsprechenden <strong>Präposition</strong> (<em>weil → aufgrund/infolge; obwohl → trotz; wenn → bei; nachdem → nach</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
-                <div class="table-title">📊 Systematische Transformations-Tabelle: Verbalstil -&gt; Nominalstil</div>
+                <div class="table-title">📊 Systematische Transformations-Tabelle: Verbalstil → Nominalstil</div>
                 <div class="table-responsive">
                     <table class="grammar-table">
                         <thead><tr><th>Nebensatz-Typ (Verbalstil)</th><th>Subjunktion</th><th>Präposition (Nominalstil)</th><th>Verbaler Beispielsatz</th><th>Nominaler Beispielsatz (Fachsprache)</th></tr></thead>
@@ -633,7 +716,14 @@ Nominal: As a result of hydrogel degradation, deeper endothelial cell migration 
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Funktion des Konjunktiv I:**</li><li class="rule-item">  - Dient in der gehobenen Schriftsprache, im Wissenschaftsjournalismus und in Nachrichten zur **neutralen Wiedergabe von Fremdaussagen** (Indirekte Rede), ohne dass der Sprecher sich die Aussage zu eigen macht.</li><li class="rule-item">**2. Bildung des Konjunktiv I (Präsensstamm + Endungen):**</li><li class="rule-item">  - Endungen: **-e, -est, -e, -en, -et, -en** (*ich habe, du habest, er habe, wir haben, ihr habet, sie haben*).</li><li class="rule-item">  - *Das Hilfsverb sein (Ausnahme):* **sei, seiest/seist, sei, seien, seiet, seien** (*Er sei der beste Forscher*).</li><li class="rule-item">**3. Die fundamentale Ersatzregel:**</li><li class="rule-item">  - Ist die Konjunktiv I Form identisch mit dem Indikativ (was bei *ich, wir, sie pl.* fast immer der Fall ist: *wir haben = wir haben*), MUSS auf den **Konjunktiv II** ausgewichen werden (*wir hätten*).</li><li class="rule-item">  - Ist auch der Konjunktiv II missverständlich oder veraltet, verwendet man die **würde-Form** (*sie würden forschen*).</li><li class="rule-item">**4. Zeitenfolge in der indirekten Rede:**</li><li class="rule-item">  - *Gegenwart / Zukünftiges:* Konjunktiv I Präsens (*Er sagt, er forsche an Biochips*).</li><li class="rule-item">  - *Vergangenheit (egal ob Perfekt, Präteritum oder Plusquamperfekt):* **sei / habe + Partizip II** (*Er sagte, er habe die Daten gestern publiziert*).</li><li class="rule-item">  - *Zukunft:* **werde + Infinitiv** (*Er erklärte, er werde die Versuchsreihe morgen abschließen*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Funktion des Konjunktiv I:</strong></li><li class="rule-sub-item">Dient in der gehobenen Schriftsprache, im Wissenschaftsjournalismus und in Nachrichten zur <strong>neutralen Wiedergabe von Fremdaussagen</strong> (Indirekte Rede), ohne dass der Sprecher sich die Aussage zu eigen macht.</li><li class="rule-header-item"><strong>2. Bildung des Konjunktiv I (Präsensstamm + Endungen):</strong></li><li class="rule-sub-item">Endungen: <strong>-e, -est, -e, -en, -et, -en</strong> (<em>ich habe, du habest, er habe, wir haben, ihr habet, sie haben</em>).</li><li class="rule-sub-item"><em>Das Hilfsverb sein (Ausnahme):</em> <strong>sei, seiest/seist, sei, seien, seiet, seien</strong> (<em>Er sei der beste Forscher</em>).</li><li class="rule-header-item"><strong>3. Die fundamentale Ersatzregel:</strong></li><li class="rule-sub-item">Ist die Konjunktiv I Form identisch mit dem Indikativ (was bei <em>ich, wir, sie pl.</em> fast immer der Fall ist: <em>wir haben = wir haben</em>), MUSS auf den <strong>Konjunktiv II</strong> ausgewichen werden (<em>wir hätten</em>).</li><li class="rule-sub-item">Ist auch der Konjunktiv II missverständlich oder veraltet, verwendet man die <strong>würde-Form</strong> (<em>sie würden forschen</em>).</li><li class="rule-header-item"><strong>4. Zeitenfolge in der indirekten Rede:</strong></li><li class="rule-sub-item"><em>Gegenwart / Zukünftiges:</em> Konjunktiv I Präsens (<em>Er sagt, er forsche an Biochips</em>).</li><li class="rule-sub-item"><em>Vergangenheit (egal ob Perfekt, Präteritum oder Plusquamperfekt):</em> <strong>sei / habe + Partizip II</strong> (<em>Er sagte, er habe die Daten gestern publiziert</em>).</li><li class="rule-sub-item"><em>Zukunft:</em> <strong>werde + Infinitiv</strong> (<em>Er erklärte, er werde die Versuchsreihe morgen abschließen</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Konjunktiv I Stammformen und die Konjunktiv II Ersatzregel</div>
@@ -675,7 +765,14 @@ Nominal: As a result of hydrogel degradation, deeper endothelial cell migration 
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Was sind Modalpartikeln?**</li><li class="rule-item">  - Unveränderliche Wörter, die keine eigene Satzgliedfunktion haben, aber die Einstellung, Erwartung oder emotionale Färbung des Sprechers ausdrücken.</li><li class="rule-item">**2. Die wichtigsten Partikeln im akademischen Diskurs:**</li><li class="rule-item">  - **ja:** Drückt aus, dass der Sachverhalt beiden Gesprächspartnern bereits bekannt ist (*Das wissen Sie ja bereits = wie Ihnen bekannt ist*).</li><li class="rule-item">  - **doch:** Widerspruch, nachdrückliche Erinnerung oder Aufforderung (*Überprüfen Sie doch nochmals die Flussrate!*; *Das ist doch logisch!*).</li><li class="rule-item">  - **denn:** Macht Fragen freundlicher oder drückt echtes Erstaunen aus (*Wie funktioniert denn dieser neue Chip?*).</li><li class="rule-item">  - **eben / halt:** Akzeptanz einer unumstößlichen Tatsache (*Zellen sind eben empfindlich = Das ist eine Tatsache, die man nicht ändern kann*).</li><li class="rule-item">  - **eigentlich:** Höfliche Einschränkung oder Themenwechsel (*Eigentlich wollten wir heute messen, aber der Laser ist defekt*).</li><li class="rule-item">  - **wohl:** Vermutung (*Das wird wohl stimmen = vermutlich*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Was sind Modalpartikeln?</strong></li><li class="rule-sub-item">Unveränderliche Wörter, die keine eigene Satzgliedfunktion haben, aber die Einstellung, Erwartung oder emotionale Färbung des Sprechers ausdrücken.</li><li class="rule-header-item"><strong>2. Die wichtigsten Partikeln im akademischen Diskurs:</strong></li><li class="rule-sub-item"><strong>ja:</strong> Drückt aus, dass der Sachverhalt beiden Gesprächspartnern bereits bekannt ist (<em>Das wissen Sie ja bereits = wie Ihnen bekannt ist</em>).</li><li class="rule-sub-item"><strong>doch:</strong> Widerspruch, nachdrückliche Erinnerung oder Aufforderung (<em>Überprüfen Sie doch nochmals die Flussrate!</em>; <em>Das ist doch logisch!</em>).</li><li class="rule-sub-item"><strong>denn:</strong> Macht Fragen freundlicher oder drückt echtes Erstaunen aus (<em>Wie funktioniert denn dieser neue Chip?</em>).</li><li class="rule-sub-item"><strong>eben / halt:</strong> Akzeptanz einer unumstößlichen Tatsache (<em>Zellen sind eben empfindlich = Das ist eine Tatsache, die man nicht ändern kann</em>).</li><li class="rule-sub-item"><strong>eigentlich:</strong> Höfliche Einschränkung oder Themenwechsel (<em>Eigentlich wollten wir heute messen, aber der Laser ist defekt</em>).</li><li class="rule-sub-item"><strong>wohl:</strong> Vermutung (<em>Das wird wohl stimmen = vermutlich</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Bedeutung und Wirkung deutscher Modalpartikeln</div>
@@ -717,7 +814,14 @@ Nominal: As a result of hydrogel degradation, deeper endothelial cell migration 
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Warum Nomen-Präposition-Verbindungen?**</li><li class="rule-item">  - Bilden das Rückgrat des wissenschaftlichen Nominalstils (*Die Reaktion der Zellen auf den Wirkstoff; Das Interesse der Industrie an dieser Technologie*).</li><li class="rule-item">**2. Systematische Gruppen nach Präpositionen:**</li><li class="rule-item">  - **an (+ Dativ):** *das Interesse an, der Bedarf an, der Zweifel an, die Kritik an, die Teilnahme an, der Mangel an, die Forschung an*.</li><li class="rule-item">  - **auf (+ Akkusativ):** *die Reaktion auf, die Antwort auf, der Hinweis auf, die Auswirkung auf, der Einfluss auf, der Verzicht auf, die Hoffnung auf*.</li><li class="rule-item">  - **für (+ Akkusativ):** *das Verständnis für, die Verantwortung für, die Voraussetzung für, das Kriterium für, der Nachweis für*.</li><li class="rule-item">  - **zu (+ Dativ):** *der Beitrag zu, die Beziehung zu, der Übergang zu, die Bereitschaft zu, im Vergleich zu*.</li><li class="rule-item">  - **von (+ Dativ):** *die Abhängigkeit von, der Unterschied von/zu, die Trennung von*.</li><li class="rule-item">  - **nach (+ Dativ):** *die Frage nach, die Suche nach, der Wunsch nach*.</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Warum Nomen-Präposition-Verbindungen?</strong></li><li class="rule-sub-item">Bilden das Rückgrat des wissenschaftlichen Nominalstils (<em>Die Reaktion der Zellen auf den Wirkstoff; Das Interesse der Industrie an dieser Technologie</em>).</li><li class="rule-header-item"><strong>2. Systematische Gruppen nach Präpositionen:</strong></li><li class="rule-sub-item"><strong>an (+ Dativ):</strong> <em>das Interesse an, der Bedarf an, der Zweifel an, die Kritik an, die Teilnahme an, der Mangel an, die Forschung an</em>.</li><li class="rule-sub-item"><strong>auf (+ Akkusativ):</strong> <em>die Reaktion auf, die Antwort auf, der Hinweis auf, die Auswirkung auf, der Einfluss auf, der Verzicht auf, die Hoffnung auf</em>.</li><li class="rule-sub-item"><strong>für (+ Akkusativ):</strong> <em>das Verständnis für, die Verantwortung für, die Voraussetzung für, das Kriterium für, der Nachweis für</em>.</li><li class="rule-sub-item"><strong>zu (+ Dativ):</strong> <em>der Beitrag zu, die Beziehung zu, der Übergang zu, die Bereitschaft zu, im Vergleich zu</em>.</li><li class="rule-sub-item"><strong>von (+ Dativ):</strong> <em>die Abhängigkeit von, der Unterschied von/zu, die Trennung von</em>.</li><li class="rule-sub-item"><strong>nach (+ Dativ):</strong> <em>die Frage nach, die Suche nach, der Wunsch nach</em>.</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Katalog fester Nomen-Präposition-Verbindungen</div>
@@ -759,7 +863,14 @@ Nominal: As a result of hydrogel degradation, deeper endothelial cell migration 
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Die 4 syntaktischen Konnektoren-Klassen im Deutschen:**</li><li class="rule-item">  - **Klasse 1: Nebenordnende Konjunktionen (Position 0):**</li><li class="rule-item">    - *und, aber, oder, denn, sondern* -&gt; Verändern die normale Satzstellung NICHT (*Ich messe [Pos 1] die Probe [Pos 2], **denn** die Pumpe **läuft** [Pos 2] stabil*).</li><li class="rule-item">  - **Klasse 2: Konjunktionaladverbien (Position 1 im Vorfeld -&gt; Inversion):**</li><li class="rule-item">    - *deshalb, folglich, demnach, infolgedessen, trotzdem, dennoch, stattdessen, darüber hinaus, schließlich, allerdings* -&gt; Das finite Verb folgt direkt an Position 2 (*Folglich **müssen** wir die Parameter anpassen*).</li><li class="rule-item">  - **Klasse 3: Adverbien im Mittelfeld (Position 3 / Schaltsatz):**</li><li class="rule-item">    - *nämlich, jedoch, allerdings, indessen* (*Wir müssen **jedoch** die Kontrollgruppe beachten*).</li><li class="rule-item">  - **Klasse 4: Unterordnende Subjunktionen (Verbletztstellung):**</li><li class="rule-item">    - *weil, da, obwohl, sodass, während, indem, damit* -&gt; Finites Verb am Ende des Nebensatzes.</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Die 4 syntaktischen Konnektoren-Klassen im Deutschen:</strong></li><li class="rule-header-item"><strong>Klasse 1: Nebenordnende Konjunktionen (Position 0):</strong></li><li class="rule-sub-item"><em>und, aber, oder, denn, sondern</em> → Verändern die normale Satzstellung NICHT (<em>Ich messe [Pos 1] die Probe [Pos 2], <strong>denn</strong> die Pumpe <strong>läuft</strong> [Pos 2] stabil</em>).</li><li class="rule-header-item"><strong>Klasse 2: Konjunktionaladverbien (Position 1 im Vorfeld → Inversion):</strong></li><li class="rule-sub-item"><em>deshalb, folglich, demnach, infolgedessen, trotzdem, dennoch, stattdessen, darüber hinaus, schließlich, allerdings</em> → Das finite Verb folgt direkt an Position 2 (<em>Folglich <strong>müssen</strong> wir die Parameter anpassen</em>).</li><li class="rule-header-item"><strong>Klasse 3: Adverbien im Mittelfeld (Position 3 / Schaltsatz):</strong></li><li class="rule-sub-item"><em>nämlich, jedoch, allerdings, indessen</em> (<em>Wir müssen <strong>jedoch</strong> die Kontrollgruppe beachten</em>).</li><li class="rule-header-item"><strong>Klasse 4: Unterordnende Subjunktionen (Verbletztstellung):</strong></li><li class="rule-sub-item"><em>weil, da, obwohl, sodass, während, indem, damit</em> → Finites Verb am Ende des Nebensatzes.</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Logische Konnektoren-Matrix für wissenschaftliche Argumentation</div>

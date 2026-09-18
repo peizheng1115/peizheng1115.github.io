@@ -185,30 +185,71 @@ toc: false
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 10px;
-    padding: 16px 20px;
+    padding: 18px 22px;
     margin-bottom: 24px;
 }
 .rule-box-header {
     font-size: 0.95rem;
     font-weight: 700;
     color: #0369a1;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     display: flex;
     align-items: center;
     gap: 6px;
 }
 .rule-list {
     margin: 0;
-    padding-left: 20px;
+    padding-left: 0;
+    list-style: none;
+}
+.rule-header-item {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0369a1;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    list-style: none;
+}
+.rule-header-item:first-child {
+    margin-top: 0;
 }
 .rule-item {
     font-size: 0.96rem;
     line-height: 1.6;
     color: #334155;
     margin-bottom: 8px;
+    position: relative;
+    padding-left: 18px;
 }
-.rule-item:last-child {
-    margin-bottom: 0;
+.rule-item::before {
+    content: "•";
+    position: absolute;
+    left: 4px;
+    color: #0284c7;
+    font-weight: bold;
+}
+.rule-sub-item {
+    font-size: 0.94rem;
+    line-height: 1.55;
+    color: #475569;
+    margin-bottom: 6px;
+    padding-left: 32px;
+    position: relative;
+}
+.rule-sub-item::before {
+    content: "–";
+    position: absolute;
+    left: 18px;
+    color: #94a3b8;
+}
+
+.inline-code {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 /* Tables */
@@ -354,8 +395,8 @@ toc: false
 <div class="grammar-container">
     <div id="toc-top" class="hero-box">
         <span class="hero-badge">CEFR A2 Grundstufe II</span>
-        <h1 class="hero-title">Stufe A2: Grundstufe II – Kasuskomplex, Relationen & Satzverbindungen</h1>
-        <p class="hero-summary">Erweiterte Grundstufe: Dativ-Systematik & Dativ-Verben, Wechselpräpositionen (Wohin vs. Wo), Positions- & Aktionsverbpaare, Reflexive Verben (Akk vs. Dat), vollständige Adjektivdeklination (Typ 1, 2, 3), Komparativ & Superlativ, Nebensätze mit Konjunktionen (weil, dass, wenn, ob, als), Präteritum von Hilfs- & Modalverben und indirekte Fragesätze.</p>
+        <h1 class="hero-title">Stufe A2: Grundstufe II – Kasuskomplex, Relationen &amp; Satzverbindungen</h1>
+        <p class="hero-summary">Erweiterte Grundstufe: Dativ-Systematik &amp; Dativ-Verben, Wechselpräpositionen (Wohin vs. Wo), Positions- &amp; Aktionsverbpaare, Reflexive Verben (Akk vs. Dat), vollständige Adjektivdeklination (Typ 1, 2, 3), Komparativ &amp; Superlativ, Nebensätze mit Konjunktionen (weil, dass, wenn, ob, als), Präteritum von Hilfs- &amp; Modalverben und indirekte Fragesätze.</p>
         <div class="hero-actions">
             <a href="/deutsch/grammatik/" class="action-btn">📚 Grammatik-Hub</a>
             <a href="/files/Deutsch_Grammatik_A2.md" class="action-btn" download>📥 Download Markdown</a>
@@ -379,7 +420,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Artikelformen im Dativ:**</li><li class="rule-item">  - *Maskulin:* **dem / einem / keinem / meinem**</li><li class="rule-item">  - *Feminin:* **der / einer / keiner / meiner**</li><li class="rule-item">  - *Neutrum:* **dem / einem / keinem / meinem**</li><li class="rule-item">  - *Plural:* **den / — / keinen / meinen + -(e)n am Nomen** (*den Kindern, den Experimenten, den Professoren*; Ausnahme: Nomen auf -s erhalten kein -n: *den Autos*).</li><li class="rule-item">**2. Personalpronomen im Dativ:**</li><li class="rule-item">  - *mir (ich), dir (du), ihm (er/es), ihr (sie sg.), uns (wir), euch (ihr), ihnen (sie pl.), Ihnen (Höflichkeit)*.</li><li class="rule-item">**3. Gesetz der doppelten Objekte (Dativ- und Akkusativobjekt im selben Satz):**</li><li class="rule-item">  - **Regel A (Beide sind Nomen):** Dativ-Nomen steht VOR Akkusativ-Nomen (*Ich gebe [dem Professor: Dat] [das Protokoll: Akk]*).</li><li class="rule-item">  - **Regel B (Eines ist Pronomen, eines Nomen):** Das Pronomen steht IMMER vor dem Nomen, egal welcher Fall (*Ich gebe [es: Akk-Pron] [dem Professor: Dat-Nomen]*; *Ich gebe [ihm: Dat-Pron] [das Protokoll: Akk-Nomen]*).</li><li class="rule-item">  - **Regel C (Beide sind Pronomen):** Akkusativ-Pronomen steht VOR Dativ-Pronomen (*Ich gebe [es: Akk] [ihm: Dat]*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Artikelformen im Dativ:</strong></li><li class="rule-sub-item"><em>Maskulin:</em> <strong>dem / einem / keinem / meinem</strong></li><li class="rule-sub-item"><em>Feminin:</em> <strong>der / einer / keiner / meiner</strong></li><li class="rule-sub-item"><em>Neutrum:</em> <strong>dem / einem / keinem / meinem</strong></li><li class="rule-sub-item"><em>Plural:</em> <strong>den / — / keinen / meinen + -(e)n am Nomen</strong> (<em>den Kindern, den Experimenten, den Professoren</em>; Ausnahme: Nomen auf -s erhalten kein -n: <em>den Autos</em>).</li><li class="rule-header-item"><strong>2. Personalpronomen im Dativ:</strong></li><li class="rule-sub-item"><em>mir (ich), dir (du), ihm (er/es), ihr (sie sg.), uns (wir), euch (ihr), ihnen (sie pl.), Ihnen (Höflichkeit)</em>.</li><li class="rule-header-item"><strong>3. Gesetz der doppelten Objekte (Dativ- und Akkusativobjekt im selben Satz):</strong></li><li class="rule-sub-item"><strong>Regel A (Beide sind Nomen):</strong> Dativ-Nomen steht VOR Akkusativ-Nomen (<em>Ich gebe [dem Professor: Dat] [das Protokoll: Akk]</em>).</li><li class="rule-sub-item"><strong>Regel B (Eines ist Pronomen, eines Nomen):</strong> Das Pronomen steht IMMER vor dem Nomen, egal welcher Fall (<em>Ich gebe [es: Akk-Pron] [dem Professor: Dat-Nomen]</em>; <em>Ich gebe [ihm: Dat-Pron] [das Protokoll: Akk-Nomen]</em>).</li><li class="rule-sub-item"><strong>Regel C (Beide sind Pronomen):</strong> Akkusativ-Pronomen steht VOR Dativ-Pronomen (<em>Ich gebe [es: Akk] [ihm: Dat]</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Objekt-Reihenfolge Matrix im Deutschen Hauptsatz</div>
@@ -421,7 +469,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Die wichtigsten Verben mit Dativergänzung:**</li><li class="rule-item">  - *helfen (+ Dat):* Können Sie mir helfen?</li><li class="rule-item">  - *danken (+ Dat):* Wir danken Ihnen für die Kooperation.</li><li class="rule-item">  - *antworten (+ Dat):* Der Betreuer antwortet dem Doktoranden.</li><li class="rule-item">  - *gratulieren (+ Dat):* Wir gratulieren dir zur bestandenen Prüfung.</li><li class="rule-item">  - *gehören (+ Dat):* Das Mikroskop gehört unserem Institut.</li><li class="rule-item">  - *gefallen (+ Dat):* Das neue Laborkonzept gefällt den Forschern.</li><li class="rule-item">  - *schmecken (+ Dat):* Der Kaffee schmeckt mir gut.</li><li class="rule-item">  - *passen (+ Dat):* Der Termin passt mir ausgezeichnet.</li><li class="rule-item">  - *fehlen (+ Dat):* Den Zellen fehlt wichtiger Sauerstoff.</li><li class="rule-item">  - *schaden (+ Dat):* Hoher Druck schadet der Membran.</li><li class="rule-item">  - *vertrauen (+ Dat):* Wir vertrauen den Messergebnissen.</li><li class="rule-item">  - *zuhören (+ Dat):* Die Studenten hören der Vorlesung aufmerksam zu.</li><li class="rule-item">**2. Dativ-Präpositionen (Merksatz: Aus-Bei-Mit-Nach-Seit-Von-Zu + gegenüber &amp; außer):**</li><li class="rule-item">  - **aus:** Herkunft (*aus Deutschland*), Material (*aus Silikon*), Heraustreten (*aus dem Kanal*).</li><li class="rule-item">  - **bei:** Aufenthalt/Firma (*bei der Universität*), Gleichzeitigkeit (*beim Experiment*).</li><li class="rule-item">  - **mit:** Werkzeug/Mittel (*mit der Pipette*), Begleitung (*mit dem Team*).</li><li class="rule-item">  - **nach:** Zeitlich danach (*nach der Zentrifugation*), Ortsrichtung Länder/Städte (*nach Berlin*).</li><li class="rule-item">  - **seit:** Beginn in Vergangenheit, dauert an (*seit zwei Jahren* -&gt; Verlangt Präsens!).</li><li class="rule-item">  - **von:** Ausgangspunkt (*vom Labor*), Urheber (*von Professor Bauer*).</li><li class="rule-item">  - **zu:** Zielperson/Ort (*zum Seminar*), Anlass (*zur Feier*).</li><li class="rule-item">  - **gegenüber:** Lage gegenüber (*dem Institutsgebäude gegenüber*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Die wichtigsten Verben mit Dativergänzung:</strong></li><li class="rule-sub-item"><em>helfen (+ Dat):</em> Können Sie mir helfen?</li><li class="rule-sub-item"><em>danken (+ Dat):</em> Wir danken Ihnen für die Kooperation.</li><li class="rule-sub-item"><em>antworten (+ Dat):</em> Der Betreuer antwortet dem Doktoranden.</li><li class="rule-sub-item"><em>gratulieren (+ Dat):</em> Wir gratulieren dir zur bestandenen Prüfung.</li><li class="rule-sub-item"><em>gehören (+ Dat):</em> Das Mikroskop gehört unserem Institut.</li><li class="rule-sub-item"><em>gefallen (+ Dat):</em> Das neue Laborkonzept gefällt den Forschern.</li><li class="rule-sub-item"><em>schmecken (+ Dat):</em> Der Kaffee schmeckt mir gut.</li><li class="rule-sub-item"><em>passen (+ Dat):</em> Der Termin passt mir ausgezeichnet.</li><li class="rule-sub-item"><em>fehlen (+ Dat):</em> Den Zellen fehlt wichtiger Sauerstoff.</li><li class="rule-sub-item"><em>schaden (+ Dat):</em> Hoher Druck schadet der Membran.</li><li class="rule-sub-item"><em>vertrauen (+ Dat):</em> Wir vertrauen den Messergebnissen.</li><li class="rule-sub-item"><em>zuhören (+ Dat):</em> Die Studenten hören der Vorlesung aufmerksam zu.</li><li class="rule-header-item"><strong>2. Dativ-Präpositionen (Merksatz: Aus-Bei-Mit-Nach-Seit-Von-Zu + gegenüber &amp; außer):</strong></li><li class="rule-sub-item"><strong>aus:</strong> Herkunft (<em>aus Deutschland</em>), Material (<em>aus Silikon</em>), Heraustreten (<em>aus dem Kanal</em>).</li><li class="rule-sub-item"><strong>bei:</strong> Aufenthalt/Firma (<em>bei der Universität</em>), Gleichzeitigkeit (<em>beim Experiment</em>).</li><li class="rule-sub-item"><strong>mit:</strong> Werkzeug/Mittel (<em>mit der Pipette</em>), Begleitung (<em>mit dem Team</em>).</li><li class="rule-sub-item"><strong>nach:</strong> Zeitlich danach (<em>nach der Zentrifugation</em>), Ortsrichtung Länder/Städte (<em>nach Berlin</em>).</li><li class="rule-sub-item"><strong>seit:</strong> Beginn in Vergangenheit, dauert an (<em>seit zwei Jahren</em> → Verlangt Präsens!).</li><li class="rule-sub-item"><strong>von:</strong> Ausgangspunkt (<em>vom Labor</em>), Urheber (<em>von Professor Bauer</em>).</li><li class="rule-sub-item"><strong>zu:</strong> Zielperson/Ort (<em>zum Seminar</em>), Anlass (<em>zur Feier</em>).</li><li class="rule-sub-item"><strong>gegenüber:</strong> Lage gegenüber (<em>dem Institutsgebäude gegenüber</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Übersicht der reinen Dativ-Präpositionen</div>
@@ -463,13 +518,20 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Die goldene Regel der 9 Wechselpräpositionen:**</li><li class="rule-item">  - **Wohin? (Richtung / Dynamik / Aktion):** -&gt; **AKKUSATIV** (*Ich stelle die Flasche auf den Tisch*).</li><li class="rule-item">  - **Wo? (Ort / Statik / Zustand):** -&gt; **DATIV** (*Die Flasche steht auf dem Tisch*).</li><li class="rule-item">**2. Die 4 klassischen Verbpaare (Transitiv vs. Intransitiv):**</li><li class="rule-item">  - *stellen (regelm., wohin? -&gt; Akk)* vs. *stehen (stark: stand/gestanden, wo? -&gt; Dat)*.</li><li class="rule-item">  - *legen (regelm., wohin? -&gt; Akk)* vs. *liegen (stark: lag/gelegen, wo? -&gt; Dat)*.</li><li class="rule-item">  - *setzen (regelm., wohin? -&gt; Akk)* vs. *sitzen (stark: saß/gesessen, wo? -&gt; Dat)*.</li><li class="rule-item">  - *hängen (regelm., wohin? -&gt; Akk)* vs. *hängen (stark: hing/gehangen, wo? -&gt; Dat)*.</li><li class="rule-item">  - *stecken (wohin? -&gt; Akk)* vs. *stecken (wo? -&gt; Dat)*.</li><li class="rule-item">**3. Temporale Verwendung der Wechselpräpositionen (Immer Dativ!):**</li><li class="rule-item">  - *an:* Tage, Tageszeiten (*am Montag, am Morgen, am Wochenende*).</li><li class="rule-item">  - *in:* Monate, Jahreszeiten, Jahre, Zeitspannen (*im Mai, im Sommer, in zwei Wochen*).</li><li class="rule-item">  - *vor / nach:* Vorher / Nachher (*vor dem Versuch, nach der Konferenz*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Die goldene Regel der 9 Wechselpräpositionen:</strong></li><li class="rule-sub-item"><strong>Wohin? (Richtung / Dynamik / Aktion):</strong> → <strong>AKKUSATIV</strong> (<em>Ich stelle die Flasche auf den Tisch</em>).</li><li class="rule-sub-item"><strong>Wo? (Ort / Statik / Zustand):</strong> → <strong>DATIV</strong> (<em>Die Flasche steht auf dem Tisch</em>).</li><li class="rule-header-item"><strong>2. Die 4 klassischen Verbpaare (Transitiv vs. Intransitiv):</strong></li><li class="rule-sub-item"><em>stellen (regelm., wohin? → Akk)</em> vs. <em>stehen (stark: stand/gestanden, wo? → Dat)</em>.</li><li class="rule-sub-item"><em>legen (regelm., wohin? → Akk)</em> vs. <em>liegen (stark: lag/gelegen, wo? → Dat)</em>.</li><li class="rule-sub-item"><em>setzen (regelm., wohin? → Akk)</em> vs. <em>sitzen (stark: saß/gesessen, wo? → Dat)</em>.</li><li class="rule-sub-item"><em>hängen (regelm., wohin? → Akk)</em> vs. <em>hängen (stark: hing/gehangen, wo? → Dat)</em>.</li><li class="rule-sub-item"><em>stecken (wohin? → Akk)</em> vs. <em>stecken (wo? → Dat)</em>.</li><li class="rule-header-item"><strong>3. Temporale Verwendung der Wechselpräpositionen (Immer Dativ!):</strong></li><li class="rule-sub-item"><em>an:</em> Tage, Tageszeiten (<em>am Montag, am Morgen, am Wochenende</em>).</li><li class="rule-sub-item"><em>in:</em> Monate, Jahreszeiten, Jahre, Zeitspannen (<em>im Mai, im Sommer, in zwei Wochen</em>).</li><li class="rule-sub-item"><em>vor / nach:</em> Vorher / Nachher (<em>vor dem Versuch, nach der Konferenz</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Positions- und Aktionsverbpaare im systematischen Vergleich</div>
                 <div class="table-responsive">
                     <table class="grammar-table">
-                        <thead><tr><th>Aktionsverb (Wohin? -&gt; Akkusativ)</th><th>Positionsverb (Wo? -&gt; Dativ)</th><th>Beispielsatz Akkusativ</th><th>Beispielsatz Dativ</th></tr></thead>
+                        <thead><tr><th>Aktionsverb (Wohin? → Akkusativ)</th><th>Positionsverb (Wo? → Dativ)</th><th>Beispielsatz Akkusativ</th><th>Beispielsatz Dativ</th></tr></thead>
                         <tbody><tr><td>stellen (regelm.)</td><td>stehen (stand, gestanden)</td><td>Ich stelle das Becherglas auf die Heizplatte (Akk).</td><td>Das Becherglas steht auf der Heizplatte (Dat).</td></tr><tr><td>legen (regelm.)</td><td>liegen (lag, gelegen)</td><td>Er legt die Probe unter das Mikroskop (Akk).</td><td>Die Probe liegt unter dem Mikroskop (Dat).</td></tr><tr><td>setzen (regelm.)</td><td>sitzen (saß, gesessen)</td><td>Sie setzt sich an den Schreibtisch (Akk).</td><td>Sie sitzt am (an dem) Schreibtisch (Dat).</td></tr><tr><td>hängen (regelm.)</td><td>hängen (hing, gehangen)</td><td>Wir hängen das Poster an die Stellwand (Akk).</td><td>Das Poster hängt an der Stellwand (Dat).</td></tr></tbody>
                     </table>
                 </div>
@@ -505,7 +567,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Echte vs. Unechte Reflexivverben:**</li><li class="rule-item">  - *Echte Reflexivverben:* Können nur mit Reflexivpronomen existieren (*sich konzentrieren auf, sich erkundigen nach, sich weigern, sich schämen, sich ereignen*).</li><li class="rule-item">  - *Unechte Reflexivverben:* Können reflexiv oder transitiv auf andere Objekte angewendet werden (*Ich wasche mich* vs. *Ich wasche das Auto*).</li><li class="rule-item">**2. Reflexivpronomen im Akkusativ vs. Dativ:**</li><li class="rule-item">  - Nur in der 1. und 2. Person Singular (*ich, du*) unterscheiden sich Akkusativ (*mich, dich*) und Dativ (*mir, dir*). Alle anderen Personen verwenden *sich, uns, euch, sich*.</li><li class="rule-item">  - *Wann Dativ?* Wenn im Satz bereits ein separates Akkusativobjekt vorhanden ist (*Ich ziehe mich (Akk) an* vs. *Ich ziehe mir (Dat) den Kittel (Akk) an*).</li><li class="rule-item">**3. Reziproke Verben (Wechselseitige Handlung):**</li><li class="rule-item">  - Subjekt steht im Plural; die Handlung ist gegenseitig (*sich treffen, sich einigen, sich austauschen, sich widersprechen*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Echte vs. Unechte Reflexivverben:</strong></li><li class="rule-sub-item"><em>Echte Reflexivverben:</em> Können nur mit Reflexivpronomen existieren (<em>sich konzentrieren auf, sich erkundigen nach, sich weigern, sich schämen, sich ereignen</em>).</li><li class="rule-sub-item"><em>Unechte Reflexivverben:</em> Können reflexiv oder transitiv auf andere Objekte angewendet werden (<em>Ich wasche mich</em> vs. <em>Ich wasche das Auto</em>).</li><li class="rule-header-item"><strong>2. Reflexivpronomen im Akkusativ vs. Dativ:</strong></li><li class="rule-sub-item">Nur in der 1. und 2. Person Singular (<em>ich, du</em>) unterscheiden sich Akkusativ (<em>mich, dich</em>) und Dativ (<em>mir, dir</em>). Alle anderen Personen verwenden <em>sich, uns, euch, sich</em>.</li><li class="rule-sub-item"><em>Wann Dativ?</em> Wenn im Satz bereits ein separates Akkusativobjekt vorhanden ist (<em>Ich ziehe mich (Akk) an</em> vs. <em>Ich ziehe mir (Dat) den Kittel (Akk) an</em>).</li><li class="rule-header-item"><strong>3. Reziproke Verben (Wechselseitige Handlung):</strong></li><li class="rule-sub-item">Subjekt steht im Plural; die Handlung ist gegenseitig (<em>sich treffen, sich einigen, sich austauschen, sich widersprechen</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Reflexivpronomen Übersicht Akkusativ vs. Dativ</div>
@@ -547,7 +616,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**Grundprinzip:** Ein Adjektiv vor einem Nomen (attributiv) MUSS dekliniert werden. Es zeigt Genus, Numerus und Kasus an.</li><li class="rule-item">**Typ 1: Schwache Deklination (nach bestimmtem Artikel: der, die, das, dieser, jener, jeder, welcher):**</li><li class="rule-item">  - *Regel:* Nur zwei mögliche Endungen: **-e** oder **-en**!</li><li class="rule-item">  - **-e:** Nur in 5 Positionen: Nominativ Singular aller drei Geschlechter (*der neue Chip, die neue Pumpe, das neue Labor*) und Akkusativ Feminin &amp; Neutrum (*die neue Pumpe, das neue Labor*).</li><li class="rule-item">  - **-en:** In allen anderen Fällen (Akkusativ Maskulin, kompletter Dativ, kompletter Genitiv und kompletter Plural!).</li><li class="rule-item">**Typ 2: Gemischte Deklination (nach unbestimmtem Artikel: ein, kein, mein, dein, sein...):**</li><li class="rule-item">  - *Regel:* Adjektiv übernimmt dort die Signalendung des bestimmten Artikels, wo das Artikelwort keine eindeutige Endung hat (Nom. Mask: *ein neu-er Chip*; Nom/Akk Neutrum: *ein neu-es Labor*).</li><li class="rule-item">  - In allen Dativ-, Genitiv-, Akkusativ-Maskulin- und Pluralformen lautet die Endung **-en**.</li><li class="rule-item">**Typ 3: Starke Deklination (Nullartikel / ohne Artikelwort):**</li><li class="rule-item">  - *Regel:* Das Adjektiv muss die vollen Signalendungen des bestimmten Artikels tragen (*neu-er Sensor, neu-e Pumpe, neu-es Medium, neu-e Methoden*; Ausnahme: Genitiv Maskulin/Neutrum endet auf **-en**, weil das Nomen bereits das -s trägt: *kalt-en Wassers*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-item"><strong>Grundprinzip:</strong> Ein Adjektiv vor einem Nomen (attributiv) MUSS dekliniert werden. Es zeigt Genus, Numerus und Kasus an.</li><li class="rule-header-item"><strong>Typ 1: Schwache Deklination (nach bestimmtem Artikel: der, die, das, dieser, jener, jeder, welcher):</strong></li><li class="rule-sub-item"><em>Regel:</em> Nur zwei mögliche Endungen: <strong>-e</strong> oder <strong>-en</strong>!</li><li class="rule-sub-item"><strong>-e:</strong> Nur in 5 Positionen: Nominativ Singular aller drei Geschlechter (<em>der neue Chip, die neue Pumpe, das neue Labor</em>) und Akkusativ Feminin &amp; Neutrum (<em>die neue Pumpe, das neue Labor</em>).</li><li class="rule-sub-item"><strong>-en:</strong> In allen anderen Fällen (Akkusativ Maskulin, kompletter Dativ, kompletter Genitiv und kompletter Plural!).</li><li class="rule-header-item"><strong>Typ 2: Gemischte Deklination (nach unbestimmtem Artikel: ein, kein, mein, dein, sein...):</strong></li><li class="rule-sub-item"><em>Regel:</em> Adjektiv übernimmt dort die Signalendung des bestimmten Artikels, wo das Artikelwort keine eindeutige Endung hat (Nom. Mask: <em>ein neu-er Chip</em>; Nom/Akk Neutrum: <em>ein neu-es Labor</em>).</li><li class="rule-sub-item">In allen Dativ-, Genitiv-, Akkusativ-Maskulin- und Pluralformen lautet die Endung <strong>-en</strong>.</li><li class="rule-header-item"><strong>Typ 3: Starke Deklination (Nullartikel / ohne Artikelwort):</strong></li><li class="rule-sub-item"><em>Regel:</em> Das Adjektiv muss die vollen Signalendungen des bestimmten Artikels tragen (<em>neu-er Sensor, neu-e Pumpe, neu-es Medium, neu-e Methoden</em>; Ausnahme: Genitiv Maskulin/Neutrum endet auf <strong>-en</strong>, weil das Nomen bereits das -s trägt: <em>kalt-en Wassers</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Master-Matrix der Adjektivendungen (Alle 3 Typen im Vergleich)</div>
@@ -589,14 +665,21 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Die drei Steigerungsstufen:**</li><li class="rule-item">  - *Positiv (Grundstufe):* Gleichheit mit **so / genauso + Adjektiv + wie** (*Das Modell ist genauso präzise wie die Referenz*).</li><li class="rule-item">  - *Komparativ (Vergleichsstufe):* Ungleichheit mit **Adjektiv + -er + als** (*Dieses System ist stabiler als das vorherige*).</li><li class="rule-item">  - *Superlativ (Höchststufe):* Prädikativ mit **am + Adjektiv + -(e)sten** (*Dieses Design ist am effektivsten*); Attributiv mit bestimmtem Artikel und Adjektivendung (*das effektivste Design*).</li><li class="rule-item">**2. Umlautregeln &amp; Phonetische Besonderheiten:**</li><li class="rule-item">  - Einsilbige Adjektive mit *a, o, u* erhalten meist einen Umlaut (*alt/älter, warm/wärmer, groß/größer, kurz/kürzer, jung/jünger*).</li><li class="rule-item">  - Adjektive auf *-d, -t, -s, -ß, -z, -x, -los* erhalten im Superlativ ein **-e-** (*breit -&gt; am breitesten, heiß -&gt; am heißesten*).</li><li class="rule-item">  - Adjektive auf *-el / -er* verlieren im Komparativ das Stamm-e (*dunkel -&gt; dunkler; teuer -&gt; teurer*).</li><li class="rule-item">**3. Deklinierte Komparative &amp; Superlative vor Nomen:**</li><li class="rule-item">  - Erst steigern, dann nach normaler Adjektivdeklination beugen: *ein besser-er (Komparativ) + -er (Typ 2 Maskulin) = ein besserer Sensor*; *die schnell-st-e Pumpe*.</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Die drei Steigerungsstufen:</strong></li><li class="rule-sub-item"><em>Positiv (Grundstufe):</em> Gleichheit mit <strong>so / genauso + Adjektiv + wie</strong> (<em>Das Modell ist genauso präzise wie die Referenz</em>).</li><li class="rule-sub-item"><em>Komparativ (Vergleichsstufe):</em> Ungleichheit mit <strong>Adjektiv + -er + als</strong> (<em>Dieses System ist stabiler als das vorherige</em>).</li><li class="rule-sub-item"><em>Superlativ (Höchststufe):</em> Prädikativ mit <strong>am + Adjektiv + -(e)sten</strong> (<em>Dieses Design ist am effektivsten</em>); Attributiv mit bestimmtem Artikel und Adjektivendung (<em>das effektivste Design</em>).</li><li class="rule-header-item"><strong>2. Umlautregeln &amp; Phonetische Besonderheiten:</strong></li><li class="rule-sub-item">Einsilbige Adjektive mit <em>a, o, u</em> erhalten meist einen Umlaut (<em>alt/älter, warm/wärmer, groß/größer, kurz/kürzer, jung/jünger</em>).</li><li class="rule-sub-item">Adjektive auf <em>-d, -t, -s, -ß, -z, -x, -los</em> erhalten im Superlativ ein <strong>-e-</strong> (<em>breit → am breitesten, heiß → am heißesten</em>).</li><li class="rule-sub-item">Adjektive auf <em>-el / -er</em> verlieren im Komparativ das Stamm-e (<em>dunkel → dunkler; teuer → teurer</em>).</li><li class="rule-header-item"><strong>3. Deklinierte Komparative &amp; Superlative vor Nomen:</strong></li><li class="rule-sub-item">Erst steigern, dann nach normaler Adjektivdeklination beugen: <em>ein besser-er (Komparativ) + -er (Typ 2 Maskulin) = ein besserer Sensor</em>; <em>die schnell-st-e Pumpe</em>.</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Unregelmäßige und hochfrequente Steigerungsformen</div>
                 <div class="table-responsive">
                     <table class="grammar-table">
                         <thead><tr><th>Positiv</th><th>Komparativ</th><th>Superlativ (Prädikativ)</th><th>Superlativ (Attributiv mit Nomen)</th><th>Bedeutung / Typ</th></tr></thead>
-                        <tbody><tr><td>gut</td><td>besser als</td><td>am besten</td><td>das beste Ergebnis</td><td>Völlig unregelmäßig</td></tr><tr><td>viel</td><td>mehr als</td><td>am meisten</td><td>die meisten Publikationen</td><td>Völlig unregelmäßig</td></tr><tr><td>gern</td><td>lieber als</td><td>am liebsten</td><td>das liebste Forschungsfeld</td><td>Völlig unregelmäßig</td></tr><tr><td>hoch</td><td>höher als</td><td>am höchsten</td><td>der höchste Druck</td><td>c entfällt im Komparativ</td></tr><tr><td>nah</td><td>näher als</td><td>am nächsten</td><td>der nächste Messpunkt</td><td>h -&gt; ch im Superlativ</td></tr><tr><td>groß</td><td>größer als</td><td>am größten</td><td>der größte Vorteil</td><td>Umlaut, Superlativ nur -ten</td></tr></tbody>
+                        <tbody><tr><td>gut</td><td>besser als</td><td>am besten</td><td>das beste Ergebnis</td><td>Völlig unregelmäßig</td></tr><tr><td>viel</td><td>mehr als</td><td>am meisten</td><td>die meisten Publikationen</td><td>Völlig unregelmäßig</td></tr><tr><td>gern</td><td>lieber als</td><td>am liebsten</td><td>das liebste Forschungsfeld</td><td>Völlig unregelmäßig</td></tr><tr><td>hoch</td><td>höher als</td><td>am höchsten</td><td>der höchste Druck</td><td>c entfällt im Komparativ</td></tr><tr><td>nah</td><td>näher als</td><td>am nächsten</td><td>der nächste Messpunkt</td><td>h → ch im Superlativ</td></tr><tr><td>groß</td><td>größer als</td><td>am größten</td><td>der größte Vorteil</td><td>Umlaut, Superlativ nur -ten</td></tr></tbody>
                     </table>
                 </div>
             </div>
@@ -631,7 +714,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Die fundamentale Nebensatz-Regel (Verbletztstellung):**</li><li class="rule-item">  - Das konjugierte Verb wandert ans **absolute Ende** des Nebensatzes.</li><li class="rule-item">  - Nebensätze werden im Deutschen IMMER durch ein Komma vom Hauptsatz getrennt.</li><li class="rule-item">**2. Die wichtigsten Subjunktionen im A2-Bereich:**</li><li class="rule-item">  - **weil / da (Kausal):** Begründung (*Wir wiederholen den Versuch, weil die Flussrate schwankte*). *da* steht bevorzugt am Satzanfang für bekannte Gründe (*Da das Labor renoviert wird, arbeiten wir im Nachbargebäude*).</li><li class="rule-item">  - **dass (Objekt-/Inhaltssatz):** Ergänzung nach Verben des Wissens, Meinens, Sagens (*Ich weiß, dass die Daten verlässlich sind*).</li><li class="rule-item">  - **wenn / falls (Konditional):** Bedingung (*Wenn der Druck steigt, schlägt der Alarm an*).</li><li class="rule-item">  - **ob (Indirekte Ja/Nein-Frage):** Ungewissheit (*Wir prüfen, ob die Membran dicht ist*).</li><li class="rule-item">**3. Satzstellung bei vorangestelltem Nebensatz (Verb-Verb-Regel):**</li><li class="rule-item">  - Beginnt der Satz mit dem Nebensatz (Nebensatz = Position 1 des Gesamtsatzes), beginnt der folgende Hauptsatz SOFORT mit dem finiten Verb (*Wenn die Messung beendet ist [Verb 1], starten [Verb 2] wir die Auswertung*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Die fundamentale Nebensatz-Regel (Verbletztstellung):</strong></li><li class="rule-sub-item">Das konjugierte Verb wandert ans <strong>absolute Ende</strong> des Nebensatzes.</li><li class="rule-sub-item">Nebensätze werden im Deutschen IMMER durch ein Komma vom Hauptsatz getrennt.</li><li class="rule-header-item"><strong>2. Die wichtigsten Subjunktionen im A2-Bereich:</strong></li><li class="rule-sub-item"><strong>weil / da (Kausal):</strong> Begründung (<em>Wir wiederholen den Versuch, weil die Flussrate schwankte</em>). <em>da</em> steht bevorzugt am Satzanfang für bekannte Gründe (<em>Da das Labor renoviert wird, arbeiten wir im Nachbargebäude</em>).</li><li class="rule-sub-item"><strong>dass (Objekt-/Inhaltssatz):</strong> Ergänzung nach Verben des Wissens, Meinens, Sagens (<em>Ich weiß, dass die Daten verlässlich sind</em>).</li><li class="rule-sub-item"><strong>wenn / falls (Konditional):</strong> Bedingung (<em>Wenn der Druck steigt, schlägt der Alarm an</em>).</li><li class="rule-sub-item"><strong>ob (Indirekte Ja/Nein-Frage):</strong> Ungewissheit (<em>Wir prüfen, ob die Membran dicht ist</em>).</li><li class="rule-header-item"><strong>3. Satzstellung bei vorangestelltem Nebensatz (Verb-Verb-Regel):</strong></li><li class="rule-sub-item">Beginnt der Satz mit dem Nebensatz (Nebensatz = Position 1 des Gesamtsatzes), beginnt der folgende Hauptsatz SOFORT mit dem finiten Verb (<em>Wenn die Messung beendet ist [Verb 1], starten [Verb 2] wir die Auswertung</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Nebensatz-Typen und Konjunktionen im Überblick</div>
@@ -673,7 +763,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Die Gretchenfrage: &#x27;wenn&#x27; oder &#x27;als&#x27;?**</li><li class="rule-item">  - **als:** Wird NUR verwendet bei einem **einmaligen Ereignis in der Vergangenheit** (*Als ich 2024 nach Deutschland kam...*; *Als der Sensor ausfiel, stoppten wir die Pumpe*).</li><li class="rule-item">  - **wenn:** Wird verwendet bei:</li><li class="rule-item">    1. Handlungen in Gegenwart und Zukunft (*Wenn ich Zeit habe, lese ich Fachartikel*).</li><li class="rule-item">    2. **Wiederholten Ereignissen in der Vergangenheit** (Signalwörter: *immer wenn, jedes Mal wenn*: *Immer wenn die Temperatur anstieg, öffnete sich das Ventil*).</li><li class="rule-item">**2. Weitere temporale Konjunktionen:**</li><li class="rule-item">  - **während:** Gleichzeitigkeit (*Während die Zellen inkubieren, werten wir die Daten aus*).</li><li class="rule-item">  - **bevor / ehe:** Vorzeitigkeit des Hauptsatzes (*Bevor wir beginnen, sterilisieren wir die Werkzeuge*).</li><li class="rule-item">  - **nachdem:** Nachzeitigkeit (erfordert Zeitenfolge: Plusquamperfekt bei Präteritum-Hauptsatz).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Die Gretchenfrage: &#x27;wenn&#x27; oder &#x27;als&#x27;?</strong></li><li class="rule-sub-item"><strong>als:</strong> Wird NUR verwendet bei einem <strong>einmaligen Ereignis in der Vergangenheit</strong> (<em>Als ich 2024 nach Deutschland kam...</em>; <em>Als der Sensor ausfiel, stoppten wir die Pumpe</em>).</li><li class="rule-header-item"><strong>wenn:</strong> Wird verwendet bei:</li><li class="rule-item">1. Handlungen in Gegenwart und Zukunft (<em>Wenn ich Zeit habe, lese ich Fachartikel</em>).</li><li class="rule-item">2. <strong>Wiederholten Ereignissen in der Vergangenheit</strong> (Signalwörter: <em>immer wenn, jedes Mal wenn</em>: <em>Immer wenn die Temperatur anstieg, öffnete sich das Ventil</em>).</li><li class="rule-header-item"><strong>2. Weitere temporale Konjunktionen:</strong></li><li class="rule-sub-item"><strong>während:</strong> Gleichzeitigkeit (<em>Während die Zellen inkubieren, werten wir die Daten aus</em>).</li><li class="rule-sub-item"><strong>bevor / ehe:</strong> Vorzeitigkeit des Hauptsatzes (<em>Bevor wir beginnen, sterilisieren wir die Werkzeuge</em>).</li><li class="rule-sub-item"><strong>nachdem:</strong> Nachzeitigkeit (erfordert Zeitenfolge: Plusquamperfekt bei Präteritum-Hauptsatz).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Entscheidungsbaum: &#x27;als&#x27; vs. &#x27;wenn&#x27;</div>
@@ -715,7 +812,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Verwendung des Präteritums:** Hauptsächlich in schriftlichen Berichten, wissenschaftlichen Artikeln, Protokollen, Zeitungsberichten und literarischen Erzählungen. Im Alltag werden *sein, haben* und Modalverben auch mündlich im Präteritum gebraucht.</li><li class="rule-item">**2. Regelmäßige (schwache) Verben:**</li><li class="rule-item">  - Verbstamm + **-te, -test, -te, -ten, -tet, -ten** (*lernen -&gt; ich lernte, du lerntest, er lernte, wir lernten, ihr lerntet, sie lernten*).</li><li class="rule-item">  - Bei Stamm auf -d/-t: **-ete, -etest, -ete, -eten, -etet, -eten** (*arbeiten -&gt; arbeitete*).</li><li class="rule-item">**3. Unregelmäßige (starke) Verben:**</li><li class="rule-item">  - Stammvokal ändert sich (Ablaut!). 1. und 3. Person Singular haben KEINE Endung!</li><li class="rule-item">  - Endungen: **—, -st, —, -en, -t, -en** (*gehen -&gt; ging, gingst, ging, gingen, gingt, gingen; sprechen -&gt; sprach; sehen -&gt; sah; finden -&gt; fand*).</li><li class="rule-item">**4. Gemischte Verben (Ablaut + -te Endung):**</li><li class="rule-item">  - *denken -&gt; dachte, bringen -&gt; brachte, kennen -&gt; kannte, wissen -&gt; wusste*.</li><li class="rule-item">**5. Modalverben im Präteritum (Verlieren alle Umlaute!):**</li><li class="rule-item">  - *konnte, musste, durfte, sollte, wollte, mochte*.</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-item"><strong>1. Verwendung des Präteritums:</strong> Hauptsächlich in schriftlichen Berichten, wissenschaftlichen Artikeln, Protokollen, Zeitungsberichten und literarischen Erzählungen. Im Alltag werden <em>sein, haben</em> und Modalverben auch mündlich im Präteritum gebraucht.</li><li class="rule-header-item"><strong>2. Regelmäßige (schwache) Verben:</strong></li><li class="rule-sub-item">Verbstamm + <strong>-te, -test, -te, -ten, -tet, -ten</strong> (<em>lernen → ich lernte, du lerntest, er lernte, wir lernten, ihr lerntet, sie lernten</em>).</li><li class="rule-sub-item">Bei Stamm auf -d/-t: <strong>-ete, -etest, -ete, -eten, -etet, -eten</strong> (<em>arbeiten → arbeitete</em>).</li><li class="rule-header-item"><strong>3. Unregelmäßige (starke) Verben:</strong></li><li class="rule-sub-item">Stammvokal ändert sich (Ablaut!). 1. und 3. Person Singular haben KEINE Endung!</li><li class="rule-sub-item">Endungen: <strong>—, -st, —, -en, -t, -en</strong> (<em>gehen → ging, gingst, ging, gingen, gingt, gingen; sprechen → sprach; sehen → sah; finden → fand</em>).</li><li class="rule-header-item"><strong>4. Gemischte Verben (Ablaut + -te Endung):</strong></li><li class="rule-sub-item"><em>denken → dachte, bringen → brachte, kennen → kannte, wissen → wusste</em>.</li><li class="rule-header-item"><strong>5. Modalverben im Präteritum (Verlieren alle Umlaute!):</strong></li><li class="rule-sub-item"><em>konnte, musste, durfte, sollte, wollte, mochte</em>.</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Wichtige Präteritum-Stammformen im Überblick</div>
@@ -757,10 +861,17 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Indirekte W-Fragen:**</li><li class="rule-item">  - Direkt: *Wann beginnt die Konferenz?*</li><li class="rule-item">  - Indirekt: *Können Sie mir sagen, **wann die Konferenz beginnt**?* (Fragewort wird zur Subjunktion -&gt; Verb am Satzende!).</li><li class="rule-item">**2. Indirekte Ja/Nein-Fragen:**</li><li class="rule-item">  - Direkt: *Funktioniert das Spektrometer?*</li><li class="rule-item">  - Indirekt: *Ich möchte wissen, **ob das Spektrometer funktioniert**.* (Einleitung mit *ob* -&gt; Verb am Satzende!).</li><li class="rule-item">**3. Höfliche Bitten im universitären und professionellen Alltag:**</li><li class="rule-item">  - *Könnten Sie bitte... + Infinitiv* (*Könnten Sie mir bitte die Rohdaten zusenden?*).</li><li class="rule-item">  - *Würden Sie bitte... + Infinitiv* (*Würden Sie bitte die Kammer desinfizieren?*).</li><li class="rule-item">  - *Ich hätte gerne...* (*Ich hätte gerne Auskunft über das Promotionsprogramm*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Indirekte W-Fragen:</strong></li><li class="rule-sub-item">Direkt: <em>Wann beginnt die Konferenz?</em></li><li class="rule-sub-item">Indirekt: <em>Können Sie mir sagen, <strong>wann die Konferenz beginnt</strong>?</em> (Fragewort wird zur Subjunktion → Verb am Satzende!).</li><li class="rule-header-item"><strong>2. Indirekte Ja/Nein-Fragen:</strong></li><li class="rule-sub-item">Direkt: <em>Funktioniert das Spektrometer?</em></li><li class="rule-sub-item">Indirekt: <em>Ich möchte wissen, <strong>ob das Spektrometer funktioniert</strong>.</em> (Einleitung mit <em>ob</em> → Verb am Satzende!).</li><li class="rule-header-item"><strong>3. Höfliche Bitten im universitären und professionellen Alltag:</strong></li><li class="rule-sub-item"><em>Könnten Sie bitte... + Infinitiv</em> (<em>Könnten Sie mir bitte die Rohdaten zusenden?</em>).</li><li class="rule-sub-item"><em>Würden Sie bitte... + Infinitiv</em> (<em>Würden Sie bitte die Kammer desinfizieren?</em>).</li><li class="rule-sub-item"><em>Ich hätte gerne...</em> (<em>Ich hätte gerne Auskunft über das Promotionsprogramm</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
-                <div class="table-title">📊 Transformation Direkte Frage -&gt; Indirekte Frage</div>
+                <div class="table-title">📊 Transformation Direkte Frage → Indirekte Frage</div>
                 <div class="table-responsive">
                     <table class="grammar-table">
                         <thead><tr><th>Direkte Frage (Hauptsatz)</th><th>Einleitungsformel</th><th>Indirekte Frage (Nebensatz mit Verbletzt)</th></tr></thead>

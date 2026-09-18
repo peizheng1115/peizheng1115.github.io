@@ -203,6 +203,10 @@ toc: false
     font-size: 0.82rem;
     font-weight: 800;
 }
+.sum-title {
+    font-weight: 700;
+    color: #0f172a;
+}
 .sum-count {
     font-size: 0.85rem;
     color: #64748b;
@@ -320,7 +324,7 @@ toc: false
         <span class="hub-hero-badge">Enzyklopädisches Referenzwerk</span>
         <h1 class="hub-hero-title">Deutsche Grammatik: Das 40-Kapitel-Kompendium</h1>
         <p class="hub-hero-desc">
-            Vollständige, lehrwerkgenaue Abdeckung der deutschen Grammatik von <strong>A1 (Elementar)</strong> über <strong>A2 (Grundstufe)</strong> und <strong>B1 (Mittelstufe I)</strong> bis <strong>B2 (Gehobene Fach- & Wissenschaftssprache)</strong>. Konzipiert nach *Das Leben A1/A2/B1*, *Complete German All-in-One (Practice Makes Perfect)*, *501 German Verbs*, *DT Training C1* und *新编大学德语*.
+            Vollständige, lehrwerkgenaue Abdeckung der deutschen Grammatik von <strong>A1 (Elementar)</strong> über <strong>A2 (Grundstufe)</strong> und <strong>B1 (Mittelstufe I)</strong> bis <strong>B2 (Gehobene Fach- & Wissenschaftssprache)</strong>. Konzipiert nach <em>Das Leben A1/A2/B1</em>, <em>Complete German All-in-One (Practice Makes Perfect)</em>, <em>501 German Verbs</em>, <em>DT Training C1</em> und <em>新编大学德语</em>.
         </p>
         <div class="hub-stats-row">
             <div class="hub-stat-item">
@@ -418,7 +422,7 @@ toc: false
                     <span class="acc-ch-num">A1-01</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a1/#a1-ch01-genus" class="acc-ch-title">Kapitel 1: Nomen, Genus-Systematik &amp; Morphologische Erkennung</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Maskuline Nomen (der):**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Maskuline Nomen (der):</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -432,7 +436,7 @@ toc: false
                     <span class="acc-ch-num">A1-02</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a1/#a1-ch02-plural" class="acc-ch-title">Kapitel 2: Die 5 Hauptklassen der Pluralbildung &amp; Sonderformen</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **Klasse 1: Endung -(e)n (ohne Umlaut):** Betrifft ca. 95% aller Feminina (*die Zelle -&gt; die Zellen, die Reaktion -&gt; die Reaktionen, die Fakultät -&gt; die Fakultäten*), maskuline N-Deklinationswörter (*der Student -&gt; die Studenten*) und wenige Neutra (*das Auge -&gt; die Augen, das Ohr -&gt; die Ohren*).</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>Klasse 1: Endung -(e)n (ohne Umlaut):</strong> Betrifft ca. 95% aller Feminina (<em>die Zelle → die Zellen, die Reaktion → die Reaktionen, die Fakultät → die Fakultäten</em>), maskuline N-Deklinationswörter (<em>der Student → die Studenten</em>) und wenige Neutra (<em>das Auge → die Augen, das Ohr → die Ohren</em>).</div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -446,7 +450,7 @@ toc: false
                     <span class="acc-ch-num">A1-03</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a1/#a1-ch03-articles-pronouns" class="acc-ch-title">Kapitel 3: Artikelwörter, Negation (kein vs. nicht) &amp; Possessivartikel</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **Artikeldeklination:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>Artikeldeklination:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -460,7 +464,7 @@ toc: false
                     <span class="acc-ch-num">A1-04</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a1/#a1-ch04-verbs-present" class="acc-ch-title">Kapitel 4: Konjugation im Präsens (Schwache, Starke &amp; Unregelmäßige Verben)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Regelmäßige schwache Verben:** Verbstamm + Personalendungen: *-e, -st, -t, -en, -t, -en* (*lernen -&gt; ich lerne, du lernst, er lernt, wir lernen, ihr lernt, sie lernen*).</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Regelmäßige schwache Verben:</strong> Verbstamm + Personalendungen: <em>-e, -st, -t, -en, -t, -en</em> (<em>lernen → ich lerne, du lernst, er lernt, wir lernen, ihr lernt, sie lernen</em>).</div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -474,7 +478,7 @@ toc: false
                     <span class="acc-ch-num">A1-05</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a1/#a1-ch05-syntax-fields" class="acc-ch-title">Kapitel 5: Satzbau, Stellungsfelder, Inversion &amp; Satzklammer</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Das Grundgesetz des Hauptsatzes:** Das finite (konjugierte) Verb besetzt ausnahmslos **Position 2**!</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Das Grundgesetz des Hauptsatzes:</strong> Das finite (konjugierte) Verb besetzt ausnahmslos <strong>Position 2</strong>!</div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -488,7 +492,7 @@ toc: false
                     <span class="acc-ch-num">A1-06</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a1/#a1-ch06-akkusativ-prepositions" class="acc-ch-title">Kapitel 6: Der Akkusativ (Direktes Objekt) &amp; Feste Akkusativ-Präpositionen</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **Akkusativ-Funktion:** Der Akkusativ (Wen/Was-Fall) bezeichnet das Ziel, den Gegenstand oder den Empfänger der direkten verbalen Handlung.</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>Akkusativ-Funktion:</strong> Der Akkusativ (Wen/Was-Fall) bezeichnet das Ziel, den Gegenstand oder den Empfänger der direkten verbalen Handlung.</div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -502,7 +506,7 @@ toc: false
                     <span class="acc-ch-num">A1-07</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a1/#a1-ch07-prefixes" class="acc-ch-title">Kapitel 7: Trennbare &amp; Untrennbare Verben im Detail</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Trennbare Verben (Präfix ist immer STARK BETONT):**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Trennbare Verben (Präfix ist immer STARK BETONT):</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -516,7 +520,7 @@ toc: false
                     <span class="acc-ch-num">A1-08</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a1/#a1-ch08-modal-verbs" class="acc-ch-title">Kapitel 8: Die 6 Modalverben &amp; Das Vollverb &#x27;mögen&#x27;</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **Modalverben-Konjugation Besonderheit:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>Modalverben-Konjugation Besonderheit:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -530,7 +534,7 @@ toc: false
                     <span class="acc-ch-num">A1-09</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a1/#a1-ch09-imperativ" class="acc-ch-title">Kapitel 9: Der Imperativ (Die Befehls- &amp; Aufforderungsform)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. du-Form (Informell Singular):**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. du-Form (Informell Singular):</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -544,7 +548,7 @@ toc: false
                     <span class="acc-ch-num">A1-10</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a1/#a1-ch10-perfekt" class="acc-ch-title">Kapitel 10: Das Perfekt (Die mündliche Vergangenheitsform)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Grundstruktur des Perfekts:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Grundstruktur des Perfekts:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -573,7 +577,7 @@ toc: false
                     <span class="acc-ch-num">A2-01</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a2/#a2-ch01-dativ" class="acc-ch-title">Kapitel 1: Der Dativ (Wem-Fall) &amp; Wortstellung bei doppelten Objekten</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Artikelformen im Dativ:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Artikelformen im Dativ:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -587,7 +591,7 @@ toc: false
                     <span class="acc-ch-num">A2-02</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a2/#a2-ch02-dativ-verbs-prep" class="acc-ch-title">Kapitel 2: Die wichtigsten Dativ-Verben &amp; Feste Dativ-Präpositionen</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Die wichtigsten Verben mit Dativergänzung:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Die wichtigsten Verben mit Dativergänzung:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -601,7 +605,7 @@ toc: false
                     <span class="acc-ch-num">A2-03</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a2/#a2-ch03-two-way-prepositions" class="acc-ch-title">Kapitel 3: Wechselpräpositionen (Wohin Akk vs. Wo Dat) &amp; Positionsverben</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Die goldene Regel der 9 Wechselpräpositionen:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Die goldene Regel der 9 Wechselpräpositionen:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -615,7 +619,7 @@ toc: false
                     <span class="acc-ch-num">A2-04</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a2/#a2-ch04-reflexive" class="acc-ch-title">Kapitel 4: Reflexive &amp; Reziproke Verben (Akkusativ vs. Dativ)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Echte vs. Unechte Reflexivverben:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Echte vs. Unechte Reflexivverben:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -629,7 +633,7 @@ toc: false
                     <span class="acc-ch-num">A2-05</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a2/#a2-ch05-adjective-declension" class="acc-ch-title">Kapitel 5: Die vollständige Adjektivdeklination (Typ 1, Typ 2, Typ 3)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **Grundprinzip:** Ein Adjektiv vor einem Nomen (attributiv) MUSS dekliniert werden. Es zeigt Genus, Numerus und Kasus an.</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>Grundprinzip:</strong> Ein Adjektiv vor einem Nomen (attributiv) MUSS dekliniert werden. Es zeigt Genus, Numerus und Kasus an.</div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -643,7 +647,7 @@ toc: false
                     <span class="acc-ch-num">A2-06</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a2/#a2-ch06-comparative-superlative" class="acc-ch-title">Kapitel 6: Komparativ &amp; Superlativ (Steigerung &amp; attributive Endungen)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Die drei Steigerungsstufen:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Die drei Steigerungsstufen:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -657,7 +661,7 @@ toc: false
                     <span class="acc-ch-num">A2-07</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a2/#a2-ch07-subordinate-clauses" class="acc-ch-title">Kapitel 7: Nebensätze I: Kausal (weil/da), Objekt (dass), Konditional (wenn/falls) &amp; ob</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Die fundamentale Nebensatz-Regel (Verbletztstellung):**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Die fundamentale Nebensatz-Regel (Verbletztstellung):</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -671,7 +675,7 @@ toc: false
                     <span class="acc-ch-num">A2-08</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a2/#a2-ch08-temporalsatz" class="acc-ch-title">Kapitel 8: Temporale Nebensätze: Die genaue Unterscheidung von &#x27;wenn&#x27; und &#x27;als&#x27;</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Die Gretchenfrage: &#x27;wenn&#x27; oder &#x27;als&#x27;?**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Die Gretchenfrage: &#x27;wenn&#x27; oder &#x27;als&#x27;?</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -685,7 +689,7 @@ toc: false
                     <span class="acc-ch-num">A2-09</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a2/#a2-ch09-praeteritum" class="acc-ch-title">Kapitel 9: Das Präteritum (Die schriftliche Vergangenheitsform)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Verwendung des Präteritums:** Hauptsächlich in schriftlichen Berichten, wissenschaftlichen Artikeln, Protokollen, Zeitungsberichten und literarischen Erzählungen. Im Alltag werden *sein, haben* und Modalverben auch mündlich im Präteritum gebraucht.</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Verwendung des Präteritums:</strong> Hauptsächlich in schriftlichen Berichten, wissenschaftlichen Artikeln, Protokollen, Zeitungsberichten und literarischen Erzählungen. Im Alltag werden <em>sein, haben</em> und Modalverben auch mündlich im Präteritum gebraucht.</div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -699,7 +703,7 @@ toc: false
                     <span class="acc-ch-num">A2-10</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/a2/#a2-ch10-indirect-questions" class="acc-ch-title">Kapitel 10: Indirekte Fragesätze &amp; Höfliche Bitten mit Konjunktiv II</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Indirekte W-Fragen:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Indirekte W-Fragen:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -728,7 +732,7 @@ toc: false
                     <span class="acc-ch-num">B1-01</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b1/#b1-ch01-konjunktiv2" class="acc-ch-title">Kapitel 1: Der Konjunktiv II (Gegenwart, Vergangenheit &amp; Irreale Konditionalsätze)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Funktionen des Konjunktiv II:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Funktionen des Konjunktiv II:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -742,7 +746,7 @@ toc: false
                     <span class="acc-ch-num">B1-02</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b1/#b1-ch02-vorgangspassiv" class="acc-ch-title">Kapitel 2: Das Vorgangspassiv in allen 6 Zeitformen &amp; Passiv mit Modalverben</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Das Grundprinzip:** Im Passiv steht die Handlung (der Vorgang) im Mittelpunkt; der Handelnde ist unwichtig, unbekannt oder allgemein.</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Das Grundprinzip:</strong> Im Passiv steht die Handlung (der Vorgang) im Mittelpunkt; der Handelnde ist unwichtig, unbekannt oder allgemein.</div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -756,7 +760,7 @@ toc: false
                     <span class="acc-ch-num">B1-03</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b1/#b1-ch03-zustandspassiv" class="acc-ch-title">Kapitel 3: Das Zustandspassiv (Stative Passive) &amp; Abgrenzung zum Vorgangspassiv</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Vorgangspassiv vs. Zustandspassiv:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Vorgangspassiv vs. Zustandspassiv:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -770,7 +774,7 @@ toc: false
                     <span class="acc-ch-num">B1-04</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b1/#b1-ch04-relativsaetze" class="acc-ch-title">Kapitel 4: Relativsätze (Komplettes 4-Fälle-System, Präpositionen &amp; Indefinite Relativsätze)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Kongruenz und Kasus des Relativpronomens:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Kongruenz und Kasus des Relativpronomens:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -784,7 +788,7 @@ toc: false
                     <span class="acc-ch-num">B1-05</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b1/#b1-ch05-genitive" class="acc-ch-title">Kapitel 5: Der Genitiv (Wessen-Fall), N-Deklination &amp; Genitiv-Präpositionen</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Formen des Genitivs:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Formen des Genitivs:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -798,7 +802,7 @@ toc: false
                     <span class="acc-ch-num">B1-06</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b1/#b1-ch06-verbs-prepositions-dawo" class="acc-ch-title">Kapitel 6: Verben mit festen Präpositionen &amp; Pronominaladverbien (da-/wo-)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Präpositionalobjekte:** Viele Verben sind fest an eine bestimmte Präposition gekoppelt, die ihren Kasus bestimmt.</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Präpositionalobjekte:</strong> Viele Verben sind fest an eine bestimmte Präposition gekoppelt, die ihren Kasus bestimmt.</div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -812,7 +816,7 @@ toc: false
                     <span class="acc-ch-num">B1-07</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b1/#b1-ch07-infinitive-clauses" class="acc-ch-title">Kapitel 7: Infinitivkonstruktionen: Infinitiv mit &#x27;zu&#x27; &amp; Finalsätze (&#x27;um... zu&#x27; vs. &#x27;damit&#x27;)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Der Infinitiv mit &#x27;zu&#x27;:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Der Infinitiv mit &#x27;zu&#x27;:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -826,7 +830,7 @@ toc: false
                     <span class="acc-ch-num">B1-08</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b1/#b1-ch08-adverbial-clauses" class="acc-ch-title">Kapitel 8: Konzessiv-, Temporal-, Kausal- &amp; Konsekutivsätze im B1-Niveau</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Konzessivsätze (Gegengrund / Einräumung):**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Konzessivsätze (Gegengrund / Einräumung):</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -840,7 +844,7 @@ toc: false
                     <span class="acc-ch-num">B1-09</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b1/#b1-ch09-future-tenses" class="acc-ch-title">Kapitel 9: Futur I &amp; Futur II: Zukunftspläne, Versprechen &amp; Vermutungen</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Futur I (werden + Infinitiv am Satzende):**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Futur I (werden + Infinitiv am Satzende):</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -854,7 +858,7 @@ toc: false
                     <span class="acc-ch-num">B1-10</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b1/#b1-ch10-word-formation" class="acc-ch-title">Kapitel 10: Wortbildung &amp; Wortschatzerweiterung: Derivation &amp; Komposition</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Komposition (Zusammensetzung):**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Komposition (Zusammensetzung):</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -883,7 +887,7 @@ toc: false
                     <span class="acc-ch-num">B2-01</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b2/#b2-ch01-fvg" class="acc-ch-title">Kapitel 1: Nomen-Verb-Verbindungen (Funktionsverbgefüge / FVG)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Was ist ein Funktionsverbgefüge (FVG)?**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Was ist ein Funktionsverbgefüge (FVG)?</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -897,7 +901,7 @@ toc: false
                     <span class="acc-ch-num">B2-02</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b2/#b2-ch02-passiv-alternatives" class="acc-ch-title">Kapitel 2: Passiv-Ersatzformen &amp; Modale Passivumschreibungen</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Warum Passiv-Ersatzformen?** Häufungen des Vorgangspassivs mit *werden* wirken monoton. Ersatzformen bringen Abwechslung und drücken gleichzeitig modale Nuancen (Können / Müssen) aus.</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Warum Passiv-Ersatzformen?</strong> Häufungen des Vorgangspassivs mit <em>werden</em> wirken monoton. Ersatzformen bringen Abwechslung und drücken gleichzeitig modale Nuancen (Können / Müssen) aus.</div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -911,7 +915,7 @@ toc: false
                     <span class="acc-ch-num">B2-03</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b2/#b2-ch03-participles" class="acc-ch-title">Kapitel 3: Erweiterte Partizipialattribute (Partizip I, II &amp; Gerundivum)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Partizip I als Adjektiv (Partizip Präsens: Verbstamm + -end):**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Partizip I als Adjektiv (Partizip Präsens: Verbstamm + -end):</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -925,7 +929,7 @@ toc: false
                     <span class="acc-ch-num">B2-04</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b2/#b2-ch04-connectors" class="acc-ch-title">Kapitel 4: Zweiteilige Konnektoren (Doppelkonjunktionen)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Kopulativ (Aufzählend / Verbindend):**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Kopulativ (Aufzählend / Verbindend):</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -939,7 +943,7 @@ toc: false
                     <span class="acc-ch-num">B2-05</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b2/#b2-ch05-subjective-modals" class="acc-ch-title">Kapitel 5: Subjektive Bedeutung der Modalverben (Epistemische Modalität)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Was bedeutet &#x27;subjektiver Gebrauch&#x27;?**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Was bedeutet &#x27;subjektiver Gebrauch&#x27;?</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -953,7 +957,7 @@ toc: false
                     <span class="acc-ch-num">B2-06</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b2/#b2-ch06-nominalstil" class="acc-ch-title">Kapitel 6: Wissenschaftlicher Nominalstil vs. Verbalstil (Systematische Transformation)</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Verbalstil vs. Nominalstil:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Verbalstil vs. Nominalstil:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -967,7 +971,7 @@ toc: false
                     <span class="acc-ch-num">B2-07</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b2/#b2-ch07-konjunktiv1" class="acc-ch-title">Kapitel 7: Der Konjunktiv I &amp; Die Indirekte Rede in Wissenschaft und Medien</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Funktion des Konjunktiv I:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Funktion des Konjunktiv I:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -981,7 +985,7 @@ toc: false
                     <span class="acc-ch-num">B2-08</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b2/#b2-ch08-modalpartikeln" class="acc-ch-title">Kapitel 8: Modalpartikeln &amp; Nuancen der mündlichen Fachkommunikation</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Was sind Modalpartikeln?**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Was sind Modalpartikeln?</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -995,7 +999,7 @@ toc: false
                     <span class="acc-ch-num">B2-09</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b2/#b2-ch09-noun-preposition" class="acc-ch-title">Kapitel 9: Feste Nomen-Präposition-Verbindungen in der Wissenschaftssprache</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Warum Nomen-Präposition-Verbindungen?**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Warum Nomen-Präposition-Verbindungen?</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">
@@ -1009,7 +1013,7 @@ toc: false
                     <span class="acc-ch-num">B2-10</span>
                     <div class="acc-ch-meta">
                         <a href="/deutsch/grammatik/b2/#b2-ch10-text-coherence" class="acc-ch-title">Kapitel 10: Textkohärenz, Satzverknüpfung &amp; Konnektoren im akademischen Diskurs</a>
-                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> **1. Die 4 syntaktischen Konnektoren-Klassen im Deutschen:**</div>
+                        <div class="acc-rule-preview">💡 <strong>Schwerpunkte:</strong> <strong>1. Die 4 syntaktischen Konnektoren-Klassen im Deutschen:</strong></div>
                     </div>
                 </div>
                 <div class="acc-ch-right">

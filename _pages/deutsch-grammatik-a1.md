@@ -185,30 +185,71 @@ toc: false
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 10px;
-    padding: 16px 20px;
+    padding: 18px 22px;
     margin-bottom: 24px;
 }
 .rule-box-header {
     font-size: 0.95rem;
     font-weight: 700;
     color: #0369a1;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     display: flex;
     align-items: center;
     gap: 6px;
 }
 .rule-list {
     margin: 0;
-    padding-left: 20px;
+    padding-left: 0;
+    list-style: none;
+}
+.rule-header-item {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0369a1;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    list-style: none;
+}
+.rule-header-item:first-child {
+    margin-top: 0;
 }
 .rule-item {
     font-size: 0.96rem;
     line-height: 1.6;
     color: #334155;
     margin-bottom: 8px;
+    position: relative;
+    padding-left: 18px;
 }
-.rule-item:last-child {
-    margin-bottom: 0;
+.rule-item::before {
+    content: "•";
+    position: absolute;
+    left: 4px;
+    color: #0284c7;
+    font-weight: bold;
+}
+.rule-sub-item {
+    font-size: 0.94rem;
+    line-height: 1.55;
+    color: #475569;
+    margin-bottom: 6px;
+    padding-left: 32px;
+    position: relative;
+}
+.rule-sub-item::before {
+    content: "–";
+    position: absolute;
+    left: 18px;
+    color: #94a3b8;
+}
+
+.inline-code {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 /* Tables */
@@ -354,8 +395,8 @@ toc: false
 <div class="grammar-container">
     <div id="toc-top" class="hero-box">
         <span class="hero-badge">CEFR A1 Anfänger</span>
-        <h1 class="hero-title">Stufe A1: Grundstufe I – Fundamentale Grammatik & Satzbau</h1>
-        <p class="hero-summary">Vollständiges Grundstufen-Kompendium: Genus-Systematik & Endungsregeln, die 5 Pluralbildungsklassen, Artikel- & Possessivgefüge, Konjugation der schwachen/starken Verben im Präsens, Hauptsatz-Syntax mit Satzklammer & Inversion, Akkusativ-System, trennbare/untrennbare Präfixe, Modalverben, Imperativ und Perfekt-Systematik mit haben/sein.</p>
+        <h1 class="hero-title">Stufe A1: Grundstufe I – Fundamentale Grammatik &amp; Satzbau</h1>
+        <p class="hero-summary">Vollständiges Grundstufen-Kompendium: Genus-Systematik &amp; Endungsregeln, die 5 Pluralbildungsklassen, Artikel- &amp; Possessivgefüge, Konjugation der schwachen/starken Verben im Präsens, Hauptsatz-Syntax mit Satzklammer &amp; Inversion, Akkusativ-System, trennbare/untrennbare Präfixe, Modalverben, Imperativ und Perfekt-Systematik mit haben/sein.</p>
         <div class="hero-actions">
             <a href="/deutsch/grammatik/" class="action-btn">📚 Grammatik-Hub</a>
             <a href="/files/Deutsch_Grammatik_A1.md" class="action-btn" download>📥 Download Markdown</a>
@@ -379,7 +420,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Maskuline Nomen (der):**</li><li class="rule-item">  - *Morphologische Suffixe:* **-ling** (Lehrling, Schmetterling), **-or** (Motor, Reaktor), **-ismus** (Organismus, Mechanismus), **-ant / -ent** (Assistent, Patient, Dozent), **-ist** (Spezialist, Biologe), **-er** bei handelnden Personen/Geräten (Forscher, Computer, Bohrer).</li><li class="rule-item">  - *Semantische Gruppen:* Wochentage (*der Montag*), Monate (*der Januar*), Jahreszeiten (*der Sommer*), Himmelsrichtungen (*der Norden*), Wetterereignisse (*der Regen, der Schnee, der Wind, der Nebel*), alkoholische Getränke (*der Wein, der Wodka*; Ausnahme: *das Bier*), Automarken (*der BMW, der Mercedes*).</li><li class="rule-item">**2. Feminine Nomen (die):**</li><li class="rule-item">  - *Morphologische Suffixe (nahezu 100% feminin):* **-ung** (Zellkultur, Forschung, Lösung, Prüfung), **-heit / -keit** (Krankheit, Möglichkeit, Flüssigkeit, Sauberkeit), **-schaft** (Wissenschaft, Eigenschaft, Gesellschaft), **-tät** (Universität, Stabilität, Permeabilität), **-tion / -sion** (Reaktion, Diffusion, Konzentration, Fusion), **-ie** (Biologie, Chemie, Mikroskopie), **-ik** (Mikrofluidik, Genetik, Physik, Musik), **-anz / -enz** (Differenz, Toleranz, Sequenz), **-ur** (Kultur, Temperatur, Natur, Struktur), **-e** (ca. 90% aller zweisilbigen Nomen auf -e: *die Lampe, die Grenze, die Phase, die Pumpe, die Zelle*; Ausnahmen: *der Name, der Käse, das Auge, das Ende*).</li><li class="rule-item">  - *Semantische Gruppen:* Weibliche Personen &amp; Berufsbezeichnungen (*die Professorin, die Ärztin*), Bäume &amp; Blumen (*die Eiche, die Rose*; Ausnahme: *der Baum*), Schiffs- und Flugzeugnamen (*die Titanic, die Boeing 747*).</li><li class="rule-item">**3. Neutrale Nomen (das):**</li><li class="rule-item">  - *Morphologische Suffixe:* **-chen / -lein** (Verkleinerungsformen: *das Teilchen, das Röhrchen, das Mädchen*), **-ment** (Experiment, Instrument, Dokument, Segment), **-um** (Zentrum, Laboratorium, Medium, Spektrum, Serum), **-tum** (Wachstum; Ausnahme: *der Reichtum, der Irrtum*), **-ma** (Klima, Thema, Schema, Prisma).</li><li class="rule-item">  - *Substantivierte Infinitive &amp; Adjektive:* **das + Verb-Infinitiv** (*das Messen, das Forschen, das Pipettieren, das Verstehen*), substantivierte Farben &amp; Sprachen (*das Blau, das Deutsch*).</li><li class="rule-item">  - *Semantische Gruppen:* Metalle &amp; chemische Elemente (*das Gold, das Silber, das Silizium, das Platin, das Kupfer*; Ausnahmen: *der Stahl, die Bronze*), Bruchzahlen (*das Drittel, das Viertel*).</li><li class="rule-item">**4. Zusammengesetzte Nomen (Komposita):** Das letzte Nomen bestimmt das Geschlecht und den Plural des gesamten Wortes: *das Labor + die Tür = die Labortür*; *die Zelle + der Kern = der Zellkern*.</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Maskuline Nomen (der):</strong></li><li class="rule-sub-item"><em>Morphologische Suffixe:</em> <strong>-ling</strong> (Lehrling, Schmetterling), <strong>-or</strong> (Motor, Reaktor), <strong>-ismus</strong> (Organismus, Mechanismus), <strong>-ant / -ent</strong> (Assistent, Patient, Dozent), <strong>-ist</strong> (Spezialist, Biologe), <strong>-er</strong> bei handelnden Personen/Geräten (Forscher, Computer, Bohrer).</li><li class="rule-sub-item"><em>Semantische Gruppen:</em> Wochentage (<em>der Montag</em>), Monate (<em>der Januar</em>), Jahreszeiten (<em>der Sommer</em>), Himmelsrichtungen (<em>der Norden</em>), Wetterereignisse (<em>der Regen, der Schnee, der Wind, der Nebel</em>), alkoholische Getränke (<em>der Wein, der Wodka</em>; Ausnahme: <em>das Bier</em>), Automarken (<em>der BMW, der Mercedes</em>).</li><li class="rule-header-item"><strong>2. Feminine Nomen (die):</strong></li><li class="rule-sub-item"><em>Morphologische Suffixe (nahezu 100% feminin):</em> <strong>-ung</strong> (Zellkultur, Forschung, Lösung, Prüfung), <strong>-heit / -keit</strong> (Krankheit, Möglichkeit, Flüssigkeit, Sauberkeit), <strong>-schaft</strong> (Wissenschaft, Eigenschaft, Gesellschaft), <strong>-tät</strong> (Universität, Stabilität, Permeabilität), <strong>-tion / -sion</strong> (Reaktion, Diffusion, Konzentration, Fusion), <strong>-ie</strong> (Biologie, Chemie, Mikroskopie), <strong>-ik</strong> (Mikrofluidik, Genetik, Physik, Musik), <strong>-anz / -enz</strong> (Differenz, Toleranz, Sequenz), <strong>-ur</strong> (Kultur, Temperatur, Natur, Struktur), <strong>-e</strong> (ca. 90% aller zweisilbigen Nomen auf -e: <em>die Lampe, die Grenze, die Phase, die Pumpe, die Zelle</em>; Ausnahmen: <em>der Name, der Käse, das Auge, das Ende</em>).</li><li class="rule-sub-item"><em>Semantische Gruppen:</em> Weibliche Personen &amp; Berufsbezeichnungen (<em>die Professorin, die Ärztin</em>), Bäume &amp; Blumen (<em>die Eiche, die Rose</em>; Ausnahme: <em>der Baum</em>), Schiffs- und Flugzeugnamen (<em>die Titanic, die Boeing 747</em>).</li><li class="rule-header-item"><strong>3. Neutrale Nomen (das):</strong></li><li class="rule-sub-item"><em>Morphologische Suffixe:</em> <strong>-chen / -lein</strong> (Verkleinerungsformen: <em>das Teilchen, das Röhrchen, das Mädchen</em>), <strong>-ment</strong> (Experiment, Instrument, Dokument, Segment), <strong>-um</strong> (Zentrum, Laboratorium, Medium, Spektrum, Serum), <strong>-tum</strong> (Wachstum; Ausnahme: <em>der Reichtum, der Irrtum</em>), <strong>-ma</strong> (Klima, Thema, Schema, Prisma).</li><li class="rule-sub-item"><em>Substantivierte Infinitive &amp; Adjektive:</em> <strong>das + Verb-Infinitiv</strong> (<em>das Messen, das Forschen, das Pipettieren, das Verstehen</em>), substantivierte Farben &amp; Sprachen (<em>das Blau, das Deutsch</em>).</li><li class="rule-sub-item"><em>Semantische Gruppen:</em> Metalle &amp; chemische Elemente (<em>das Gold, das Silber, das Silizium, das Platin, das Kupfer</em>; Ausnahmen: <em>der Stahl, die Bronze</em>), Bruchzahlen (<em>das Drittel, das Viertel</em>).</li><li class="rule-item"><strong>4. Zusammengesetzte Nomen (Komposita):</strong> Das letzte Nomen bestimmt das Geschlecht und den Plural des gesamten Wortes: <em>das Labor + die Tür = die Labortür</em>; <em>die Zelle + der Kern = der Zellkern</em>.</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Homonyme mit unterschiedlichem Genus &amp; Bedeutung (Vorsicht Falle!)</div>
@@ -421,14 +469,21 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**Klasse 1: Endung -(e)n (ohne Umlaut):** Betrifft ca. 95% aller Feminina (*die Zelle -&gt; die Zellen, die Reaktion -&gt; die Reaktionen, die Fakultät -&gt; die Fakultäten*), maskuline N-Deklinationswörter (*der Student -&gt; die Studenten*) und wenige Neutra (*das Auge -&gt; die Augen, das Ohr -&gt; die Ohren*).</li><li class="rule-item">**Klasse 2: Endung -e (oft mit Umlaut bei a/o/u):** Sehr viele Maskulina (*der Tag -&gt; die Tage, der Arzt -&gt; die Ärzte, der Kanal -&gt; die Kanäle*), viele Neutra (*das Jahr -&gt; die Jahre, das Modell -&gt; die Modelle*) und einige einsilbige Feminina (*die Hand -&gt; die Hände, die Stadt -&gt; die Städte, die Nacht -&gt; die Nächte*).</li><li class="rule-item">**Klasse 3: Endung -er (fast immer mit Umlaut):** Hauptsächlich Neutra (*das Bild -&gt; die Bilder, das Buch -&gt; die Bücher, das Feld -&gt; die Felder, das Glas -&gt; die Gläser*) und wenige Maskulina (*der Mann -&gt; die Männer, der Wald -&gt; die Wälder*). NIEMALS bei Feminina!</li><li class="rule-item">**Klasse 4: Endung -s (ohne Umlaut):** Fremdwörter aus dem Englischen/Französischen (*das Auto -&gt; die Autos, der Chip -&gt; die Chips, das Labor -&gt; die Labors / Labore, das Team -&gt; die Teams*), Abkürzungen (*die PKWs, die LKWs*) und Nomen auf Vollvokal (*das Foto -&gt; die Fotos, das Sofa -&gt; die Sofas*).</li><li class="rule-item">**Klasse 5: Endungslos (nur Umlaut möglich):** Maskuline und neutrale Nomen auf *-el, -er, -en* sowie Verkleinerungsformen auf *-chen / -lein* (*der Computer -&gt; die Computer, der Apfel -&gt; die Äpfel, der Fehler -&gt; die Fehler, das Röhrchen -&gt; die Röhrchen, das Zeichen -&gt; die Zeichen*).</li><li class="rule-item">**Sonderkategorien:**</li><li class="rule-item">  - *Singulariatantum (nur im Singular):* Stoffnamen (*das Gold, das Wasser, das Blut, der Sauerstoff*), Abstrakta (*der Hunger, der Durst, die Kälte, die Geduld, das Wissen*).</li><li class="rule-item">  - *Pluraliatantum (nur im Plural):* *die Eltern, die Ferien, die Kosten, die Leute, die Lebensmittel, die Personalien, die Gebrüder*.</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-item"><strong>Klasse 1: Endung -(e)n (ohne Umlaut):</strong> Betrifft ca. 95% aller Feminina (<em>die Zelle → die Zellen, die Reaktion → die Reaktionen, die Fakultät → die Fakultäten</em>), maskuline N-Deklinationswörter (<em>der Student → die Studenten</em>) und wenige Neutra (<em>das Auge → die Augen, das Ohr → die Ohren</em>).</li><li class="rule-item"><strong>Klasse 2: Endung -e (oft mit Umlaut bei a/o/u):</strong> Sehr viele Maskulina (<em>der Tag → die Tage, der Arzt → die Ärzte, der Kanal → die Kanäle</em>), viele Neutra (<em>das Jahr → die Jahre, das Modell → die Modelle</em>) und einige einsilbige Feminina (<em>die Hand → die Hände, die Stadt → die Städte, die Nacht → die Nächte</em>).</li><li class="rule-item"><strong>Klasse 3: Endung -er (fast immer mit Umlaut):</strong> Hauptsächlich Neutra (<em>das Bild → die Bilder, das Buch → die Bücher, das Feld → die Felder, das Glas → die Gläser</em>) und wenige Maskulina (<em>der Mann → die Männer, der Wald → die Wälder</em>). NIEMALS bei Feminina!</li><li class="rule-item"><strong>Klasse 4: Endung -s (ohne Umlaut):</strong> Fremdwörter aus dem Englischen/Französischen (<em>das Auto → die Autos, der Chip → die Chips, das Labor → die Labors / Labore, das Team → die Teams</em>), Abkürzungen (<em>die PKWs, die LKWs</em>) und Nomen auf Vollvokal (<em>das Foto → die Fotos, das Sofa → die Sofas</em>).</li><li class="rule-item"><strong>Klasse 5: Endungslos (nur Umlaut möglich):</strong> Maskuline und neutrale Nomen auf <em>-el, -er, -en</em> sowie Verkleinerungsformen auf <em>-chen / -lein</em> (<em>der Computer → die Computer, der Apfel → die Äpfel, der Fehler → die Fehler, das Röhrchen → die Röhrchen, das Zeichen → die Zeichen</em>).</li><li class="rule-header-item"><strong>Sonderkategorien:</strong></li><li class="rule-sub-item"><em>Singulariatantum (nur im Singular):</em> Stoffnamen (<em>das Gold, das Wasser, das Blut, der Sauerstoff</em>), Abstrakta (<em>der Hunger, der Durst, die Kälte, die Geduld, das Wissen</em>).</li><li class="rule-sub-item"><em>Pluraliatantum (nur im Plural):</em> <em>die Eltern, die Ferien, die Kosten, die Leute, die Lebensmittel, die Personalien, die Gebrüder</em>.</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Übersichtstabelle der 5 Pluralbildungsklassen</div>
                 <div class="table-responsive">
                     <table class="grammar-table">
-                        <thead><tr><th>Klasse</th><th>Pluralendung</th><th>Umlaut?</th><th>Typische Wortgruppe</th><th>Musterbeispiel Singular -&gt; Plural</th></tr></thead>
-                        <tbody><tr><td>1</td><td>-(e)n</td><td>Nein</td><td>Feminina (-ung, -heit, -keit, -tät, -tion)</td><td>die Probe -&gt; die Proben, die Kultur -&gt; die Kulturen</td></tr><tr><td>2</td><td>-e</td><td>Ja / Nein</td><td>Maskulina, Neutra, einsilbige Feminina</td><td>der Tisch -&gt; die Tische, der Fluss -&gt; die Flüsse, das Protokoll -&gt; die Protokolle</td></tr><tr><td>3</td><td>-er</td><td>Ja (stets)</td><td>Einsilbige Neutra, wenige Maskulina</td><td>das Experiment -&gt; die Experimente (Kl.2), das Bild -&gt; die Bilder</td></tr><tr><td>4</td><td>-s</td><td>Nein</td><td>Fremdwörter, Kurzwörter, Endung auf Vokal</td><td>der Mikrochip -&gt; die Mikrochips, der Sensor -&gt; die Sensoren (Kl.1)</td></tr><tr><td>5</td><td>— (Null)</td><td>Teilweise</td><td>Nomen auf -er, -el, -en, -chen, -lein</td><td>der Filter -&gt; die Filter, der Schalter -&gt; die Schalter, das Mikroskop -&gt; die Mikroskope (Kl.2)</td></tr></tbody>
+                        <thead><tr><th>Klasse</th><th>Pluralendung</th><th>Umlaut?</th><th>Typische Wortgruppe</th><th>Musterbeispiel Singular → Plural</th></tr></thead>
+                        <tbody><tr><td>1</td><td>-(e)n</td><td>Nein</td><td>Feminina (-ung, -heit, -keit, -tät, -tion)</td><td>die Probe → die Proben, die Kultur → die Kulturen</td></tr><tr><td>2</td><td>-e</td><td>Ja / Nein</td><td>Maskulina, Neutra, einsilbige Feminina</td><td>der Tisch → die Tische, der Fluss → die Flüsse, das Protokoll → die Protokolle</td></tr><tr><td>3</td><td>-er</td><td>Ja (stets)</td><td>Einsilbige Neutra, wenige Maskulina</td><td>das Experiment → die Experimente (Kl.2), das Bild → die Bilder</td></tr><tr><td>4</td><td>-s</td><td>Nein</td><td>Fremdwörter, Kurzwörter, Endung auf Vokal</td><td>der Mikrochip → die Mikrochips, der Sensor → die Sensoren (Kl.1)</td></tr><tr><td>5</td><td>— (Null)</td><td>Teilweise</td><td>Nomen auf -er, -el, -en, -chen, -lein</td><td>der Filter → die Filter, der Schalter → die Schalter, das Mikroskop → die Mikroskope (Kl.2)</td></tr></tbody>
                     </table>
                 </div>
             </div>
@@ -463,7 +518,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**Artikeldeklination:**</li><li class="rule-item">  - *Nominativ (Subjekt):* der / ein / kein (m); die / eine / keine (f); das / ein / kein (n); die / — / keine (pl).</li><li class="rule-item">  - *Akkusativ (Objekt):* den / einen / keinen (m); die / eine / keine (f); das / ein / kein (n); die / — / keine (pl).</li><li class="rule-item">**Regeln für die Negation:**</li><li class="rule-item">  - **kein / keine:** Negiert Nomen mit unbestimmtem Artikel (*Ich habe ein Auto -&gt; Ich habe kein Auto*) oder Nomen mit Nullartikel (*Ich habe Zeit -&gt; Ich habe keine Zeit*).</li><li class="rule-item">  - **nicht:** Negiert Verben (*Ich arbeite heute nicht*), Adjektive (*Das Medium ist nicht steril*), Adverbien (*Er spricht nicht schnell*), Eigennamen (*Das ist nicht Professor Weber*) und Nomen mit bestimmtem Artikel oder Possessivartikel (*Das ist nicht der richtige Sensor; Das ist nicht mein Protokoll*).</li><li class="rule-item">**Possessivartikel im Nominativ &amp; Akkusativ:**</li><li class="rule-item">  - *ich -&gt; mein / meine*; *du -&gt; dein / deine*; *er / es -&gt; sein / seine*; *sie (Singular) -&gt; ihr / ihre*; *wir -&gt; unser / unsere*; *ihr -&gt; euer / eure* (Beachte Wegfall des *e*: *eure*, nicht *euere*); *sie (Plural) / Sie (Höflichkeit) -&gt; ihr / ihre / Ihr / Ihre*.</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>Artikeldeklination:</strong></li><li class="rule-sub-item"><em>Nominativ (Subjekt):</em> der / ein / kein (m); die / eine / keine (f); das / ein / kein (n); die / — / keine (pl).</li><li class="rule-sub-item"><em>Akkusativ (Objekt):</em> den / einen / keinen (m); die / eine / keine (f); das / ein / kein (n); die / — / keine (pl).</li><li class="rule-header-item"><strong>Regeln für die Negation:</strong></li><li class="rule-sub-item"><strong>kein / keine:</strong> Negiert Nomen mit unbestimmtem Artikel (<em>Ich habe ein Auto → Ich habe kein Auto</em>) oder Nomen mit Nullartikel (<em>Ich habe Zeit → Ich habe keine Zeit</em>).</li><li class="rule-sub-item"><strong>nicht:</strong> Negiert Verben (<em>Ich arbeite heute nicht</em>), Adjektive (<em>Das Medium ist nicht steril</em>), Adverbien (<em>Er spricht nicht schnell</em>), Eigennamen (<em>Das ist nicht Professor Weber</em>) und Nomen mit bestimmtem Artikel oder Possessivartikel (<em>Das ist nicht der richtige Sensor; Das ist nicht mein Protokoll</em>).</li><li class="rule-header-item"><strong>Possessivartikel im Nominativ &amp; Akkusativ:</strong></li><li class="rule-sub-item"><em>ich → mein / meine</em>; <em>du → dein / deine</em>; <em>er / es → sein / seine</em>; <em>sie (Singular) → ihr / ihre</em>; <em>wir → unser / unsere</em>; <em>ihr → euer / eure</em> (Beachte Wegfall des <em>e</em>: <em>eure</em>, nicht <em>euere</em>); <em>sie (Plural) / Sie (Höflichkeit) → ihr / ihre / Ihr / Ihre</em>.</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Vollständige Possessivartikel-Tabelle (Nominativ &amp; Akkusativ)</div>
@@ -505,13 +567,20 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Regelmäßige schwache Verben:** Verbstamm + Personalendungen: *-e, -st, -t, -en, -t, -en* (*lernen -&gt; ich lerne, du lernst, er lernt, wir lernen, ihr lernt, sie lernen*).</li><li class="rule-item">**2. Phonetische Anpassungen des Verbstamms:**</li><li class="rule-item">  - *Stamm auf -d oder -t:* Einschub eines *-e-* bei *du, er/sie/es, ihr* (*arbeiten -&gt; du arbeitest, er arbeitet, ihr arbeitet; finden -&gt; du findest, er findet*).</li><li class="rule-item">  - *Stamm auf -s, -ß, -z, -x:* In der 2. Person Singular entfällt das *-s-* der Endung (*heißen -&gt; du heißt; reisen -&gt; du reist; sitzen -&gt; du sitzt*).</li><li class="rule-item">  - *Stamm auf -eln / -ern:* In der 1. Person Singular entfällt oft das *-e-* im Stamm (*handeln -&gt; ich handle / handele, wir handeln; sammeln -&gt; ich sammle*).</li><li class="rule-item">**3. Starke Verben mit Stammvokalwechsel (NUR bei du &amp; er/sie/es):**</li><li class="rule-item">  - *e -&gt; i:* *helfen (hilfst, hilft), sprechen (sprichst, spricht), treffen (triffst, trifft), vergessen (vergisst, vergisst), sterben (stirbst, stirbt), werfen (wirfst, wirft)*.</li><li class="rule-item">  - *e -&gt; ie:* *sehen (siehst, sieht), lesen (liest, liest), empfehlen (empfiehlst, empfiehlt), stehlen (stiehlst, stiehlt)*.</li><li class="rule-item">  - *a -&gt; ä:* *fahren (fährst, fährt), schlafen (schläfst, schläft), tragen (trägst, trägt), waschen (wäschst, wäscht), lassen (lässt, lässt)*.</li><li class="rule-item">  - *au -&gt; äu:* *laufen (läufst, läuft), saufen (säufst, säuft)*.</li><li class="rule-item">**4. Unregelmäßige Hilfsverben:** *sein (bin, bist, ist, sind, seid, sind)*, *haben (habe, hast, hat, haben, habt, haben)*, *werden (werde, wirst, wird, werden, werdet, werden)*, *wissen (weiß, weißt, weiß, wissen, wisst, wissen)*.</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-item"><strong>1. Regelmäßige schwache Verben:</strong> Verbstamm + Personalendungen: <em>-e, -st, -t, -en, -t, -en</em> (<em>lernen → ich lerne, du lernst, er lernt, wir lernen, ihr lernt, sie lernen</em>).</li><li class="rule-header-item"><strong>2. Phonetische Anpassungen des Verbstamms:</strong></li><li class="rule-sub-item"><em>Stamm auf -d oder -t:</em> Einschub eines <em>-e-</em> bei <em>du, er/sie/es, ihr</em> (<em>arbeiten → du arbeitest, er arbeitet, ihr arbeitet; finden → du findest, er findet</em>).</li><li class="rule-sub-item"><em>Stamm auf -s, -ß, -z, -x:</em> In der 2. Person Singular entfällt das <em>-s-</em> der Endung (<em>heißen → du heißt; reisen → du reist; sitzen → du sitzt</em>).</li><li class="rule-sub-item"><em>Stamm auf -eln / -ern:</em> In der 1. Person Singular entfällt oft das <em>-e-</em> im Stamm (<em>handeln → ich handle / handele, wir handeln; sammeln → ich sammle</em>).</li><li class="rule-header-item"><strong>3. Starke Verben mit Stammvokalwechsel (NUR bei du &amp; er/sie/es):</strong></li><li class="rule-sub-item"><em>e → i:</em> <em>helfen (hilfst, hilft), sprechen (sprichst, spricht), treffen (triffst, trifft), vergessen (vergisst, vergisst), sterben (stirbst, stirbt), werfen (wirfst, wirft)</em>.</li><li class="rule-sub-item"><em>e → ie:</em> <em>sehen (siehst, sieht), lesen (liest, liest), empfehlen (empfiehlst, empfiehlt), stehlen (stiehlst, stiehlt)</em>.</li><li class="rule-sub-item"><em>a → ä:</em> <em>fahren (fährst, fährt), schlafen (schläfst, schläft), tragen (trägst, trägt), waschen (wäschst, wäscht), lassen (lässt, lässt)</em>.</li><li class="rule-sub-item"><em>au → äu:</em> <em>laufen (läufst, läuft), saufen (säufst, säuft)</em>.</li><li class="rule-item"><strong>4. Unregelmäßige Hilfsverben:</strong> <em>sein (bin, bist, ist, sind, seid, sind)</em>, <em>haben (habe, hast, hat, haben, habt, haben)</em>, <em>werden (werde, wirst, wird, werden, werdet, werden)</em>, <em>wissen (weiß, weißt, weiß, wissen, wisst, wissen)</em>.</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Vollständige Konjugationsmatrix wichtiger Verbtypen im Präsens</div>
                 <div class="table-responsive">
                     <table class="grammar-table">
-                        <thead><tr><th>Person</th><th>analysieren (regelm.)</th><th>arbeiten (-t Stamm)</th><th>lesen (e-&gt;ie)</th><th>fahren (a-&gt;ä)</th><th>wissen (Sonderform)</th><th>werden (Hilfsverb)</th></tr></thead>
+                        <thead><tr><th>Person</th><th>analysieren (regelm.)</th><th>arbeiten (-t Stamm)</th><th>lesen (e→ie)</th><th>fahren (a→ä)</th><th>wissen (Sonderform)</th><th>werden (Hilfsverb)</th></tr></thead>
                         <tbody><tr><td>ich</td><td>analysiere</td><td>arbeite</td><td>lese</td><td>fahre</td><td>weiß</td><td>werde</td></tr><tr><td>du</td><td>analysierst</td><td>arbeitest</td><td>liest</td><td>fährst</td><td>weißt</td><td>wirst</td></tr><tr><td>er/sie/es</td><td>analysiert</td><td>arbeitet</td><td>liest</td><td>fährt</td><td>weiß</td><td>wird</td></tr><tr><td>wir</td><td>analysieren</td><td>arbeiten</td><td>lesen</td><td>fahren</td><td>wissen</td><td>werden</td></tr><tr><td>ihr</td><td>analysiert</td><td>arbeitet</td><td>lest</td><td>fahrt</td><td>wisst</td><td>werdet</td></tr><tr><td>sie/Sie</td><td>analysieren</td><td>arbeiten</td><td>lesen</td><td>fahren</td><td>wissen</td><td>werden</td></tr></tbody>
                     </table>
                 </div>
@@ -522,7 +591,7 @@ toc: false
             <div class="examples-header">📖 Beispielsätze & Anwendungskontext</div>
             <div class="examples-grid">
             <div class="example-card">
-                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Der Wissenschaftler liest (e-&gt;ie) das Manuskript und weiß (Sonderform) sofort die Antwort.</div>
+                <div class="ex-de"><span class="ex-flag">🇩🇪</span> Der Wissenschaftler liest (e→ie) das Manuskript und weiß (Sonderform) sofort die Antwort.</div>
                 <div class="ex-en"><span class="ex-flag">🇬🇧</span> The scientist reads the manuscript and immediately knows the answer.</div>
             </div>
             
@@ -547,7 +616,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Das Grundgesetz des Hauptsatzes:** Das finite (konjugierte) Verb besetzt ausnahmslos **Position 2**!</li><li class="rule-item">**2. Das Vorfeld (Position 1):** Hier steht genau EIN Satzglied. Das kann das Subjekt sein (*Der Forscher testet heute die Probe*) oder eine adverbiale Bestimmung (*Heute testet der Forscher die Probe*).</li><li class="rule-item">**3. Inversion (Subjekt-Verb-Umstellung):** Steht nicht das Subjekt auf Position 1, wandert das Subjekt automatisch direkt hinter das Verb auf Position 3 (*Am Montag präsentiere ich die Daten*).</li><li class="rule-item">**4. Die Satzklammer (Rahmenkonstruktion):**</li><li class="rule-item">  - *Linke Satzklammer (Position 2):* Finites Verb (Hilfsverb, Modalverb oder finiter Teil eines trennbaren Verbs).</li><li class="rule-item">  - *Rechte Satzklammer (Satzende):* Infiniter Verbteil (Partizip II, Infinitiv oder trennbares Präfix).</li><li class="rule-item">  - *Mittelfeld:* Alle Objekte, Adverbialangaben und Pronomen.</li><li class="rule-item">**5. TEKAMOLO-Regel für Angaben im Mittelfeld:**</li><li class="rule-item">  - **TE**mporal (Wann?): *heute um 9 Uhr*</li><li class="rule-item">  - **KA**usal (Warum?): *wegen der Messung*</li><li class="rule-item">  - **MO**dal (Wie?): *mit großer Präzision*</li><li class="rule-item">  - **LO**kal (Wo/Wohin?): *im Reinraum*.</li><li class="rule-item">  - *Beispiel:* Ich fahre **heute (Te) wegen des Kongresses (Ka) mit dem ICE (Mo) nach München (Lo)**.</li><li class="rule-item">**6. Fragesätze:**</li><li class="rule-item">  - *W-Fragen (Ergänzungsfragen):* Fragewort (Pos 1) + Finites Verb (Pos 2) + Subjekt (Pos 3)... (*Wo forschen Sie zurzeit?*)</li><li class="rule-item">  - *Ja/Nein-Fragen (Entscheidungsfragen):* Finites Verb ganz vorne auf **Position 1** (*Haben Sie die Proben sterilisiert?*)</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-item"><strong>1. Das Grundgesetz des Hauptsatzes:</strong> Das finite (konjugierte) Verb besetzt ausnahmslos <strong>Position 2</strong>!</li><li class="rule-item"><strong>2. Das Vorfeld (Position 1):</strong> Hier steht genau EIN Satzglied. Das kann das Subjekt sein (<em>Der Forscher testet heute die Probe</em>) oder eine adverbiale Bestimmung (<em>Heute testet der Forscher die Probe</em>).</li><li class="rule-item"><strong>3. Inversion (Subjekt-Verb-Umstellung):</strong> Steht nicht das Subjekt auf Position 1, wandert das Subjekt automatisch direkt hinter das Verb auf Position 3 (<em>Am Montag präsentiere ich die Daten</em>).</li><li class="rule-header-item"><strong>4. Die Satzklammer (Rahmenkonstruktion):</strong></li><li class="rule-sub-item"><em>Linke Satzklammer (Position 2):</em> Finites Verb (Hilfsverb, Modalverb oder finiter Teil eines trennbaren Verbs).</li><li class="rule-sub-item"><em>Rechte Satzklammer (Satzende):</em> Infiniter Verbteil (Partizip II, Infinitiv oder trennbares Präfix).</li><li class="rule-sub-item"><em>Mittelfeld:</em> Alle Objekte, Adverbialangaben und Pronomen.</li><li class="rule-header-item"><strong>5. TEKAMOLO-Regel für Angaben im Mittelfeld:</strong></li><li class="rule-header-item"><strong>TE</strong>mporal (Wann?): <em>heute um 9 Uhr</em></li><li class="rule-header-item"><strong>KA</strong>usal (Warum?): <em>wegen der Messung</em></li><li class="rule-header-item"><strong>MO</strong>dal (Wie?): <em>mit großer Präzision</em></li><li class="rule-header-item"><strong>LO</strong>kal (Wo/Wohin?): <em>im Reinraum</em>.</li><li class="rule-sub-item"><em>Beispiel:</em> Ich fahre <strong>heute (Te) wegen des Kongresses (Ka) mit dem ICE (Mo) nach München (Lo)</strong>.</li><li class="rule-header-item"><strong>6. Fragesätze:</strong></li><li class="rule-sub-item"><em>W-Fragen (Ergänzungsfragen):</em> Fragewort (Pos 1) + Finites Verb (Pos 2) + Subjekt (Pos 3)... (<em>Wo forschen Sie zurzeit?</em>)</li><li class="rule-sub-item"><em>Ja/Nein-Fragen (Entscheidungsfragen):</em> Finites Verb ganz vorne auf <strong>Position 1</strong> (<em>Haben Sie die Proben sterilisiert?</em>)</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Stellungsfelder-Modell des deutschen Hauptsatzes</div>
@@ -589,7 +665,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**Akkusativ-Funktion:** Der Akkusativ (Wen/Was-Fall) bezeichnet das Ziel, den Gegenstand oder den Empfänger der direkten verbalen Handlung.</li><li class="rule-item">**Verben mit obligatorischem Akkusativ (Transitive Verben):** *haben, brauchen, suchen, finden, kaufen, lesen, schreiben, trinken, essen, sehen, hören, verstehen, untersuchen, kalibrieren, pipettieren, reinigen, vorbereiten*.</li><li class="rule-item">**Personalpronomen im Akkusativ:** *mich (ich), dich (du), ihn (er/der Mann), sie (sie/die Frau), es (es/das Kind), uns (wir), euch (ihr), sie (sie pl.), Sie (Höflichkeit)*.</li><li class="rule-item">**Die reinen Akkusativ-Präpositionen (Merkhilfe DOGFU + bis &amp; entlang):**</li><li class="rule-item">  - **D**urch (+ Akk): Räumliche Durchquerung (*durch den Filter*) oder Mittel/Vermittlung (*durch präzise Steuerung*).</li><li class="rule-item">  - **O**hne (+ Akk): Fehlen, Ausschluss (*ohne Kontamination, ohne Handschuhe*).</li><li class="rule-item">  - **G**egen (+ Akk): Richtung/Kollision (*gegen die Wand*), Bekämpfung (*gegen Bakterien*), ungefähre Zeit (*gegen 14:00 Uhr*).</li><li class="rule-item">  - **F**ür (+ Akk): Zweck/Nutzen (*für das Experiment*), Empfänger (*für meinen Kollegen*), Zeitspanne (*für drei Monate*).</li><li class="rule-item">  - **U**m (+ Akk): Räumlich herum (*um das Gebäude*), exakte Uhrzeit (*um 08:30 Uhr*).</li><li class="rule-item">  - **Bis** (+ Akk): Zeitlicher/räumlicher Endpunkt (*bis nächsten Freitag, bis München*).</li><li class="rule-item">  - **Entlang** (nachgestellt + Akk): Parallele Bewegung (*den Kanal entlang*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-item"><strong>Akkusativ-Funktion:</strong> Der Akkusativ (Wen/Was-Fall) bezeichnet das Ziel, den Gegenstand oder den Empfänger der direkten verbalen Handlung.</li><li class="rule-item"><strong>Verben mit obligatorischem Akkusativ (Transitive Verben):</strong> <em>haben, brauchen, suchen, finden, kaufen, lesen, schreiben, trinken, essen, sehen, hören, verstehen, untersuchen, kalibrieren, pipettieren, reinigen, vorbereiten</em>.</li><li class="rule-item"><strong>Personalpronomen im Akkusativ:</strong> <em>mich (ich), dich (du), ihn (er/der Mann), sie (sie/die Frau), es (es/das Kind), uns (wir), euch (ihr), sie (sie pl.), Sie (Höflichkeit)</em>.</li><li class="rule-header-item"><strong>Die reinen Akkusativ-Präpositionen (Merkhilfe DOGFU + bis &amp; entlang):</strong></li><li class="rule-sub-item"><strong>D</strong>urch (+ Akk): Räumliche Durchquerung (<em>durch den Filter</em>) oder Mittel/Vermittlung (<em>durch präzise Steuerung</em>).</li><li class="rule-sub-item"><strong>O</strong>hne (+ Akk): Fehlen, Ausschluss (<em>ohne Kontamination, ohne Handschuhe</em>).</li><li class="rule-sub-item"><strong>G</strong>egen (+ Akk): Richtung/Kollision (<em>gegen die Wand</em>), Bekämpfung (<em>gegen Bakterien</em>), ungefähre Zeit (<em>gegen 14:00 Uhr</em>).</li><li class="rule-sub-item"><strong>F</strong>ür (+ Akk): Zweck/Nutzen (<em>für das Experiment</em>), Empfänger (<em>für meinen Kollegen</em>), Zeitspanne (<em>für drei Monate</em>).</li><li class="rule-sub-item"><strong>U</strong>m (+ Akk): Räumlich herum (<em>um das Gebäude</em>), exakte Uhrzeit (<em>um 08:30 Uhr</em>).</li><li class="rule-sub-item"><strong>Bis</strong> (+ Akk): Zeitlicher/räumlicher Endpunkt (<em>bis nächsten Freitag, bis München</em>).</li><li class="rule-sub-item"><strong>Entlang</strong> (nachgestellt + Akk): Parallele Bewegung (<em>den Kanal entlang</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Akkusativ-Präpositionen und semantische Anwendungsfelder</div>
@@ -631,7 +714,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Trennbare Verben (Präfix ist immer STARK BETONT):**</li><li class="rule-item">  - Typische Präfixe: *ab-, an-, auf-, aus-, bei-, ein-, fern-, fest-, fort-, her-, hin-, los-, mit-, nach-, vor-, weg-, weiter-, zu-, zurück-, zusammen-*.</li><li class="rule-item">  - *Präsens-Hauptsatz:* Finites Verb auf Position 2, Präfix am Satzende (*Ich schalte das Spektrometer ein*).</li><li class="rule-item">  - *Perfekt:* Das Ge-Element steht zwischen Präfix und Stamm (*ein-ge-schaltet, ab-ge-lesen*).</li><li class="rule-item">  - *Infinitiv mit zu:* Das zu-Element steht dazwischen (*ein-zu-schalten, vor-zu-bereiten*).</li><li class="rule-item">**2. Untrennbare Verben (Präfix ist immer UNBETONT):**</li><li class="rule-item">  - Die 8 untrennbaren Präfixe (Merksatz: *be-emp-ent-er-ge-miss-ver-zer*):</li><li class="rule-item">    - **be-** (macht Verben oft transitiv: *antworten -&gt; beantworten, schreiben -&gt; beschreiben*).</li><li class="rule-item">    - **ent-** (Entfernung, Beginn: *entfernen, entstehen, entladen*).</li><li class="rule-item">    - **er-** (Erreichen eines Ziels: *erreichen, erforschen, erkennen, erklären*).</li><li class="rule-item">    - **ver-** (Fehler, Änderung, Ende: *verändern, verbessern, verbrauchen, vergessen*).</li><li class="rule-item">    - **zer-** (Zerstörung in Teile: *zerstören, zerlegen, zersetzen*).</li><li class="rule-item">    - **miss-** (Falsch: *missverstehen, missbrauchen*).</li><li class="rule-item">  - *Perfekt:* Bildet das Partizip II NIEMALS mit &#x27;ge-&#x27; (*hat beschrieben, hat verstanden, hat erforscht*).</li><li class="rule-item">**3. Duale Präfixe (Kontextabhängig trennbar oder untrennbar):**</li><li class="rule-item">  - *durch-, über-, unter-, um-, wieder-*: Betont = trennbar (wörtlich/konkret); Unbetont = untrennbar (übertragen/abstrakt).</li><li class="rule-item">  - *Beispiel:* *übersetzen (trennbare Betonung: setzt über)* = ans andere Ufer fahren; *übersetzen (untrennbar: übersetzt)* = Sprache dolmetschen.</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Trennbare Verben (Präfix ist immer STARK BETONT):</strong></li><li class="rule-sub-item">Typische Präfixe: <em>ab-, an-, auf-, aus-, bei-, ein-, fern-, fest-, fort-, her-, hin-, los-, mit-, nach-, vor-, weg-, weiter-, zu-, zurück-, zusammen-</em>.</li><li class="rule-sub-item"><em>Präsens-Hauptsatz:</em> Finites Verb auf Position 2, Präfix am Satzende (<em>Ich schalte das Spektrometer ein</em>).</li><li class="rule-sub-item"><em>Perfekt:</em> Das Ge-Element steht zwischen Präfix und Stamm (<em>ein-ge-schaltet, ab-ge-lesen</em>).</li><li class="rule-sub-item"><em>Infinitiv mit zu:</em> Das zu-Element steht dazwischen (<em>ein-zu-schalten, vor-zu-bereiten</em>).</li><li class="rule-header-item"><strong>2. Untrennbare Verben (Präfix ist immer UNBETONT):</strong></li><li class="rule-sub-item">Die 8 untrennbaren Präfixe (Merksatz: <em>be-emp-ent-er-ge-miss-ver-zer</em>):</li><li class="rule-sub-item"><strong>be-</strong> (macht Verben oft transitiv: <em>antworten → beantworten, schreiben → beschreiben</em>).</li><li class="rule-sub-item"><strong>ent-</strong> (Entfernung, Beginn: <em>entfernen, entstehen, entladen</em>).</li><li class="rule-sub-item"><strong>er-</strong> (Erreichen eines Ziels: <em>erreichen, erforschen, erkennen, erklären</em>).</li><li class="rule-sub-item"><strong>ver-</strong> (Fehler, Änderung, Ende: <em>verändern, verbessern, verbrauchen, vergessen</em>).</li><li class="rule-sub-item"><strong>zer-</strong> (Zerstörung in Teile: <em>zerstören, zerlegen, zersetzen</em>).</li><li class="rule-sub-item"><strong>miss-</strong> (Falsch: <em>missverstehen, missbrauchen</em>).</li><li class="rule-sub-item"><em>Perfekt:</em> Bildet das Partizip II NIEMALS mit &#x27;ge-&#x27; (<em>hat beschrieben, hat verstanden, hat erforscht</em>).</li><li class="rule-header-item"><strong>3. Duale Präfixe (Kontextabhängig trennbar oder untrennbar):</strong></li><li class="rule-sub-item"><em>durch-, über-, unter-, um-, wieder-</em>: Betont = trennbar (wörtlich/konkret); Unbetont = untrennbar (übertragen/abstrakt).</li><li class="rule-sub-item"><em>Beispiel:</em> <em>übersetzen (trennbare Betonung: setzt über)</em> = ans andere Ufer fahren; <em>übersetzen (untrennbar: übersetzt)</em> = Sprache dolmetschen.</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Vergleich trennbarer und untrennbarer Verbformen</div>
@@ -673,7 +763,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**Modalverben-Konjugation Besonderheit:**</li><li class="rule-item">  - 1. Person Singular (*ich*) und 3. Person Singular (*er/sie/es*) haben KEINE Personalendung und sind absolut identisch (*ich kann, er kann; ich muss, er muss*)!</li><li class="rule-item">  - Stammvokalwechsel im Singular bei *können (kann), dürfen (darf), müssen (muss), wissen (weiß)*.</li><li class="rule-item">**Semantische Differenzierung:**</li><li class="rule-item">  - **können:** Fähigkeit (Ich kann programmieren), Möglichkeit (Man kann hier parken), Erlaubnis/Gelegenheit.</li><li class="rule-item">  - **müssen:** Unvermeidbare Notwendigkeit, Pflicht, Naturgesetz (Man muss atmen, um zu leben). Negiert: *nicht müssen* = keine Notwendigkeit (braucht nicht).</li><li class="rule-item">  - **dürfen:** Erlaubnis, behördliche Berechtigung (Hier darf man forschen). Negiert: *nicht dürfen* = STRIKTES VERBOT (Hier darf man nicht rauchen!).</li><li class="rule-item">  - **sollen:** Auftrag, moralische Pflicht, Empfehlung von Dritten (Der Arzt sagt, ich soll mich ausruhen).</li><li class="rule-item">  - **wollen:** Subjektiver starker Wille, Absicht, Entschluss (Ich will promovieren).</li><li class="rule-item">  - **möchten:** Höfliche Form von wollen (Ich möchte gerne einen Termin vereinbaren).</li><li class="rule-item">  - **mögen (Vollverb):** Vorliebe für Dinge/Personen (*Ich mag Kaffee; Ich mag dieses Design*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>Modalverben-Konjugation Besonderheit:</strong></li><li class="rule-sub-item">1. Person Singular (<em>ich</em>) und 3. Person Singular (<em>er/sie/es</em>) haben KEINE Personalendung und sind absolut identisch (<em>ich kann, er kann; ich muss, er muss</em>)!</li><li class="rule-sub-item">Stammvokalwechsel im Singular bei <em>können (kann), dürfen (darf), müssen (muss), wissen (weiß)</em>.</li><li class="rule-header-item"><strong>Semantische Differenzierung:</strong></li><li class="rule-sub-item"><strong>können:</strong> Fähigkeit (Ich kann programmieren), Möglichkeit (Man kann hier parken), Erlaubnis/Gelegenheit.</li><li class="rule-sub-item"><strong>müssen:</strong> Unvermeidbare Notwendigkeit, Pflicht, Naturgesetz (Man muss atmen, um zu leben). Negiert: <em>nicht müssen</em> = keine Notwendigkeit (braucht nicht).</li><li class="rule-sub-item"><strong>dürfen:</strong> Erlaubnis, behördliche Berechtigung (Hier darf man forschen). Negiert: <em>nicht dürfen</em> = STRIKTES VERBOT (Hier darf man nicht rauchen!).</li><li class="rule-sub-item"><strong>sollen:</strong> Auftrag, moralische Pflicht, Empfehlung von Dritten (Der Arzt sagt, ich soll mich ausruhen).</li><li class="rule-sub-item"><strong>wollen:</strong> Subjektiver starker Wille, Absicht, Entschluss (Ich will promovieren).</li><li class="rule-sub-item"><strong>möchten:</strong> Höfliche Form von wollen (Ich möchte gerne einen Termin vereinbaren).</li><li class="rule-sub-item"><strong>mögen (Vollverb):</strong> Vorliebe für Dinge/Personen (<em>Ich mag Kaffee; Ich mag dieses Design</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Vollständige Konjugationstabelle aller Modalverben im Präsens</div>
@@ -715,14 +812,21 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. du-Form (Informell Singular):**</li><li class="rule-item">  - *Regel:* Verbstamm der 2. Person Singular OHNE Personalendung *-st* und OHNE das Pronomen *du* (*du lernst -&gt; Lern!*, *du arbeitest -&gt; Arbeite!*).</li><li class="rule-item">  - *Stammendung auf -d, -t, -m, -n, -ig:* Erhält zwingend ein *-e* (*Warte!, Öffne!, Entschuldige!*).</li><li class="rule-item">  - *Starke Verben mit e-&gt;i/ie Wechsel:* Behalten den Vokalwechsel bei, erhalten NIEMALS ein Endungs-e (*du hilfst -&gt; Hilf!*, *du liest -&gt; Lies!*, *du sprichst -&gt; Sprich!*).</li><li class="rule-item">  - *Starke Verben mit a-&gt;ä Wechsel:* VERLIEREN den Umlaut im Imperativ (*du fährst -&gt; Fahr!*, *du schläfst -&gt; Schlaf!*).</li><li class="rule-item">**2. ihr-Form (Informell Plural):**</li><li class="rule-item">  - *Regel:* Identisch mit der regulären 2. Person Plural Präsens, aber OHNE das Pronomen *ihr* (*ihr lernt -&gt; Lernt!*, *ihr wartet -&gt; Wartet!*, *ihr helft -&gt; Helft!*).</li><li class="rule-item">**3. Sie-Form (Formell Singular &amp; Plural):**</li><li class="rule-item">  - *Regel:* Infinitiv + Pronomen *Sie* in invertierter Stellung (*Lernen Sie!*, *Kommen Sie herein!*, *Warten Sie einen Moment!*).</li><li class="rule-item">**4. wir-Form (Aufforderung an die Gruppe):**</li><li class="rule-item">  - *Regel:* Infinitiv + *wir* (*Gehen wir!*, *Starten wir die Messung!*) oder mit *Lassen Sie uns / Lasst uns + Infinitiv*.</li><li class="rule-item">**5. Das unregelmäßige Verb &#x27;sein&#x27;:**</li><li class="rule-item">  - *du:* **Sei** vorsichtig! | *ihr:* **Seid** ruhig! | *Sie:* **Seien Sie** pünktlich! | *wir:* **Seien wir** optimistisch!</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. du-Form (Informell Singular):</strong></li><li class="rule-sub-item"><em>Regel:</em> Verbstamm der 2. Person Singular OHNE Personalendung <em>-st</em> und OHNE das Pronomen <em>du</em> (<em>du lernst → Lern!</em>, <em>du arbeitest → Arbeite!</em>).</li><li class="rule-sub-item"><em>Stammendung auf -d, -t, -m, -n, -ig:</em> Erhält zwingend ein <em>-e</em> (<em>Warte!, Öffne!, Entschuldige!</em>).</li><li class="rule-sub-item"><em>Starke Verben mit e→i/ie Wechsel:</em> Behalten den Vokalwechsel bei, erhalten NIEMALS ein Endungs-e (<em>du hilfst → Hilf!</em>, <em>du liest → Lies!</em>, <em>du sprichst → Sprich!</em>).</li><li class="rule-sub-item"><em>Starke Verben mit a→ä Wechsel:</em> VERLIEREN den Umlaut im Imperativ (<em>du fährst → Fahr!</em>, <em>du schläfst → Schlaf!</em>).</li><li class="rule-header-item"><strong>2. ihr-Form (Informell Plural):</strong></li><li class="rule-sub-item"><em>Regel:</em> Identisch mit der regulären 2. Person Plural Präsens, aber OHNE das Pronomen <em>ihr</em> (<em>ihr lernt → Lernt!</em>, <em>ihr wartet → Wartet!</em>, <em>ihr helft → Helft!</em>).</li><li class="rule-header-item"><strong>3. Sie-Form (Formell Singular &amp; Plural):</strong></li><li class="rule-sub-item"><em>Regel:</em> Infinitiv + Pronomen <em>Sie</em> in invertierter Stellung (<em>Lernen Sie!</em>, <em>Kommen Sie herein!</em>, <em>Warten Sie einen Moment!</em>).</li><li class="rule-header-item"><strong>4. wir-Form (Aufforderung an die Gruppe):</strong></li><li class="rule-sub-item"><em>Regel:</em> Infinitiv + <em>wir</em> (<em>Gehen wir!</em>, <em>Starten wir die Messung!</em>) oder mit <em>Lassen Sie uns / Lasst uns + Infinitiv</em>.</li><li class="rule-header-item"><strong>5. Das unregelmäßige Verb &#x27;sein&#x27;:</strong></li><li class="rule-sub-item"><em>du:</em> <strong>Sei</strong> vorsichtig! | <em>ihr:</em> <strong>Seid</strong> ruhig! | <em>Sie:</em> <strong>Seien Sie</strong> pünktlich! | <em>wir:</em> <strong>Seien wir</strong> optimistisch!</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Systematische Imperativ-Matrix</div>
                 <div class="table-responsive">
                     <table class="grammar-table">
                         <thead><tr><th>Verb</th><th>du-Form</th><th>ihr-Form</th><th>Sie-Form (Höflich)</th><th>wir-Form (Gemeinsam)</th></tr></thead>
-                        <tbody><tr><td>machen (schwach)</td><td>Mach(e)!</td><td>Macht!</td><td>Machen Sie!</td><td>Machen wir!</td></tr><tr><td>arbeiten (-t Stamm)</td><td>Arbeite!</td><td>Arbeitet!</td><td>Arbeiten Sie!</td><td>Arbeiten wir!</td></tr><tr><td>helfen (e-&gt;i)</td><td>Hilf!</td><td>Helft!</td><td>Helfen Sie!</td><td>Helfen wir!</td></tr><tr><td>lesen (e-&gt;ie)</td><td>Lies!</td><td>Lest!</td><td>Lesen Sie!</td><td>Lesen wir!</td></tr><tr><td>fahren (a-&gt;ä)</td><td>Fahr(e)!</td><td>Fahrt!</td><td>Fahren Sie!</td><td>Fahren wir!</td></tr><tr><td>sein (unregelmäßig)</td><td>Sei!</td><td>Seid!</td><td>Seien Sie!</td><td>Seien wir!</td></tr></tbody>
+                        <tbody><tr><td>machen (schwach)</td><td>Mach(e)!</td><td>Macht!</td><td>Machen Sie!</td><td>Machen wir!</td></tr><tr><td>arbeiten (-t Stamm)</td><td>Arbeite!</td><td>Arbeitet!</td><td>Arbeiten Sie!</td><td>Arbeiten wir!</td></tr><tr><td>helfen (e→i)</td><td>Hilf!</td><td>Helft!</td><td>Helfen Sie!</td><td>Helfen wir!</td></tr><tr><td>lesen (e→ie)</td><td>Lies!</td><td>Lest!</td><td>Lesen Sie!</td><td>Lesen wir!</td></tr><tr><td>fahren (a→ä)</td><td>Fahr(e)!</td><td>Fahrt!</td><td>Fahren Sie!</td><td>Fahren wir!</td></tr><tr><td>sein (unregelmäßig)</td><td>Sei!</td><td>Seid!</td><td>Seien Sie!</td><td>Seien wir!</td></tr></tbody>
                     </table>
                 </div>
             </div>
@@ -757,7 +861,14 @@ toc: false
             </div>
             <div class="chapter-card-body">
                 
-                <div class="rule-box"><div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div><ul class="rule-list"><li class="rule-item">**1. Grundstruktur des Perfekts:**</li><li class="rule-item">  - *Hilfsverb (haben / sein)* steht konjugiert auf **Position 2**.</li><li class="rule-item">  - *Partizip II* steht unveränderlich am **Satzende** (rechte Satzklammer).</li><li class="rule-item">**2. Kriterien zur Wahl des Hilfsverbs:**</li><li class="rule-item">  - **Wann &#x27;sein&#x27;?**</li><li class="rule-item">    1. Verben der Ortsveränderung (von Punkt A nach B): *gehen, fahren, fliegen, kommen, laufen, reisen, schwimmen, steigen*.</li><li class="rule-item">    2. Verben der Zustandsänderung (Übergang in neuen Zustand): *aufwachen, einschlafen, sterben, wachsen, schmelzen, gefrieren*.</li><li class="rule-item">    3. Die 6 Sonderverben: *sein (ist gewesen), werden (ist geworden), bleiben (ist geblieben), passieren (ist passiert), gelingen (ist gelungen), scheitern (ist gescheitert)*.</li><li class="rule-item">  - **Wann &#x27;haben&#x27;?**</li><li class="rule-item">    1. Alle transitiven Verben (Verben mit Akkusativobjekt: *Ich habe den Sensor kalibriert*).</li><li class="rule-item">    2. Alle reflexiven Verben (*Ich habe mich gefreut*).</li><li class="rule-item">    3. Alle Modalverben (*Er hat arbeiten müssen*).</li><li class="rule-item">    4. Alle intransitiven Verben ohne Orts-/Zustandswechsel (*Ich habe geschlafen, gestanden, gewartet*).</li><li class="rule-item">**3. Bildung des Partizip II (Die 4 Hauptregeln):**</li><li class="rule-item">  - *Regelmäßige (schwache) Verben:* **ge- + Verbstamm + -t** (*ge-lern-t, ge-kauf-t, ge-arbeite-t*).</li><li class="rule-item">  - *Unregelmäßige (starke) Verben:* **ge- + Verbstamm (oft Ablaut) + -en** (*ge-sproch-en, ge-fahr-en, ge-les-en*).</li><li class="rule-item">  - *Gemischte Verben (Ablaut + -t):* *bringen -&gt; gebracht, denken -&gt; gedacht, wissen -&gt; gewusst, kennen -&gt; gekannt*.</li><li class="rule-item">  - *Verben auf -ieren:* KEIN ge- Präfix! Bilden Partizip auf *-iert* (*analysieren -&gt; analysiert, zentrifugieren -&gt; zentrifugiert*).</li><li class="rule-item">  - *Trennbare Verben:* ge- steht in der Mitte (*ein-ge-stellt, ab-ge-lesen*).</li><li class="rule-item">  - *Untrennbare Verben:* KEIN ge- Präfix (*beschrieben, verstanden, erforscht*).</li></ul></div>
+                
+    <div class="rule-box">
+        <div class="rule-box-header">💡 Grammatische Regeln & Kernkonzepte</div>
+        <ul class="rule-list">
+            <li class="rule-header-item"><strong>1. Grundstruktur des Perfekts:</strong></li><li class="rule-sub-item"><em>Hilfsverb (haben / sein)</em> steht konjugiert auf <strong>Position 2</strong>.</li><li class="rule-sub-item"><em>Partizip II</em> steht unveränderlich am <strong>Satzende</strong> (rechte Satzklammer).</li><li class="rule-header-item"><strong>2. Kriterien zur Wahl des Hilfsverbs:</strong></li><li class="rule-header-item"><strong>Wann &#x27;sein&#x27;?</strong></li><li class="rule-item">1. Verben der Ortsveränderung (von Punkt A nach B): <em>gehen, fahren, fliegen, kommen, laufen, reisen, schwimmen, steigen</em>.</li><li class="rule-item">2. Verben der Zustandsänderung (Übergang in neuen Zustand): <em>aufwachen, einschlafen, sterben, wachsen, schmelzen, gefrieren</em>.</li><li class="rule-item">3. Die 6 Sonderverben: <em>sein (ist gewesen), werden (ist geworden), bleiben (ist geblieben), passieren (ist passiert), gelingen (ist gelungen), scheitern (ist gescheitert)</em>.</li><li class="rule-header-item"><strong>Wann &#x27;haben&#x27;?</strong></li><li class="rule-item">1. Alle transitiven Verben (Verben mit Akkusativobjekt: <em>Ich habe den Sensor kalibriert</em>).</li><li class="rule-item">2. Alle reflexiven Verben (<em>Ich habe mich gefreut</em>).</li><li class="rule-item">3. Alle Modalverben (<em>Er hat arbeiten müssen</em>).</li><li class="rule-item">4. Alle intransitiven Verben ohne Orts-/Zustandswechsel (<em>Ich habe geschlafen, gestanden, gewartet</em>).</li><li class="rule-header-item"><strong>3. Bildung des Partizip II (Die 4 Hauptregeln):</strong></li><li class="rule-sub-item"><em>Regelmäßige (schwache) Verben:</em> <strong>ge- + Verbstamm + -t</strong> (<em>ge-lern-t, ge-kauf-t, ge-arbeite-t</em>).</li><li class="rule-sub-item"><em>Unregelmäßige (starke) Verben:</em> <strong>ge- + Verbstamm (oft Ablaut) + -en</strong> (<em>ge-sproch-en, ge-fahr-en, ge-les-en</em>).</li><li class="rule-sub-item"><em>Gemischte Verben (Ablaut + -t):</em> <em>bringen → gebracht, denken → gedacht, wissen → gewusst, kennen → gekannt</em>.</li><li class="rule-sub-item"><em>Verben auf -ieren:</em> KEIN ge- Präfix! Bilden Partizip auf <em>-iert</em> (<em>analysieren → analysiert, zentrifugieren → zentrifugiert</em>).</li><li class="rule-sub-item"><em>Trennbare Verben:</em> ge- steht in der Mitte (<em>ein-ge-stellt, ab-ge-lesen</em>).</li><li class="rule-sub-item"><em>Untrennbare Verben:</em> KEIN ge- Präfix (<em>beschrieben, verstanden, erforscht</em>).</li>
+        </ul>
+    </div>
+    
                 
             <div class="grammar-table-wrapper">
                 <div class="table-title">📊 Kompakte Partizip II Referenztabelle nach Verbklassen</div>
