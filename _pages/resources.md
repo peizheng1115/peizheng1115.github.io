@@ -71,6 +71,9 @@ Writing clear, precise, and concise academic English accelerates the peer-review
 * **[bioRxiv & medRxiv](https://www.biorxiv.org/)**: Leading preprint servers for life sciences and medical sciences.
 
 
-## Language & International Communication
+## 4. Language & International Communication
 
-* **[🇩🇪 Goethe-Zertifikat A2: Offizielle Wortliste & Memory-Guide](/german-a2/)**: A comprehensive German A2 vocabulary memory system (~1,300 words) categorized by part of speech (Verbs, Nouns by gender, Adjectives, Prepositions, Conjunctions) with [Interactive Audio Web App](/german-a2/app.html) and digital flashcards.
+* **[🇩🇪 Deutsch Sprachportal | Komplettes Lernzentrum](/deutsch/)**: Ein interaktives, ganzheitliches Portal für die deutsche Sprache:
+  * **[🗣️ Sprechen & Dialoge](/deutsch/sprechen/)**: 8 praxisnahe Themen (Alltag, Beruf, Klinik, Reise) & offizielle mündliche Prüfungsredemittel (Goethe / telc A2–B2) mit interaktiver Sprachausgabe (🔊 Web Speech API).
+  * **[📚 Wortschatz-Trainer & Goethe A2 App](/deutsch/wortschatz/)**: Über 1.300 offizielle Goethe A2 Vokabeln mit Artikelfarben (der/die/das), Echtzeit-Filtern und [interaktiver Vollbild-Web-App](/german-a2/app.html).
+  * **[📐 Grammatik-Kompendium (A1–B2)](/deutsch/grammatik/)**: Systematische, modulare Grammatik-Referenz aufgeteilt nach Niveaustufen ([A1 Grundlagen](/deutsch/grammatik/a1/), [A2 Kasus & Satzbau](/deutsch/grammatik/a2/), [B1 Passiv & Konjunktiv II](/deutsch/grammatik/b1/), [B2 Wissenschaftssprache & FVG](/deutsch/grammatik/b2/)).

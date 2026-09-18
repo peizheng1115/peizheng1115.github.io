@@ -8,6 +8,17 @@ toc_icon: "book"
 toc_sticky: true
 ---
 
+<div style="background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%); border: 1.5px solid #bae6fd; border-radius: 12px; padding: 16px 20px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+  <div>
+    <strong style="color: #0369a1; font-size: 1.05rem;">🇩🇪 Teil des Deutsch Sprachportals</strong>
+    <p style="margin: 4px 0 0 0; color: #334155; font-size: 0.88rem;">Entdecken Sie auch das thematische Sprechen und die Stufengrammatik (A1, A2, B1, B2).</p>
+  </div>
+  <div style="display: flex; gap: 8px;">
+    <a href="/deutsch/" style="background: #0284c7; color: white !important; padding: 6px 14px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 0.85rem;">Zum Deutsch-Portal →</a>
+    <a href="/deutsch/grammatik/a2/" style="background: white; border: 1px solid #0284c7; color: #0284c7 !important; padding: 6px 14px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 0.85rem;">A2 Grammatik</a>
+  </div>
+</div>
+
 <style>
   /* Light Blue Theme Override for German A2 Page */
   body, .page__content {

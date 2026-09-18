@@ -67,6 +67,11 @@ redirect_from:
     <div class="card-topic-title">Scientific Tools & Writing</div>
     <p class="card-topic-desc">BioRender, Inkscape, PyMOL, academic phrasebanks, and publication figure design.</p>
   </a>
+  <a href="/deutsch/" class="card-topic" style="border: 2px solid #0284c7; background: rgba(2, 132, 199, 0.05);">
+    <div class="card-topic-icon" style="color: #0284c7;"><i class="fas fa-language"></i></div>
+    <div class="card-topic-title" style="color: #0284c7;">🇩🇪 Deutsch Sprachportal</div>
+    <p class="card-topic-desc">Themen-Sprechen mit Audio, Goethe A2 Wortschatz-Trainer & Grammatik-Kompendium (A1–B2).</p>
+  </a>
 </div>
 
 ## Connect & Contact
